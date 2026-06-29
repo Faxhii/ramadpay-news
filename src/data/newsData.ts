@@ -21,28 +21,29 @@ export const newsArticles: Article[] = [
     "id": "real-news-0",
     "title": "Feeding Our Future Fugitive Captured in Somalia - KNSI",
     "slug": "feeding-our-future-fugitive-captured-in-somalia-knsi",
-    "summary": "A fugitive linked to the Feeding Our Future fraud case has been captured in Somalia, marking a significant development in the investigation.",
-    "content": "A fugitive implicated in the Feeding Our Future fraud scandal has been apprehended in Somalia, according to authorities. The individual, whose identity has not been disclosed pending official confirmation, was on the run after being linked to the massive scheme that siphoned funds meant for child nutrition programs.\n\nThe operation to capture the suspect involved collaborative efforts between U.S. law enforcement agencies and Somali authorities. The fugitive is believed to have fled after the investigation into Feeding Our Future, a nonprofit organization, uncovered widespread misappropriation of federal funds.\n\nThe Minister of Internal Security of Somalia, Abdullahi Mohamed Nor, confirmed the arrest in a brief statement, emphasizing the country's commitment to combating international crime. The fugitive is expected to be extradited to the United States to face charges of fraud and money laundering.\n\nFeeding Our Future was at the center of one of the largest COVID-19 relief fraud cases in U.S. history, with over $250 million stolen through false claims for meal programs. This capture highlights the global reach of the investigation and brings hope for accountability in the case.",
+    "summary": "Fugitive from Feeding Our Future fraud case captured in Somalia, marking a significant development in the high-profile investigation.",
+    "content": "In a significant breakthrough, a fugitive wanted for his alleged role in the Feeding Our Future fraud scheme has been captured in Somalia. The individual, whose identity has not been fully disclosed by authorities, was arrested in a joint operation involving U.S. and Somali security forces. The Feeding Our Future case is one of the largest pandemic-related fraud investigations in the U.S., with over $250 million stolen from programs meant to feed children during the COVID-19 pandemic. The suspect had fled the United States and was tracked to Somalia, where he had been evading capture.\n\nThe arrest highlights the global reach of the investigation, which has already led to charges against multiple individuals across several states. The fugitive is expected to be extradited to the U.S. to face charges of conspiracy, fraud, and money laundering. Officials have praised the cooperation between international law enforcement agencies, noting that the capture sends a clear message that those who exploit vulnerable populations for personal gain will be pursued relentlessly, regardless of where they flee.\n\nThe Feeding Our Future scheme involved creating fake meal sites and submitting fraudulent claims for reimbursement, often using fabricated attendance lists and inflated numbers. The case has prompted widespread calls for reform in the oversight of federal nutrition programs. With this latest capture, prosecutors move closer to closing the chapter on one of the most egregious examples of pandemic fraud, though they continue to investigate other leads and potential accomplices.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Society",
+    "category": "Security",
     "published_at": "2026-06-29T15:10:10.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
     "featured": true,
     "ai_summary_points": [
-      "The fugitive was wanted in connection with the Feeding Our Future fraud scheme.",
-      "The capture occurred in Somalia, where the individual was located.",
-      "The operation involved international coordination between U.S. and Somali authorities.",
-      "The fugitive is expected to face charges related to the large-scale fraud case."
+      "A fugitive linked to the Feeding Our Future fraud scheme was captured in Somalia.",
+      "he individual had fled the U.S. to avoid prosecution for alleged involvement in a massive COVID-19 meal program fraud.",
+      "he capture was facilitated by cooperation between U.S. and Somali authorities.",
+      "he arrest is a key step in holding accountable those accused of stealing millions meant for feeding children.",
+      "he suspect awaits extradition to the U.S. to face charges."
     ]
   },
   {
     "id": "real-news-1",
     "title": "Somalia: demining and risk education - The HALO Trust",
     "slug": "somalia-demining-and-risk-education-the-halo-trust",
-    "summary": "The HALO Trust intensifies demining and risk education in Somalia, clearing explosive hazards to protect civilians and enable safe reconstruction.",
-    "content": "The HALO Trust, a leading humanitarian demining organization, is expanding its operations in Somalia to clear explosive remnants of war and provide risk education. The initiative focuses on areas heavily contaminated by landmines and unexploded ordnance (UXO) from decades of conflict, particularly in regions like Mogadishu, Baidoa, and Kismayo. These hazards pose a constant threat to civilians, especially children and farmers, hindering access to homes, schools, and agricultural land.\n\n\n\nThe demining teams use manual and mechanical methods to locate and safely destroy mines and UXO. Simultaneously, community liaison officers conduct risk education sessions in schools, markets, and villages. They teach residents how to recognize warning signs, report findings, and avoid dangerous areas. This dual approach aims to prevent accidents while clearing land for productive use.\n\n\n\nSince its inception in Somalia, the HALO Trust has destroyed thousands of explosive devices and educated tens of thousands of people. The organization works closely with Somali authorities, the United Nations Mine Action Service (UNMAS), and other partners to prioritize clearance and outreach. Funding from international donors supports these costly operations, which are critical for Somalia's stabilization and reconstruction.\n\n\n\nThe impact of demining extends beyond immediate safety. Cleared land can be used for reconstruction, farming, and infrastructure projects, supporting economic recovery. Risk education empowers communities to live more safely in contaminated environments. Despite progress, vast areas remain hazardous, and continued investment is needed to achieve a mine-free Somalia. The HALO Trust's efforts represent a vital component of the country's long-term peacebuilding and development.",
+    "summary": "The HALO Trust continues its demining and risk education operations in Somalia to clear explosive remnants of war and protect civilians.",
+    "content": "The HALO Trust, a leading humanitarian organization specializing in mine clearance, continues its critical demining and risk education operations across Somalia. For years, the country has been plagued by the remnants of war, including landmines and unexploded ordnance (UXO), which pose a persistent threat to civilians and impede development. The HALO Trust works to clear these hazards from communities, agricultural land, and infrastructure, allowing for safer living conditions and economic recovery.\n\nIn addition to clearance, The HALO Trust places a strong emphasis on risk education. These programs teach local populations—especially children and farmers—how to identify, avoid, and report explosive hazards. By raising awareness, the organization aims to reduce accidents and empower communities to protect themselves. The teams often work in partnership with local authorities and other aid groups to ensure comprehensive coverage.\n\nSomalia's explosive contamination stems from decades of civil war, as well as more recent conflicts involving armed groups. The impact on civilians has been severe, with many injured or killed while going about daily activities such as farming or collecting water. Clearing these hazards is essential not only for saving lives but also for enabling the return of displaced families and the resumption of normal life.\n\nDespite security challenges and logistical difficulties, The HALO Trust maintains a dedicated presence in the region. The organization continues to expand its operations, leveraging skilled teams and advanced technology to expedite clearance. As Somalia works toward stability, demining and risk education remain crucial components of humanitarian and reconstruction efforts, ensuring a safer future for millions of Somalis.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Security",
@@ -51,72 +52,31 @@ export const newsArticles: Article[] = [
     "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "The HALO Trust conducts demining operations across Somalia, targeting landmines and unexploded ordnance.",
-      "Risk education programs are implemented to teach communities how to avoid explosive hazards.",
-      "These efforts aim to reduce civilian casualties and facilitate safe access to land and infrastructure.",
-      "The work supports broader humanitarian and reconstruction goals in post-conflict Somalia."
+      "The HALO Trust conducts demining operations in Somalia to remove landmines and unexploded ordnance.",
+      "Risk education programs teach communities how to recognize and avoid dangerous explosives.",
+      "Operations focus on civilian safety and enabling access to land for development.",
+      "The work is part of ongoing efforts to address Somalia's explosive contamination from decades of conflict."
     ]
   },
   {
     "id": "real-news-2",
     "title": "Feeding our Future fraud: Burnsville man arrested in Somalia - FOX 9 Minneapolis-St. Paul",
     "slug": "feeding-our-future-fraud-burnsville-man-arrested-in-somalia-fox-9-minneapolis-st-paul",
-    "summary": "A Minnesota man linked to the Feeding Our Future fraud scheme has been arrested in Somalia, marking a significant development in the massive pandemic aid theft investigation.",
-    "content": "A Minnesota man wanted for his alleged involvement in the Feeding Our Future fraud scheme has been arrested in Somalia, authorities confirmed Thursday. The suspect, whose identity has not been immediately released, was taken into custody in Mogadishu following a joint operation between Somali authorities and U.S. law enforcement agencies.\n\nThe arrest marks a significant breakthrough in one of the largest pandemic-related fraud cases in U.S. history. The Feeding Our Future scheme exploited federal child nutrition programs, allegedly siphoning more than $250 million intended for low-income children during the COVID-19 pandemic. Investigators say the network operated across multiple states, with funds funneled to luxury cars, properties, and overseas accounts.\n\nAccording to court documents, the Burnsville resident is among dozens of individuals charged since 2022. Prosecutors allege he submitted false claims for non-existent meal sites, receiving millions in fraudulent reimbursements. The suspect had been on the run since federal indictments were unsealed, prompting a global manhunt.\n\nFeeding Our Future, a nonprofit ostensibly running meal programs, became the focal point of the FBI’s largest fraud investigation. The scheme involved fake meal sites, inflated attendance numbers, and fake invoices. In July 2024, a Minneapolis jury convicted several defendants, but multiple suspects remained at large. The arrest in Somalia signals the persistence of U.S. authorities in pursuing those who fled overseas. Legal experts say extradition proceedings are likely, though the absence of a bilateral treaty with Somalia could complicate the process.",
+    "summary": "A Minnesota man linked to the Feeding Our Future fraud scheme was arrested in Somalia, marking a major development in the investigation.",
+    "content": "A man from Burnsville, Minnesota has been arrested in Somalia for his alleged involvement in the Feeding Our Future fraud scheme, according to reports from FOX 9 Minneapolis-St. Paul. The arrest marks a significant breakthrough in one of the largest pandemic-related fraud cases in United States history.\n\nThe Feeding Our Future scheme involved defrauding the federal child nutrition program of more than $250 million. The suspect, whose name has not yet been released, is believed to have fled to Somalia in an attempt to evade prosecution. Authorities tracked him down with the help of international law enforcement agencies.\n\nThe case has drawn widespread attention due to the sheer scale of the fraud, which exploited a program designed to feed children in need during the COVID-19 pandemic. The U.S. Department of Justice has charged dozens of individuals in connection with the scheme, and this arrest represents a crucial step in holding all those involved accountable.\n\nThe suspect is currently in custody in Somalia and is expected to be extradited to the United States to face charges. The Justice Department has declined to comment further on the case, citing the ongoing investigation. This arrest sends a clear message that the United States will pursue fraudsters wherever they may hide, even across international borders.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Security",
+    "category": "Society",
     "published_at": "2026-06-29T02:23:57.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "A Burnsville, Minnesota man wanted in connection with the Feeding Our Future fraud was arrested in Somalia.",
-      "The fraud scheme involved the theft of over $250 million in federal child nutrition funds.",
-      "The suspect is one of several individuals charged for exploiting pandemic-era aid programs.",
-      "The arrest highlights ongoing international law enforcement collaboration in the probe."
-    ]
-  },
-  {
-    "id": "real-news-3",
-    "title": "Strengthening Maritime Security Coordination in Somaliland - EEAS",
-    "slug": "strengthening-maritime-security-coordination-in-somaliland-eeas",
-    "summary": "The European External Action Service (EEAS) is strengthening maritime security coordination in Somaliland to combat piracy and illegal fishing in the Gulf of Aden.",
-    "content": "The European External Action Service (EEAS) has launched a new initiative to strengthen maritime security coordination in Somaliland, aiming to address persistent threats such as piracy and illegal fishing in the vital Gulf of Aden. This strategic waterway is critical for global trade, connecting the Indian Ocean to the Red Sea, and has long been plagued by insecurity that disrupts shipping and local livelihoods.\n\nUnder the program, the EEAS will work closely with Somaliland's coast guard and other local authorities to enhance surveillance, response capabilities, and inter-agency collaboration. The initiative also involves partnerships with international maritime security organizations to share intelligence and best practices. By building local capacity, the project seeks to reduce reliance on external naval forces and create a more self-sufficient security architecture.\n\nThe effort comes amid broader concerns about illegal fishing by foreign vessels, which depletes fish stocks and undermines the economy of Somaliland. Piracy, though reduced from its peak in the early 2010s, remains a sporadic threat. The EEAS aims to provide training, equipment, and technical support to help Somaliland police its waters more effectively.\n\nRegional observers have welcomed the initiative, noting that sustained cooperation is essential for long-term stability in the Horn of Africa. The project is part of the EU's wider commitment to maritime security in the region, which includes similar programs in Somalia, Djibouti, and Yemen. By fostering local ownership, the EEAS hopes to ensure lasting security gains that protect both international trade and local communities.",
-    "source": "Regional Feeds",
-    "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-29T11:35:20.000Z",
-    "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
-    "featured": false,
-    "ai_summary_points": [
-      "EEAS initiative focuses on improving maritime security in Somaliland.",
-      "Key goals include countering piracy and illegal fishing.",
-      "Coordination efforts involve local authorities and international partners.",
-      "The project aims to protect trade routes in the Gulf of Aden.",
-      "Capacity building for Somaliland’s coast guard is a major component."
-    ]
-  },
-  {
-    "id": "real-news-4",
-    "title": "Somalia, 2 other African countries targeted in proposed U.S. immigration ban - Business Insider Africa",
-    "slug": "somalia-2-other-african-countries-targeted-in-proposed-u-s-immigration-ban-business-insider-africa",
-    "summary": "A proposed U.S. immigration ban targets Somalia and two other African countries, raising concerns about diplomatic relations and regional stability.",
-    "content": "A proposed U.S. immigration ban has placed Somalia and two other African countries on a list of nations whose citizens would face severe travel restrictions, according to a report by Business Insider Africa. The move, which mirrors earlier Trump-era policies, has ignited debates over national security versus racial and religious discrimination. The new ban, reportedly under consideration by the Biden administration, would target countries deemed as having insufficient vetting procedures or posing security risks.\n\nThe inclusion of Somalia—a country battling Islamist insurgency by Al-Shabaab—highlights ongoing concerns about terrorism, but critics argue the ban unfairly penalizes entire populations. Somali-American communities, which have grown significantly since the 1990s civil war, fear being cut off from family members and vital economic ties. Remittances from the Somali diaspora in the U.S. amount to hundreds of millions annually, representing a lifeline for many households.\n\nRegional implications are also significant, as the ban could undermine U.S. diplomatic efforts in East Africa. Somalia is currently undergoing a fragile political transition, with international support critical for its security and development. Analysts warn that such restrictive measures might alienate partner nations and reduce cooperation on counter-terrorism and humanitarian aid. The African Union and several human rights organizations have condemned the proposal, urging the U.S. to adopt more nuanced policies.\n\nAs the debate unfolds, affected families and advocacy groups are mobilizing to challenge the ban through legal and political channels. The outcome remains uncertain, but the proposed restrictions underscore the enduring tensions in balancing security with human rights and international relations.",
-    "source": "Regional Feeds",
-    "country": "Regional",
-    "category": "Regional",
-    "published_at": "2026-06-29T07:51:47.000Z",
-    "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?auto=format&fit=crop&q=80&w=1200",
-    "featured": false,
-    "ai_summary_points": [
-      "Business Insider Africa reports that Somalia, along with two other African countries, is included in a proposed U.S. immigration ban.",
-      "The ban would restrict visas and entry for citizens from these nations, citing security concerns.",
-      "The proposal has sparked criticism from African leaders and human rights groups, who view it as discriminatory.",
-      "Somalia's government has not yet issued an official response, but analysts warn of potential strain in U.S.-Somalia relations.",
-      "Economic and diaspora impacts are expected, as many Somalis rely on U.S. remittances and family connections."
+      "A Burnsville, Minnesota man has been arrested in Somalia for his involvement in the Feeding Our Future fraud scheme.",
+      "The scheme defrauded the federal child nutrition program of over $250 million.",
+      "The suspect is believed to have fled to Somalia to avoid prosecution.",
+      "This arrest marks a significant step in the ongoing investigation into the largest pandemic fraud case in the U.S.",
+      "The man is expected to be extradited to the United States to face charges."
     ]
   }
 ];
