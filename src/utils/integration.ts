@@ -1,5 +1,5 @@
 /**
- * Lasta Herald Integration Architecture & API Reference
+ * Ramadpay News Integration Architecture & API Reference
  * 
  * This file serves as the developer blueprint and system integration map
  * for connecting the front-end layout to automated backend ingestion.
@@ -196,7 +196,7 @@ export async function broadcastBriefingToWhatsApp(batch: 'morning' | 'afternoon'
   console.log(`[broadcast] Formatting WhatsApp push for ${batch} briefing...`);
   
   // Compose messaging template
-  let textBody = `*Lasta Herald | ${batch.toUpperCase()} BRIEFING*\n`;
+  let textBody = `*Ramadpay News | ${batch.toUpperCase()} BRIEFING*\n`;
   textBody += `Synthesized at ${batch === 'morning' ? '06:30' : '16:00'} EAT\n\n`;
   
   articles.forEach((art, idx) => {

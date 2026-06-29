@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({ goHome }) => {
             letterSpacing: '-0.02em'
           }}
         >
-          Lasta Herald.
+          Ramadpay News.
         </div>
 
         {/* Actions */}

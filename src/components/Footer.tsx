@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ goHome }) => {
               cursor: 'pointer'
             }}
           >
-            Lasta Herald
+            Ramadpay News
           </div>
           <p style={{ fontSize: '0.9rem', color: '#B0B0B0', lineHeight: 1.6, maxWidth: '400px' }}>
             An automated editorial hub for East African regional developments. Delivering curated, AI-processed updates daily.
@@ -53,7 +53,7 @@ export const Footer: React.FC<FooterProps> = ({ goHome }) => {
           color: '#8E8E8E'
         }} className="footer-bottom">
           <div>
-            &copy; {new Date().getFullYear()} Lasta Herald Media Group. All rights reserved.
+            &copy; {new Date().getFullYear()} Ramadpay News Media Group. All rights reserved.
           </div>
           <div style={{ display: 'flex', gap: 'var(--space-lg)' }}>
             <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#8E8E8E', textDecoration: 'none' }}>
