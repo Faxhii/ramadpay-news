@@ -119,8 +119,9 @@ export const AdBanner: React.FC = () => {
         </a>
         
         <a 
-          href="#"
-          onClick={(e) => { e.preventDefault(); alert('Apple App Store link coming soon!'); }}
+          href="https://apps.apple.com/us/app/ramad-pay-inc/id6477810330"
+          target="_blank"
+          rel="noopener noreferrer"
           className="app-store-btn"
           style={{
             display: 'flex',
