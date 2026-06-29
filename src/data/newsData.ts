@@ -18,41 +18,105 @@ export interface Article {
 
 export const newsArticles: Article[] = [
   {
-    "id": "real-news-2",
-    "title": "Somalia — Multi-hazard Displacement Projections — Q3 (July - September) 2026 - ReliefWeb",
-    "slug": "somalia-multi-hazard-displacement-projections-q3-july-september-2026-reliefweb",
-    "summary": "Somalia faces a humanitarian crisis as seasonal forecasts, conflict, and economic shocks are projected to drive mass displacement across multiple regions in Q3 2026.",
-    "content": "A new multi-hazard displacement projection for Quarter 3 (July to September) 2026 indicates that Somalia is bracing for a significant humanitarian crisis, with up to 2.5 million people potentially displaced by the combined effects of seasonal floods, drought, and ongoing armed conflict. The analysis, released by the Protection and Return Monitoring Network (PRMN) and partners, highlights the compounding vulnerabilities of a population already reeling from decades of instability.\n\nThe projection identifies riverine areas in Hirshabelle and Jubaland as the most susceptible to displacement due to anticipated heavy rains between July and September. Floods along the Juba and Shabelle rivers could inundate vast agricultural lands and settlements, forcing hundreds of thousands to flee. In addition, the lingering effects of La Niña may exacerbate dry conditions in northern regions, particularly Puntland and Somaliland, where pastoralist communities are already facing severe water and pasture shortages.\n\nConcurrently, localized conflicts in Galmudug and Southwest State remain a primary driver of displacement. Clashes between rival clan militias and non-state armed groups have escalated, uprooting civilians who often lack access to basic services in temporary shelters. The convergence of natural hazards and man-made insecurity is straining the capacity of already overstretched humanitarian organizations, which are calling for immediate funding.\n\nThe report underscores that preventive actions, including early warning systems and contingency planning, could mitigate the worst impacts. Humanitarian agencies urge donors to fund disaster risk reduction programs and pre-position relief supplies. Without swift intervention, the coming months could see Somalia’s displacement crisis deepen, further destabilizing an already fragile region.",
+    "id": "real-news-0",
+    "title": "Feeding Our Future Fugitive Captured in Somalia - KNSI",
+    "slug": "feeding-our-future-fugitive-captured-in-somalia-knsi",
+    "summary": "A fugitive linked to the Feeding Our Future fraud case has been captured in Somalia, marking a significant development in the investigation.",
+    "content": "A fugitive implicated in the Feeding Our Future fraud scandal has been apprehended in Somalia, according to authorities. The individual, whose identity has not been disclosed pending official confirmation, was on the run after being linked to the massive scheme that siphoned funds meant for child nutrition programs.\n\nThe operation to capture the suspect involved collaborative efforts between U.S. law enforcement agencies and Somali authorities. The fugitive is believed to have fled after the investigation into Feeding Our Future, a nonprofit organization, uncovered widespread misappropriation of federal funds.\n\nThe Minister of Internal Security of Somalia, Abdullahi Mohamed Nor, confirmed the arrest in a brief statement, emphasizing the country's commitment to combating international crime. The fugitive is expected to be extradited to the United States to face charges of fraud and money laundering.\n\nFeeding Our Future was at the center of one of the largest COVID-19 relief fraud cases in U.S. history, with over $250 million stolen through false claims for meal programs. This capture highlights the global reach of the investigation and brings hope for accountability in the case.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Society",
-    "published_at": "2026-06-29T08:33:09.000Z",
+    "published_at": "2026-06-29T15:10:10.000Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
+    "featured": true,
+    "ai_summary_points": [
+      "The fugitive was wanted in connection with the Feeding Our Future fraud scheme.",
+      "The capture occurred in Somalia, where the individual was located.",
+      "The operation involved international coordination between U.S. and Somali authorities.",
+      "The fugitive is expected to face charges related to the large-scale fraud case."
+    ]
+  },
+  {
+    "id": "real-news-1",
+    "title": "Somalia: demining and risk education - The HALO Trust",
+    "slug": "somalia-demining-and-risk-education-the-halo-trust",
+    "summary": "The HALO Trust intensifies demining and risk education in Somalia, clearing explosive hazards to protect civilians and enable safe reconstruction.",
+    "content": "The HALO Trust, a leading humanitarian demining organization, is expanding its operations in Somalia to clear explosive remnants of war and provide risk education. The initiative focuses on areas heavily contaminated by landmines and unexploded ordnance (UXO) from decades of conflict, particularly in regions like Mogadishu, Baidoa, and Kismayo. These hazards pose a constant threat to civilians, especially children and farmers, hindering access to homes, schools, and agricultural land.\n\n\n\nThe demining teams use manual and mechanical methods to locate and safely destroy mines and UXO. Simultaneously, community liaison officers conduct risk education sessions in schools, markets, and villages. They teach residents how to recognize warning signs, report findings, and avoid dangerous areas. This dual approach aims to prevent accidents while clearing land for productive use.\n\n\n\nSince its inception in Somalia, the HALO Trust has destroyed thousands of explosive devices and educated tens of thousands of people. The organization works closely with Somali authorities, the United Nations Mine Action Service (UNMAS), and other partners to prioritize clearance and outreach. Funding from international donors supports these costly operations, which are critical for Somalia's stabilization and reconstruction.\n\n\n\nThe impact of demining extends beyond immediate safety. Cleared land can be used for reconstruction, farming, and infrastructure projects, supporting economic recovery. Risk education empowers communities to live more safely in contaminated environments. Despite progress, vast areas remain hazardous, and continued investment is needed to achieve a mine-free Somalia. The HALO Trust's efforts represent a vital component of the country's long-term peacebuilding and development.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Security",
+    "published_at": "2026-06-29T11:15:24.000Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1200",
+    "featured": false,
+    "ai_summary_points": [
+      "The HALO Trust conducts demining operations across Somalia, targeting landmines and unexploded ordnance.",
+      "Risk education programs are implemented to teach communities how to avoid explosive hazards.",
+      "These efforts aim to reduce civilian casualties and facilitate safe access to land and infrastructure.",
+      "The work supports broader humanitarian and reconstruction goals in post-conflict Somalia."
+    ]
+  },
+  {
+    "id": "real-news-2",
+    "title": "Feeding our Future fraud: Burnsville man arrested in Somalia - FOX 9 Minneapolis-St. Paul",
+    "slug": "feeding-our-future-fraud-burnsville-man-arrested-in-somalia-fox-9-minneapolis-st-paul",
+    "summary": "A Minnesota man linked to the Feeding Our Future fraud scheme has been arrested in Somalia, marking a significant development in the massive pandemic aid theft investigation.",
+    "content": "A Minnesota man wanted for his alleged involvement in the Feeding Our Future fraud scheme has been arrested in Somalia, authorities confirmed Thursday. The suspect, whose identity has not been immediately released, was taken into custody in Mogadishu following a joint operation between Somali authorities and U.S. law enforcement agencies.\n\nThe arrest marks a significant breakthrough in one of the largest pandemic-related fraud cases in U.S. history. The Feeding Our Future scheme exploited federal child nutrition programs, allegedly siphoning more than $250 million intended for low-income children during the COVID-19 pandemic. Investigators say the network operated across multiple states, with funds funneled to luxury cars, properties, and overseas accounts.\n\nAccording to court documents, the Burnsville resident is among dozens of individuals charged since 2022. Prosecutors allege he submitted false claims for non-existent meal sites, receiving millions in fraudulent reimbursements. The suspect had been on the run since federal indictments were unsealed, prompting a global manhunt.\n\nFeeding Our Future, a nonprofit ostensibly running meal programs, became the focal point of the FBI’s largest fraud investigation. The scheme involved fake meal sites, inflated attendance numbers, and fake invoices. In July 2024, a Minneapolis jury convicted several defendants, but multiple suspects remained at large. The arrest in Somalia signals the persistence of U.S. authorities in pursuing those who fled overseas. Legal experts say extradition proceedings are likely, though the absence of a bilateral treaty with Somalia could complicate the process.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Security",
+    "published_at": "2026-06-29T02:23:57.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "Multi-hazard analysis projects up to 2.5 million new displacements due to flooding, drought, and conflict in Q3 2026.",
-      "Riverine areas in Hirshabelle and Jubaland are at highest risk of flood-induced displacement.",
-      "Ongoing conflict in Galmudug and Southwest State continues to force civilians from their homes.",
-      "Drought conditions in Puntland and Somaliland may trigger secondary displacement amid food insecurity.",
-      "The report emphasizes the need for pre-emptive humanitarian aid and disaster risk reduction measures."
+      "A Burnsville, Minnesota man wanted in connection with the Feeding Our Future fraud was arrested in Somalia.",
+      "The fraud scheme involved the theft of over $250 million in federal child nutrition funds.",
+      "The suspect is one of several individuals charged for exploiting pandemic-era aid programs.",
+      "The arrest highlights ongoing international law enforcement collaboration in the probe."
     ]
   },
   {
     "id": "real-news-3",
-    "title": "The Narok Parley and the Jubaland Interplay, Understanding Hassan Sheikh’s Outreach to Kenya - horn review",
-    "slug": "the-narok-parley-and-the-jubaland-interplay-understanding-hassan-sheikh-s-outreach-to-kenya-horn-review",
-    "summary": "Somalia's President Hassan Sheikh Mohamud engages Kenya in a strategic dialogue to address the Jubaland impasse and broader regional security concerns.",
-    "content": "Somalia's President Hassan Sheikh Mohamud traveled to Narok, Kenya, in a bid to reset frayed relations with Nairobi and address the escalating dispute with Jubaland, a semi-autonomous state that has been at loggerheads with the federal government. The closed-door parley, held at a private lodge, brought together Somali and Kenyan officials to discuss the political impasse that has threatened regional stability. At the heart of the matter is Jubaland’s refusal to cede control over security and electoral processes in the Gedo region, which Mogadishu views as a violation of federal authority.\n\nDuring the Narok meeting, President Mohamud and Kenya’s President William Ruto emphasized the need for dialogue over confrontation, signaling a departure from the heated rhetoric that has characterized recent exchanges. The two leaders agreed to establish a joint committee comprising technical experts from both countries to mediate between Mogadishu and Jubaland. This committee is expected to tackle thorny issues such as the status of Ethiopian troops in Jubaland—a point of contention given Kenya’s concerns about Addis Ababa’s involvement—and the timeline for regional elections.\n\nThe outreach to Kenya represents a strategic recalculation for Hassan Sheikh, who had initially taken a hardline stance against Jubaland’s leader, Ahmed Madobe, accusing him of undermining state authority. However, with Al-Shabaab regaining ground in parts of south-central Somalia, the president appears to prioritize unity among federal and regional forces. The Narok parley also touched on security cooperation, with both sides pledging to intensify joint operations against the militant group, which continues to pose a threat along the Kenya-Somalia border.\n\nBeyond bilateral relations, the meeting had regional implications. Kenya’s role as a key provider of training and logistics for Somali forces has been complicated by the Jubaland dispute. By mending ties, Nairobi reasserts its influence in Somalia, potentially checking the growing involvement of Ethiopia and Turkey. For Mogadishu, the rapprochement offers a chance to present a unified front to international partners, who have grown weary of infighting. The success of the joint committee, however, hinges on whether Hassan Sheikh can convince Jubaland’s leadership to engage, raising questions about the sustainability of this diplomatic push.",
+    "title": "Strengthening Maritime Security Coordination in Somaliland - EEAS",
+    "slug": "strengthening-maritime-security-coordination-in-somaliland-eeas",
+    "summary": "The European External Action Service (EEAS) is strengthening maritime security coordination in Somaliland to combat piracy and illegal fishing in the Gulf of Aden.",
+    "content": "The European External Action Service (EEAS) has launched a new initiative to strengthen maritime security coordination in Somaliland, aiming to address persistent threats such as piracy and illegal fishing in the vital Gulf of Aden. This strategic waterway is critical for global trade, connecting the Indian Ocean to the Red Sea, and has long been plagued by insecurity that disrupts shipping and local livelihoods.\n\nUnder the program, the EEAS will work closely with Somaliland's coast guard and other local authorities to enhance surveillance, response capabilities, and inter-agency collaboration. The initiative also involves partnerships with international maritime security organizations to share intelligence and best practices. By building local capacity, the project seeks to reduce reliance on external naval forces and create a more self-sufficient security architecture.\n\nThe effort comes amid broader concerns about illegal fishing by foreign vessels, which depletes fish stocks and undermines the economy of Somaliland. Piracy, though reduced from its peak in the early 2010s, remains a sporadic threat. The EEAS aims to provide training, equipment, and technical support to help Somaliland police its waters more effectively.\n\nRegional observers have welcomed the initiative, noting that sustained cooperation is essential for long-term stability in the Horn of Africa. The project is part of the EU's wider commitment to maritime security in the region, which includes similar programs in Somalia, Djibouti, and Yemen. By fostering local ownership, the EEAS hopes to ensure lasting security gains that protect both international trade and local communities.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Politics",
-    "published_at": "2026-06-29T08:20:17.000Z",
+    "category": "Security",
+    "published_at": "2026-06-29T11:35:20.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "President Hassan Sheikh Mohamud held talks with Kenyan leaders in Narok to discuss the political standoff with Jubaland. The meeting aimed to ease tensions over the disputed Gedo region and electoral processes. Security cooperation against Al-Shabaab was a key topic. Both sides agreed to form a joint committee to resolve differences. The outreach signals a shift toward diplomacy after months of strained relations."
+      "EEAS initiative focuses on improving maritime security in Somaliland.",
+      "Key goals include countering piracy and illegal fishing.",
+      "Coordination efforts involve local authorities and international partners.",
+      "The project aims to protect trade routes in the Gulf of Aden.",
+      "Capacity building for Somaliland’s coast guard is a major component."
+    ]
+  },
+  {
+    "id": "real-news-4",
+    "title": "Somalia, 2 other African countries targeted in proposed U.S. immigration ban - Business Insider Africa",
+    "slug": "somalia-2-other-african-countries-targeted-in-proposed-u-s-immigration-ban-business-insider-africa",
+    "summary": "A proposed U.S. immigration ban targets Somalia and two other African countries, raising concerns about diplomatic relations and regional stability.",
+    "content": "A proposed U.S. immigration ban has placed Somalia and two other African countries on a list of nations whose citizens would face severe travel restrictions, according to a report by Business Insider Africa. The move, which mirrors earlier Trump-era policies, has ignited debates over national security versus racial and religious discrimination. The new ban, reportedly under consideration by the Biden administration, would target countries deemed as having insufficient vetting procedures or posing security risks.\n\nThe inclusion of Somalia—a country battling Islamist insurgency by Al-Shabaab—highlights ongoing concerns about terrorism, but critics argue the ban unfairly penalizes entire populations. Somali-American communities, which have grown significantly since the 1990s civil war, fear being cut off from family members and vital economic ties. Remittances from the Somali diaspora in the U.S. amount to hundreds of millions annually, representing a lifeline for many households.\n\nRegional implications are also significant, as the ban could undermine U.S. diplomatic efforts in East Africa. Somalia is currently undergoing a fragile political transition, with international support critical for its security and development. Analysts warn that such restrictive measures might alienate partner nations and reduce cooperation on counter-terrorism and humanitarian aid. The African Union and several human rights organizations have condemned the proposal, urging the U.S. to adopt more nuanced policies.\n\nAs the debate unfolds, affected families and advocacy groups are mobilizing to challenge the ban through legal and political channels. The outcome remains uncertain, but the proposed restrictions underscore the enduring tensions in balancing security with human rights and international relations.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Regional",
+    "published_at": "2026-06-29T07:51:47.000Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?auto=format&fit=crop&q=80&w=1200",
+    "featured": false,
+    "ai_summary_points": [
+      "Business Insider Africa reports that Somalia, along with two other African countries, is included in a proposed U.S. immigration ban.",
+      "The ban would restrict visas and entry for citizens from these nations, citing security concerns.",
+      "The proposal has sparked criticism from African leaders and human rights groups, who view it as discriminatory.",
+      "Somalia's government has not yet issued an official response, but analysts warn of potential strain in U.S.-Somalia relations.",
+      "Economic and diaspora impacts are expected, as many Somalis rely on U.S. remittances and family connections."
     ]
   }
 ];
