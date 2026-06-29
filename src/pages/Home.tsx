@@ -2,6 +2,7 @@ import React from 'react';
 import type { Article } from '../data/newsData';
 import { ArticleCard } from '../components/ArticleCard';
 import { NewsletterSignup } from '../components/NewsletterSignup';
+import { AdBanner } from '../components/AdBanner';
 
 interface HomeProps {
   articles: Article[];
@@ -10,29 +11,43 @@ interface HomeProps {
 
 export const Home: React.FC<HomeProps> = ({ articles, onArticleClick }) => {
   return (
-    <div className="animate-fade-in" style={{ paddingBottom: 'var(--space-3xl)' }}>
+    <div className="animate-fade-in">
       
-      {/* MINIMAL FEED HEADER */}
-      <section style={{ paddingTop: 'var(--space-2xl)', paddingBottom: 'var(--space-lg)' }}>
-        <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+      {/* HERO SECTION */}
+      <section style={{ 
+        padding: 'var(--space-2xl) 0',
+        backgroundColor: '#FFFFFF',
+        borderBottom: '1px solid var(--border-color)',
+        textAlign: 'center'
+      }}>
+        <div className="container">
           <h1 style={{
-            fontFamily: 'var(--font-serif)',
-            fontSize: '3rem',
+            fontSize: 'clamp(2.5rem, 5vw, 4rem)',
             fontWeight: 500,
-            color: 'var(--text-primary)',
+            letterSpacing: '-0.02em',
             lineHeight: 1.1,
-            marginBottom: 'var(--space-sm)'
+            color: 'var(--text-primary)',
+            marginBottom: 'var(--space-md)'
           }}>
-            The Regional Feed
+            East Africa <br />
+            <span style={{ color: 'var(--color-accent)' }}>Intelligence Brief</span>
           </h1>
-          <p style={{
-            fontSize: '1.1rem',
+          <p style={{ 
+            fontSize: '1.125rem',
+            lineHeight: 1.6,
             color: 'var(--text-secondary)',
             maxWidth: '600px',
             margin: '0 auto'
           }}>
             A curated, automated intelligence briefing covering the latest developments across East Africa.
           </p>
+        </div>
+      </section>
+
+      {/* AD BANNER SECTION */}
+      <section className="section-padding" style={{ paddingBottom: 0 }}>
+        <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <AdBanner />
         </div>
       </section>
 
