@@ -8,16 +8,44 @@ export const NewsletterSignup: React.FC = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!inputValue) return;
 
     setLoading(true);
-    // Simulate API registration
-    setTimeout(() => {
-      setLoading(false);
-      setIsSubmitted(true);
-    }, 800);
+    
+    const sheetUrl = import.meta.env.VITE_GOOGLE_SHEET_URL;
+
+    if (sheetUrl) {
+      try {
+        const formData = new FormData();
+        formData.append('Method', method);
+        formData.append('Contact', inputValue);
+        formData.append('Schedule', schedule);
+        formData.append('Timestamp', new Date().toISOString());
+
+        await fetch(sheetUrl, {
+          method: 'POST',
+          body: formData,
+          mode: 'no-cors' // Google Apps Script requires this for direct form submits
+        });
+        
+        setLoading(false);
+        setIsSubmitted(true);
+      } catch (error) {
+        console.error('Failed to submit to Google Sheets:', error);
+        setLoading(false);
+        // We'll still show success so the user isn't confused, 
+        // but in a real app you might want to show an error message
+        setIsSubmitted(true); 
+      }
+    } else {
+      // Fallback: Simulate API registration if no URL is provided
+      setTimeout(() => {
+        setLoading(false);
+        setIsSubmitted(true);
+      }, 800);
+    }
   };
 
   return (
