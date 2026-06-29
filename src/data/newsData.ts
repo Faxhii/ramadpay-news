@@ -19,65 +19,44 @@ export interface Article {
 export const newsArticles: Article[] = [
   {
     "id": "real-news-0",
-    "title": "Police seal off key roads in Nairobi as Kenya braces for Gen Z protests",
-    "slug": "police-seal-off-key-roads-in-nairobi-as-kenya-braces-for-gen-z-protests",
-    "summary": "Kenyan police have cordoned off major roads in Nairobi ahead of anticipated Gen Z-led protests demanding accountability for over 80 deaths during 2024 demonstrations and anniversary rallies.",
-    "content": "Nairobi, Kenya — Kenyan authorities have sealed off major thoroughfares in the capital city as the nation braces for fresh protests led by Generation Z activists demanding accountability for more than 80 people killed during the 2024 demonstrations and last year's anniversary protests. The police cordon, which includes barricades on key roads such as Uhuru Highway and Moi Avenue, has effectively shut down access to the central business district and the State House.\n\nThe protests, organized primarily by young activists through social media channels, are expected to draw thousands of demonstrators who have been galvanized by a lack of progress in investigations into the deaths that occurred during earlier waves of protests. The 2024 demonstrations were sparked by disputes over a controversial finance bill, while last year’s anniversary protests saw renewed clashes between police and mourners. Human rights groups have accused police of using excessive force, including live ammunition, against unarmed civilians.\n\nIn response to the planned protests, President William Ruto’s government has deployed additional police units and appealed for calm. However, opposition leaders and civil society groups have criticized the preemptive closure of roads as a violation of the right to assemble. The Law Society of Kenya has called for restraint on both sides, urging police to respect peaceful protest while cautioning demonstrators against violence.\n\nThe situation remains tense as Nairobi residents brace for possible disruptions. Schools and businesses in affected areas have been advised to close early, and public transport operators have rerouted their services. International observers, including the United Nations, have called for dialogue and a thorough investigation into the earlier deaths to prevent further escalation. As the country holds its breath, the outcome of today's protests could shape Kenya’s political stability for months to come.",
+    "title": "Top South African police officer survives assassination attempt",
+    "slug": "top-south-african-police-officer-survives-assassination-attempt",
+    "summary": "South Africa's deputy crime intelligence boss, Maj-Gen Feroz Khan, survives an assassination attempt days before his scheduled testimony at an inquiry into police corruption.",
+    "content": "A top South African police officer, Deputy Crime Intelligence Boss Maj-Gen Feroz Khan, narrowly survived an assassination attempt on Sunday evening in what authorities have described as a targeted attack. Khan was ambushed by unknown gunmen while driving in Pretoria, but managed to escape unharmed after his vehicle was struck by multiple bullets. The assailants fled the scene, and no arrests have been made so far. Police have launched a manhunt for the suspects, and a task team has been assembled to investigate the incident.\n\nThe assassination attempt comes days before Khan was scheduled to testify before an inquiry into police corruption. Khan was expected to provide key evidence regarding allegations of illicit dealings within the South African Police Service's crime intelligence unit. The timing of the attack has raised suspicions that it may be linked to his upcoming testimony, though authorities have not confirmed a motive. The inquiry, established in 2018, aims to uncover systemic corruption and misconduct within the police force.\n\nThis incident has sent shockwaves through South Africa's law enforcement community, highlighting the dangers faced by officers involved in anti-corruption efforts. Police Minister Bheki Cele condemned the attack and vowed to ensure Khan's safety, stating that the government will not be intimidated. The attack also underscores the broader challenge of organized crime and corruption in the country, which has been a major concern for the public and international observers alike.\n\nThe investigation is ongoing, with police appealing to the public for any information that could lead to the arrest of the perpetrators. Meanwhile, the inquiry into police corruption is expected to proceed as planned, with heightened security measures for all witnesses. The attempted assassination of Maj-Gen Feroz Khan serves as a stark reminder of the risks faced by those who challenge entrenched criminal networks in South Africa.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Security",
-    "published_at": "2026-06-25T06:32:08.000Z",
+    "published_at": "2026-06-29T07:50:10.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
     "featured": true,
     "ai_summary_points": [
-      "Police sealed off key roads in Nairobi ahead of planned protests.",
-      "Protesters are Gen Z activists demanding justice for over 80 deaths.",
-      "The deaths occurred during 2024 demonstrations and anniversary protests last year.",
-      "Security presence has been heightened across the city.",
-      "The protests are seen as a continuation of youth-led movements for police reform."
+      "Maj-Gen Feroz Khan, a senior South African police officer, survived an assassination attempt.",
+      "The attack occurred ahead of his scheduled appearance before an inquiry into police corruption.",
+      "Khan is the deputy head of crime intelligence and was due to testify this week.",
+      "No arrests have been made yet, and the motive is under investigation.",
+      "The incident has raised concerns about police safety and corruption in South Africa."
     ]
   },
   {
-    "id": "real-news-1",
-    "title": "Kenya to charge students with murder over deadly school fire",
-    "slug": "kenya-to-charge-students-with-murder-over-deadly-school-fire",
-    "summary": "Kenya will charge 16 students with murder following a deadly fire at Utumishi Girls' School that killed 16 pupils, in a case that has shaken the nation.",
-    "content": "Kenya is set to charge 16 students with murder in connection with a devastating fire at Utumishi Girls' School last month that claimed the lives of 16 pupils, aged between 15 and 18. The blaze, which tore through a dormitory in the middle of the night, has left the nation in shock and renewed scrutiny on school safety standards. Prosecutors allege the fire was deliberately started, marking a rare case where minors will face murder charges in a country where juvenile justice often leans toward rehabilitation.\n\nThe decision to charge the students, all from the same school, follows an extensive investigation by Kenyan authorities. Police reports indicate that the fire was not accidental, with evidence pointing to arson. The accused, whose identities have not been disclosed due to their age, will be arraigned in a juvenile court. However, the serious nature of the charges could see them tried as adults, a move that has sparked legal and ethical debates. Human rights groups have urged caution, emphasizing the need to balance justice with the welfare of minors.\n\nThe tragedy at Utumishi Girls' School is the latest in a series of school fires in Kenya, raising questions about safety protocols and mental health support for students. In 2020, a similar incident at a boarding school in Kisii left several students injured. Education officials have pledged to enforce stricter dormitory regulations, including fire extinguishers and emergency drills. However, critics argue that systemic issues, such as overcrowding and inadequate staffing, remain unaddressed.\n\nAs the case proceeds, it continues to divide public opinion. Some view the charges as a necessary deterrent against school violence, while others worry about the long-term impact on the accused juveniles. The trial is expected to be closely watched, with potential implications for Kenya's legal system and school safety policies. Meanwhile, the families of the victims mourn, seeking closure and accountability in a case that has become a symbol of broader societal challenges.",
+    "id": "real-news-3",
+    "title": "Hit South African show gets the world talking about polygamy and cheating",
+    "slug": "hit-south-african-show-gets-the-world-talking-about-polygamy-and-cheating",
+    "summary": "A Zulu-language series exploring polygamy and marital infidelity has become a global sensation, sparking international conversations about non-traditional relationships.",
+    "content": "A Zulu-language drama series has taken the world by storm, placing the spotlight on polygamy and infidelity in contemporary relationships. The show, which revolves around a man navigating life with multiple wives, has captivated audiences far beyond its South African origins, sparking debates about love, tradition, and modern romance.\n\nThe series, produced by a local South African network, delves into the complexities of polygamous unions, exploring the emotional and social dynamics that define them. Its authentic portrayal of Zulu culture, combined with universal themes of jealousy, loyalty, and betrayal, has resonated with viewers globally. Streaming platforms have reported millions of views from countries across Africa, Europe, and the Americas, making it a rare cultural phenomenon.\n\nCritics have lauded the show for its nuanced storytelling, which avoids glorifying polygamy while presenting it as a legitimate lifestyle choice for some. The series also tackles the fallout of infidelity, showing how trust can be broken and rebuilt in non-traditional family structures. This balanced approach has fueled conversations on social media, with viewers sharing their own experiences and perspectives on polyamory and open relationships.\n\nThe success of the show highlights the growing appetite for diverse, authentic narratives in global entertainment. As audiences become more open to exploring different cultural practices, this Zulu-language series serves as a bridge, offering insights into a way of life that many may find foreign yet fascinating. With its compelling characters and thought-provoking plotlines, the show is not just a hit but a catalyst for broader discussions about the evolving definition of family and commitment in the 21st century.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-24T14:36:42.000Z",
+    "category": "Society",
+    "published_at": "2026-06-26T23:02:23.000Z",
     "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1200",
+    "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "16 students aged 15-18 will face murder charges for a school dormitory fire that killed 16 pupils at Utumishi Girls' School.",
-      "The fire broke out last month, sparking investigations into the cause and school safety protocols.",
-      "Authorities allege the fire was deliberately set, leading to the unprecedented charges against minors.",
-      "The incident has ignited public debate on school safety and juvenile justice in Kenya.",
-      "If convicted, the accused could face life imprisonment, raising legal questions about charging minors as adults."
-    ]
-  },
-  {
-    "id": "real-news-2",
-    "title": "Sexual violence increasingly used as 'weapon of war' in Sudan, UN says",
-    "slug": "sexual-violence-increasingly-used-as-weapon-of-war-in-sudan-un-says",
-    "summary": "UN reports that sexual violence is being systematically used as a weapon of war in Sudan, terrorizing communities on an unprecedented scale.",
-    "content": "The United Nations has issued a stark warning that sexual violence is being systematically deployed as a weapon of war in Sudan, with the scale and brutality of attacks reaching unprecedented levels. In a detailed report, UN investigators document a pattern of rape, gang rape, sexual slavery, and forced marriage perpetrated by armed groups on all sides of the ongoing conflict. The violence is explicitly aimed at terrorizing communities, displacing populations, and destroying social cohesion.\n\nThe report highlights that victims include women, men, and even children as young as two years old, often attacked in front of their families for maximum psychological impact. Perpetrators frequently operate with complete impunity, with survivors facing severe stigma and lack of access to medical care or psychological support. The UN has called for urgent action to protect civilians, hold perpetrators accountable, and provide comprehensive assistance to survivors.\n\nSudan has been embroiled in a devastating civil war since April 2023, when clashes erupted between the Sudanese Armed Forces and the paramilitary Rapid Support Forces. The conflict has killed thousands, displaced over nine million people, and plunged the country into one of the world's worst humanitarian crises. The systematic use of sexual violence represents a grim new dimension of the violence, with reports emerging from the capital Khartoum, Darfur, Kordofan, and other regions.\n\nInternational human rights organizations have echoed the UN's findings, urging the international community to treat the crisis with urgency. The UN Security Council has debated potential sanctions and accountability mechanisms, but diplomatic divisions have slowed substantive action. Aid agencies warn that without immediate intervention, the use of sexual violence as a tactic of war could leave lasting scars on Sudanese society for generations to come.",
-    "source": "Regional Feeds",
-    "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-23T18:50:10.000Z",
-    "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
-    "featured": false,
-    "ai_summary_points": [
-      "Sexual violence is increasingly used as a weapon of war in Sudan.",
-      "Attacks are systematic, brutal, and aimed at terrorizing communities.",
-      "The scale of assaults is described as unprecedented by the UN.",
-      "Victims include women, men, and children across conflict zones.",
-      "Perpetrators often operate with impunity, exacerbating the crisis."
+      "The show is a Zulu-language series about a man with multiple wives.",
+      "It has become a worldwide hit, drawing global attention.",
+      "The series addresses themes of polygamy and cheating.",
+      "It has sparked international discussions on polygamy and relationship norms.",
+      "The show's cultural specificity contributes to its universal appeal."
     ]
   }
 ];
