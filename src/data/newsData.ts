@@ -18,45 +18,41 @@ export interface Article {
 
 export const newsArticles: Article[] = [
   {
-    "id": "real-news-0",
-    "title": "Top South African police officer survives assassination attempt",
-    "slug": "top-south-african-police-officer-survives-assassination-attempt",
-    "summary": "South Africa's deputy crime intelligence boss, Maj-Gen Feroz Khan, survives an assassination attempt days before his scheduled testimony at an inquiry into police corruption.",
-    "content": "A top South African police officer, Deputy Crime Intelligence Boss Maj-Gen Feroz Khan, narrowly survived an assassination attempt on Sunday evening in what authorities have described as a targeted attack. Khan was ambushed by unknown gunmen while driving in Pretoria, but managed to escape unharmed after his vehicle was struck by multiple bullets. The assailants fled the scene, and no arrests have been made so far. Police have launched a manhunt for the suspects, and a task team has been assembled to investigate the incident.\n\nThe assassination attempt comes days before Khan was scheduled to testify before an inquiry into police corruption. Khan was expected to provide key evidence regarding allegations of illicit dealings within the South African Police Service's crime intelligence unit. The timing of the attack has raised suspicions that it may be linked to his upcoming testimony, though authorities have not confirmed a motive. The inquiry, established in 2018, aims to uncover systemic corruption and misconduct within the police force.\n\nThis incident has sent shockwaves through South Africa's law enforcement community, highlighting the dangers faced by officers involved in anti-corruption efforts. Police Minister Bheki Cele condemned the attack and vowed to ensure Khan's safety, stating that the government will not be intimidated. The attack also underscores the broader challenge of organized crime and corruption in the country, which has been a major concern for the public and international observers alike.\n\nThe investigation is ongoing, with police appealing to the public for any information that could lead to the arrest of the perpetrators. Meanwhile, the inquiry into police corruption is expected to proceed as planned, with heightened security measures for all witnesses. The attempted assassination of Maj-Gen Feroz Khan serves as a stark reminder of the risks faced by those who challenge entrenched criminal networks in South Africa.",
+    "id": "real-news-2",
+    "title": "Somalia — Multi-hazard Displacement Projections — Q3 (July - September) 2026 - ReliefWeb",
+    "slug": "somalia-multi-hazard-displacement-projections-q3-july-september-2026-reliefweb",
+    "summary": "Somalia faces a humanitarian crisis as seasonal forecasts, conflict, and economic shocks are projected to drive mass displacement across multiple regions in Q3 2026.",
+    "content": "A new multi-hazard displacement projection for Quarter 3 (July to September) 2026 indicates that Somalia is bracing for a significant humanitarian crisis, with up to 2.5 million people potentially displaced by the combined effects of seasonal floods, drought, and ongoing armed conflict. The analysis, released by the Protection and Return Monitoring Network (PRMN) and partners, highlights the compounding vulnerabilities of a population already reeling from decades of instability.\n\nThe projection identifies riverine areas in Hirshabelle and Jubaland as the most susceptible to displacement due to anticipated heavy rains between July and September. Floods along the Juba and Shabelle rivers could inundate vast agricultural lands and settlements, forcing hundreds of thousands to flee. In addition, the lingering effects of La Niña may exacerbate dry conditions in northern regions, particularly Puntland and Somaliland, where pastoralist communities are already facing severe water and pasture shortages.\n\nConcurrently, localized conflicts in Galmudug and Southwest State remain a primary driver of displacement. Clashes between rival clan militias and non-state armed groups have escalated, uprooting civilians who often lack access to basic services in temporary shelters. The convergence of natural hazards and man-made insecurity is straining the capacity of already overstretched humanitarian organizations, which are calling for immediate funding.\n\nThe report underscores that preventive actions, including early warning systems and contingency planning, could mitigate the worst impacts. Humanitarian agencies urge donors to fund disaster risk reduction programs and pre-position relief supplies. Without swift intervention, the coming months could see Somalia’s displacement crisis deepen, further destabilizing an already fragile region.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-29T07:50:10.000Z",
+    "category": "Society",
+    "published_at": "2026-06-29T08:33:09.000Z",
     "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
-    "featured": true,
+    "image_url": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
+    "featured": false,
     "ai_summary_points": [
-      "Maj-Gen Feroz Khan, a senior South African police officer, survived an assassination attempt.",
-      "The attack occurred ahead of his scheduled appearance before an inquiry into police corruption.",
-      "Khan is the deputy head of crime intelligence and was due to testify this week.",
-      "No arrests have been made yet, and the motive is under investigation.",
-      "The incident has raised concerns about police safety and corruption in South Africa."
+      "Multi-hazard analysis projects up to 2.5 million new displacements due to flooding, drought, and conflict in Q3 2026.",
+      "Riverine areas in Hirshabelle and Jubaland are at highest risk of flood-induced displacement.",
+      "Ongoing conflict in Galmudug and Southwest State continues to force civilians from their homes.",
+      "Drought conditions in Puntland and Somaliland may trigger secondary displacement amid food insecurity.",
+      "The report emphasizes the need for pre-emptive humanitarian aid and disaster risk reduction measures."
     ]
   },
   {
     "id": "real-news-3",
-    "title": "Hit South African show gets the world talking about polygamy and cheating",
-    "slug": "hit-south-african-show-gets-the-world-talking-about-polygamy-and-cheating",
-    "summary": "A Zulu-language series exploring polygamy and marital infidelity has become a global sensation, sparking international conversations about non-traditional relationships.",
-    "content": "A Zulu-language drama series has taken the world by storm, placing the spotlight on polygamy and infidelity in contemporary relationships. The show, which revolves around a man navigating life with multiple wives, has captivated audiences far beyond its South African origins, sparking debates about love, tradition, and modern romance.\n\nThe series, produced by a local South African network, delves into the complexities of polygamous unions, exploring the emotional and social dynamics that define them. Its authentic portrayal of Zulu culture, combined with universal themes of jealousy, loyalty, and betrayal, has resonated with viewers globally. Streaming platforms have reported millions of views from countries across Africa, Europe, and the Americas, making it a rare cultural phenomenon.\n\nCritics have lauded the show for its nuanced storytelling, which avoids glorifying polygamy while presenting it as a legitimate lifestyle choice for some. The series also tackles the fallout of infidelity, showing how trust can be broken and rebuilt in non-traditional family structures. This balanced approach has fueled conversations on social media, with viewers sharing their own experiences and perspectives on polyamory and open relationships.\n\nThe success of the show highlights the growing appetite for diverse, authentic narratives in global entertainment. As audiences become more open to exploring different cultural practices, this Zulu-language series serves as a bridge, offering insights into a way of life that many may find foreign yet fascinating. With its compelling characters and thought-provoking plotlines, the show is not just a hit but a catalyst for broader discussions about the evolving definition of family and commitment in the 21st century.",
+    "title": "The Narok Parley and the Jubaland Interplay, Understanding Hassan Sheikh’s Outreach to Kenya - horn review",
+    "slug": "the-narok-parley-and-the-jubaland-interplay-understanding-hassan-sheikh-s-outreach-to-kenya-horn-review",
+    "summary": "Somalia's President Hassan Sheikh Mohamud engages Kenya in a strategic dialogue to address the Jubaland impasse and broader regional security concerns.",
+    "content": "Somalia's President Hassan Sheikh Mohamud traveled to Narok, Kenya, in a bid to reset frayed relations with Nairobi and address the escalating dispute with Jubaland, a semi-autonomous state that has been at loggerheads with the federal government. The closed-door parley, held at a private lodge, brought together Somali and Kenyan officials to discuss the political impasse that has threatened regional stability. At the heart of the matter is Jubaland’s refusal to cede control over security and electoral processes in the Gedo region, which Mogadishu views as a violation of federal authority.\n\nDuring the Narok meeting, President Mohamud and Kenya’s President William Ruto emphasized the need for dialogue over confrontation, signaling a departure from the heated rhetoric that has characterized recent exchanges. The two leaders agreed to establish a joint committee comprising technical experts from both countries to mediate between Mogadishu and Jubaland. This committee is expected to tackle thorny issues such as the status of Ethiopian troops in Jubaland—a point of contention given Kenya’s concerns about Addis Ababa’s involvement—and the timeline for regional elections.\n\nThe outreach to Kenya represents a strategic recalculation for Hassan Sheikh, who had initially taken a hardline stance against Jubaland’s leader, Ahmed Madobe, accusing him of undermining state authority. However, with Al-Shabaab regaining ground in parts of south-central Somalia, the president appears to prioritize unity among federal and regional forces. The Narok parley also touched on security cooperation, with both sides pledging to intensify joint operations against the militant group, which continues to pose a threat along the Kenya-Somalia border.\n\nBeyond bilateral relations, the meeting had regional implications. Kenya’s role as a key provider of training and logistics for Somali forces has been complicated by the Jubaland dispute. By mending ties, Nairobi reasserts its influence in Somalia, potentially checking the growing involvement of Ethiopia and Turkey. For Mogadishu, the rapprochement offers a chance to present a unified front to international partners, who have grown weary of infighting. The success of the joint committee, however, hinges on whether Hassan Sheikh can convince Jubaland’s leadership to engage, raising questions about the sustainability of this diplomatic push.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Society",
-    "published_at": "2026-06-26T23:02:23.000Z",
+    "category": "Politics",
+    "published_at": "2026-06-29T08:20:17.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "The show is a Zulu-language series about a man with multiple wives.",
-      "It has become a worldwide hit, drawing global attention.",
-      "The series addresses themes of polygamy and cheating.",
-      "It has sparked international discussions on polygamy and relationship norms.",
-      "The show's cultural specificity contributes to its universal appeal."
+      "President Hassan Sheikh Mohamud held talks with Kenyan leaders in Narok to discuss the political standoff with Jubaland. The meeting aimed to ease tensions over the disputed Gedo region and electoral processes. Security cooperation against Al-Shabaab was a key topic. Both sides agreed to form a joint committee to resolve differences. The outreach signals a shift toward diplomacy after months of strained relations."
     ]
   }
 ];

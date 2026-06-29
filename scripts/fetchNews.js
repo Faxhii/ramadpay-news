@@ -24,9 +24,9 @@ async function run() {
     return;
   }
 
-  console.log('Fetching Africa RSS feed...');
-  // Using BBC Africa as a public source for demonstration
-  const feed = await parser.parseURL('https://feeds.bbci.co.uk/news/world/africa/rss.xml');
+  console.log('Fetching Somalia RSS feed...');
+  // Fetch latest news specifically about Somalia
+  const feed = await parser.parseURL('https://news.google.com/rss/search?q=Somalia+when:1d&hl=en-US&gl=US&ceid=US:en');
   
   // take top 5 articles
   const items = feed.items.slice(0, 5);
@@ -51,7 +51,7 @@ async function run() {
           messages: [
             { 
               role: 'system', 
-              content: 'You are an expert editorial editor for East African news. Given this short news summary, generate a valid JSON object with: "summary" (1 sentence editorial dek), "ai_summary_points" (array of exactly 3-5 string bullets of key facts), "category" (one of: Politics, Economy, Security, Society, Regional), and "full_article" (a detailed, multi-paragraph editorial news story expanding on the facts with professional journalism style, at least 3-4 paragraphs long, separated by \\n\\n).' 
+              content: 'You are an expert editorial editor for East African news. Given this short news summary about Somalia, generate a valid JSON object with: "summary" (1 sentence editorial dek), "ai_summary_points" (array of exactly 3-5 string bullets of key facts), "category" (one of: Politics, Economy, Security, Society, Regional), and "full_article" (a detailed, multi-paragraph editorial news story expanding on the facts with professional journalism style, at least 3-4 paragraphs long, separated by \\n\\n). CRITICAL: Ensure you output perfectly valid JSON. Escape all inner double quotes (\\") and avoid unescaped newlines inside strings. NEVER include markdown formatting around your JSON response.' 
             },
             { role: 'user', content: rawText }
           ],
@@ -65,7 +65,12 @@ async function run() {
       }
 
       const data = await response.json();
-      const content = JSON.parse(data.choices[0].message.content);
+      let rawJson = data.choices[0].message.content;
+      
+      // Strip markdown code blocks if the model mistakenly included them
+      rawJson = rawJson.replace(/```json/g, '').replace(/```/g, '').trim();
+      
+      const content = JSON.parse(rawJson);
 
       finalArticles.push({
         id: `real-news-${i}`,
