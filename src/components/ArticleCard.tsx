@@ -4,10 +4,9 @@ import type { Article } from '../data/newsData';
 interface ArticleCardProps {
   article: Article;
   onClick: () => void;
-  layout?: 'standard' | 'horizontal' | 'minimal';
 }
 
-export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, layout = 'standard' }) => {
+export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick }) => {
   const getPublishedTime = (isoString: string) => {
     const date = new Date(isoString);
     return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });

@@ -18,7 +18,7 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
 }) => {
   const [copied, setCopied] = useState(false);
 
-  const getCountryFlag = (country: 'Somalia' | 'Kenya' | 'Ethiopia') => {
+  const getCountryFlag = (country: string) => {
     switch (country) {
       case 'Somalia': return '🇸🇴';
       case 'Kenya': return '🇰🇪';

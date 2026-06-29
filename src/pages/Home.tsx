@@ -44,7 +44,6 @@ export const Home: React.FC<HomeProps> = ({ articles, onArticleClick }) => {
               <ArticleCard 
                 key={article.id}
                 article={article}
-                layout="horizontal"
                 onClick={() => onArticleClick(article.slug)}
               />
             ))}
