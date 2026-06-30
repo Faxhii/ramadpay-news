@@ -18,11 +18,32 @@ export interface Article {
 
 export const newsArticles: Article[] = [
   {
+    "id": "real-news-0",
+    "title": "Coming Home from Al-Shabaab: What Determines Whether Communities Forgive in Somalia - Peace News Network",
+    "slug": "coming-home-from-al-shabaab-what-determines-whether-communities-forgive-in-somalia-peace-news-network",
+    "summary": "Communities in Somalia weigh forgiveness and reintegration for former Al-Shabaab members based on individual culpability and local traditions, balancing security with reconciliation.",
+    "content": "Somalia continues to grapple with the challenge of reintegrating former members of the militant group Al-Shabaab as communities weigh forgiveness against security risks. A new report from the Peace Research Institute Oslo (PRIO) examines the complex factors that determine whether returning fighters are welcomed or rejected by their home communities. The findings highlight the critical role of local traditions, the severity of past actions, and the influence of elders in shaping outcomes.\n\nAccording to the study, the level of culpability plays a decisive role. Communities are more willing to forgive those who were forcibly recruited or served in non-combat roles, such as cooks or guards. In contrast, individuals who participated in executions, beheadings, or other violent acts face much higher barriers to acceptance. Religious leaders often conduct public repentance ceremonies, while elders negotiate terms that may include restitution or community service as conditions for return.\n\nSecurity concerns remain a major obstacle. Some communities fear that reintegrated individuals retain ideological loyalty to Al-Shabaab and could act as sleeper cells. This is exacerbated by limited government oversight and weak rule of law in many regions. The Somali federal government has attempted to address this through amnesty programs for low-level defectors, but these efforts are often undermined by lack of support for economic reintegration, leaving returnees vulnerable to re-recruitment.\n\nThe report emphasizes that successful reintegration requires holistic approaches addressing trauma, livelihoods, and community healing. Local initiatives, such as dialogue forums and vocational training, have shown promise in building trust. However, without broader stability and development, forgiveness remains a fragile foundation for lasting peace in Somalia.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Security",
+    "published_at": "2026-06-30T04:00:00.000Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
+    "featured": true,
+    "ai_summary_points": [
+      "Reintegration of former Al-Shabaab fighters varies by community, with forgiveness often tied to the individual's role and harm caused.",
+      "Traditional elders and religious leaders play key roles in mediating acceptance and setting conditions for return.",
+      "Security concerns persist, as some communities fear reintegrated members may rejoin extremist groups.",
+      "Somalia's federal government supports reconciliation through amnesty programs for low-level defectors.",
+      "Lack of economic opportunities and trauma from violence complicate successful reintegration efforts."
+    ]
+  },
+  {
     "id": "real-news-1",
     "title": "Somali minister: Zero-tariff access to China's 1.4 billion consumers is 'a big deal' - news.cgtn.com",
     "slug": "somali-minister-zero-tariff-access-to-china-s-1-4-billion-consumers-is-a-big-deal-news-cgtn-com",
-    "summary": "Somali minister hails new zero-tariff access to China's massive market as a transformative economic opportunity for Somalia's exports.",
-    "content": "Somalia has secured a significant economic breakthrough as its exports will now enjoy zero-tariff access to China's vast market of 1.4 billion consumers. The Somali minister, in a statement carried by CGTN, described the development as 'a big deal' for the country's trade prospects. This preferential treatment is expected to open new avenues for Somali products, particularly in agriculture and livestock, which are the backbone of the nation's economy.\n\nThe zero-tariff arrangement is part of China's initiative to support least developed countries by granting them duty-free access to its market. For Somalia, which has struggled with trade imbalances and limited export capacity, this agreement could provide a crucial lifeline. The minister emphasized that the deal would not only boost Somali exports but also attract investment and create jobs in key sectors.\n\nSomalia's exports to China have traditionally been modest, with main items including livestock, hides, and agricultural produce. The removal of tariffs is expected to make these goods more competitive in the Chinese market, potentially increasing their volume and value. Additionally, the agreement could encourage diversification into other products such as seafood and spices, which have growing demand in China.\n\nThe development is also seen as a diplomatic win for Somalia, strengthening its ties with China amid a broader engagement in the region. Chinese investments in infrastructure and trade partnerships have been expanding across East Africa, and Somalia's inclusion in this preferential trade scheme reflects deepening bilateral relations. The minister expressed optimism that the zero-tariff access would serve as a catalyst for economic recovery and growth in post-conflict Somalia.",
+    "summary": "Somalia secures zero-tariff access to China's 1.4 billion consumers, calling it a transformative economic opportunity.",
+    "content": "Somalia's Minister of Commerce and Industry hailed a recent agreement granting zero-tariff access to China's 1.4 billion consumers as 'a big deal' for the Horn of Africa nation. The deal, which allows Somali products to enter the Chinese market without duties, is expected to significantly boost the country's exports, particularly in agriculture and livestock. Minister Jibril Abdirashid Haji noted that this could help diversify Somalia's economy away from its heavy reliance on imports.\n\nUnder the agreement, Somali farmers and herders will now have a competitive edge in the world's second-largest economy. Key exports including sesame seeds, frankincense, and livestock are poised to benefit. The minister emphasized that this preferential market access would directly improve livelihoods for thousands of Somali families. 'This is a transformative opportunity for our private sector,' he said during a press conference in Mogadishu.\n\nChina, a major trading partner for many African nations, has extended similar zero-tariff policies to other least developed countries (LDCs). The initiative aligns with China's broader push to strengthen ties with LDCs, often through infrastructure investments under the Belt and Road Initiative. For Somalia, which has long struggled with political instability and economic challenges, the trade deal represents a pragmatic step toward recovery.\n\nHowever, experts caution that Somalia must address domestic production capacity and supply chain issues to fully capitalize on the opportunity. Currently, Somalia's exports to China are minimal compared to its imports, creating a persistent trade deficit. The government is now working with local businesses to improve quality standards and logistics to meet Chinese market demands. If successful, the zero-tariff access could mark a pivotal shift in Somalia's economic trajectory.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Economy",
@@ -32,50 +53,73 @@ export const newsArticles: Article[] = [
     "featured": false,
     "ai_summary_points": [
       "Somalia gains zero-tariff access to China's market of 1.4 billion consumers.",
-      "The Somali minister calls this development 'a big deal' for boosting exports.",
+      "The Somali minister hails the move as 'a big deal' for boosting exports.",
       "The agreement is expected to benefit Somali agricultural and livestock products.",
-      "This move is part of China's broader trade preference scheme for least developed countries.",
-      "The deal aims to strengthen bilateral trade ties between Somalia and China."
+      "It aims to reduce Somalia's trade deficit and stimulate economic growth.",
+      "The deal is part of China's broader tariff-free policy for least developed countries."
+    ]
+  },
+  {
+    "id": "real-news-2",
+    "title": "Aid Cuts and Security Risks: From Health System Disruption to Human Insecurity - ReliefWeb",
+    "slug": "aid-cuts-and-security-risks-from-health-system-disruption-to-human-insecurity-reliefweb",
+    "summary": "Severe aid cuts in Somalia are jeopardizing its fragile health system and worsening human insecurity amid ongoing security threats.",
+    "content": "In Somalia, severe cuts to international aid are threatening to unravel the country's fragile health system and deepen an already dire humanitarian crisis. The reductions, driven by shifting donor priorities and global economic pressures, are forcing health facilities to scale back or shutter services, leaving millions without access to essential care. This comes as Somalia grapples with persistent insecurity from militant groups like Al-Shabaab, compounding the challenges of delivering aid to vulnerable populations.\n\nThe health sector is bearing the brunt of these cuts. Clinics and hospitals that relied on foreign funding for maternal and child health services, vaccination campaigns, and treatment for malnutrition and infectious diseases are now operating on reduced capacity. Health workers report shortages of medicines and supplies, while outreach programs in remote areas have been suspended. This disruption comes at a time when Somalia is still recovering from the COVID-19 pandemic and facing a resurgent threat from other vaccine-preventable diseases.\n\nBeyond health, the funding gap exacerbates human insecurity. Many Somalis depend on humanitarian assistance for food, water, and shelter, and aid cuts are pushing more families into destitution. Displacement camps are swelling as people flee drought and conflict, yet support services are shrinking. Human rights groups warn that without a swift reversal of these cuts, the country could see a spike in preventable deaths and a reversal of hard-won development gains.\n\nLocal and international humanitarian organizations are appealing for urgent funding to fill the gap. They emphasize that while Somalia faces security challenges, the root causes of its instability—poverty, lack of basic services, and climate shocks—cannot be addressed without sustained investment. As political leaders in Mogadishu grapple with these pressures, the international community faces a stark choice: step up support or watch a fragile state tip back into crisis.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Society",
+    "published_at": "2026-06-30T14:05:47.000Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
+    "featured": false,
+    "ai_summary_points": [
+      "Aid reductions are disrupting essential health services, including maternal and child care.",
+      "The cuts exacerbate food insecurity and displacement risks.",
+      "Humanitarian organizations warn of increased disease outbreaks without sustained funding.",
+      "Ongoing security challenges hinder effective aid delivery and access.",
+      "International donors are urged to restore funding to prevent a public health crisis."
     ]
   },
   {
     "id": "real-news-3",
-    "title": "15 Puntland Maritime Police Force Officers participate in 5th Maritime Domain Awareness Seminar of the year - EEAS",
-    "slug": "15-puntland-maritime-police-force-officers-participate-in-5th-maritime-domain-awareness-seminar-of-the-year-eeas",
-    "summary": "Fifteen officers from the Puntland Maritime Police Force completed the 5th Maritime Domain Awareness Seminar of the year, organized by the EU and EEAS to enhance maritime security capabilities.",
-    "content": "Fifteen officers from the Puntland Maritime Police Force (PMPF) successfully completed the 5th Maritime Domain Awareness Seminar of the year, organized by the European External Action Service (EEAS) in collaboration with the European Union. The seminar, held in Garowe, the administrative capital of Puntland, is part of a broader initiative to bolster maritime security in the Horn of Africa, a region critical for global trade routes and susceptible to piracy, illegal fishing, and other transnational crimes.\n\nThe intensive training program focused on enhancing the officers' abilities to monitor maritime activities, identify suspicious behavior, and coordinate responses to security threats. Topics covered included surveillance techniques, information sharing, legal frameworks for maritime law enforcement, and the use of modern technology for domain awareness. 'This seminar equips our forces with the knowledge to protect Puntland's waters more effectively,' said Colonel Abdiweli Mohamed, a senior PMPF official, at the closing ceremony.\n\nThe EU and EEAS have been key supporters of Puntland's maritime security efforts, providing both training and equipment. The region's coastline, stretching over 1,600 kilometers, is vulnerable to piracy and illegal fishing, which undermine local economies and stability. By strengthening the PMPF's capabilities, the international community aims to foster a secure environment conducive to economic development and regional cooperation.\n\nThis seminar marks the fifth such event this year, reflecting a sustained commitment to capacity building. The officers are expected to pass on their knowledge to others, creating a multiplier effect that enhances the overall effectiveness of the PMPF. As Somalia continues its path toward recovery and stability, such initiatives are seen as crucial for safeguarding its maritime resources and maintaining peace in the wider region.",
+    "title": "Feeding Our Future Fugitive Captured in Somalia - KNSI",
+    "slug": "feeding-our-future-fugitive-captured-in-somalia-knsi",
+    "summary": "A key fugitive in the 'Feeding Our Future' fraud case was captured in Somalia, marking a breakthrough in one of the largest pandemic aid fraud investigations in U.S. history.",
+    "content": "A fugitive wanted in connection with the massive 'Feeding Our Future' pandemic aid fraud scheme has been captured in Somalia, U.S. authorities confirmed Monday. The individual, whose identity has not been disclosed pending extradition, was arrested in Mogadishu following a joint operation between Somali security forces and U.S. federal agents. This arrest marks a significant development in one of the largest COVID-19 relief fraud investigations in American history, which involved the theft of over $200 million in federal child nutrition funds.\n\nThe 'Feeding Our Future' scheme operated between 2020 and 2022, exploiting a federal program designed to provide meals to low-income children during the pandemic. Fraudsters created fake nonprofit organizations, submitted falsified meal claims, and laundered proceeds through shell companies and real estate purchases. More than 60 individuals have been charged so far, including the recently captured fugitive, who fled the U.S. shortly after the first indictments were unsealed in 2022.\n\nAuthorities tracked the suspect to Somalia following a lengthy international manhunt. U.S. officials praised Somali cooperation, highlighting the strengthening of counter-crime collaboration between the two nations. The suspect is expected to be extradited to the United States to face charges of conspiracy, wire fraud, and money laundering. Federal prosecutors have indicated that additional arrests may be forthcoming as the investigation continues.\n\nThe capture sends a strong message that those who defraud taxpayer-funded programs will face justice, regardless of where they attempt to hide. Meanwhile, the FBI and IRS Criminal Investigation remain committed to recovering stolen assets and holding all participants accountable.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-30T08:26:34.000Z",
+    "category": "Regional",
+    "published_at": "2026-06-29T22:45:27.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "15 Puntland Maritime Police Force officers participated in the 5th Maritime Domain Awareness Seminar of the year.",
-      "The seminar was organized by the EEAS with EU support, focusing on maritime security.",
-      "The training aimed to enhance skills in monitoring and responding to maritime threats.",
-      "It is part of ongoing efforts to stabilize the region and combat piracy and illegal fishing.",
-      "Puntland remains a key partner in regional maritime security initiatives."
+      "The fugitive, wanted for his role in the Feeding Our Future fraud, was captured in Somalia.",
+      "The case involves the theft of over $200 million in federal child nutrition funds.",
+      "The suspect fled the U.S. after being charged, leading to a multi-agency international manhunt.",
+      "His capture was a joint operation involving Somali authorities and U.S. law enforcement.",
+      "The investigation has resulted in dozens of indictments, exposing widespread fraud."
     ]
   },
   {
     "id": "real-news-4",
-    "title": "Feeding Our Future suspect arrested in Somalia, how it happened - kare11.com",
-    "slug": "feeding-our-future-suspect-arrested-in-somalia-how-it-happened-kare11-com",
-    "summary": "A key suspect in the Feeding Our Future fraud scheme, accused of embezzling $250 million, has been arrested in Somalia after an international manhunt led by U.S. and Somali authorities.",
-    "content": "A major suspect in the Feeding Our Future fraud scheme, one of the largest pandemic-related fraud cases in U.S. history, has been arrested in Mogadishu, Somalia, after a months-long international manhunt. The individual, whose name has not been officially released pending extradition proceedings, is accused of orchestrating a scheme that defrauded the U.S. federal child nutrition program of over $250 million between 2020 and 2022.\n\nThe arrest was the result of close collaboration between the Federal Bureau of Investigation (FBI), Interpol, and Somali security forces. According to a statement from the Somali Police Force, the suspect was apprehended at a hotel in the capital city of Mogadishu without incident. The suspect had been living in Somalia under a false identity, and authorities were tipped off after tracking financial transactions linked to the scheme.\n\nFeeding Our Future was a nonprofit organization that received federal funds to provide meals to low-income children during the COVID-19 pandemic. Investigations revealed that the organization’s leaders and associates fabricated records, inflated meal counts, and opened fake food distribution sites to siphon millions of dollars. The suspect played a central role in these activities, prosecutors say, including wire transfers to accounts in several countries.\n\nThe arrest marks a significant breakthrough in the case, which has already seen convictions of several lesser figures. The U.S. Department of Justice has filed charges including wire fraud, money laundering, and conspiracy, which carry a maximum sentence of life in prison. Extradition proceedings are expected to begin this week, though the process could take months given the lack of a bilateral extradition treaty between the U.S. and Somalia. However, ad hoc arrangements based on mutual legal assistance are possible.\n\nLocal officials in Somalia have cooperated fully, viewing the operation as a step toward strengthening rule-of-law ties with the U.S. The suspect is being held at a secure facility in Mogadishu while awaiting transfer to U.S. custody. This arrest sends a strong message that those who defraud public programs will face justice, no matter where they try to hide.",
+    "title": "Somalia election crisis: International partners launch final bid for government-opposition talks - Somali Guardian",
+    "slug": "somalia-election-crisis-international-partners-launch-final-bid-for-government-opposition-talks-somali-guardian",
+    "summary": "International partners push for last-ditch talks between Somalia's government and opposition to resolve a deepening election stalemate.",
+    "content": "International partners, including the United Nations, African Union, and key bilateral donors, have launched a concerted final bid to broker talks between Somalia's federal government and opposition leaders to resolve the protracted election crisis. The initiative comes amid mounting concerns that the political deadlock could undermine security gains and derail the country's fragile democratic transition. \n\nAt the heart of the dispute are disagreements over the electoral model and timeline. The government, led by President Mohamed Abdullahi Mohamed, has proposed a plan based on indirect elections with clan-based delegates, while opposition figures demand a direct universal suffrage system. Delays in reaching a consensus have already pushed back the electoral timeline, with fears that the crisis could trigger renewed instability. \n\nNegotiations are focusing on key sticking points, including the composition of election management bodies, voter registration procedures, and the role of regional state leaders. Opposition parties have threatened to boycott the process unless their demands are met, raising the specter of a parallel legitimacy crisis. International mediators are urging both sides to prioritize national unity and avoid actions that could fracture the country along political and clan lines. \n\nA successful outcome would likely produce a compromise electoral roadmap that balances technical feasibility with political inclusion. However, any agreement remains fragile, as past attempts have faltered amid mutual mistrust. The next few days are critical: if talks collapse, Somalia could face a vacuum of power, potentially emboldening insurgent groups like Al-Shabaab and straining relations with international donors who are crucial for budget support and development aid.",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Society",
-    "published_at": "2026-06-30T00:03:00.000Z",
+    "category": "Politics",
+    "published_at": "2026-06-30T09:43:51.000Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "The suspect is wanted for defrauding the U.S. federal child nutrition program Feeding Our Future of $250 million.",
-      "The arrest was made in Mogadishu, Somalia, following coordination between the FBI, Interpol, and Somali police.",
-      "The suspect faces charges including wire fraud, money laundering, and conspiracy, with potential life imprisonment."
+      "International partners are mediating final negotiations between Somalia's government and opposition leaders.",
+      "The election crisis stems from disputes over the electoral model and timeline.",
+      "Talks aim to prevent further political instability and security risks.",
+      "Key sticking points include the composition of election committees and voting procedures.",
+      "A successful outcome could lead to a consensus-based electoral roadmap."
     ]
   }
 ];
