@@ -18,44 +18,45 @@ export interface Article {
 
 export const newsArticles: Article[] = [
   {
-    "id": "real-news-2",
-    "title": "Feeding Our Future suspect arrested in Somalia, how it happened - kare11.com",
-    "slug": "feeding-our-future-suspect-arrested-in-somalia-how-it-happened-kare11-com",
-    "summary": "A suspect in the Feeding Our Future fraud case was arrested in Somalia, marking a significant development in the investigation into one of the largest pandemic fraud schemes in U.S. history.",
-    "content": "A suspect in the Feeding Our Future fraud case was arrested in Somalia, authorities announced on Wednesday. The arrest is the result of a joint operation between U.S. federal agents and Somali police, highlighting the international reach of the investigation into one of the largest pandemic-related fraud schemes in American history.\n\nThe suspect, whose name has not been released pending charges, is accused of playing a key role in the fraudulent scheme that siphoned millions of dollars from federal child nutrition programs. The Feeding Our Future case involves diverse defendants and has seen charges against dozens of individuals for allegedly creating shell companies and falsifying meal counts to steal money meant to feed low-income children during the COVID-19 pandemic.\n\nThe arrest in Somalia represents a major breakthrough for investigators, who have been working to track down suspects who fled the United States. The suspect is expected to be extradited to the U.S. to face charges. The case has drawn national attention due to the brazen nature of the fraud, with prosecutors alleging that the conspirators used stolen funds to buy luxury cars, real estate, and other high-end items.",
+    "id": "real-news-0",
+    "title": "Coming Home from Al-Shabaab: What Determines Whether Communities Forgive in Somalia - Peace News Network",
+    "slug": "coming-home-from-al-shabaab-what-determines-whether-communities-forgive-in-somalia-peace-news-network",
+    "summary": "Community forgiveness in Somalia for former Al-Shabaab members hinges on individual involvement in violence, clan ties, and reintegration programs.",
+    "content": "In Somalia, the return of former Al-Shabaab members to their communities is a complex and fragile process, shaped by the nature of their involvement in the militant group, clan dynamics, and existing reintegration programs. A recent report from Peace News Network explores the determinants of forgiveness, revealing that communities are far more likely to accept low-level fighters and civilians who were coerced or forced to join than high-ranking commanders or those directly responsible for violence and atrocities. The path to forgiveness is neither uniform nor guaranteed, and many returnees face ostracism, suspicion, and even violence.\n\nClan affiliations provide a critical safety net for some former members. Those with strong clan backing often find it easier to reintegrate, as clan elders and leaders can negotiate acceptance and provide social and economic support. In contrast, returnees without such protection are left vulnerable to community hostility, unemployment, and isolation. The report underscores that clan loyalty can override grievances, but it can also entrench divisions if the returnee’s clan is perceived as complicit in violence.\n\nGovernment-sponsored rehabilitation programs have attempted to facilitate reintegration, but their effectiveness is limited. Many programs focus on ideological deradicalization and vocational training, yet they often lack community engagement and fail to address the deep-seated trauma and mistrust within local populations. Experts argue that forgiveness requires public acknowledgment of harm, apologies, and restorative justice practices. Without these, returnees may remain stigmatized, and communities may resist any form of reconciliation.\n\nGender dynamics further complicate forgiveness. Women and girls who were abducted or forced into marriage with Al-Shabaab fighters often face extreme stigmatization upon return. They are frequently blamed for their association with the group and struggle to remarry or find acceptance. The report calls for tailored support for these female returnees, including mental health services and economic opportunities. Ultimately, sustainable peace in Somalia depends on nuanced, community-centered approaches that balance accountability with the possibility of redemption.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Security",
-    "published_at": "2026-06-30T00:03:00.000Z",
+    "published_at": "2026-06-30T04:00:00.000Z",
     "update_batch": "morning",
-    "image_url": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
-    "featured": false,
+    "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
+    "featured": true,
     "ai_summary_points": [
-      "A suspect in the Feeding Our Future fraud case was arrested in Somalia.",
-      "The arrest was a result of collaboration between U.S. and Somali authorities.",
-      "The suspect faces charges related to stealing millions meant for child nutrition programs.",
-      "This development marks a breakthrough in the massive pandemic fraud investigation."
+      "Forgiveness is conditional, with civilians and low-level fighters more likely to be accepted than senior commanders involved in atrocities.",
+      "Clan affiliations play a crucial role; returnees with strong clan protection face fewer social barriers.",
+      "Government-led rehabilitation programs have had mixed success, often lacking community involvement.",
+      "Female returnees, especially those married to fighters, face stigmatization and limited forgiveness.",
+      "Economic reintegration and public acknowledgment of harm are key to rebuilding trust."
     ]
   },
   {
-    "id": "real-news-3",
-    "title": "Somalia: demining and risk education - The HALO Trust",
-    "slug": "somalia-demining-and-risk-education-the-halo-trust",
-    "summary": "The HALO Trust intensifies demining and risk education efforts in Somalia to protect communities from explosive hazards left by decades of conflict.",
-    "content": "The HALO Trust, a leading humanitarian organization specializing in mine clearance, has ramped up its demining and risk education operations in Somalia. The country remains one of the most mine-contaminated in the world due to decades of civil war and conflict, with explosives scattered across rural and urban areas. These hazards pose a constant threat to civilians, particularly in regions like Lower Shabelle, Galmudug, and Jubaland.\n\nHALO's demining teams are systematically clearing landmines and unexploded ordnance (UXO) from roads, farms, and villages. Using manual techniques and specialized equipment, they have safely destroyed thousands of devices. Concurrently, risk education programs are being delivered to local communities, including children, farmers, and pastoralists. These sessions teach residents how to recognize warning signs, avoid suspicious items, and report findings to authorities.\n\nThe impact of contamination is severe, with hundreds of casualties recorded annually. Many victims are displaced populations returning home or people trying to resume livelihoods. Beyond the human toll, mines block access to arable land, water sources, and infrastructure, impeding economic recovery and development. HALO's work is critical for enabling safe movement and reconstruction efforts.\n\nInternational partners, including the UN and donor governments, support these initiatives as part of broader stabilization measures. The goal is not only to clear land but also to build local capacity for sustainable mine action. As Somali security forces take on more responsibility, partnerships like this are vital for ensuring a safer future. With continued funding and community cooperation, HALO aims to significantly reduce the threat, allowing families to return home without fear.",
+    "id": "real-news-1",
+    "title": "Somali minister: Zero-tariff access to China's 1.4 billion consumers is 'a big deal' - news.cgtn.com",
+    "slug": "somali-minister-zero-tariff-access-to-china-s-1-4-billion-consumers-is-a-big-deal-news-cgtn-com",
+    "summary": "Somali minister hails zero-tariff access to China's 1.4 billion consumers as a transformative opportunity for Somalia's economy and trade relations.",
+    "content": "Somalia's Minister of Commerce and Industry has hailed the country's new zero-tariff access to China's market as a 'big deal' that could transform its struggling economy. Under a preferential trade agreement, Somali exports to China will now enter duty-free, opening up a consumer base of 1.4 billion people. The minister described the move as a 'game-changer' for Somali businesses, particularly in the agricultural and livestock sectors, which form the backbone of the nation's economy.\n\nThe zero-tariff agreement is part of China's broader initiative to support least developed countries (LDCs) by reducing trade barriers. Somalia, one of the poorest nations in the world, has long relied on aid and remittances. However, this trade deal could help diversify its economy and reduce dependence on imports. The minister emphasized that the tariff-free access would encourage local production and processing, creating jobs and boosting incomes for farmers and fishermen.\n\n'This is a big deal for us,' the minister said in an interview. 'We have been exporting small amounts of goods, but now with zero tariffs, we can compete on a level playing field. Our livestock, fish, and agricultural products can now reach Chinese consumers at lower prices.' He added that the government is working to improve quality standards and logistics to meet Chinese demand.\n\nEconomic analysts predict that the agreement could significantly increase Somali exports, currently valued at around $500 million annually, with China accounting for only a small fraction. The deal is also expected to attract Chinese investment in Somali infrastructure and processing facilities. However, challenges remain, including political instability, port inefficiencies, and compliance with Chinese sanitary and phytosanitary standards. The minister acknowledged these hurdles but expressed optimism, stating that 'the potential is enormous.'",
     "source": "Regional Feeds",
     "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-29T14:52:57.000Z",
+    "category": "Economy",
+    "published_at": "2026-06-30T09:01:10.000Z",
     "update_batch": "morning",
-    "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
+    "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "The HALO Trust is conducting demining operations across multiple regions in Somalia.",
-      "Risk education programs are being implemented to teach communities how to identify and avoid explosive devices.",
-      "Decades of war have left Somalia heavily contaminated with landmines and unexploded ordnance.",
-      "The efforts aim to reduce casualties and enable safe access to land and resources.",
-      "The initiative supports long-term recovery and stability in affected areas."
+      "Somali minister calls zero-tariff access to China's market a 'big deal' for Somalia's economy.",
+      "The agreement allows Somali products duty-free entry into China, benefiting 1.4 billion consumers.",
+      "Somalia aims to boost exports of livestock, fish, and agricultural goods under the new tariff regime.",
+      "The deal is part of China's broader initiative to support least developed countries through preferential trade policies.",
+      "Analysts say this could significantly increase Somali exports and reduce trade imbalances."
     ]
   }
 ];
