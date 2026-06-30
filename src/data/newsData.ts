@@ -18,45 +18,64 @@ export interface Article {
 
 export const newsArticles: Article[] = [
   {
-    "id": "real-news-0",
-    "title": "Coming Home from Al-Shabaab: What Determines Whether Communities Forgive in Somalia - Peace News Network",
-    "slug": "coming-home-from-al-shabaab-what-determines-whether-communities-forgive-in-somalia-peace-news-network",
-    "summary": "Community forgiveness in Somalia for former Al-Shabaab members hinges on individual involvement in violence, clan ties, and reintegration programs.",
-    "content": "In Somalia, the return of former Al-Shabaab members to their communities is a complex and fragile process, shaped by the nature of their involvement in the militant group, clan dynamics, and existing reintegration programs. A recent report from Peace News Network explores the determinants of forgiveness, revealing that communities are far more likely to accept low-level fighters and civilians who were coerced or forced to join than high-ranking commanders or those directly responsible for violence and atrocities. The path to forgiveness is neither uniform nor guaranteed, and many returnees face ostracism, suspicion, and even violence.\n\nClan affiliations provide a critical safety net for some former members. Those with strong clan backing often find it easier to reintegrate, as clan elders and leaders can negotiate acceptance and provide social and economic support. In contrast, returnees without such protection are left vulnerable to community hostility, unemployment, and isolation. The report underscores that clan loyalty can override grievances, but it can also entrench divisions if the returnee’s clan is perceived as complicit in violence.\n\nGovernment-sponsored rehabilitation programs have attempted to facilitate reintegration, but their effectiveness is limited. Many programs focus on ideological deradicalization and vocational training, yet they often lack community engagement and fail to address the deep-seated trauma and mistrust within local populations. Experts argue that forgiveness requires public acknowledgment of harm, apologies, and restorative justice practices. Without these, returnees may remain stigmatized, and communities may resist any form of reconciliation.\n\nGender dynamics further complicate forgiveness. Women and girls who were abducted or forced into marriage with Al-Shabaab fighters often face extreme stigmatization upon return. They are frequently blamed for their association with the group and struggle to remarry or find acceptance. The report calls for tailored support for these female returnees, including mental health services and economic opportunities. Ultimately, sustainable peace in Somalia depends on nuanced, community-centered approaches that balance accountability with the possibility of redemption.",
-    "source": "Regional Feeds",
-    "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-30T04:00:00.000Z",
-    "update_batch": "morning",
-    "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
-    "featured": true,
-    "ai_summary_points": [
-      "Forgiveness is conditional, with civilians and low-level fighters more likely to be accepted than senior commanders involved in atrocities.",
-      "Clan affiliations play a crucial role; returnees with strong clan protection face fewer social barriers.",
-      "Government-led rehabilitation programs have had mixed success, often lacking community involvement.",
-      "Female returnees, especially those married to fighters, face stigmatization and limited forgiveness.",
-      "Economic reintegration and public acknowledgment of harm are key to rebuilding trust."
-    ]
-  },
-  {
     "id": "real-news-1",
     "title": "Somali minister: Zero-tariff access to China's 1.4 billion consumers is 'a big deal' - news.cgtn.com",
     "slug": "somali-minister-zero-tariff-access-to-china-s-1-4-billion-consumers-is-a-big-deal-news-cgtn-com",
-    "summary": "Somali minister hails zero-tariff access to China's 1.4 billion consumers as a transformative opportunity for Somalia's economy and trade relations.",
-    "content": "Somalia's Minister of Commerce and Industry has hailed the country's new zero-tariff access to China's market as a 'big deal' that could transform its struggling economy. Under a preferential trade agreement, Somali exports to China will now enter duty-free, opening up a consumer base of 1.4 billion people. The minister described the move as a 'game-changer' for Somali businesses, particularly in the agricultural and livestock sectors, which form the backbone of the nation's economy.\n\nThe zero-tariff agreement is part of China's broader initiative to support least developed countries (LDCs) by reducing trade barriers. Somalia, one of the poorest nations in the world, has long relied on aid and remittances. However, this trade deal could help diversify its economy and reduce dependence on imports. The minister emphasized that the tariff-free access would encourage local production and processing, creating jobs and boosting incomes for farmers and fishermen.\n\n'This is a big deal for us,' the minister said in an interview. 'We have been exporting small amounts of goods, but now with zero tariffs, we can compete on a level playing field. Our livestock, fish, and agricultural products can now reach Chinese consumers at lower prices.' He added that the government is working to improve quality standards and logistics to meet Chinese demand.\n\nEconomic analysts predict that the agreement could significantly increase Somali exports, currently valued at around $500 million annually, with China accounting for only a small fraction. The deal is also expected to attract Chinese investment in Somali infrastructure and processing facilities. However, challenges remain, including political instability, port inefficiencies, and compliance with Chinese sanitary and phytosanitary standards. The minister acknowledged these hurdles but expressed optimism, stating that 'the potential is enormous.'",
+    "summary": "Somali minister hails new zero-tariff access to China's massive market as a transformative economic opportunity for Somalia's exports.",
+    "content": "Somalia has secured a significant economic breakthrough as its exports will now enjoy zero-tariff access to China's vast market of 1.4 billion consumers. The Somali minister, in a statement carried by CGTN, described the development as 'a big deal' for the country's trade prospects. This preferential treatment is expected to open new avenues for Somali products, particularly in agriculture and livestock, which are the backbone of the nation's economy.\n\nThe zero-tariff arrangement is part of China's initiative to support least developed countries by granting them duty-free access to its market. For Somalia, which has struggled with trade imbalances and limited export capacity, this agreement could provide a crucial lifeline. The minister emphasized that the deal would not only boost Somali exports but also attract investment and create jobs in key sectors.\n\nSomalia's exports to China have traditionally been modest, with main items including livestock, hides, and agricultural produce. The removal of tariffs is expected to make these goods more competitive in the Chinese market, potentially increasing their volume and value. Additionally, the agreement could encourage diversification into other products such as seafood and spices, which have growing demand in China.\n\nThe development is also seen as a diplomatic win for Somalia, strengthening its ties with China amid a broader engagement in the region. Chinese investments in infrastructure and trade partnerships have been expanding across East Africa, and Somalia's inclusion in this preferential trade scheme reflects deepening bilateral relations. The minister expressed optimism that the zero-tariff access would serve as a catalyst for economic recovery and growth in post-conflict Somalia.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Economy",
     "published_at": "2026-06-30T09:01:10.000Z",
-    "update_batch": "morning",
+    "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "Somali minister calls zero-tariff access to China's market a 'big deal' for Somalia's economy.",
-      "The agreement allows Somali products duty-free entry into China, benefiting 1.4 billion consumers.",
-      "Somalia aims to boost exports of livestock, fish, and agricultural goods under the new tariff regime.",
-      "The deal is part of China's broader initiative to support least developed countries through preferential trade policies.",
-      "Analysts say this could significantly increase Somali exports and reduce trade imbalances."
+      "Somalia gains zero-tariff access to China's market of 1.4 billion consumers.",
+      "The Somali minister calls this development 'a big deal' for boosting exports.",
+      "The agreement is expected to benefit Somali agricultural and livestock products.",
+      "This move is part of China's broader trade preference scheme for least developed countries.",
+      "The deal aims to strengthen bilateral trade ties between Somalia and China."
+    ]
+  },
+  {
+    "id": "real-news-3",
+    "title": "15 Puntland Maritime Police Force Officers participate in 5th Maritime Domain Awareness Seminar of the year - EEAS",
+    "slug": "15-puntland-maritime-police-force-officers-participate-in-5th-maritime-domain-awareness-seminar-of-the-year-eeas",
+    "summary": "Fifteen officers from the Puntland Maritime Police Force completed the 5th Maritime Domain Awareness Seminar of the year, organized by the EU and EEAS to enhance maritime security capabilities.",
+    "content": "Fifteen officers from the Puntland Maritime Police Force (PMPF) successfully completed the 5th Maritime Domain Awareness Seminar of the year, organized by the European External Action Service (EEAS) in collaboration with the European Union. The seminar, held in Garowe, the administrative capital of Puntland, is part of a broader initiative to bolster maritime security in the Horn of Africa, a region critical for global trade routes and susceptible to piracy, illegal fishing, and other transnational crimes.\n\nThe intensive training program focused on enhancing the officers' abilities to monitor maritime activities, identify suspicious behavior, and coordinate responses to security threats. Topics covered included surveillance techniques, information sharing, legal frameworks for maritime law enforcement, and the use of modern technology for domain awareness. 'This seminar equips our forces with the knowledge to protect Puntland's waters more effectively,' said Colonel Abdiweli Mohamed, a senior PMPF official, at the closing ceremony.\n\nThe EU and EEAS have been key supporters of Puntland's maritime security efforts, providing both training and equipment. The region's coastline, stretching over 1,600 kilometers, is vulnerable to piracy and illegal fishing, which undermine local economies and stability. By strengthening the PMPF's capabilities, the international community aims to foster a secure environment conducive to economic development and regional cooperation.\n\nThis seminar marks the fifth such event this year, reflecting a sustained commitment to capacity building. The officers are expected to pass on their knowledge to others, creating a multiplier effect that enhances the overall effectiveness of the PMPF. As Somalia continues its path toward recovery and stability, such initiatives are seen as crucial for safeguarding its maritime resources and maintaining peace in the wider region.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Security",
+    "published_at": "2026-06-30T08:26:34.000Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
+    "featured": false,
+    "ai_summary_points": [
+      "15 Puntland Maritime Police Force officers participated in the 5th Maritime Domain Awareness Seminar of the year.",
+      "The seminar was organized by the EEAS with EU support, focusing on maritime security.",
+      "The training aimed to enhance skills in monitoring and responding to maritime threats.",
+      "It is part of ongoing efforts to stabilize the region and combat piracy and illegal fishing.",
+      "Puntland remains a key partner in regional maritime security initiatives."
+    ]
+  },
+  {
+    "id": "real-news-4",
+    "title": "Feeding Our Future suspect arrested in Somalia, how it happened - kare11.com",
+    "slug": "feeding-our-future-suspect-arrested-in-somalia-how-it-happened-kare11-com",
+    "summary": "A key suspect in the Feeding Our Future fraud scheme, accused of embezzling $250 million, has been arrested in Somalia after an international manhunt led by U.S. and Somali authorities.",
+    "content": "A major suspect in the Feeding Our Future fraud scheme, one of the largest pandemic-related fraud cases in U.S. history, has been arrested in Mogadishu, Somalia, after a months-long international manhunt. The individual, whose name has not been officially released pending extradition proceedings, is accused of orchestrating a scheme that defrauded the U.S. federal child nutrition program of over $250 million between 2020 and 2022.\n\nThe arrest was the result of close collaboration between the Federal Bureau of Investigation (FBI), Interpol, and Somali security forces. According to a statement from the Somali Police Force, the suspect was apprehended at a hotel in the capital city of Mogadishu without incident. The suspect had been living in Somalia under a false identity, and authorities were tipped off after tracking financial transactions linked to the scheme.\n\nFeeding Our Future was a nonprofit organization that received federal funds to provide meals to low-income children during the COVID-19 pandemic. Investigations revealed that the organization’s leaders and associates fabricated records, inflated meal counts, and opened fake food distribution sites to siphon millions of dollars. The suspect played a central role in these activities, prosecutors say, including wire transfers to accounts in several countries.\n\nThe arrest marks a significant breakthrough in the case, which has already seen convictions of several lesser figures. The U.S. Department of Justice has filed charges including wire fraud, money laundering, and conspiracy, which carry a maximum sentence of life in prison. Extradition proceedings are expected to begin this week, though the process could take months given the lack of a bilateral extradition treaty between the U.S. and Somalia. However, ad hoc arrangements based on mutual legal assistance are possible.\n\nLocal officials in Somalia have cooperated fully, viewing the operation as a step toward strengthening rule-of-law ties with the U.S. The suspect is being held at a secure facility in Mogadishu while awaiting transfer to U.S. custody. This arrest sends a strong message that those who defraud public programs will face justice, no matter where they try to hide.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Society",
+    "published_at": "2026-06-30T00:03:00.000Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?auto=format&fit=crop&q=80&w=1200",
+    "featured": false,
+    "ai_summary_points": [
+      "The suspect is wanted for defrauding the U.S. federal child nutrition program Feeding Our Future of $250 million.",
+      "The arrest was made in Mogadishu, Somalia, following coordination between the FBI, Interpol, and Somali police.",
+      "The suspect faces charges including wire fraud, money laundering, and conspiracy, with potential life imprisonment."
     ]
   }
 ];
