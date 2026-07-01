@@ -224,24 +224,6 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
         </div>
       </section>
 
-      {/* 3. HERO IMAGE */}
-      <section style={{ marginBottom: 'var(--space-xl)' }}>
-        <div className="container" style={{ maxWidth: '900px' }}>
-          <div style={{
-            borderRadius: 'var(--radius-lg)',
-            overflow: 'hidden',
-            aspectRatio: '21/9',
-            border: '1px solid var(--border-color)',
-            boxShadow: 'var(--shadow-sm)'
-          }}>
-            <img 
-              src={article.image_url} 
-              alt={article.title} 
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-            />
-          </div>
-        </div>
-      </section>
 
       {/* 4. CONTENT & SIDEBAR */}
       <section style={{ paddingBottom: 'var(--space-2xl)' }}>

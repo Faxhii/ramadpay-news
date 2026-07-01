@@ -1,101 +1,138 @@
 import 'dotenv/config';
-import Parser from 'rss-parser';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { generateObject } from 'ai';
+import { createDeepSeek } from '@ai-sdk/deepseek';
+import { z } from 'zod';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const parser = new Parser();
 const API_KEY = process.env.DEEPSEEK_API_KEY;
+const FIRECRAWL_API_KEY = process.env.FIRECRAWL_API_KEY;
 
-const fallbackImages = [
-  "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?auto=format&fit=crop&q=80&w=1200"
-];
+// Setup DeepSeek provider
+const deepseek = createDeepSeek({
+  apiKey: API_KEY,
+});
 
 async function run() {
-  if (!API_KEY) {
-    console.error('Missing DEEPSEEK_API_KEY. Make sure it is in the .env file.');
+  if (!API_KEY || !FIRECRAWL_API_KEY) {
+    console.error('Missing API keys in .env');
     return;
   }
 
-  console.log('Fetching Somalia RSS feed...');
-  // Fetch latest news specifically about Somalia
-  const feed = await parser.parseURL('https://news.google.com/rss/search?q=Somalia+when:1d&hl=en-US&gl=US&ceid=US:en');
+  const app = new FirecrawlApp({ apiKey: FIRECRAWL_API_KEY });
+  console.log('Searching for Somali political news across multiple queries...');
+
+  const queries = [
+    "Somalia politics breaking news",
+    "Somaliland elections and politics",
+    "Puntland security and politics"
+  ];
+
+  // 1. Concurrent multi-query search
+  const searchPromises = queries.map(q => app.search(q, { limit: 10 }).catch(e => {
+    console.error(`Search failed for '${q}':`, e.message);
+    return null;
+  }));
   
-  // take top 5 articles
-  const items = feed.items.slice(0, 5);
-  const finalArticles = [];
-
-  for (let i = 0; i < items.length; i++) {
-    const item = items[i];
-    console.log(`Processing article ${i+1}/${items.length}: ${item.title}`);
-    
-    const rawText = `${item.title}. ${item.contentSnippet || item.content || ''}`;
-    
-    // Call DeepSeek
-    try {
-      const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${API_KEY}`
-        },
-        body: JSON.stringify({
-          model: 'deepseek-chat',
-          messages: [
-            { 
-              role: 'system', 
-              content: 'You are an expert editorial editor for East African news. Given this short news summary about Somalia, generate a valid JSON object with: "summary" (1 sentence editorial dek), "ai_summary_points" (array of exactly 3-5 string bullets of key facts), "category" (one of: Politics, Economy, Security, Society, Regional), and "full_article" (a detailed, multi-paragraph editorial news story expanding on the facts with professional journalism style, at least 3-4 paragraphs long, separated by \\n\\n). CRITICAL: Ensure you output perfectly valid JSON. Escape all inner double quotes (\\") and avoid unescaped newlines inside strings. NEVER include markdown formatting around your JSON response.' 
-            },
-            { role: 'user', content: rawText }
-          ],
-          response_format: { type: 'json_object' }
-        })
-      });
-
-      if (!response.ok) {
-        console.error('DeepSeek Error:', response.status, await response.text());
-        continue;
+  const searchResultsArray = await Promise.all(searchPromises);
+  
+  // 2. Pool and deduplicate URLs
+  const uniqueUrls = new Set();
+  const pooledItems = [];
+  
+  for (const results of searchResultsArray) {
+    if (!results) continue;
+    const items = results.web ? results.web : results.data;
+    for (const item of items) {
+      if (!uniqueUrls.has(item.url)) {
+        uniqueUrls.add(item.url);
+        pooledItems.push(item);
       }
-
-      const data = await response.json();
-      let rawJson = data.choices[0].message.content;
-      
-      // Strip markdown code blocks if the model mistakenly included them
-      rawJson = rawJson.replace(/```json/g, '').replace(/```/g, '').trim();
-      
-      const content = JSON.parse(rawJson);
-
-      finalArticles.push({
-        id: `real-news-${i}`,
-        title: item.title,
-        slug: item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
-        summary: content.summary || item.contentSnippet,
-        content: content.full_article || `**${item.title}**\n\n${item.contentSnippet || ''}`,
-        source: 'Regional Feeds',
-        country: 'Regional',
-        category: content.category || 'Regional',
-        published_at: item.isoDate || new Date().toISOString(),
-        update_batch: new Date().getHours() < 12 ? 'morning' : 'afternoon',
-        image_url: fallbackImages[i % fallbackImages.length],
-        featured: i === 0,
-        ai_summary_points: content.ai_summary_points || [item.title]
-      });
-      
-    } catch (err) {
-      console.error(`Failed to process article ${i+1}:`, err.message);
     }
   }
 
-  console.log(`Successfully generated ${finalArticles.length} articles.`);
+  console.log(`Found ${pooledItems.length} unique articles from search.`);
+
+  // Take up to 15 to process
+  const targetItems = pooledItems.slice(0, 15);
+  const finalArticles = [];
+
+  // 3. Concurrent Scrape + DeepSeek processing
+  const processPromises = targetItems.map(async (item, i) => {
+    try {
+      console.log(`[${i+1}] Scraping: ${item.url}`);
+      
+      let fullText = item.description || "";
+      try {
+        const scrapeResult = await app.scrapeUrl(item.url, { formats: ['markdown'] });
+        if (scrapeResult && scrapeResult.markdown) {
+          fullText = scrapeResult.markdown.substring(0, 3000);
+        }
+      } catch (e) {
+        console.log(`[${i+1}] Scrape failed, falling back to summary. (${e.message})`);
+      }
+
+      const rawText = `Title: ${item.title}\nSource: ${item.url}\nContent: ${fullText}`;
+
+      console.log(`[${i+1}] Generating strict JSON with DeepSeek...`);
+      
+      const { object } = await generateObject({
+        model: deepseek('deepseek-chat'),
+        system: 'You are an expert editorial editor for East African news. Given this scraped web text about Somali politics, output structured data according to the schema.',
+        prompt: rawText,
+        schema: z.object({
+          summary: z.string().describe('A 1 sentence editorial dek'),
+          ai_summary_points: z.array(z.string()).length(4).describe('Exactly 4 string bullets of key facts'),
+          category: z.enum(['Politics', 'Economy', 'Security', 'Society', 'Regional']),
+          full_article: z.string().describe('A detailed, multi-paragraph editorial news story expanding on the facts with professional journalism style, at least 3-4 paragraphs long, separated by two newlines.')
+        })
+      });
+
+      console.log(`[${i+1}] Success!`);
+      
+      return {
+        id: `real-news-${i}-${Date.now()}`,
+        title: item.title,
+        slug: item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+        summary: object.summary,
+        content: object.full_article,
+        source: new URL(item.url).hostname,
+        country: 'Somalia', // Simplified for now
+        category: object.category,
+        published_at: new Date().toISOString(),
+        update_batch: new Date().getHours() < 12 ? 'morning' : 'afternoon',
+        featured: false, // Set later
+        ai_summary_points: object.ai_summary_points
+      };
+
+    } catch (err) {
+      console.error(`[${i+1}] Failed to process:`, err.message);
+      return null;
+    }
+  });
+
+  const results = await Promise.allSettled(processPromises);
   
-  const output = `// Auto-generated by fetchNews.js\n\nexport interface Article {\n  id: string;\n  title: string;\n  slug: string;\n  summary: string;\n  content: string;\n  source: string;\n  country: string;\n  category: string;\n  published_at: string;\n  update_batch: 'morning' | 'afternoon';\n  image_url: string;\n  featured: boolean;\n  ai_summary_points: string[];\n}\n\nexport const newsArticles: Article[] = ${JSON.stringify(finalArticles, null, 2)};\n`;
+  for (const res of results) {
+    if (res.status === 'fulfilled' && res.value) {
+      finalArticles.push(res.value);
+    }
+  }
+
+  // Cap at 10 and set featured
+  const limitedArticles = finalArticles.slice(0, 10);
+  if (limitedArticles.length > 0) {
+    limitedArticles[0].featured = true;
+  }
+
+  console.log(`Successfully generated ${limitedArticles.length} perfect articles.`);
+  
+  const output = `// Auto-generated by fetchNews.js (Firecrawl + DeepSeek + Zod)\n\nexport interface Article {\n  id: string;\n  title: string;\n  slug: string;\n  summary: string;\n  content: string;\n  source: string;\n  country: string;\n  category: string;\n  published_at: string;\n  update_batch: 'morning' | 'afternoon';\n  featured: boolean;\n  ai_summary_points: string[];\n}\n\nexport const newsArticles: Article[] = ${JSON.stringify(limitedArticles, null, 2)};\n`;
 
   const outPath = path.join(__dirname, '../src/data/newsData.ts');
   fs.mkdirSync(path.dirname(outPath), { recursive: true });

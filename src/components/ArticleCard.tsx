@@ -24,18 +24,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick }) =>
         alignItems: 'center'
       }}
     >
-      <div style={{ 
-        width: '45%', 
-        flexShrink: 0, 
-        borderRadius: 'var(--radius-lg)', 
-        overflow: 'hidden'
-      }}>
-        <img 
-          src={article.image_url} 
-          alt={article.title} 
-          style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '4/3' }} 
-        />
-      </div>
+
       
       <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)' }}>
         <div style={{ display: 'flex', gap: 'var(--space-sm)', alignItems: 'center' }}>
@@ -64,12 +53,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick }) =>
         .minimal-horizontal-card:hover h3 {
           color: var(--color-accent);
         }
-        .minimal-horizontal-card img {
-          transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        .minimal-horizontal-card:hover img {
-          transform: scale(1.04);
-        }
+
         @media (max-width: 768px) {
           .minimal-horizontal-card {
             flex-direction: column !important;
@@ -78,9 +62,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick }) =>
             padding-bottom: var(--space-lg);
             border-bottom: 1px solid var(--border-light);
           }
-          .minimal-horizontal-card > div:first-child {
-            width: 100% !important;
-          }
+
           .minimal-horizontal-card h3 {
             font-size: 1.4rem !important;
           }

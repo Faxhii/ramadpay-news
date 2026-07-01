@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ai-sdk/deepseek": "^3.0.2",
+    "@mendable/firecrawl-js": "^4.29.0",
+    "ai": "^7.0.9",
     "dotenv": "^17.4.2",
     "lucide-react": "^1.21.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@types/node": "^24.13.2",

@@ -29,6 +29,7 @@ jobs:
       - name: Run News Fetcher
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: node scripts/fetchNews.js
 
       - name: Commit and Push Changes
