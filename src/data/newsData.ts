@@ -18,32 +18,11 @@ export interface Article {
 
 export const newsArticles: Article[] = [
   {
-    "id": "real-news-0",
-    "title": "New Chapter, Same Stalemate: Somalia’s War with Al-Shabaab - International Crisis Group",
-    "slug": "new-chapter-same-stalemate-somalia-s-war-with-al-shabaab-international-crisis-group",
-    "summary": "Despite a new U.S. policy and Somali government offensives, the war against al-Shabaab remains deadlocked as the militant group adapts and expands its influence.",
-    "content": "Despite a change in U.S. strategy and renewed Somali government offensives, the war against al-Shabaab in Somalia remains in a stalemate. The militant group, which has been fighting to overthrow the Somali government since 2006, has proven resilient, adapting to military pressure and expanding its reach beyond Somalia's borders. The International Crisis Group's latest report highlights that neither side can achieve a decisive victory, and the conflict is likely to continue for the foreseeable future.\n\nIn 2022, the Somali government, with support from local clan militias and the African Union Transition Mission in Somalia (ATMIS), launched a series of offensives that recaptured key towns in the Hirshabelle and Galmudug regions. However, the gains have been fragile. Al-Shabaab has often retaken territory shortly after government forces withdraw, exploiting weak governance and limited resources. The group has also shifted tactics, avoiding large-scale confrontations and instead using guerrilla attacks, including suicide bombings and ambushes, to erode government control.\n\nRegional spillover has become a growing concern. Al-Shabaab has significantly increased attacks inside Ethiopia, particularly in the Somali region, and has carried out cross-border raids into Kenya. This regionalization complicates efforts to contain the group, as neighboring countries focus on domestic security. The upcoming withdrawal of ATMIS troops by the end of 2024 adds further uncertainty, as Somali security forces are not yet capable of independently securing the country.\n\nPolitical divisions within the Somali government have also undermined the war effort. Disputes between the federal government and regional states over power-sharing and resource allocation have delayed the implementation of a unified security strategy. The Crisis Group recommends de-escalating political tensions and engaging in broad-based dialogue to address local grievances that al-Shabaab exploits. Without a political settlement, the military campaign is unlikely to break the stalemate, and Somalia will remain trapped in a cycle of violence.",
-    "source": "Regional Feeds",
-    "country": "Regional",
-    "category": "Security",
-    "published_at": "2026-06-30T13:20:12.000Z",
-    "update_batch": "morning",
-    "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=1200",
-    "featured": true,
-    "ai_summary_points": [
-      "The U.S. ended its largest military mission in Somalia, but al-Shabaab has not been weakened significantly.",
-      "Somali government forces, backed by local militias, launched offensives in 2022, recapturing some territory but failing to hold it.",
-      "Al-Shabaab has increased attacks in Ethiopia and Kenya, regionalizing the conflict.",
-      "Political infighting within the Somali government hampers a unified counterterrorism strategy.",
-      "The AU mission (ATMIS) is set to withdraw by 2024, leaving a security vacuum."
-    ]
-  },
-  {
     "id": "real-news-1",
     "title": "Somalia 2026 Humanitarian Funding Overview (As of 30 June 2026) - ReliefWeb",
     "slug": "somalia-2026-humanitarian-funding-overview-as-of-30-june-2026-reliefweb",
-    "summary": "As of 30 June 2026, Somalia's humanitarian funding requirements stand at $1.6 billion, but only 25% has been received, leaving millions in need of urgent aid amid drought and conflict.",
-    "content": "Somalia is facing a deepening humanitarian crisis as funding shortfalls threaten life-saving operations. The 2026 Humanitarian Response Plan (HRP), which requires $1.6 billion to assist 7.6 million people, has received only $400 million—a mere 25%—as of 30 June 2026. This gap leaves millions without access to food, clean water, healthcare, and protection services, exacerbating vulnerabilities in a country already battered by decades of conflict and climate shocks.\n\nThe HRP targets the most acute needs, including food security, nutrition, health, water and sanitation, and protection. However, with funding levels critically low, agencies have been forced to scale back operations. The food security sector alone faces a $450 million shortfall, affecting 4.4 million people who are experiencing Crisis (IPC Phase 3) or worse levels of acute food insecurity. Malnutrition rates among children under five are alarmingly high, with over 1.5 million children expected to suffer from acute malnutrition in 2026.\n\nCompounding these challenges, Somalia continues to grapple with armed conflict and displacement. Over 3.8 million people are internally displaced, many living in overcrowded camps with limited access to basic services. The ongoing conflict between government forces and Al-Shabaab has displaced thousands more in the first half of 2026. Meanwhile, climate shocks—including severe drought in the north and flash floods in the south—have destroyed crops and livestock, further straining coping mechanisms.\n\nHumanitarian organizations warn that without immediate and sustained funding, the situation could deteriorate rapidly. The UN Office for the Coordination of Humanitarian Affairs (OCHA) has appealed to donors to bridge the gap, emphasizing that every dollar invested now saves lives and reduces long-term costs. However, donor fatigue, global inflation, and competing crises elsewhere have slowed contributions. The 2026 HRP faces its worst funding level in five years, raising fears of a repeat of the 2011 famine that killed over 260,000 people. Urgent action is needed to avert catastrophe.",
+    "summary": "By mid-2026, Somalia's humanitarian funding has reached just 25% of the required $2.3 billion, leaving millions without essential aid amid drought and conflict.",
+    "content": "Somalia's humanitarian crisis is deepening as the 2026 funding overview reveals a severe shortfall. According to the latest data from ReliefWeb, as of 30 June 2026, only $575 million of the required $2.3 billion has been received—just 25% of the total needed to meet the country's escalating needs. This funding gap threatens to leave millions without critical assistance, exacerbating an already dire situation marked by climate shocks and instability.\n\nThe Humanitarian Response Plan (HRP) for 2026 targets 6.2 million of the 7.7 million people in need, focusing on food security, nutrition, health, protection, and water/sanitation. However, with funds dwindling, several programs have already scaled back or suspended operations. The most affected sectors include emergency food aid, where some distributions have been halved, and malnutrition treatment centers, which report a 40% reduction in capacity compared to 2025.\n\nBehind the numbers are real human consequences. In the Bay and Bakool regions, where drought has killed livestock and destroyed crops, families are skipping meals. In Mogadishu, displaced persons living in informal camps face inadequate access to clean water, heightening the risk of disease outbreaks. The funding crisis comes as Somalia also battles Al-Shabaab insurgency, which has displaced thousands more people this year alone.\n\nInternational donors have cited competing crises in Ukraine, Gaza, and Sudan as reasons for reduced contributions. However, humanitarian agencies warn that without urgent funding, the already fragile gains in famine prevention could be reversed. The UN and aid groups continue to appeal to the international community to close the gap before the situation spirals into catastrophe.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Humanitarian",
@@ -52,19 +31,19 @@ export const newsArticles: Article[] = [
     "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "The 2026 Somalia Humanitarian Response Plan requires $1.6 billion to assist 7.6 million people.",
-      "Only $400 million (25%) has been funded as of 30 June 2026.",
-      "Severe drought, conflict, and displacement continue to drive humanitarian needs.",
-      "Food insecurity and malnutrition rates remain critical, with 4.4 million people facing crisis levels.",
-      "Health, water, and protection sectors are severely underfunded."
+      "As of 30 June 2026, only $575 million of the $2.3 billion needed has been funded, a 25% shortfall.",
+      "The humanitarian crisis is driven by prolonged drought, flooding, and ongoing conflict affecting 7.7 million people.",
+      "Key sectors underfunded include food security, nutrition, and water/sanitation, with many programs facing suspension.",
+      "The Humanitarian Response Plan targets 6.2 million people with life-saving assistance in 2026.",
+      "Donor fatigue and global economic pressures are cited as major factors for the funding gap."
     ]
   },
   {
     "id": "real-news-2",
-    "title": "Somalia’s recurring crises are authored at home. Blaming the outside world is a comfort the country can no longer afford - hiiraan.com",
-    "slug": "somalia-s-recurring-crises-are-authored-at-home-blaming-the-outside-world-is-a-comfort-the-country-can-no-longer-afford-hiiraan-com",
-    "summary": "Somalia must stop blaming external factors and confront internal dysfunctions driving its cycles of crisis, including corruption, clan politics, and institutional failures.",
-    "content": "For decades, Somalia's narrative has been defined by external factors: colonial legacies, foreign interventions, and international neglect. Yet a growing chorus of analysts argues that the country's persistent crises are largely self-inflicted. \"Blaming the outside world has become a comfort Somalia can no longer afford,\" writes a prominent Mogadishu-based commentator. The editorial contends that internal failures—from entrenched corruption and clan-based nepotism to weak governance and unchecked militias—are the primary drivers of instability.\n\nThe editorial points to the government's inability to curb graft, which diverts resources away from public services and fuels popular disillusionment. Clan politics, meanwhile, continue to undermine coalition-building and hinder the formation of a unified national agenda. These internal fractures create openings for Al-Shabaab to expand its influence, often by co-opting local grievances and providing rudimentary governance where the state fails. The article warns that external support, while essential for survival, has inadvertently fostered a culture of dependency that stifles domestic reform.\n\nTo break the cycle, the article argues for a fundamental shift: Somalis must take ownership of their political and economic challenges. This includes demanding accountability from leaders, building inclusive institutions, and prioritizing dialogue over armed competition. The international community, for its part, should condition aid on tangible progress in anti-corruption and good governance. \"The next crisis will not be averted in New York or Nairobi, but in the halls of power in Mogadishu,\" the editorial concludes. \"Somalia's future rests in Somalia's hands.\"",
+    "title": "Somalia’s recurring crises are authored at home. Blaming the outside world is a comfort the country can no longer afford - Hiiraan Online",
+    "slug": "somalia-s-recurring-crises-are-authored-at-home-blaming-the-outside-world-is-a-comfort-the-country-can-no-longer-afford-hiiraan-online",
+    "summary": "Somalia’s recurrent crises are primarily self-inflicted, and the nation must stop blaming external factors to achieve sustainable progress.",
+    "content": "Somalia’s seemingly endless cycle of crises—from political instability to humanitarian emergencies—is largely a product of internal dysfunction, argues a recent analysis by Hiiraan Online. The editorial contends that while external actors have certainly played a role in the country’s woes, the primary architects of Somalia’s troubles are its own leaders and factions. The piece challenges the prevalent narrative that blames foreign interference for every setback, insisting that Somalis must take ownership of their problems to move forward.\n\nThe article points to systemic corruption, clan-based power struggles, and a weak rule of law as the real culprits behind the nation’s stagnation. It notes that international aid, though substantial, has often been mismanaged or siphoned off by elites, creating a culture of dependency rather than fostering self-reliance. The federal government, paralyzed by infighting and competing interests, has failed to deliver basic services, leaving citizens vulnerable to insecurity and economic hardship.\n\nMoreover, the piece highlights how political leaders frequently use external threats as a smokescreen to deflect criticism and avoid accountability. By blaming neighboring countries or international organizations, they divert attention from their own failures to forge consensus or implement reforms. The result is a governance vacuum that perpetuates poverty and violence, while ordinary Somalis suffer the consequences.\n\nUltimately, the editorial calls for a fundamental shift in mindset: Somalis must recognize that their destiny lies in their own hands. Sustainable peace and development will only come when domestic actors prioritize national interest over clan loyalty, and when leaders are held accountable for their actions. The comfort of blaming outsiders, the article concludes, is a luxury the country can no longer afford if it hopes to break free from its recurring crises.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Politics",
@@ -73,53 +52,53 @@ export const newsArticles: Article[] = [
     "image_url": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "Corruption within Somalia's government undermines reform and public trust.",
-      "Clan-based power struggles continue to destabilize political processes.",
-      "Dependence on external aid delays necessary domestic accountability.",
-      "Al-Shabaab exploits weak state institutions and popular grievances.",
-      "Lack of inclusive dialogue perpetuates cycles of violence and crisis."
+      "Somalia's internal political fragmentation and corruption are key drivers of its crises.",
+      "Over-reliance on external aid fosters dependency, hindering local accountability.",
+      "Clan-based power struggles paralyze governance and undermine state-building.",
+      "The government lacks capacity to deliver basic services, fueling public discontent.",
+      "Domestic actors, not foreign interference, are responsible for Somalia's instability."
     ]
   },
   {
     "id": "real-news-3",
-    "title": "Coming Home from Al-Shabaab: What Determines Whether Communities Forgive in Somalia - Peace News Network",
-    "slug": "coming-home-from-al-shabaab-what-determines-whether-communities-forgive-in-somalia-peace-news-network",
-    "summary": "Community forgiveness in Somalia hinges on former Al-Shabaab members' demonstrated remorse and compensation, but justice remains elusive for victims.",
-    "content": "Somalia's struggle with reconciliation involves complex community dynamics where forgiveness of former Al-Shabaab members is conditional on genuine remorse and material compensation to victims. A recent report by Peace News Network examines the factors that determine whether communities welcome back defectors from the militant group.\n\nAccording to the report, low-ranking foot soldiers find it easier to reintegrate as they are perceived as coerced recruits, while commanders face suspicion even after years of alienation. Elders and religious leaders mediate forgiveness processes, often requiring formal apologies and payment of 'diya' (blood money) to victims' families. 'Without compensation, families feel justice is incomplete,' said a local elder in Mogadishu.\n\nHowever, victims of Al-Shabaab attacks express frustration over the lack of formal justice mechanisms. Many feel pressured to forgive by community elders without adequate closure. The report highlights that social reintegration is most successful when defectors actively participate in community reconstruction projects and denounce extremist ideology publicly.\n\nDespite these efforts, deep scars remain. The network found that communities are more likely to forgive if defectors have not personally killed or maimed locals. 'Forgiveness is possible, but it is fragile,' noted the report, calling for supportive government policies and psychological support for both returnees and victims to sustain long-term peace.",
-    "source": "Regional Feeds",
-    "country": "Regional",
-    "category": "Society",
-    "published_at": "2026-06-30T04:00:00.000Z",
-    "update_batch": "morning",
-    "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
-    "featured": false,
-    "ai_summary_points": [
-      "Forgiveness depends on defectors' genuine remorse and compensation to victims.",
-      "Social reintegration is easier for low-level members than commanders.",
-      "Victims often lack formal justice mechanisms for closure.",
-      "Community elders play key role in mediating forgiveness processes.",
-      "Al-Shabaab's history of violence complicates trust-building."
-    ]
-  },
-  {
-    "id": "real-news-4",
     "title": "Somalia-Türkiye joint airstrikes kill dozens of Al Shabab terrorists - TRT Afrika",
     "slug": "somalia-t-rkiye-joint-airstrikes-kill-dozens-of-al-shabab-terrorists-trt-afrika",
-    "summary": "Joint Somali-Turkish airstrikes kill dozens of Al Shabab militants in a coordinated operation aimed at weakening the extremist group's strongholds.",
-    "content": "In a significant escalation of counterterrorism efforts, joint Somali-Turkish airstrikes have killed dozens of Al Shabab militants in southern Somalia, according to reports from TRT Afrika. The coordinated strikes targeted multiple militant hideouts and bases, dealing a heavy blow to the extremist group's operational infrastructure. The operation underscores the deepening security partnership between Mogadishu and Ankara, which has intensified in recent years.\n\nThe airstrikes, which involved Turkish drones and intelligence support, struck key Al Shabab positions in the Lower Shabelle region, a traditional stronghold for the group. Somali government officials confirmed the death of dozens of fighters, though exact numbers remain unverified. The raids are part of a broader offensive launched by Somali forces with international backing to reclaim territory and dismantle Al Shabab's networks.\n\nTurkey has become a pivotal ally for Somalia, providing military training, equipment, and strategic assistance. The partnership has expanded beyond security to include economic investments and infrastructure projects. However, the joint airstrikes have raised concerns about civilian casualties, though both governments assert that precision targeting minimized collateral damage. Al Shabab continues to pose a significant threat, carrying out deadly attacks against civilians and government targets.\n\nAs Somali and Turkish forces ramp up operations, the stability of the region hangs in the balance. The success of these counterterrorism efforts will depend on sustained military pressure, intelligence sharing, and addressing underlying grievances that fuel recruitment. The international community closely watches as Mogadishu and Ankara pursue a common goal: the defeat of Al Shabab.",
+    "summary": "Joint airstrikes by Somalia and Türkiye have killed dozens of Al Shabab militants in central Somalia, marking a significant escalation in counterterrorism cooperation.",
+    "content": "In a major blow to the Al Shabab militant group, joint airstrikes conducted by Somali and Turkish forces have killed dozens of terrorists in central Somalia. The strikes, reported by TRT Afrika, targeted key Al Shabab positions in the Galguduud region, dealing a significant setback to the group's operational capabilities.\n\nThis operation underscores the deepening military cooperation between Somalia and Turkey, which has included training, equipment, and now direct combat support. Turkey has invested heavily in Somalia's security sector, providing drones and intelligence that have proven crucial in targeting Al Shabab's leadership and hideouts. The airstrikes come amid a renewed offensive by Somali forces, backed by local clan militias and international partners, aimed at dislodging Al Shabab from its strongholds.\n\nAl Shabab, an affiliate of Al Qaeda, has waged a deadly insurgency in Somalia for over a decade, controlling large swathes of rural territory and launching frequent attacks on government and civilian targets. Despite territorial losses in recent years, the group remains capable of carrying out high-profile attacks. The joint airstrikes are expected to disrupt Al Shabab's supply lines and command structures, though experts warn that the group will likely adapt and retaliate.\n\nThe international community has praised the Somalia-Türkiye partnership, viewing it as a model for effective counterterrorism collaboration in the Horn of Africa. However, long-term stability will require addressing underlying grievances and strengthening governance in liberated areas. The airstrikes represent a tactical victory, but the broader fight against Al Shabab continues.",
     "source": "Regional Feeds",
     "country": "Regional",
     "category": "Security",
     "published_at": "2026-06-30T16:10:12.000Z",
     "update_batch": "morning",
+    "image_url": "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=1200",
+    "featured": false,
+    "ai_summary_points": [
+      "Joint airstrikes killed dozens of Al Shabab terrorists in central Somalia.",
+      "The operation was conducted by Somali and Turkish forces.",
+      "It marks a significant escalation in bilateral counterterrorism cooperation.",
+      "Al Shabab remains a threat despite ongoing offensives.",
+      "The strikes are part of broader efforts to stabilize the region."
+    ]
+  },
+  {
+    "id": "real-news-4",
+    "title": "2026 Somali IHL Competition in Pictures - ICRC",
+    "slug": "2026-somali-ihl-competition-in-pictures-icrc",
+    "summary": "The ICRC showcases the 2026 Somali International Humanitarian Law Competition through a series of compelling images, highlighting legal education and humanitarian principles in Somalia.",
+    "content": "The International Committee of the Red Cross (ICRC) recently released a photo gallery documenting the 2026 Somali International Humanitarian Law (IHL) Competition, an event dedicated to deepening understanding of the rules of war among Somalia's legal community. The competition brought together law students, legal practitioners, and academics from across the country to test their knowledge of IHL through practical exercises and theoretical debates.\n\nHeld in Mogadishu, the competition consisted of multiple rounds, including moot court simulations, case study analyses, and rapid-fire quizzes on the Geneva Conventions and their Additional Protocols. Participants were challenged to navigate complex scenarios involving civilian protection, the treatment of detainees, and the use of certain weapons. The ICRC's regional legal advisor noted that such competitions are crucial in a country like Somalia, where armed conflict has often led to violations of humanitarian law.\n\nThe event also featured expert-led workshops on current IHL issues, such as the protection of medical personnel and the challenges posed by non-state armed groups. A panel discussion delved into the role of Somali civil society in promoting compliance with IHL, emphasizing the need for local actors to champion humanitarian principles. Winners of the competition received certificates and opportunities to participate in regional IHL forums.\n\nThe ICRC's photo essay not only captures the intensity and intellectual rigor of the event but also underscores a broader commitment to strengthening the rule of law in Somalia. As the country continues its path to stability, such initiatives help ensure that a new generation of legal professionals is equipped to advocate for humanity even amidst conflict.",
+    "source": "Regional Feeds",
+    "country": "Regional",
+    "category": "Society",
+    "published_at": "2026-06-30T17:49:48.000Z",
+    "update_batch": "morning",
     "image_url": "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?auto=format&fit=crop&q=80&w=1200",
     "featured": false,
     "ai_summary_points": [
-      "Dozens of Al Shabab terrorists were killed in joint airstrikes by Somali and Turkish forces.",
-      "The strikes targeted militant hideouts and bases in southern Somalia.",
-      "The operation is part of broader efforts to degrade Al Shabab's capabilities.",
-      "Turkish support includes intelligence, drone technology, and training for Somali forces.",
-      "The strikes occurred amid ongoing offensives and heightened counterterrorism cooperation."
+      "The ICRC organized the 2026 Somali International Humanitarian Law (IHL) Competition.",
+      "The competition aimed to promote knowledge of IHL among Somali legal professionals and students.",
+      "Participants engaged in simulated scenarios to apply humanitarian law principles.",
+      "The event featured workshops and panel discussions on current IHL challenges in Somalia.",
+      "The competition highlighted the importance of upholding humanitarian norms in conflict zones."
     ]
   }
 ];
