@@ -9,8 +9,20 @@ interface HomeProps {
 
 export const Home: React.FC<HomeProps> = ({ articles, onArticleClick }) => {
   return (
-    <div style={{ padding: '32px' }}>
+    <div style={{ padding: '32px' }} className="home-wrapper">
       
+      <h2 style={{ 
+        fontFamily: 'var(--font-serif)', 
+        fontSize: '1.8rem', 
+        fontWeight: 'bold', 
+        color: 'var(--text-primary)', 
+        marginBottom: '32px',
+        textAlign: 'center',
+        lineHeight: 1.3
+      }}>
+        Your Daily Source for Breaking Somalia &amp; Somali Diaspora News
+      </h2>
+
       {/* 3-Column Masonry/Grid Feed */}
       <div className="home-grid">
         {articles.map((article, index) => (
