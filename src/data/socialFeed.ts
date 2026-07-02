@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "News",
+    "author": "Reuters",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3ZhTUpPMGlmdEk2bVdrN0lrYk02Rk1IVkFfVFdWbGhlWm9tNHAycW1VdWdDWEdDOHlfaW5vSlduV0dSb3gyWHVvQWYtbWJnY0dVREdvQXhvTzRJWE5halpRV1Z3aW0wX251MzkwNlJoa2VCMXRsUmxRbTQ4Ml9OX01fU3IxR1BCRjVxWEpweHNzMWpVakgtc1c5bENWOWVxUGtXaTAxWm9NbGZuUDhpMWhNeS1ScFZTVDkyWHZTaWZqS19oRm1j?oc=5",
+    "published_at": "2026-07-02T17:42:41Z",
+    "id": "social-1783025351208-0"
+  },
+  {
+    "source": "News",
+    "author": "The Maritime Executive",
+    "content": "Conditions deteriorating for hijacked seafarers as Somalia piracy continues.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
+    "published_at": "2026-07-02T18:03:26Z",
+    "id": "social-1783025351208-1"
+  },
+  {
+    "source": "News",
+    "author": "BBC News Africa",
+    "content": "US funding exit casts doubt on AU peace mission in Somalia, raising concerns.",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWUxkZ0o5UDdvb3E1TXZ5X0RNenVLUUt6V1hlLWh0WUdVdlF5Vmw4UWVSVERFLXNIajA0MnRGTG82NmwyMXVaMjE3WHAwUEpFMlhNTS1MYU5OWnQwTlNCUUlWRDZ5VXp4MnFSSzhfZVVKeXZOX19uYVVpTWtlbnhDNVFvaUNHMzhLdzMtVXhsWmMySlZOVU93VS1EOHltVWc0dk5veE00QlhfZTdnNzNjSVc3NVNwRGVO?oc=5",
+    "published_at": "2026-07-02T17:45:00Z",
+    "id": "social-1783025351208-2"
+  },
+  {
+    "source": "X",
+    "author": "@SomaliaUpdates",
+    "content": "Columbus post on Somali independence sparks backlash. Community reacts.",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaVIxMThrNzB4ZFVfNmVRQWpvT2ZnbGtySkRmTkhMWGdVNU8tc0hDODVjMWxaS25oMjA2LUtrS1hqVDhxLWswaVpSY0J1dF9DVElRYjRFZDlVazlrcnNXYS1mRHVKcWlqQWhiU2RpWkNwQ1ZVVTZDTERxQW1DRkRwWHc5MXd1NW0wQXljb3dhUHZlZjVfeG1ZTURGRUNQOXNhVEHSAacBQVVfeXFMTzVMZkpMRERzZUdtWXR2SENGaEdlbWVlWnhBdXZlSmRncFhmMUVsRllfTC0xQVFBY2tYM29rLVN0RUlxS0RjQ3J3TjUxOGFzMkNKMDNjc0NfbzhkbS1DWlBwbHh2cTVuZTJmcldzYVJqRHo3eG1YUmFIblEwbWk1ZTFUdGhBRG1VUVpkOHhIX2JHZUVPUEgzWUc5Qm92WDZJU044WkFWX2M?oc=5",
+    "published_at": "2026-07-02T02:04:31Z",
+    "id": "social-1783025351208-3"
+  },
+  {
+    "source": "Facebook",
+    "author": "Somali Community News",
+    "content": "Local Somali community gathers at Parcel 5 to celebrate Somali Independence Day.",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXBGeldTaHh3d19ocEZhTlhMUUFmbFFkVXJnXzBlVjN5ZThnSS1RR1ljaG0zRXd2Q2g5TTJBaG15TEJLbm95LWs5YmJ1bUdVWkVJVzRTU3MyOFg3ck1ZWlJ1cFdDd2dFekZBb0hKODlwaThOSTdkX3VmX3ZxR04yRHQwMmFGUnlLcHZNVkFCYUdXanR2S1RlclQ0cGdPdkRTVUYyVlNiOVBXUUZIUlFr?oc=5",
+    "published_at": "2026-07-02T15:54:40Z",
+    "id": "social-1783025351208-4"
+  },
+  {
     "source": "Facebook",
     "author": "@SomaliaIndependence",
     "content": "Rochester's Somali community celebrates 66 years of Somalia's independence today!",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTVFaMmRtQ2RudTJ1VjM3Q1F5dkZnRnNqb25MUVN2bkx4UW1ERWxENG9uT3FwMzYwWlNUSTZ2a0x0aUl0XzAtcFBpVlBLMzF6VGVxU3M0V0Q5U2VVYl9xYVVGX3BvTVk4RVpMd1BfU2NYb3hEVnFTVWJFaHZsVWhXZE96SXZ6YkJ4R0p2U3A0cGhQRGVlZEFRTjNzN0dKNHR4M3c?oc=5",
     "published_at": "2026-07-01T19:05:32Z",
     "id": "social-1782975502867-4"
-  },
-  {
-    "source": "News",
-    "author": "International Crisis Group",
-    "content": "New Chapter, Same Stalemate: Somalia’s war with Al-Shabaab continues with no end in sight.",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORjNTWENtOUU3MnZfTHpRTC1LZ3NEVkhEaGh3aExZSGxmZFJsZlB6X3VKVExiaUgxdFVDODY0Rko3ekoxT0x2OG9KQjBfdnF3QVdVeVBfeDVpU0I1MVc4ZUdxcUY2YW9lcG16NS1TZ2R0QVFhUUI1VUZieHBSVGplb2J0NFlNdHg2RURhbEJxTnFnN1hiU1VYdFlnWGJPRnpiUzkyQQ?oc=5",
-    "published_at": "2026-06-30T13:20:12Z",
-    "id": "social-1782898520972-0"
-  },
-  {
-    "source": "News",
-    "author": "Institute of Strategic Studies Islamabad",
-    "content": "ISSI-PAIDAR commemorate Somalia’s Independence Day, highlighting regional solidarity.",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdTI5ZnRIZFI3d3ZvaDF1aU03LXFubm5JLXZLWktnZDhJZ1dyNW9XSVZzSDJ3Zl9HZ1NaR3owQkc1dDVLVE5NOUh0SlFwTzB5MUVxV2pxV1JnQVk0a2QzZ1NlX3d5RnBNN0h6VFVOWHpKWE9SdEFoRW9VTEswbW5HSS1NOU1QcnBBb2J3NA?oc=5",
-    "published_at": "2026-07-01T09:31:09Z",
-    "id": "social-1782898520972-1"
-  },
-  {
-    "source": "News",
-    "author": "Somali Guardian",
-    "content": "Turkey’s F-16 jets kill Al-Shabaab militants in Somalia air strikes, defense ministry says.",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWRyTEZsbUdyTzFHeHhreHhzUTVsN3lYRlp2UU4tRGUzWE9FR1JzeFpmMFNBUnJPWHg4b1FxVnJ4MldtbExXTVk1c25ZcHZNeEFZYkJlMlFhbXAtMFdlNlNMNWhjME1DUHJXcHhfWVlWS0RRX2RwX2RyRU41TFRfcWktNEpsbkNBVnd4OEVLZ01EVVVPcWhaUHFfdDNrRmRL?oc=5",
-    "published_at": "2026-06-30T14:52:52Z",
-    "id": "social-1782898520972-2"
-  },
-  {
-    "source": "News",
-    "author": "ReliefWeb",
-    "content": "Somalia 2026 Humanitarian Funding Overview shows critical needs as of 30 June.",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX1R1VVBxenFTbkRQNlFsZDduLXlWd0lDQXU1alY5TU9GRG5iRHYxNS1FMVpQOTU4dnFpNThFTk8zQldsNWZOWG03R0hsRmhnckRFT0JnNFhXaG1jNlhDekliTWFYTlNFN25rOXo4MWxjcDJQRXpSN3REX3RxZElmUkNjYzFCLXktQWpwdnMzNDdtU1ZPWk1z?oc=5",
-    "published_at": "2026-07-01T00:27:30Z",
-    "id": "social-1782898520972-3"
-  },
-  {
-    "source": "News",
-    "author": "AzerNews",
-    "content": "President Ilham Aliyev congratulates President of Somalia on Independence Day.",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOd0J0c2JISktwMTJOdEs3bmlBdlZObXhmUzlSaGNBSloxZ1VCTTJqVGhNRWRqRkJlUnp0RGJzYUpCQWd3VmZKdTdCLU5iWnRaV2xOUg?oc=5",
-    "published_at": "2026-07-01T08:43:24Z",
-    "id": "social-1782898520972-4"
   }
 ];
