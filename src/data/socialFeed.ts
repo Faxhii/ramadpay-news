@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "X",
+    "author": "@RochesterNews",
+    "content": "Celebrating 66 years of Somalia's independence in Rochester's Somali community.",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2tfVUQyam0xYUJXSUhiR2t4Q1lmYnFNNHVtRWl6bHdLOXNzYldaNmxyS0d4NE9UYlVKa0hOczhMYjVjNlJFWVRwa1A3bVZUY3h2T2VXUzJOQ2dDOF9UWTBmckN3RnhxVEJDazJXb1A5b2dEVlUxRGFCWEtfbTNjRmNQWm5wWDNHN2d1MlJ2aGNwZjdxYnBGQzVrRmN6R0wtSDBBYlVKNUNtRjJnenZ5MzlR?oc=5",
+    "published_at": "2026-07-02T01:48:35Z",
+    "id": "social-1782975502866-0"
+  },
+  {
+    "source": "News",
+    "author": "LSE",
+    "content": "Somali Bantu fate shows failure of Somalia's state-building project, says new analysis.",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTHNWYVA3UE50RWlvcnBjWk10SXBzMXlEbjIyYUVjM1NZYzU5YjZBM21DNGVYWVRiajd6anZIQ3o3RDRiUF8yR09kS1liLW0tZm1XeU1KRGl4dXpXT1VNX1JGdmRnUFprUkVEaGFoQjVJcDB6VElnNzhxOEEwTDdyendPSlM1bDZjdnBFVlJRbHdsNFVDMDBodWdUR3lVbUU1RjdHSl9jUUVzbVM0QWdEUjNqU1ZLVnBuOHZxY1BOSkFhUEpUb2JuN08xbw?oc=5",
+    "published_at": "2026-07-02T01:32:47Z",
+    "id": "social-1782975502867-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "Women's Media Center",
+    "content": "Somalia's first women-led newsroom is bringing change and amplifying women's voices.",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR09DeDQySG5NYmgzSHhRYnBRSlVtRFhFWDBPcjJWZU8ySnRHNm9lZjktb0xicFdYNzdlX3RWdTJpQVJXUUswendsUk1TZzRxUHF6QW90ck5CZDliMGwzUzgtRGpjNXpZUGRQYXZEeWRfb29oemkzYVhSOGVoVkluMWZqQkQ1Nm9VZlY2eDhzLTFLMFotSFE?oc=5",
+    "published_at": "2026-07-02T00:43:44Z",
+    "id": "social-1782975502867-2"
+  },
+  {
+    "source": "News",
+    "author": "The Columbus Dispatch",
+    "content": "Columbus won't raise Somali flag despite post that drew Republican criticism.",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTjR5eElLYmxzUl8tMHhIcmZDN1FnRkxhOXRBcGFGSTVyR3ZVR3hBZWtGSE8xRjBQcmh0bFFhdVNyZWpNcE1ia3FteG5Da0UteFo2NzRPQlYzZnFXcDd0VVZHZ2hlRHNIek5vOVE5X1IyazVOVUh3dnlLR0NHSVlxdVgzWjNZa3VBajdLSlRTbXJjZ1RqQTlBemNJMmJsdTNkYVd1ZkxOX043LVRBdVlVTWhYQWRyTHhIRnp6Ylc5Qzh2ZFVIS0lxX0ZpMXptdw?oc=5",
+    "published_at": "2026-07-01T21:31:00Z",
+    "id": "social-1782975502867-3"
+  },
+  {
+    "source": "X",
+    "author": "@AlMonitor",
+    "content": "Turkish jets strike al-Shabab targets in Somalia. What you need to know.",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTVFaMmRtQ2RudTJ1VjM3Q1F5dkZnRnNqb25MUVN2bkx4UW1ERWxENG9uT3FwMzYwWlNUSTZ2a0x0aUl0XzAtcFBpVlBLMzF6VGVxU3M0V0Q5U2VVYl9xYVVGX3BvTVk4RVpMd1BfU2NYb3hEVnFTVWJFaHZsVWhXZE96SXZ6YkJ4R0p2U3A0cGhQRGVlZEFRTjNzN0dKNHR4M3c?oc=5",
+    "published_at": "2026-07-01T19:05:32Z",
+    "id": "social-1782975502867-4"
+  },
+  {
     "source": "News",
     "author": "International Crisis Group",
     "content": "New Chapter, Same Stalemate: Somalia’s war with Al-Shabaab continues with no end in sight.",
