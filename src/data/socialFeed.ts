@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "Facebook",
+    "author": "@SomaliaIndependence",
+    "content": "Rochester's Somali community celebrates 66 years of Somalia's independence today!",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2tfVUQyam0xYUJXSUhiR2t4Q1lmYnFNNHVtRWl6bHdLOXNzYldaNmxyS0d4NE9UYlVKa0hOczhMYjVjNlJFWVRwa1A3bVZUY3h2T2VXUzJOQ2dDOF9UWTBmckN3RnhxVEJDazJXb1A5b2dEVlUxRGFCWEtfbTNjRmNQWm5wWDNHN2d1MlJ2aGNwZjdxYnBGQzVrRmN6R0wtSDBBYlVKNUNtRjJnenZ5MzlR?oc=5",
+    "published_at": "2026-07-02T01:48:35Z",
+    "id": "social-1782998677908-0"
+  },
+  {
+    "source": "News",
+    "author": "BBC News Africa",
+    "content": "Somali Bantu plight exposes failure of Somalia's state-building project, says LSE analysis.",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTHNWYVA3UE50RWlvcnBjWk10SXBzMXlEbjIyYUVjM1NZYzU5YjZBM21DNGVYWVRiajd6anZIQ3o3RDRiUF8yR09kS1liLW0tZm1XeU1KRGl4dXpXT1VNX1JGdmRnUFprUkVEaGFoQjVJcDB6VElnNzhxOEEwTDdyendPSlM1bDZjdnBFVlJRbHdsNFVDMDBodWdUR3lVbUU1RjdHSl9jUUVzbVM0QWdEUjNqU1ZLVnBuOHZxY1BOSkFhUEpUb2JuN08xbw?oc=5",
+    "published_at": "2026-07-02T01:32:47Z",
+    "id": "social-1782998677908-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "@WomensMediaCenter",
+    "content": "Somalia's first women-led newsroom is bringing change to media landscape.",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR09DeDQySG5NYmgzSHhRYnBRSlVtRFhFWDBPcjJWZU8ySnRHNm9lZjktb0xicFdYNzdlX3RWdTJpQVJXUUswendsUk1TZzRxUHF6QW90ck5CZDliMGwzUzgtRGpjNXpZUGRQYXZEeWRfb29oemkzYVhSOGVoVkluMWZqQkQ1Nm9VZlY2eDhzLTFLMFotSFE?oc=5",
+    "published_at": "2026-07-02T00:43:44Z",
+    "id": "social-1782998677908-2"
+  },
+  {
+    "source": "X",
+    "author": "@ColDispatch",
+    "content": "Columbus will not raise Somali flag despite social media post that sparked Republican criticism.",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTjR5eElLYmxzUl8tMHhIcmZDN1FnRkxhOXRBcGFGSTVyR3ZVR3hBZWtGSE8xRjBQcmh0bFFhdVNyZWpNcE1ia3FteG5Da0UteFo2NzRPQlYzZnFXcDd0VVZHZ2hlRHNIek5vOVE5X1IyazVOVUh3dnlLR0NHSVlxdVgzWjNZa3VBajdLSlRTbXJjZ1RqQTlBemNJMmJsdTNkYVd1ZkxOX043LVRBdVlVTWhYQWRyTHhIRnp6Ylc5Qzh2ZFVIS0lxX0ZpMXptdw?oc=5",
+    "published_at": "2026-07-01T21:31:00Z",
+    "id": "social-1782998677908-3"
+  },
+  {
+    "source": "News",
+    "author": "IQAir Saudi Arabia",
+    "content": "Hobyo air quality index update: Somalia pollution levels monitored.",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hMzc0UzYtZzQwZ2xpQVhTS2xhbEoyNTFkMmh3b0M1VVVfQkZHWVVVWno3WXA1S09icWN5bzVWanFWcDFJVnQxWkdMM1lxLTlqSVE2dW5vNVlFYlMyLU12SHVXUlNkaW8?oc=5",
+    "published_at": "2026-07-02T09:25:37Z",
+    "id": "social-1782998677908-4"
+  },
+  {
     "source": "News",
     "author": "13wham.com",
     "content": "Rochester's Somali community celebrates 66 years of Somalia's independence.",
