@@ -42,7 +42,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, index, onClic
             src={article.image_url} 
             alt={article.title}
             onError={(e) => {
-              e.currentTarget.style.display = 'none';
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = 'https://images.unsplash.com/photo-1495020689067-958852a7765e?w=600&q=80';
             }}
             style={{
               position: 'absolute',

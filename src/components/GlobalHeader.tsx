@@ -67,15 +67,16 @@ export const GlobalHeader: React.FC = () => {
           key={adIndex}
           className="animate-fade-in"
           style={{
-            backgroundColor: 'rgba(16, 185, 129, 0.15)',
-            color: '#10B981',
-            padding: '6px 16px',
-            borderRadius: '20px',
-            fontSize: '0.85rem',
-            fontWeight: 600,
+            background: 'linear-gradient(90deg, #FFD700, #F59E0B)',
+            color: '#000000',
+            padding: '8px 24px',
+            borderRadius: '24px',
+            fontSize: '1.05rem',
+            fontWeight: 800,
             whiteSpace: 'nowrap',
             letterSpacing: '0.05em',
-            textTransform: 'uppercase'
+            textTransform: 'uppercase',
+            boxShadow: '0 0 15px rgba(245, 158, 11, 0.4)'
           }}
         >
           {adverts[adIndex]}
