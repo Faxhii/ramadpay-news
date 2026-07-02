@@ -4,7 +4,6 @@ import { Sidebar } from './components/Sidebar';
 import { Home } from './pages/Home';
 import { ArticleDetail } from './pages/ArticleDetail';
 import { newsArticles as mockArticles } from './data/newsData';
-import { FileText, Rss } from 'lucide-react';
 
 function App() {
   const [currentArticleSlug, setCurrentArticleSlug] = useState<string | null>(null);
