@@ -58,7 +58,7 @@ export const GlobalHeader: React.FC = () => {
           href={adverts[adIndex].url}
           target="_blank"
           rel="noopener noreferrer"
-          className="animate-fade-in"
+          className="animate-fade-in flash-advert-link"
           style={{
             display: 'block',
             textDecoration: 'none',
@@ -110,6 +110,14 @@ export const GlobalHeader: React.FC = () => {
           }
           .global-header h1 {
             font-size: 1.4rem !important;
+          }
+          .flash-advert-link {
+            font-size: 0.75rem !important;
+            padding: 8px 12px !important;
+            white-space: normal !important;
+            text-align: center;
+            border-radius: 16px !important;
+            line-height: 1.3;
           }
         }
       `}</style>
