@@ -41,6 +41,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, index, onClic
           <img 
             src={article.image_url} 
             alt={article.title}
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+            }}
             style={{
               position: 'absolute',
               top: 0,
