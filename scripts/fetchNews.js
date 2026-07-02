@@ -34,13 +34,24 @@ async function run() {
   const app = new FirecrawlApp({ apiKey: FIRECRAWL_API_KEY });
   console.log('Searching for Somali political news across multiple queries...');
 
-  const queries = [
-    "Somalia politics breaking news",
-    "Somaliland elections and politics",
-    "Puntland security and politics"
+  const allQueries = [
+    "Somalia breaking news today",
+    "Somali diaspora community news",
+    "Somalia economic development and business news",
+    "Mogadishu security updates past 24 hours",
+    "Somaliland politics and elections news",
+    "Puntland regional news today",
+    "Somalia humanitarian aid and health news",
+    "Horn of Africa geopolitics Somalia",
+    "Somalia technology and education news",
+    "Somali sports and culture news"
   ];
 
-  const searchPromises = queries.map(q => app.search(q, { limit: 10 }).catch(e => {
+  // Randomly select 4 queries to run per execution to save API calls while getting diversity
+  const shuffledQueries = allQueries.sort(() => 0.5 - Math.random());
+  const queries = shuffledQueries.slice(0, 4);
+
+  const searchPromises = queries.map(q => app.search(q, { limit: 15 }).catch(e => {
     console.error(`Search failed for '${q}':`, e.message);
     return null;
   }));
@@ -63,7 +74,7 @@ async function run() {
 
   console.log(`Found ${pooledItems.length} unique articles from search.`);
 
-  const targetItems = pooledItems.slice(0, 15);
+  const targetItems = pooledItems.slice(0, 30);
   const newArticles = [];
 
   const processPromises = targetItems.map(async (item, i) => {
@@ -129,7 +140,7 @@ async function run() {
     }
   }
 
-  const validNewArticles = newArticles.slice(0, 10);
+  const validNewArticles = newArticles.slice(0, 20);
   console.log(`Generated ${validNewArticles.length} perfect new articles.`);
   
   // Archiving logic
