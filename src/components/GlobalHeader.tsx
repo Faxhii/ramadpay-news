@@ -3,10 +3,10 @@ import { FileText, Rss } from 'lucide-react';
 
 export const GlobalHeader: React.FC = () => {
   const adverts = [
-    { text: "🚀 Send money to East Africa instantly with Ramad Pay!", url: "https://ramadpay.com/" },
-    { text: "💸 Zero hidden fees on all transfers.", url: "https://ramadpay.com/pricing" },
-    { text: "💱 Get the best exchange rates today.", url: "https://ramadpay.com/rates" },
-    { text: "🔒 Secure cash pickup & mobile money transfers.", url: "https://ramadpay.com/security" }
+    { text: "🚀 Send money to East Africa instantly with Ramad Pay!", url: "https://ramadpay.com" },
+    { text: "💸 Zero hidden fees on all transfers.", url: "https://ramadpay.com" },
+    { text: "💱 Get the best exchange rates today.", url: "https://ramadpay.com" },
+    { text: "🔒 Secure cash pickup & mobile money transfers.", url: "https://ramadpay.com" }
   ];
   const [adIndex, setAdIndex] = useState(0);
 
