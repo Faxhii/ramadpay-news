@@ -42,17 +42,7 @@ export const GlobalHeader: React.FC = () => {
           letterSpacing: '-0.02em',
           margin: 0
         }}>
-          Ramadpay
-        </h1>
-        <h1 style={{ 
-          fontFamily: 'var(--font-serif)', 
-          fontSize: '1.75rem', 
-          color: '#FFFFFF',
-          lineHeight: 1.1,
-          letterSpacing: '-0.02em',
-          margin: 0
-        }}>
-          News<span style={{ color: '#10B981' }}>.</span>
+          Ramad Pay Daily News<span style={{ color: '#10B981' }}>.</span>
         </h1>
       </div>
 
