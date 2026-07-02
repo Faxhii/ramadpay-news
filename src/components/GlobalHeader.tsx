@@ -85,12 +85,37 @@ export const GlobalHeader: React.FC = () => {
       {/* Right: Actions */}
       <div className="header-actions" style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
         <button className="header-action-btn">
-          <FileText size={16} /> Read Latest Briefing
+          <FileText size={16} /> <span>Read Latest Briefing</span>
         </button>
         <button className="header-action-btn">
-          <Rss size={16} /> Feed
+          <Rss size={16} /> <span>Feed</span>
         </button>
       </div>
+
+      <style>{`
+        @media (max-width: 768px) {
+          .global-header {
+            flex-wrap: wrap;
+            height: auto !important;
+            padding: 12px var(--space-md) !important;
+            gap: 12px;
+          }
+          .flash-advert-container {
+            order: 3;
+            width: 100%;
+            margin-top: 4px;
+          }
+          .header-action-btn span {
+            display: none !important;
+          }
+          .header-action-btn {
+            padding: 8px !important;
+          }
+          .global-header h1 {
+            font-size: 1.4rem !important;
+          }
+        }
+      `}</style>
     </header>
   );
 };
