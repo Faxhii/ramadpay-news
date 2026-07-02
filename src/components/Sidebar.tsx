@@ -23,30 +23,7 @@ export const Sidebar: React.FC<{ className?: string }> = ({ className = '' }) =>
     <aside className={`sidebar-container ${className}`}>
       
       <div className="sidebar-top-section" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xl)' }}>
-        {/* Brand Logo Area */}
-      <div>
-        <h1 style={{ 
-          fontFamily: 'var(--font-serif)', 
-          fontSize: '2rem', 
-          color: '#FFFFFF',
-          lineHeight: 1.1,
-          letterSpacing: '-0.02em',
-          marginBottom: '2px'
-        }}>
-          Ramadpay
-        </h1>
-        <h1 style={{ 
-          fontFamily: 'var(--font-serif)', 
-          fontSize: '2rem', 
-          color: '#FFFFFF',
-          lineHeight: 1.1,
-          letterSpacing: '-0.02em'
-        }}>
-          News<span style={{ color: '#10B981' }}>.</span>
-        </h1>
-      </div>
-
-      {/* Embedded Ad Banner */}
+        {/* Embedded Ad Banner */}
       <AdBanner />
       </div>
 
