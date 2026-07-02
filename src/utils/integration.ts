@@ -19,6 +19,7 @@ export interface IngestedArticlePayload {
   category: 'Politics' | 'Economy' | 'Security' | 'Society' | 'Regional';
   published_at: string; // ISO 8601 String
   update_batch: 'morning' | 'afternoon';
+  image_url: string;
   featured: boolean;
   ai_summary_points: string[];
 }

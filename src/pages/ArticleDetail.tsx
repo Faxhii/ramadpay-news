@@ -269,16 +269,13 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
             Related Bureau Coverage
           </h3>
 
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: 'var(--space-xl)'
-          }} className="related-grid">
-            {fallbackRelated.map(story => (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-xl)' }}>
+            {fallbackRelated.map((rel, i) => (
               <ArticleCard 
-                key={story.id}
-                article={story}
-                onClick={() => onArticleClick(story.slug)}
+                key={rel.id} 
+                article={rel} 
+                index={i + 1}
+                onClick={() => onArticleClick(rel.slug)} 
               />
             ))}
           </div>

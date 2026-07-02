@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
+import { Sidebar } from './components/Sidebar';
 import { Home } from './pages/Home';
 import { ArticleDetail } from './pages/ArticleDetail';
 import { newsArticles as mockArticles } from './data/newsData';
+import { FileText, Rss } from 'lucide-react';
 
 function App() {
   const [currentArticleSlug, setCurrentArticleSlug] = useState<string | null>(null);
@@ -43,17 +43,56 @@ function App() {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: 'var(--bg-primary)' }}>
-      {/* Dynamic Header */}
-      <Header goHome={goHome} />
+    <div className="app-container">
+      {/* Left Sidebar */}
+      <Sidebar />
       
-      {/* Active Page Viewport */}
-      <main style={{ flexGrow: 1 }}>
+      {/* Main Content Area */}
+      <main style={{ flexGrow: 1, display: 'flex', flexDirection: 'column', overflowX: 'hidden' }}>
+        
+        {/* Top App Bar Header (from screenshot) */}
+        <header style={{
+          backgroundColor: '#FFFFFF',
+          borderBottom: '1px solid var(--border-light)',
+          padding: '16px 32px',
+          display: 'flex',
+          justifyContent: 'flex-end',
+          alignItems: 'center',
+          gap: '12px'
+        }}>
+          <button style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '8px 16px',
+            border: '1px solid var(--border-color)',
+            borderRadius: '6px',
+            background: '#FFFFFF',
+            fontSize: '0.85rem',
+            fontWeight: 500,
+            cursor: 'pointer'
+          }}>
+            <FileText size={16} /> Read Latest Briefing
+          </button>
+          
+          <button style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '8px 16px',
+            border: '1px solid var(--border-color)',
+            borderRadius: '6px',
+            background: '#FFFFFF',
+            fontSize: '0.85rem',
+            fontWeight: 500,
+            cursor: 'pointer'
+          }}>
+            <Rss size={16} /> Feed
+          </button>
+        </header>
+
         {renderPage()}
       </main>
-
-      {/* Editorial Footer */}
-      <Footer goHome={goHome} />
     </div>
   );
 }
