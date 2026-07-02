@@ -17,13 +17,16 @@ const deepseek = createDeepSeek({
   apiKey: API_KEY,
 });
 
-const fallbackImages = [
-  "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1546422904-90eab23c3d7e?auto=format&fit=crop&q=80&w=800"
-];
+const categoryImages = {
+  Politics: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+  Economy: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800",
+  Security: "https://images.unsplash.com/photo-1517594422361-5e1f09310fa6?auto=format&fit=crop&q=80&w=800",
+  Society: "https://images.unsplash.com/photo-1529156069898-49953eb1b5ae?auto=format&fit=crop&q=80&w=800",
+  Regional: "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800",
+  Health: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800",
+  Education: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800",
+  Technology: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+};
 
 async function run() {
   if (!API_KEY || !FIRECRAWL_API_KEY) {
@@ -82,7 +85,7 @@ async function run() {
       console.log(`[${i+1}] Scraping: ${item.url}`);
       
       let fullText = item.description || "";
-      let imageUrl = fallbackImages[i % fallbackImages.length];
+      let scrapedImageUrl = null;
       
       try {
         const scrapeResult = await app.scrapeUrl(item.url, { formats: ['markdown'] });
@@ -90,7 +93,7 @@ async function run() {
           fullText = scrapeResult.markdown.substring(0, 3000);
         }
         if (scrapeResult && scrapeResult.metadata && scrapeResult.metadata.ogImage) {
-          imageUrl = scrapeResult.metadata.ogImage;
+          scrapedImageUrl = scrapeResult.metadata.ogImage;
         }
       } catch (e) {
         console.log(`[${i+1}] Scrape failed, falling back. (${e.message})`);
@@ -110,6 +113,8 @@ async function run() {
         })
       });
       
+      const finalImageUrl = scrapedImageUrl || categoryImages[object.category] || categoryImages['Society'];
+
       return {
         id: `news-${Date.now()}-${i}`,
         title: item.title,
@@ -121,7 +126,7 @@ async function run() {
         category: object.category,
         published_at: new Date().toISOString(),
         update_batch: new Date().getHours() < 12 ? 'morning' : 'afternoon',
-        image_url: imageUrl,
+        image_url: finalImageUrl,
         featured: false,
         ai_summary_points: object.ai_summary_points
       };
