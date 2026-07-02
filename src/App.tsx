@@ -43,9 +43,9 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className={`app-container ${currentArticleSlug ? 'is-article-view' : ''}`}>
       {/* Left Sidebar */}
-      <Sidebar />
+      <Sidebar className="main-sidebar" />
       
       {/* Main Content Area */}
       <main style={{ flexGrow: 1, display: 'flex', flexDirection: 'column', overflowX: 'hidden' }}>
@@ -92,6 +92,9 @@ function App() {
         </header>
 
         {renderPage()}
+        
+        {/* Mobile Bottom Sidebar */}
+        <Sidebar className="mobile-bottom-sidebar" />
       </main>
     </div>
   );

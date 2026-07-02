@@ -18,11 +18,12 @@ const TikTokIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
 );
 
-export const Sidebar: React.FC = () => {
+export const Sidebar: React.FC<{ className?: string }> = ({ className = '' }) => {
   return (
-    <aside className="sidebar-container">
+    <aside className={`sidebar-container ${className}`}>
       
-      {/* Brand Logo Area */}
+      <div className="sidebar-top-section" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xl)' }}>
+        {/* Brand Logo Area */}
       <div>
         <h1 style={{ 
           fontFamily: 'var(--font-serif)', 
@@ -47,9 +48,11 @@ export const Sidebar: React.FC = () => {
 
       {/* Embedded Ad Banner */}
       <AdBanner />
+      </div>
 
-      {/* Social Media Crawling Section */}
-      <div style={{
+      <div className="sidebar-bottom-section" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xl)', flexGrow: 1 }}>
+        {/* Social Media Crawling Section */}
+        <div style={{
         display: 'flex',
         flexDirection: 'column',
         gap: 'var(--space-md)'
@@ -171,6 +174,8 @@ export const Sidebar: React.FC = () => {
         }}>
           <Clock size={12} /> Auto-updated every 4 hours
         </div>
+      </div>
+      
       </div>
 
       <style>{`

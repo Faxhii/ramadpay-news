@@ -471,3 +471,26 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+.mobile-bottom-sidebar {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .app-container .main-sidebar .sidebar-bottom-section {
+    display: none !important;
+  }
+  
+  .app-container .mobile-bottom-sidebar {
+    display: flex !important;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .app-container .mobile-bottom-sidebar .sidebar-top-section {
+    display: none !important;
+  }
+}
