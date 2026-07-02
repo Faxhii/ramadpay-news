@@ -3,10 +3,10 @@ import { FileText, Rss } from 'lucide-react';
 
 export const GlobalHeader: React.FC = () => {
   const adverts = [
-    "🚀 Send money to East Africa instantly with Ramad Pay!",
-    "💸 Zero hidden fees on all transfers.",
-    "💱 Get the best exchange rates today.",
-    "🔒 Secure cash pickup & mobile money transfers."
+    { text: "🚀 Send money to East Africa instantly with Ramad Pay!", url: "https://ramadpay.com/" },
+    { text: "💸 Zero hidden fees on all transfers.", url: "https://ramadpay.com/pricing" },
+    { text: "💱 Get the best exchange rates today.", url: "https://ramadpay.com/rates" },
+    { text: "🔒 Secure cash pickup & mobile money transfers.", url: "https://ramadpay.com/security" }
   ];
   const [adIndex, setAdIndex] = useState(0);
 
@@ -53,10 +53,15 @@ export const GlobalHeader: React.FC = () => {
         justifyContent: 'center', 
         overflow: 'hidden' 
       }}>
-        <div 
+        <a 
           key={adIndex}
+          href={adverts[adIndex].url}
+          target="_blank"
+          rel="noopener noreferrer"
           className="animate-fade-in"
           style={{
+            display: 'block',
+            textDecoration: 'none',
             background: 'linear-gradient(90deg, #FFD700, #F59E0B)',
             color: '#000000',
             padding: '8px 24px',
@@ -66,11 +71,12 @@ export const GlobalHeader: React.FC = () => {
             whiteSpace: 'nowrap',
             letterSpacing: '0.05em',
             textTransform: 'uppercase',
-            boxShadow: '0 0 15px rgba(245, 158, 11, 0.4)'
+            boxShadow: '0 0 15px rgba(245, 158, 11, 0.4)',
+            cursor: 'pointer'
           }}
         >
-          {adverts[adIndex]}
-        </div>
+          {adverts[adIndex].text}
+        </a>
       </div>
 
       {/* Right: Actions */}
