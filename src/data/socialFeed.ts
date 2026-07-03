@@ -14,6 +14,46 @@ export const socialFeed: SocialPost[] = [
     "source": "News",
     "author": "Reuters",
     "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
+    "published_at": "2026-07-02T21:37:00Z",
+    "id": "social-1783042172918-0"
+  },
+  {
+    "source": "News",
+    "author": "The Maritime Executive",
+    "content": "Conditions deteriorating for hijacked seafarers as Somalia piracy continues.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
+    "published_at": "2026-07-02T18:03:26Z",
+    "id": "social-1783042172918-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "@SomaliCommunityRochester",
+    "content": "Somali community in Rochester gathered at Parcel 5 to celebrate Independence Day.",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXBGeldTaHh3d19ocEZhTlhMUUFmbFFkVXJnXzBlVjN5ZThnSS1RR1ljaG0zRXd2Q2g5TTJBaG15TEJLbm95LWs5YmJ1bUdVWkVJVzRTU3MyOFg3ck1ZWlJ1cFdDd2dFekZBb0hKODlwaThOSTdkX3VmX3ZxR04yRHQwMmFGUnlLcHZNVkFCYUdXanR2S1RlclQ0cGdPdkRTVUYyVlNiOVBXUUZIUlFr?oc=5",
+    "published_at": "2026-07-02T15:55:38Z",
+    "id": "social-1783042172918-2"
+  },
+  {
+    "source": "Facebook",
+    "author": "@IQAir",
+    "content": "Qandala air quality index shows moderate pollution; monitor updates.",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CdzlQTFJyNUZxeG91eExVcEczT1JTc09UbDUzUnBZUkh1cVl0eWxkV2ZnbTEyRmFLWVhPdHd0eF9fLWcxVWxUTVVGTzZNai05cWpzNWdaYlpCWkNGeFFhaFU0VHMzUWtvWEZyQw?oc=5",
+    "published_at": "2026-07-02T15:52:20Z",
+    "id": "social-1783042172918-3"
+  },
+  {
+    "source": "X",
+    "author": "@HiiraanOnline",
+    "content": "Israeli military shipment arrives in Somalia under U.N. designation, report says.",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXRXTi1Tc2lKZDRTeURPOFFka2l1YTA0X1pkMEFGdWF4X18wRVJPbGxGaHlOWUhMUTZhS0xOcHoxb3FjajFua1FXcjQ2MnE3d245ektDYnlRVVQ2S2Y3WjMydmd1a1RILUkwRFhlRkVTVmY1elhPaV9ZRFF0NUpuOUxHZnloZjJ3N3pNZmpDaWk1aFBjZG9yQmxvQVY3d012LWYzR0xhM2Z0OVgxR0huY29qUGJ4VnkzT3dGMEJHUFlxZw?oc=5",
+    "published_at": "2026-07-03T01:21:42Z",
+    "id": "social-1783042172918-4"
+  },
+  {
+    "source": "News",
+    "author": "Reuters",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3ZhTUpPMGlmdEk2bVdrN0lrYk02Rk1IVkFfVFdWbGhlWm9tNHAycW1VdWdDWEdDOHlfaW5vSlduV0dSb3gyWHVvQWYtbWJnY0dVREdvQXhvTzRJWE5halpRV1Z3aW0wX251MzkwNlJoa2VCMXRsUmxRbTQ4Ml9OX01fU3IxR1BCRjVxWEpweHNzMWpVakgtc1c5bENWOWVxUGtXaTAxWm9NbGZuUDhpMWhNeS1ScFZTVDkyWHZTaWZqS19oRm1j?oc=5",
     "published_at": "2026-07-02T17:42:41Z",
     "id": "social-1783025351208-0"
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTVFaMmRtQ2RudTJ1VjM3Q1F5dkZnRnNqb25MUVN2bkx4UW1ERWxENG9uT3FwMzYwWlNUSTZ2a0x0aUl0XzAtcFBpVlBLMzF6VGVxU3M0V0Q5U2VVYl9xYVVGX3BvTVk4RVpMd1BfU2NYb3hEVnFTVWJFaHZsVWhXZE96SXZ6YkJ4R0p2U3A0cGhQRGVlZEFRTjNzN0dKNHR4M3c?oc=5",
     "published_at": "2026-07-01T19:05:32Z",
     "id": "social-1782987957396-4"
-  },
-  {
-    "source": "X",
-    "author": "@RochesterNews",
-    "content": "Celebrating 66 years of Somalia's independence in Rochester's Somali community.",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2tfVUQyam0xYUJXSUhiR2t4Q1lmYnFNNHVtRWl6bHdLOXNzYldaNmxyS0d4NE9UYlVKa0hOczhMYjVjNlJFWVRwa1A3bVZUY3h2T2VXUzJOQ2dDOF9UWTBmckN3RnhxVEJDazJXb1A5b2dEVlUxRGFCWEtfbTNjRmNQWm5wWDNHN2d1MlJ2aGNwZjdxYnBGQzVrRmN6R0wtSDBBYlVKNUNtRjJnenZ5MzlR?oc=5",
-    "published_at": "2026-07-02T01:48:35Z",
-    "id": "social-1782975502866-0"
-  },
-  {
-    "source": "News",
-    "author": "LSE",
-    "content": "Somali Bantu fate shows failure of Somalia's state-building project, says new analysis.",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTHNWYVA3UE50RWlvcnBjWk10SXBzMXlEbjIyYUVjM1NZYzU5YjZBM21DNGVYWVRiajd6anZIQ3o3RDRiUF8yR09kS1liLW0tZm1XeU1KRGl4dXpXT1VNX1JGdmRnUFprUkVEaGFoQjVJcDB6VElnNzhxOEEwTDdyendPSlM1bDZjdnBFVlJRbHdsNFVDMDBodWdUR3lVbUU1RjdHSl9jUUVzbVM0QWdEUjNqU1ZLVnBuOHZxY1BOSkFhUEpUb2JuN08xbw?oc=5",
-    "published_at": "2026-07-02T01:32:47Z",
-    "id": "social-1782975502867-1"
-  },
-  {
-    "source": "Facebook",
-    "author": "Women's Media Center",
-    "content": "Somalia's first women-led newsroom is bringing change and amplifying women's voices.",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR09DeDQySG5NYmgzSHhRYnBRSlVtRFhFWDBPcjJWZU8ySnRHNm9lZjktb0xicFdYNzdlX3RWdTJpQVJXUUswendsUk1TZzRxUHF6QW90ck5CZDliMGwzUzgtRGpjNXpZUGRQYXZEeWRfb29oemkzYVhSOGVoVkluMWZqQkQ1Nm9VZlY2eDhzLTFLMFotSFE?oc=5",
-    "published_at": "2026-07-02T00:43:44Z",
-    "id": "social-1782975502867-2"
-  },
-  {
-    "source": "News",
-    "author": "The Columbus Dispatch",
-    "content": "Columbus won't raise Somali flag despite post that drew Republican criticism.",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTjR5eElLYmxzUl8tMHhIcmZDN1FnRkxhOXRBcGFGSTVyR3ZVR3hBZWtGSE8xRjBQcmh0bFFhdVNyZWpNcE1ia3FteG5Da0UteFo2NzRPQlYzZnFXcDd0VVZHZ2hlRHNIek5vOVE5X1IyazVOVUh3dnlLR0NHSVlxdVgzWjNZa3VBajdLSlRTbXJjZ1RqQTlBemNJMmJsdTNkYVd1ZkxOX043LVRBdVlVTWhYQWRyTHhIRnp6Ylc5Qzh2ZFVIS0lxX0ZpMXptdw?oc=5",
-    "published_at": "2026-07-01T21:31:00Z",
-    "id": "social-1782975502867-3"
-  },
-  {
-    "source": "X",
-    "author": "@AlMonitor",
-    "content": "Turkish jets strike al-Shabab targets in Somalia. What you need to know.",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTVFaMmRtQ2RudTJ1VjM3Q1F5dkZnRnNqb25MUVN2bkx4UW1ERWxENG9uT3FwMzYwWlNUSTZ2a0x0aUl0XzAtcFBpVlBLMzF6VGVxU3M0V0Q5U2VVYl9xYVVGX3BvTVk4RVpMd1BfU2NYb3hEVnFTVWJFaHZsVWhXZE96SXZ6YkJ4R0p2U3A0cGhQRGVlZEFRTjNzN0dKNHR4M3c?oc=5",
-    "published_at": "2026-07-01T19:05:32Z",
-    "id": "social-1782975502867-4"
   }
 ];
