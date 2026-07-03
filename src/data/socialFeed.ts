@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "X",
+    "author": "@SomaliaInsider",
+    "content": "US blocks UN support for Somalia peacekeeping mission, putting it at risk. Reuters reports.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
+    "published_at": "2026-07-02T21:37:00.000Z",
+    "id": "social-1783111824850-0"
+  },
+  {
+    "source": "News",
+    "author": "Horn Review",
+    "content": "End of UNSOS support signals impending security crisis for Somalia, warns Horn Review.",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
+    "published_at": "2026-07-03T12:47:02.000Z",
+    "id": "social-1783111824850-1"
+  },
+  {
+    "source": "X",
+    "author": "@CrisisMonitor",
+    "content": "US to cut funding to UN Support Office in Somalia, as reported by Arab News. Security at risk.",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4Q3B5Zmw1djFxZExnTEdxb0tncnYxNlhGNG9BckY1aTByem1zUUJBN3YxYlhoMFhlNzJuQUMwaVdfZ0Zsa1E4MjFVR1Ria0Uyd2pVMWVB?oc=5",
+    "published_at": "2026-07-03T19:44:22.000Z",
+    "id": "social-1783111824850-2"
+  },
+  {
+    "source": "News",
+    "author": "Africanews.com",
+    "content": "AU peacekeeping mission in Somalia at risk as US funding cuts threaten stability.",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzNwbXY0THZpSUVRVnpKODNLVFNZZkpGSFVRUWszdy1kalI4VVk4WldOb3JjdFJCU1hJU250XzR1RzR6MFk1VlNfV1lDcGo4ZFZ4a3gtaTYtcHFXQ0VZZFRoSVhDNUJmb01SRmtUaWVWYlNIMkFuWG11bXNuVnlobmI4QlRwLU1Dbk5EalJ6enphZ09QdVp5c01TY1J2anFDM2pvczJGc256T2NEZXNHWWtEUdIBuAFBVV95cUxPYjJpRnZjWjZKbS1Ia2ktZXZNZ1hkNHhPYUhmVDhsMGxRcm9fbG4yNmRaSWRTMFJWcm9hbzBLSkRVXzRrVGc2QXhxejB1MDFGRFRUaHY0OE1hN3lmaTljVXBCUGk2aUtaZ2N6Z2tLQmlwX2hjeHc0TWQ0R25tU3lxSDFDVWJoYWI5Y3VxZ3hmLVF6c3FaV3lHa0VIQzRXUnJSNGJRdkZXaXdsUTdQTE9hZUZhdTJzaUMz?oc=5",
+    "published_at": "2026-07-03T15:33:57.000Z",
+    "id": "social-1783111824850-3"
+  },
+  {
+    "source": "Facebook",
+    "author": "Africa Daily",
+    "content": "Somalia debuts first ever pavilion at Venice Art Biennale, showcasing cultural resilience.",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
+    "published_at": "2026-07-03T12:56:15.000Z",
+    "id": "social-1783111824850-4"
+  },
+  {
+    "source": "X",
     "author": "@SomaliaSecurity",
     "content": "🚨 BREAKING: US blocks UN funding for Somalia peacekeeping mission, risking collapse of AU forces fighting al-Shabaab.",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
     "published_at": "2026-07-02T18:03:26Z",
     "id": "social-1783074253544-4"
-  },
-  {
-    "source": "News",
-    "author": "Reuters",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support.",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3ZhTUpPMGlmdEk2bVdrN0lrYk02Rk1IVkFfVFdWbGhlWm9tNHAycW1VdWdDWEdDOHlfaW5vSlduV0dSb3gyWHVvQWYtbWJnY0dVREdvQXhvTzRJWE5halpRV1Z3aW0wX251MzkwNlJoa2VCMXRsUmxRbTQ4Ml9OX01fU3IxR1BCRjVxWEpweHNzMWpVakgtc1c5bENWOWVxUGtXaTAxWm9NbGZuUDhpMWhNeS1ScFZTVDkyWHZTaWZqS19oRm1j?oc=5",
-    "published_at": "2026-07-02T17:42:41Z",
-    "id": "social-1783061560970-0"
-  },
-  {
-    "source": "News",
-    "author": "ReliefWeb",
-    "content": "New needs analysis in drought-affected areas of Somalia, April 2026.",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQmJsUFd6aE1vZ2lCOU5NZ2ctRXhXNjZoc0RzakRQbnUtT3l5Z3pNazM3OEVJX0ZIUmtvb3V6QmxwbXhLb1lQcGxZWmlpVTdwNUFtbXVkRTVvamd2THVSSEZrdlFTMldvZkxRMm9mOHZValNDMDNaN2lGWlhVc0cyTVFzYlI0MXVsSk02YzkyNFNxTXlnQVFkbQ?oc=5",
-    "published_at": "2026-07-03T03:18:16Z",
-    "id": "social-1783061560970-1"
-  },
-  {
-    "source": "News",
-    "author": "The Maritime Executive",
-    "content": "Conditions deteriorating for hijacked seafarers as Somalia piracy continues.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
-    "published_at": "2026-07-02T18:03:26Z",
-    "id": "social-1783061560970-2"
-  },
-  {
-    "source": "News",
-    "author": "Splash247",
-    "content": "Piracy hostages face worsening conditions off Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLXpVT0MxeWMyLWc4Q2tIV2x4QU03WDEyMXROUVpCS0lQY3VFM0ZsTWIyaTFCUnd4YTNWeFp6d1RReTF0VnE5SW5ZWHoxWU4ySUlwaEg2LWdwVU9Rajd1M1o1Qllybjl5M3ZYRWlYa01zNHBSQVJBX3ZPRUlqQ0pLdkVn?oc=5",
-    "published_at": "2026-07-03T04:56:44Z",
-    "id": "social-1783061560970-3"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliaWatch",
-    "content": "Somali flag stolen from Niagara Square; BPD investigating threat against City Hall.",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNTF2eEg4SmRGUENLQXpwTjRGSzZ3c21aczl1SHJjRUhjay10SzI1eHp5S0l4dGJObGYzSmlaYmdlNGs5VE1xN0pxWm9rLU5mdGVGQ29aNmc3ektubDlxZWUzVnI2Vmh4TVFnQ3Q4UEROQkhiV01FOV9vaWZEclM4RVZjcWJlZHA0c3JHU1hPRzJJZk1MMkZFQ0ZHNi00bkxNNW5jQjFB?oc=5",
-    "published_at": "2026-07-02T16:19:00Z",
-    "id": "social-1783061560970-4"
   }
 ];
