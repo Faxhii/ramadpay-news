@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "X",
+    "author": "@SomaliaSecurity",
+    "content": "🚨 BREAKING: US blocks UN funding for Somalia peacekeeping mission, risking collapse of AU forces fighting al-Shabaab.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
+    "published_at": "2026-07-02T21:37:00Z",
+    "id": "social-1783098550747-0"
+  },
+  {
+    "source": "News",
+    "author": "horn review",
+    "content": "With UNSOS support ending, Somalia faces a major security crisis as AU peacekeepers lose critical backing.",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
+    "published_at": "2026-07-03T12:47:02Z",
+    "id": "social-1783098550747-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "DW Africa",
+    "content": "Somalia makes history with first pavilion at the Venice Art Biennale, showcasing culture amid conflict.",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
+    "published_at": "2026-07-03T12:56:15Z",
+    "id": "social-1783098550747-2"
+  },
+  {
+    "source": "X",
+    "author": "@AU_Somalia",
+    "content": "U.S. pulls support for Somalia peacekeeping, raising fears al-Shabaab could regain ground without AU funding.",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSms3c0w2d3RTYjBucmlKRjdlR2N4YTFLbWlVSEIyWlNkeWtMMGhHLXVsbkFpc05DazAweWQ2M1BXTnBmX0NZRGRPVWRjRUZhUXBGUmtDMTlsbXpILVRRSjN0ZnpKMlRyQl9OUWtFOHV4WTRHQnpZMFpuQlJoMFRzUTJlMi1uQzdpNHN5Wi1TYUNmWnJEM1VjZ3hhMlJmQnlxV0xncV9UaUZLTHVnVExPaEJmNXcwX2QtUEgzYUdUNTJ4MWt1eGp4ZTVhUUFZOTNBaXhqRjFmWWUtUQ?oc=5",
+    "published_at": "2026-07-03T08:37:03Z",
+    "id": "social-1783098550747-3"
+  },
+  {
+    "source": "News",
+    "author": "Africa News",
+    "content": "US to block UN funding for Somalia peacekeeping, dealing a major blow to AU mission against insurgents.",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMUt3bVdzNnkybDJZeGlrcTA5cXdYazhGeEV1N2ZpM0xyZWQ4RnNNTEpCaVktY2taWTJpcEZXZ29JcVRCZlV6NE56ZVlVRVhvNHRpSWVkSzhzRHdlVlZkVWFHSWp0cUpDaU02dzhIR290cll6bzUtZUt5Wnp0Z1JjVEhGd2cteXNIVEpFM1lHS21yd1VGQ3JleEVyaE1zek5IUzlr0gGoAUFVX3lxTE9LVFVOb2E2X0FnV3pCU3NTdXMwRjZIRWZxX0kydkt3bWlOZFpXUUNmRW9oc2xRLUd4emsyVjNlM3hERFdTalhnNW5uNGFSTXVXVTlaRUd0dnJISmdETkNFcVUwV0RzalhWN2gtMlJqdXBzV24wYkM4VGJ2R0l3V24xLVJJSXdrNDJEUnFqRVRwQnotakZEdFgtcktOUGFUMGNudExPZ1pmVA?oc=5",
+    "published_at": "2026-07-03T05:37:10Z",
+    "id": "social-1783098550747-4"
+  },
+  {
     "source": "News",
     "author": "@Reuters",
     "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNTF2eEg4SmRGUENLQXpwTjRGSzZ3c21aczl1SHJjRUhjay10SzI1eHp5S0l4dGJObGYzSmlaYmdlNGs5VE1xN0pxWm9rLU5mdGVGQ29aNmc3ektubDlxZWUzVnI2Vmh4TVFnQ3Q4UEROQkhiV01FOV9vaWZEclM4RVZjcWJlZHA0c3JHU1hPRzJJZk1MMkZFQ0ZHNi00bkxNNW5jQjFB?oc=5",
     "published_at": "2026-07-02T16:19:00Z",
     "id": "social-1783061560970-4"
-  },
-  {
-    "source": "News",
-    "author": "Reuters",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
-    "published_at": "2026-07-02T21:37:00Z",
-    "id": "social-1783042172918-0"
-  },
-  {
-    "source": "News",
-    "author": "The Maritime Executive",
-    "content": "Conditions deteriorating for hijacked seafarers as Somalia piracy continues.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
-    "published_at": "2026-07-02T18:03:26Z",
-    "id": "social-1783042172918-1"
-  },
-  {
-    "source": "Facebook",
-    "author": "@SomaliCommunityRochester",
-    "content": "Somali community in Rochester gathered at Parcel 5 to celebrate Independence Day.",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXBGeldTaHh3d19ocEZhTlhMUUFmbFFkVXJnXzBlVjN5ZThnSS1RR1ljaG0zRXd2Q2g5TTJBaG15TEJLbm95LWs5YmJ1bUdVWkVJVzRTU3MyOFg3ck1ZWlJ1cFdDd2dFekZBb0hKODlwaThOSTdkX3VmX3ZxR04yRHQwMmFGUnlLcHZNVkFCYUdXanR2S1RlclQ0cGdPdkRTVUYyVlNiOVBXUUZIUlFr?oc=5",
-    "published_at": "2026-07-02T15:55:38Z",
-    "id": "social-1783042172918-2"
-  },
-  {
-    "source": "Facebook",
-    "author": "@IQAir",
-    "content": "Qandala air quality index shows moderate pollution; monitor updates.",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CdzlQTFJyNUZxeG91eExVcEczT1JTc09UbDUzUnBZUkh1cVl0eWxkV2ZnbTEyRmFLWVhPdHd0eF9fLWcxVWxUTVVGTzZNai05cWpzNWdaYlpCWkNGeFFhaFU0VHMzUWtvWEZyQw?oc=5",
-    "published_at": "2026-07-02T15:52:20Z",
-    "id": "social-1783042172918-3"
-  },
-  {
-    "source": "X",
-    "author": "@HiiraanOnline",
-    "content": "Israeli military shipment arrives in Somalia under U.N. designation, report says.",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXRXTi1Tc2lKZDRTeURPOFFka2l1YTA0X1pkMEFGdWF4X18wRVJPbGxGaHlOWUhMUTZhS0xOcHoxb3FjajFua1FXcjQ2MnE3d245ektDYnlRVVQ2S2Y3WjMydmd1a1RILUkwRFhlRkVTVmY1elhPaV9ZRFF0NUpuOUxHZnloZjJ3N3pNZmpDaWk1aFBjZG9yQmxvQVY3d012LWYzR0xhM2Z0OVgxR0huY29qUGJ4VnkzT3dGMEJHUFlxZw?oc=5",
-    "published_at": "2026-07-03T01:21:42Z",
-    "id": "social-1783042172918-4"
   }
 ];
