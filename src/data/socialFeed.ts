@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "Reuters",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support.",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3ZhTUpPMGlmdEk2bVdrN0lrYk02Rk1IVkFfVFdWbGhlWm9tNHAycW1VdWdDWEdDOHlfaW5vSlduV0dSb3gyWHVvQWYtbWJnY0dVREdvQXhvTzRJWE5halpRV1Z3aW0wX251MzkwNlJoa2VCMXRsUmxRbTQ4Ml9OX01fU3IxR1BCRjVxWEpweHNzMWpVakgtc1c5bENWOWVxUGtXaTAxWm9NbGZuUDhpMWhNeS1ScFZTVDkyWHZTaWZqS19oRm1j?oc=5",
+    "published_at": "2026-07-02T17:42:41Z",
+    "id": "social-1783061560970-0"
+  },
+  {
+    "source": "News",
+    "author": "ReliefWeb",
+    "content": "New needs analysis in drought-affected areas of Somalia, April 2026.",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQmJsUFd6aE1vZ2lCOU5NZ2ctRXhXNjZoc0RzakRQbnUtT3l5Z3pNazM3OEVJX0ZIUmtvb3V6QmxwbXhLb1lQcGxZWmlpVTdwNUFtbXVkRTVvamd2THVSSEZrdlFTMldvZkxRMm9mOHZValNDMDNaN2lGWlhVc0cyTVFzYlI0MXVsSk02YzkyNFNxTXlnQVFkbQ?oc=5",
+    "published_at": "2026-07-03T03:18:16Z",
+    "id": "social-1783061560970-1"
+  },
+  {
+    "source": "News",
+    "author": "The Maritime Executive",
+    "content": "Conditions deteriorating for hijacked seafarers as Somalia piracy continues.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
+    "published_at": "2026-07-02T18:03:26Z",
+    "id": "social-1783061560970-2"
+  },
+  {
+    "source": "News",
+    "author": "Splash247",
+    "content": "Piracy hostages face worsening conditions off Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLXpVT0MxeWMyLWc4Q2tIV2x4QU03WDEyMXROUVpCS0lQY3VFM0ZsTWIyaTFCUnd4YTNWeFp6d1RReTF0VnE5SW5ZWHoxWU4ySUlwaEg2LWdwVU9Rajd1M1o1Qllybjl5M3ZYRWlYa01zNHBSQVJBX3ZPRUlqQ0pLdkVn?oc=5",
+    "published_at": "2026-07-03T04:56:44Z",
+    "id": "social-1783061560970-3"
+  },
+  {
+    "source": "X",
+    "author": "@SomaliaWatch",
+    "content": "Somali flag stolen from Niagara Square; BPD investigating threat against City Hall.",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNTF2eEg4SmRGUENLQXpwTjRGSzZ3c21aczl1SHJjRUhjay10SzI1eHp5S0l4dGJObGYzSmlaYmdlNGs5VE1xN0pxWm9rLU5mdGVGQ29aNmc3ektubDlxZWUzVnI2Vmh4TVFnQ3Q4UEROQkhiV01FOV9vaWZEclM4RVZjcWJlZHA0c3JHU1hPRzJJZk1MMkZFQ0ZHNi00bkxNNW5jQjFB?oc=5",
+    "published_at": "2026-07-02T16:19:00Z",
+    "id": "social-1783061560970-4"
+  },
+  {
+    "source": "News",
+    "author": "Reuters",
     "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
     "published_at": "2026-07-02T21:37:00Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hMzc0UzYtZzQwZ2xpQVhTS2xhbEoyNTFkMmh3b0M1VVVfQkZHWVVVWno3WXA1S09icWN5bzVWanFWcDFJVnQxWkdMM1lxLTlqSVE2dW5vNVlFYlMyLU12SHVXUlNkaW8?oc=5",
     "published_at": "2026-07-02T09:25:37Z",
     "id": "social-1782998677908-4"
-  },
-  {
-    "source": "News",
-    "author": "13wham.com",
-    "content": "Rochester's Somali community celebrates 66 years of Somalia's independence.",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2tfVUQyam0xYUJXSUhiR2t4Q1lmYnFNNHVtRWl6bHdLOXNzYldaNmxyS0d4NE9UYlVKa0hOczhMYjVjNlJFWVRwa1A3bVZUY3h2T2VXUzJOQ2dDOF9UWTBmckN3RnhxVEJDazJXb1A5b2dEVlUxRGFCWEtfbTNjRmNQWm5wWDNHN2d1MlJ2aGNwZjdxYnBGQzVrRmN6R0wtSDBBYlVKNUNtRjJnenZ5MzlR?oc=5",
-    "published_at": "2026-07-02T01:48:35Z",
-    "id": "social-1782987957396-0"
-  },
-  {
-    "source": "News",
-    "author": "The London School of Economics",
-    "content": "The fate of Somali Bantu reveals failure of Somalia's state-building project.",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTHNWYVA3UE50RWlvcnBjWk10SXBzMXlEbjIyYUVjM1NZYzU5YjZBM21DNGVYWVRiajd6anZIQ3o3RDRiUF8yR09kS1liLW0tZm1XeU1KRGl4dXpXT1VNX1JGdmRnUFprUkVEaGFoQjVJcDB6VElnNzhxOEEwTDdyendPSlM1bDZjdnBFVlJRbHdsNFVDMDBodWdUR3lVbUU1RjdHSl9jUUVzbVM0QWdEUjNqU1ZLVnBuOHZxY1BOSkFhUEpUb2JuN08xbw?oc=5",
-    "published_at": "2026-07-02T01:32:47Z",
-    "id": "social-1782987957396-1"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliaUpdates",
-    "content": "Columbus won't raise Somali flag despite post drawing Republican ire.",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTjR5eElLYmxzUl8tMHhIcmZDN1FnRkxhOXRBcGFGSTVyR3ZVR3hBZWtGSE8xRjBQcmh0bFFhdVNyZWpNcE1ia3FteG5Da0UteFo2NzRPQlYzZnFXcDd0VVZHZ2hlRHNIek5vOVE5X1IyazVOVUh3dnlLR0NHSVlxdVgzWjNZa3VBajdLSlRTbXJjZ1RqQTlBemNJMmJsdTNkYVd1ZkxOX043LVRBdVlVTWhYQWRyTHhIRnp6Ylc5Qzh2ZFVIS0lxX0ZpMXptdw?oc=5",
-    "published_at": "2026-07-01T21:31:00Z",
-    "id": "social-1782987957396-2"
-  },
-  {
-    "source": "News",
-    "author": "Women’s Media Center",
-    "content": "Somalia’s first women-led newsroom brings change.",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR09DeDQySG5NYmgzSHhRYnBRSlVtRFhFWDBPcjJWZU8ySnRHNm9lZjktb0xicFdYNzdlX3RWdTJpQVJXUUswendsUk1TZzRxUHF6QW90ck5CZDliMGwzUzgtRGpjNXpZUGRQYXZEeWRfb29oemkzYVhSOGVoVkluMWZqQkQ1Nm9VZlY2eDhzLTFLMFotSFE?oc=5",
-    "published_at": "2026-07-02T00:43:44Z",
-    "id": "social-1782987957396-3"
-  },
-  {
-    "source": "News",
-    "author": "Al-Monitor",
-    "content": "Turkish jets strike al-Shabab targets in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTVFaMmRtQ2RudTJ1VjM3Q1F5dkZnRnNqb25MUVN2bkx4UW1ERWxENG9uT3FwMzYwWlNUSTZ2a0x0aUl0XzAtcFBpVlBLMzF6VGVxU3M0V0Q5U2VVYl9xYVVGX3BvTVk4RVpMd1BfU2NYb3hEVnFTVWJFaHZsVWhXZE96SXZ6YkJ4R0p2U3A0cGhQRGVlZEFRTjNzN0dKNHR4M3c?oc=5",
-    "published_at": "2026-07-01T19:05:32Z",
-    "id": "social-1782987957396-4"
   }
 ];
