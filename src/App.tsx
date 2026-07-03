@@ -19,14 +19,18 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const sortedArticles = [...mockArticles].sort(
+    (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
+  );
+
   const renderPage = () => {
     if (currentArticleSlug) {
-      const selectedArticle = mockArticles.find(a => a.slug === currentArticleSlug);
+      const selectedArticle = sortedArticles.find(a => a.slug === currentArticleSlug);
       if (selectedArticle) {
         return (
           <ArticleDetail
             article={selectedArticle}
-            articles={mockArticles}
+            articles={sortedArticles}
             onArticleClick={handleArticleClick}
             setCurrentPage={goHome}
           />
@@ -36,7 +40,7 @@ function App() {
 
     return (
       <Home
-        articles={mockArticles}
+        articles={sortedArticles}
         onArticleClick={handleArticleClick}
       />
     );

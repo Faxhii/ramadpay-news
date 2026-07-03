@@ -15,7 +15,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, index, onClic
   // Format the time (e.g. 04:22 AM)
   const pubDate = article.published_at || new Date().toISOString();
   const dateObj = new Date(pubDate);
-  const timeString = dateObj.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  const timeString = dateObj.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', timeZone: 'Africa/Nairobi' });
 
   return (
     <article 

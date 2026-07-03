@@ -80,20 +80,25 @@ async function run() {
   const targetItems = pooledItems.slice(0, 30);
   const newArticles = [];
 
-  const processPromises = targetItems.map(async (item, i) => {
+  for (let i = 0; i < targetItems.length; i++) {
+    const item = targetItems[i];
     try {
-      console.log(`[${i+1}] Scraping: ${item.url}`);
+      console.log(`[${i+1}/${targetItems.length}] Scraping: ${item.url}`);
       
       let fullText = item.description || "";
       let scrapedImageUrl = null;
       
       try {
         const scrapeResult = await app.scrapeUrl(item.url, { formats: ['markdown'] });
-        if (scrapeResult && scrapeResult.markdown) {
-          fullText = scrapeResult.markdown.substring(0, 3000);
+        
+        // Handle both older and newer firecrawl-js versions
+        const dataObj = scrapeResult.data || scrapeResult;
+        
+        if (dataObj && dataObj.markdown) {
+          fullText = dataObj.markdown.substring(0, 3000);
         }
-        if (scrapeResult && scrapeResult.metadata && scrapeResult.metadata.ogImage) {
-          scrapedImageUrl = scrapeResult.metadata.ogImage;
+        if (dataObj && dataObj.metadata && dataObj.metadata.ogImage) {
+          scrapedImageUrl = dataObj.metadata.ogImage;
         }
       } catch (e) {
         console.log(`[${i+1}] Scrape failed, falling back. (${e.message})`);
@@ -101,6 +106,7 @@ async function run() {
 
       const rawText = `Title: ${item.title}\nSource: ${item.url}\nContent: ${fullText}`;
 
+      console.log(`[${i+1}] Generating article via DeepSeek...`);
       const { object } = await generateObject({
         model: deepseek('deepseek-chat'),
         system: 'You are an expert editorial editor for East African news. Given this scraped web text about Somali politics, output structured data according to the schema.',
@@ -115,7 +121,7 @@ async function run() {
       
       const finalImageUrl = scrapedImageUrl || categoryImages[object.category] || categoryImages['Society'];
 
-      return {
+      newArticles.push({
         id: `news-${Date.now()}-${i}`,
         title: item.title,
         slug: item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
@@ -129,20 +135,14 @@ async function run() {
         image_url: finalImageUrl,
         featured: false,
         ai_summary_points: object.ai_summary_points
-      };
+      });
 
     } catch (err) {
       console.error(`[${i+1}] Failed to process:`, err.message);
-      return null;
     }
-  });
-
-  const results = await Promise.allSettled(processPromises);
-  
-  for (const res of results) {
-    if (res.status === 'fulfilled' && res.value) {
-      newArticles.push(res.value);
-    }
+    
+    // Quick delay to avoid rate limiting
+    await new Promise(r => setTimeout(r, 1000));
   }
 
   const validNewArticles = newArticles.slice(0, 20);

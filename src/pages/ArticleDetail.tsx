@@ -33,8 +33,9 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
       weekday: 'long',
       year: 'numeric',
       month: 'long',
-      day: 'numeric'
-    }) + ' ' + date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) + ' EAT';
+      day: 'numeric',
+      timeZone: 'Africa/Nairobi'
+    }) + ' ' + date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZone: 'Africa/Nairobi' }) + ' EAT';
   };
 
   const batchBadgeClass = article.update_batch === 'morning' ? 'badge-morning' : 'badge-afternoon';
