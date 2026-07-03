@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "@Reuters",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
+    "published_at": "2026-07-02T21:37:00Z",
+    "id": "social-1783085289329-0"
+  },
+  {
+    "source": "News",
+    "author": "horn review",
+    "content": "The End of UNSOS Support and Somalia’s Impending Security Crisis.",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
+    "published_at": "2026-07-03T12:47:02Z",
+    "id": "social-1783085289329-1"
+  },
+  {
+    "source": "X",
+    "author": "@BIAfrica",
+    "content": "U.S. pulls support for Somalia peacekeeping mission, raising fears over fight against al-Shabaab.",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSms3c0w2d3RTYjBucmlKRjdlR2N4YTFLbWlVSEIyWlNkeWtMMGhHLXVsbkFpc05DazAweWQ2M1BXTnBmX0NZRGRPVWRjRUZhUXBGUmtDMTlsbXpILVRRSjN0ZnpKMlRyQl9OUWtFOHV4WTRHQnpZMFpuQlJoMFRzUTJlMi1uQzdpNHN5Wi1TYUNmWnJEM1VjZ3hhMlJmQnlxV0xncV9UaUZLTHVnVExPaEJmNXcwX2QtUEgzYUdUNTJ4MWt1eGp4ZTVhUUFZOTNBaXhqRjFmWWUtUQ?oc=5",
+    "published_at": "2026-07-03T08:37:03Z",
+    "id": "social-1783085289329-2"
+  },
+  {
+    "source": "Facebook",
+    "author": "DW.com",
+    "content": "Somalia’s first pavilion at the Venice Art Biennale.",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMnBqQUowUEpzdHpidVQ4b0JtTlZsQnoxMXh0WmlKTTZrQ1VSNm1OSGVCME5ReGRxRzhkX3J5OUJPdkxpQW5UcHZoT18tT21QWnR4TjNMMDdwUEVYT3NfdGYtSjI5NGxhbDFQWU1LcnM3RDdraUs3My1ubzFKME55Ri1mdW9FM2RnZXdrZ3VR?oc=5",
+    "published_at": "2026-07-03T06:15:03Z",
+    "id": "social-1783085289329-3"
+  },
+  {
+    "source": "X",
+    "author": "@MaritimeExec",
+    "content": "Conditions Deteriorating for Hijacked Seafarers as Somalia Piracy Continues.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
+    "published_at": "2026-07-02T18:03:26Z",
+    "id": "social-1783085289329-4"
+  },
+  {
+    "source": "News",
     "author": "Reuters",
     "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXRXTi1Tc2lKZDRTeURPOFFka2l1YTA0X1pkMEFGdWF4X18wRVJPbGxGaHlOWUhMUTZhS0xOcHoxb3FjajFua1FXcjQ2MnE3d245ektDYnlRVVQ2S2Y3WjMydmd1a1RILUkwRFhlRkVTVmY1elhPaV9ZRFF0NUpuOUxHZnloZjJ3N3pNZmpDaWk1aFBjZG9yQmxvQVY3d012LWYzR0xhM2Z0OVgxR0huY29qUGJ4VnkzT3dGMEJHUFlxZw?oc=5",
     "published_at": "2026-07-03T01:21:42Z",
     "id": "social-1783042172918-4"
-  },
-  {
-    "source": "News",
-    "author": "Reuters",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3ZhTUpPMGlmdEk2bVdrN0lrYk02Rk1IVkFfVFdWbGhlWm9tNHAycW1VdWdDWEdDOHlfaW5vSlduV0dSb3gyWHVvQWYtbWJnY0dVREdvQXhvTzRJWE5halpRV1Z3aW0wX251MzkwNlJoa2VCMXRsUmxRbTQ4Ml9OX01fU3IxR1BCRjVxWEpweHNzMWpVakgtc1c5bENWOWVxUGtXaTAxWm9NbGZuUDhpMWhNeS1ScFZTVDkyWHZTaWZqS19oRm1j?oc=5",
-    "published_at": "2026-07-02T17:42:41Z",
-    "id": "social-1783025351208-0"
-  },
-  {
-    "source": "News",
-    "author": "The Maritime Executive",
-    "content": "Conditions deteriorating for hijacked seafarers as Somalia piracy continues.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
-    "published_at": "2026-07-02T18:03:26Z",
-    "id": "social-1783025351208-1"
-  },
-  {
-    "source": "News",
-    "author": "BBC News Africa",
-    "content": "US funding exit casts doubt on AU peace mission in Somalia, raising concerns.",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWUxkZ0o5UDdvb3E1TXZ5X0RNenVLUUt6V1hlLWh0WUdVdlF5Vmw4UWVSVERFLXNIajA0MnRGTG82NmwyMXVaMjE3WHAwUEpFMlhNTS1MYU5OWnQwTlNCUUlWRDZ5VXp4MnFSSzhfZVVKeXZOX19uYVVpTWtlbnhDNVFvaUNHMzhLdzMtVXhsWmMySlZOVU93VS1EOHltVWc0dk5veE00QlhfZTdnNzNjSVc3NVNwRGVO?oc=5",
-    "published_at": "2026-07-02T17:45:00Z",
-    "id": "social-1783025351208-2"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliaUpdates",
-    "content": "Columbus post on Somali independence sparks backlash. Community reacts.",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaVIxMThrNzB4ZFVfNmVRQWpvT2ZnbGtySkRmTkhMWGdVNU8tc0hDODVjMWxaS25oMjA2LUtrS1hqVDhxLWswaVpSY0J1dF9DVElRYjRFZDlVazlrcnNXYS1mRHVKcWlqQWhiU2RpWkNwQ1ZVVTZDTERxQW1DRkRwWHc5MXd1NW0wQXljb3dhUHZlZjVfeG1ZTURGRUNQOXNhVEHSAacBQVVfeXFMTzVMZkpMRERzZUdtWXR2SENGaEdlbWVlWnhBdXZlSmRncFhmMUVsRllfTC0xQVFBY2tYM29rLVN0RUlxS0RjQ3J3TjUxOGFzMkNKMDNjc0NfbzhkbS1DWlBwbHh2cTVuZTJmcldzYVJqRHo3eG1YUmFIblEwbWk1ZTFUdGhBRG1VUVpkOHhIX2JHZUVPUEgzWUc5Qm92WDZJU044WkFWX2M?oc=5",
-    "published_at": "2026-07-02T02:04:31Z",
-    "id": "social-1783025351208-3"
-  },
-  {
-    "source": "Facebook",
-    "author": "Somali Community News",
-    "content": "Local Somali community gathers at Parcel 5 to celebrate Somali Independence Day.",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXBGeldTaHh3d19ocEZhTlhMUUFmbFFkVXJnXzBlVjN5ZThnSS1RR1ljaG0zRXd2Q2g5TTJBaG15TEJLbm95LWs5YmJ1bUdVWkVJVzRTU3MyOFg3ck1ZWlJ1cFdDd2dFekZBb0hKODlwaThOSTdkX3VmX3ZxR04yRHQwMmFGUnlLcHZNVkFCYUdXanR2S1RlclQ0cGdPdkRTVUYyVlNiOVBXUUZIUlFr?oc=5",
-    "published_at": "2026-07-02T15:54:40Z",
-    "id": "social-1783025351208-4"
   }
 ];
