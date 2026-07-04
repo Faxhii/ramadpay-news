@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "News",
+    "author": "The Jerusalem Post",
+    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report.",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T00:07:35Z",
+    "id": "social-1783147107824-0"
+  },
+  {
+    "source": "News",
+    "author": "horn review",
+    "content": "The End of UNSOS Support and Somalia’s Impending Security Crisis.",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
+    "published_at": "2026-07-03T12:47:02Z",
+    "id": "social-1783147107824-1"
+  },
+  {
+    "source": "X",
+    "author": "Business Insider Africa",
+    "content": "U.S. pulls support for Somalia peacekeeping mission, raising fears over fight against al-Shabaab.",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSms3c0w2d3RTYjBucmlKRjdlR2N4YTFLbWlVSEIyWlNkeWtMMGhHLXVsbkFpc05DazAweWQ2M1BXTnBmX0NZRGRPVWRjRUZhUXBGUmtDMTlsbXpILVRRSjN0ZnpKMlRyQl9OUWtFOHV4WTRHQnpZMFpuQlJoMFRzUTJlMi1uQzdpNHN5Wi1TYUNmWnJEM1VjZ3hhMlJmQnlxV0xncV9UaUZLTHVnVExPaEJmNXcwX2QtUEgzYUdUNTJ4MWt1eGp4ZTVhUUFZOTNBaXhqRjFmWWUtUQ?oc=5",
+    "published_at": "2026-07-03T08:37:03Z",
+    "id": "social-1783147107824-2"
+  },
+  {
+    "source": "Facebook",
+    "author": "DW.com",
+    "content": "Somalia’s first pavilion at the Venice Art Biennale.",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
+    "published_at": "2026-07-03T12:56:15Z",
+    "id": "social-1783147107824-3"
+  },
+  {
+    "source": "News",
+    "author": "IQAir",
+    "content": "Burao Air Quality Index (AQI) and Somalia Air Pollution reported.",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6YzIxdGxmRjE4THJUelV5TGpfOF9pV3RsQmIySXZqVEl3M1Y1OEdoZGdsVmtXTmRhMFctNzE5czdiaWl4cXBEZWYzcVhNZVpPa0VQb2d5TkdZSExTcDNENGRGUWdiaWN2Vm5LTUZjVQ?oc=5",
+    "published_at": "2026-07-04T01:53:26Z",
+    "id": "social-1783147107824-4"
+  },
+  {
     "source": "X",
     "author": "@GeopoliticWatch",
     "content": "Turkey's Somalia spaceport is also a missile range threatening Israel, per Jerusalem Post.",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMUt3bVdzNnkybDJZeGlrcTA5cXdYazhGeEV1N2ZpM0xyZWQ4RnNNTEpCaVktY2taWTJpcEZXZ29JcVRCZlV6NE56ZVlVRVhvNHRpSWVkSzhzRHdlVlZkVWFHSWp0cUpDaU02dzhIR290cll6bzUtZUt5Wnp0Z1JjVEhGd2cteXNIVEpFM1lHS21yd1VGQ3JleEVyaE1zek5IUzlr0gGoAUFVX3lxTE9LVFVOb2E2X0FnV3pCU3NTdXMwRjZIRWZxX0kydkt3bWlOZFpXUUNmRW9oc2xRLUd4emsyVjNlM3hERFdTalhnNW5uNGFSTXVXVTlaRUd0dnJISmdETkNFcVUwV0RzalhWN2gtMlJqdXBzV24wYkM4VGJ2R0l3V24xLVJJSXdrNDJEUnFqRVRwQnotakZEdFgtcktOUGFUMGNudExPZ1pmVA?oc=5",
     "published_at": "2026-07-03T05:37:10Z",
     "id": "social-1783098550747-4"
-  },
-  {
-    "source": "News",
-    "author": "@Reuters",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
-    "published_at": "2026-07-02T21:37:00Z",
-    "id": "social-1783085289329-0"
-  },
-  {
-    "source": "News",
-    "author": "horn review",
-    "content": "The End of UNSOS Support and Somalia’s Impending Security Crisis.",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
-    "published_at": "2026-07-03T12:47:02Z",
-    "id": "social-1783085289329-1"
-  },
-  {
-    "source": "X",
-    "author": "@BIAfrica",
-    "content": "U.S. pulls support for Somalia peacekeeping mission, raising fears over fight against al-Shabaab.",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSms3c0w2d3RTYjBucmlKRjdlR2N4YTFLbWlVSEIyWlNkeWtMMGhHLXVsbkFpc05DazAweWQ2M1BXTnBmX0NZRGRPVWRjRUZhUXBGUmtDMTlsbXpILVRRSjN0ZnpKMlRyQl9OUWtFOHV4WTRHQnpZMFpuQlJoMFRzUTJlMi1uQzdpNHN5Wi1TYUNmWnJEM1VjZ3hhMlJmQnlxV0xncV9UaUZLTHVnVExPaEJmNXcwX2QtUEgzYUdUNTJ4MWt1eGp4ZTVhUUFZOTNBaXhqRjFmWWUtUQ?oc=5",
-    "published_at": "2026-07-03T08:37:03Z",
-    "id": "social-1783085289329-2"
-  },
-  {
-    "source": "Facebook",
-    "author": "DW.com",
-    "content": "Somalia’s first pavilion at the Venice Art Biennale.",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMnBqQUowUEpzdHpidVQ4b0JtTlZsQnoxMXh0WmlKTTZrQ1VSNm1OSGVCME5ReGRxRzhkX3J5OUJPdkxpQW5UcHZoT18tT21QWnR4TjNMMDdwUEVYT3NfdGYtSjI5NGxhbDFQWU1LcnM3RDdraUs3My1ubzFKME55Ri1mdW9FM2RnZXdrZ3VR?oc=5",
-    "published_at": "2026-07-03T06:15:03Z",
-    "id": "social-1783085289329-3"
-  },
-  {
-    "source": "X",
-    "author": "@MaritimeExec",
-    "content": "Conditions Deteriorating for Hijacked Seafarers as Somalia Piracy Continues.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
-    "published_at": "2026-07-02T18:03:26Z",
-    "id": "social-1783085289329-4"
   }
 ];
