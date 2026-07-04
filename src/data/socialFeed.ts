@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "The Jerusalem Post",
+    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report.",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T15:16:12Z",
+    "id": "social-1783183743502-0"
+  },
+  {
+    "source": "Facebook",
+    "author": "@HALO_Trust",
+    "content": "HALO Trust conducting demining and risk education in Somalia to clear explosive remnants of war.",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
+    "published_at": "2026-07-04T05:21:48Z",
+    "id": "social-1783183743502-1"
+  },
+  {
+    "source": "News",
+    "author": "Garowe Online",
+    "content": "Somalia hires U.S. lobbying firm to strengthen ties with Washington, documents show.",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWFBKTXRQWkp0NVNTN2NmX0huRVEzeUpZUXVoQ2xfVk9MV0lxaXNyWkNxMXV6dllSeUNIOVBzMnE4U0Nyd0V2Vmo1eVVmNDB3NlpKejMwRGszc0JETWhNLWFyeVJzTU15Sl93RDM4QnlwX2JHLWhYU3BkVVBIcmM3SEkzMmZsYllKQlRGZHFQU3Zub2FDWlZ3c3JCajdtVHRkUHI3QzJmdW9pNi1VUWdnNy1zNXh4ZzVWT2FqOGZn?oc=5",
+    "published_at": "2026-07-04T14:58:51Z",
+    "id": "social-1783183743502-2"
+  },
+  {
+    "source": "X",
+    "author": "@DawanAfrica",
+    "content": "Eight Al Shabaab militants killed in Basra operation, Somali officials confirm.",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWmJ2bkg0QkxIdi1vZi1hVnZTdm5ObjJzSWNQN3lZNUZhSHZjX0lyRjE5U0xsVk8xbTE1V0xBMXhoX0pReXVDbGZldHRtSjFTdUxvaDJMSTBxS21qYkJBS09zMGhoa3hMMmRDclJuczNoTEw5dXBrMjZISHAwYzRWajhBczNKZ2FRdEdSa0JQNjVIb1JyeEMyTXBwUQ?oc=5",
+    "published_at": "2026-07-04T16:06:31Z",
+    "id": "social-1783183743502-3"
+  },
+  {
+    "source": "News",
+    "author": "IQAir",
+    "content": "Caluula air quality index reported; Somalia's air pollution levels monitored by IQAir.",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CYXdmR3lFWUV1aVM2YmZlaWRmZGZLM3R3cE5XVmFSZno0MDRTbFdleEpyOFZoOHdpNEZKZ0xUTHk4UlZwRjF3VW1ZZzR1bDhCXy1jSXg4b3p2d1p5c2tEbkJaWWVqRTJXV1VIVA?oc=5",
+    "published_at": "2026-07-04T07:17:09Z",
+    "id": "social-1783183743502-4"
+  },
+  {
+    "source": "News",
     "author": "Jerusalem Post",
     "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6YzIxdGxmRjE4THJUelV5TGpfOF9pV3RsQmIySXZqVEl3M1Y1OEdoZGdsVmtXTmRhMFctNzE5czdiaWl4cXBEZWYzcVhNZVpPa0VQb2d5TkdZSExTcDNENGRGUWdiaWN2Vm5LTUZjVQ?oc=5",
     "published_at": "2026-07-04T01:53:26Z",
     "id": "social-1783147107824-4"
-  },
-  {
-    "source": "X",
-    "author": "@GeopoliticWatch",
-    "content": "Turkey's Somalia spaceport is also a missile range threatening Israel, per Jerusalem Post.",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T00:07:35Z",
-    "id": "social-1783128570118-0"
-  },
-  {
-    "source": "News",
-    "author": "Horn Review",
-    "content": "End of UNSOS support threatens Somalia's security as peacekeeping funds dry up.",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
-    "published_at": "2026-07-03T12:47:02Z",
-    "id": "social-1783128570118-1"
-  },
-  {
-    "source": "News",
-    "author": "Business Insider Africa",
-    "content": "US pulls support for Somalia peacekeeping mission, raising al-Shabaab fears.",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSms3c0w2d3RTYjBucmlKRjdlR2N4YTFLbWlVSEIyWlNkeWtMMGhHLXVsbkFpc05DazAweWQ2M1BXTnBmX0NZRGRPVWRjRUZhUXBGUmtDMTlsbXpILVRRSjN0ZnpKMlRyQl9OUWtFOHV4WTRHQnpZMFpuQlJoMFRzUTJlMi1uQzdpNHN5Wi1TYUNmWnJEM1VjZ3hhMlJmQnlxV0xncV9UaUZLTHVnVExPaEJmNXcwX2QtUEgzYUdUNTJ4MWt1eGp4ZTVhUUFZOTNBaXhqRjFmWWUtUQ?oc=5",
-    "published_at": "2026-07-03T08:37:03Z",
-    "id": "social-1783128570118-2"
-  },
-  {
-    "source": "Facebook",
-    "author": "Arab News",
-    "content": "US to end funding to UN Support Office in Somalia, impacting operations.",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3kxTFB4Q3B5Zmw1djFxZExnTEdxb0tncnYxNlhGNG9BckY1aTByem1zUUJBN3YxYlhoMFhlNzJuQUMwaVdfZ0Zsa1E4MjFVR1Ria0Uyd2pVMWVB?oc=5",
-    "published_at": "2026-07-03T19:44:22Z",
-    "id": "social-1783128570118-3"
-  },
-  {
-    "source": "X",
-    "author": "@ArtAfrica",
-    "content": "Somalia debuts first pavilion at Venice Art Biennale, showcasing culture.",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
-    "published_at": "2026-07-03T12:56:15Z",
-    "id": "social-1783128570118-4"
   }
 ];
