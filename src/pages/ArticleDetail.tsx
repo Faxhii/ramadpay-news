@@ -209,7 +209,8 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
             fontSize: '0.8rem',
             color: 'var(--text-muted)',
             paddingBottom: 'var(--space-sm)',
-            borderBottom: '1px solid var(--border-color)'
+            borderBottom: '1px solid var(--border-color)',
+            flexWrap: 'wrap'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
               <User size={14} />
@@ -220,10 +221,38 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
               <Calendar size={14} />
               <span>{getFormattedDate(article.published_at)}</span>
             </div>
+            <span>&bull;</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <Link size={14} />
+              <a 
+                href={article.original_url || `https://${article.source}`} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ color: 'var(--color-accent)', textDecoration: 'underline', fontWeight: 600 }}
+              >
+                Read Original Article
+              </a>
+            </div>
           </div>
 
         </div>
       </section>
+
+      {/* 3. ARTICLE IMAGE */}
+      {article.image_url && (
+        <section style={{ paddingBottom: 'var(--space-xl)' }}>
+          <div className="container reading-container">
+            <div style={{ width: '100%', maxHeight: '500px', overflow: 'hidden', borderRadius: '12px' }}>
+              <img 
+                src={article.image_url} 
+                alt={article.title} 
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+              />
+            </div>
+          </div>
+        </section>
+      )}
+
 
 
       {/* 4. CONTENT & SIDEBAR */}

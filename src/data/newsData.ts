@@ -7,6 +7,7 @@ export interface Article {
   summary: string;
   content: string;
   source: string;
+  original_url?: string;
   country: string;
   category: string;
   published_at: string;
