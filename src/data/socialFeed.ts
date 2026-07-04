@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "X",
+    "author": "@GeopoliticWatch",
+    "content": "Turkey's Somalia spaceport is also a missile range threatening Israel, per Jerusalem Post.",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T00:07:35Z",
+    "id": "social-1783128570118-0"
+  },
+  {
+    "source": "News",
+    "author": "Horn Review",
+    "content": "End of UNSOS support threatens Somalia's security as peacekeeping funds dry up.",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
+    "published_at": "2026-07-03T12:47:02Z",
+    "id": "social-1783128570118-1"
+  },
+  {
+    "source": "News",
+    "author": "Business Insider Africa",
+    "content": "US pulls support for Somalia peacekeeping mission, raising al-Shabaab fears.",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSms3c0w2d3RTYjBucmlKRjdlR2N4YTFLbWlVSEIyWlNkeWtMMGhHLXVsbkFpc05DazAweWQ2M1BXTnBmX0NZRGRPVWRjRUZhUXBGUmtDMTlsbXpILVRRSjN0ZnpKMlRyQl9OUWtFOHV4WTRHQnpZMFpuQlJoMFRzUTJlMi1uQzdpNHN5Wi1TYUNmWnJEM1VjZ3hhMlJmQnlxV0xncV9UaUZLTHVnVExPaEJmNXcwX2QtUEgzYUdUNTJ4MWt1eGp4ZTVhUUFZOTNBaXhqRjFmWWUtUQ?oc=5",
+    "published_at": "2026-07-03T08:37:03Z",
+    "id": "social-1783128570118-2"
+  },
+  {
+    "source": "Facebook",
+    "author": "Arab News",
+    "content": "US to end funding to UN Support Office in Somalia, impacting operations.",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3kxTFB4Q3B5Zmw1djFxZExnTEdxb0tncnYxNlhGNG9BckY1aTByem1zUUJBN3YxYlhoMFhlNzJuQUMwaVdfZ0Zsa1E4MjFVR1Ria0Uyd2pVMWVB?oc=5",
+    "published_at": "2026-07-03T19:44:22Z",
+    "id": "social-1783128570118-3"
+  },
+  {
+    "source": "X",
+    "author": "@ArtAfrica",
+    "content": "Somalia debuts first pavilion at Venice Art Biennale, showcasing culture.",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
+    "published_at": "2026-07-03T12:56:15Z",
+    "id": "social-1783128570118-4"
+  },
+  {
+    "source": "X",
     "author": "@SomaliaInsider",
     "content": "US blocks UN support for Somalia peacekeeping mission, putting it at risk. Reuters reports.",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
     "published_at": "2026-07-02T18:03:26Z",
     "id": "social-1783085289329-4"
-  },
-  {
-    "source": "News",
-    "author": "Reuters",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
-    "published_at": "2026-07-02T21:37:00Z",
-    "id": "social-1783074253544-0"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliaUpdates",
-    "content": "U.S. pulls support for Somalia peacekeeping mission, raising fears al-Shabaab fight.",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSms3c0w2d3RTYjBucmlKRjdlR2N4YTFLbWlVSEIyWlNkeWtMMGhHLXVsbkFpc05DazAweWQ2M1BXTnBmX0NZRGRPVWRjRUZhUXBGUmtDMTlsbXpILVRRSjN0ZnpKMlRyQl9OUWtFOHV4WTRHQnpZMFpuQlJoMFRzUTJlMi1uQzdpNHN5Wi1TYUNmWnJEM1VjZ3hhMlJmQnlxV0xncV9UaUZLTHVnVExPaEJmNXcwX2QtUEgzYUdUNTJ4MWt1eGp4ZTVhUUFZOTNBaXhqRjFmWWUtUQ?oc=5",
-    "published_at": "2026-07-03T08:37:03Z",
-    "id": "social-1783074253544-1"
-  },
-  {
-    "source": "Facebook",
-    "author": "BBC News Africa",
-    "content": "Man from Lancashire who attempted to travel to Somalia to join ISIS jailed.",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RbUtKUGt1ZVhhSnpSZUhJR3g2NFQtQXFsWHVtbEtBZVJCczVYMlRJNXRGNkxGT1RzbmItZ1RuU19tR3pxS0h0eUd5TVRSRVoyeGVWZjl1OXJQekdtNWoweEFhQzdSX25tRFVGczFlQQ?oc=5",
-    "published_at": "2026-07-03T08:32:10Z",
-    "id": "social-1783074253544-2"
-  },
-  {
-    "source": "News",
-    "author": "ReliefWeb",
-    "content": "Somalia: Needs Analysis in Drought-Affected Areas, April 2026 released.",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQmJsUFd6aE1vZ2lCOU5NZ2ctRXhXNjZoc0RzakRQbnUtT3l5Z3pNazM3OEVJX0ZIUmtvb3V6QmxwbXhLb1lQcGxZWmlpVTdwNUFtbXVkRTVvamd2THVSSEZrdlFTMldvZkxRMm9mOHZValNDMDNaN2lGWlhVc0cyTVFzYlI0MXVsSk02YzkyNFNxTXlnQVFkbQ?oc=5",
-    "published_at": "2026-07-03T03:18:16Z",
-    "id": "social-1783074253544-3"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliWatch",
-    "content": "Conditions deteriorating for hijacked seafarers as Somalia piracy continues.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2xJUnpLejNmejQwanpkVjlJRHk5ZFJBSF9CVll0dURjb0cxYm8xTVh0TVBTZmZubHJ3VFExLVdmN3ZKN3Q0emo3SEZ4Z3RtLUFZTW1QaWJ0UnJ2ZG54dXpQemZPVjEyd1RycG5nWFhrSVN1d2Q5ZXRad3FMamVILTFaMkw3Q29mT0c3RmZLTDF1ekN2eVo5MmgySGVuUHp5RllobW1rcE1GUVZsTWNkc2NvTFM?oc=5",
-    "published_at": "2026-07-02T18:03:26Z",
-    "id": "social-1783074253544-4"
   }
 ];
