@@ -238,20 +238,61 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
         </div>
       </section>
 
-      {/* 3. ARTICLE IMAGE */}
-      {article.image_url && (
-        <section style={{ paddingBottom: 'var(--space-xl)' }}>
-          <div className="container reading-container">
-            <div style={{ width: '100%', maxHeight: '500px', overflow: 'hidden', borderRadius: '12px' }}>
-              <img 
-                src={article.image_url} 
-                alt={article.title} 
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
-              />
-            </div>
-          </div>
-        </section>
-      )}
+      {/* 3. ARTICLE MEDIA (IMAGE OR VIDEO) */}
+      {(() => {
+        const urlStr = article.original_url || '';
+        const isYouTube = urlStr.includes('youtube.com/watch') || urlStr.includes('youtu.be');
+        
+        let youtubeEmbedUrl = null;
+        if (isYouTube) {
+          try {
+            const urlObj = new URL(urlStr);
+            const videoId = urlObj.searchParams.get('v') || urlObj.pathname.split('/').pop();
+            if (videoId) {
+              youtubeEmbedUrl = `https://www.youtube.com/embed/${videoId}`;
+            }
+          } catch (e) {
+            // Invalid URL
+          }
+        }
+
+        if (youtubeEmbedUrl) {
+          return (
+            <section style={{ paddingBottom: 'var(--space-xl)' }}>
+              <div className="container reading-container">
+                <div style={{ width: '100%', paddingBottom: '56.25%', position: 'relative', overflow: 'hidden', borderRadius: '12px' }}>
+                  <iframe 
+                    src={youtubeEmbedUrl} 
+                    title={article.title}
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                  />
+                </div>
+              </div>
+            </section>
+          );
+        }
+
+        if (article.image_url) {
+          return (
+            <section style={{ paddingBottom: 'var(--space-xl)' }}>
+              <div className="container reading-container">
+                <div style={{ width: '100%', maxHeight: '500px', overflow: 'hidden', borderRadius: '12px' }}>
+                  <img 
+                    src={article.image_url} 
+                    alt={article.title} 
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                  />
+                </div>
+              </div>
+            </section>
+          );
+        }
+
+        return null;
+      })()}
 
 
 
