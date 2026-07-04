@@ -101,7 +101,22 @@ async function run() {
           scrapedImageUrl = dataObj.metadata.ogImage;
         }
       } catch (e) {
-        console.log(`[${i+1}] Scrape failed, falling back. (${e.message})`);
+        console.log(`[${i+1}] Firecrawl scrape failed, falling back. (${e.message})`);
+      }
+
+      // Native fetch fallback for og:image if missing
+      if (!scrapedImageUrl) {
+        try {
+          const res = await fetch(item.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+          const html = await res.text();
+          const match = html.match(/<meta\s+(?:property|name)=["']og:image["']\s+content=["']([^"']+)["']/i);
+          if (match && match[1]) {
+            scrapedImageUrl = match[1];
+            console.log(`[${i+1}] Extracted og:image natively: ${scrapedImageUrl}`);
+          }
+        } catch (e) {
+          console.log(`[${i+1}] Native fetch for og:image failed:`, e.message);
+        }
       }
 
       const rawText = `Title: ${item.title}\nSource: ${item.url}\nContent: ${fullText}`;

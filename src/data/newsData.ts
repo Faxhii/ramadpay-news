@@ -19,6 +19,426 @@ export interface Article {
 
 export const newsArticles: Article[] = [
   {
+    "id": "news-1783165032963-0",
+    "title": "Puntland Post – News from Somalia, Puntland, Somaliland",
+    "slug": "puntland-post-news-from-somalia-puntland-somaliland",
+    "summary": "Puntland President Deni faces growing political pressure as federal leaders and former officials call for dialogue amid regional tensions.",
+    "content": "Political tensions between Puntland and the Somali federal government have escalated in recent days, with President Said Abdullahi Deni dismissing several officials and exchanging sharp rhetoric with Prime Minister Hamza Abdi Barre. The moves come as Puntland asserts greater autonomy over security forces, including the integration of clan militias.\n\nFormer Interior Minister Abdi Farah Saeed Juxaa publicly called on President Deni to adopt a more consultative approach, warning that unilateral decisions could deepen divisions within Puntland. Juxaa's appeal reflects growing unease among elders and politicians about the centralization of power in Garowe.\n\nPrime Minister Barre, in a strongly worded response to Deni's July 1 speech, accused the Puntland leader of undermining federal unity. The exchange highlights the fragile state of Somali federalism, with Puntland increasingly demanding a greater share of revenue and security responsibilities.\n\nMeanwhile, Puntland's takeover of clan militias is seen as an attempt to consolidate security forces under state control, but critics argue it risks alienating local communities. The developments signal a potential crisis in the relationship between Mogadishu and Garowe.",
+    "source": "puntlandpost.net",
+    "original_url": "https://puntlandpost.net/",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:37:12.964Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+    "featured": true,
+    "ai_summary_points": [
+      "President Deni of Puntland has dismissed several officials in a reshuffle.",
+      "Former interior minister Juxaa urged Deni to engage in consultation with Puntland stakeholders.",
+      "Federal PM Xamse Cabdi Barre sharply responded to Deni's recent remarks on sovereignty.",
+      "Puntland has taken control of clan militias to assert authority over security."
+    ]
+  },
+  {
+    "id": "news-1783165040892-1",
+    "title": "Puntland News - Garowe Online",
+    "slug": "puntland-news-garowe-online",
+    "summary": "Tensions escalate between Puntland and Somalia's federal government as Puntland accuses Mogadishu of smuggling weapons to incite civil war.",
+    "content": "Tensions between Somalia's semi-autonomous Puntland region and the federal government in Mogadishu have reached a new peak, with Puntland officials accusing the federal authorities of smuggling weapons into the region to incite a civil war. The allegations, reported by Garowe Online on June 24, 2026, come amid a series of disputes that have strained relations between the two administrations.\n\nEarlier in June, President Said Abdullahi Deni declared that Puntland would act independently until a 'consensus-based government' is formed at the national level. This announcement followed the collapse of talks in Mogadishu and a subsequent meeting with a US delegation. Puntland has also warned against federal military recruitment within its territory, viewing it as a violation of its autonomy.\n\nThe federal government has not yet responded to these accusations. The rift underscores the ongoing challenges to federalism in Somalia, where regional states often clash with the central government over power-sharing, resources, and security matters.\n\nIn a separate but related incident, a man killed his father in a knife attack in Bosaso, the commercial hub of Puntland, highlighting the local security concerns that persist amid the political turmoil.",
+    "source": "garoweonline.com",
+    "original_url": "https://www.garoweonline.com/en/news/puntland",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:37:20.892Z",
+    "update_batch": "afternoon",
+    "image_url": "https://uploads-garowe.s3.amazonaws.com/upload/images/Page/1502177010.a63d6/main/og.png",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland accuses federal government of smuggling weapons to provoke civil war.",
+      "President Deni declares Puntland will act independently until a consensus-based government is formed.",
+      "Puntland warns against federal military recruitment in its territory.",
+      "A man kills his father in a knife attack in Bosaso."
+    ]
+  },
+  {
+    "id": "news-1783165048860-2",
+    "title": "Puntland Post | Garowe - Facebook",
+    "slug": "puntland-post-garowe-facebook",
+    "summary": "Garowe's Puntland Post expands its digital presence via Facebook, covering news from Somalia's semi-autonomous northeastern region.",
+    "content": "Puntland Post, a news website based in Garowe, the administrative capital of Somalia's semi-autonomous Puntland region, has been expanding its digital footprint through active engagement on Facebook. The official Facebook page serves as a supplementary platform to the main website, allowing for broader dissemination of news and interaction with readers.\n\nAs a region that has enjoyed relative stability compared to other parts of Somalia, Puntland maintains its own government and security forces. Puntland Post covers a range of topics including politics, security, development, and social issues affecting the region and the country at large.\n\nThe utilization of social media by Puntland Post reflects a broader trend in Somali journalism, where digital platforms are increasingly important for reaching audiences both within the country and in the diaspora. The Facebook page provides real-time updates, breaking news, and a space for community discussion.\n\nThis strategic move to leverage Facebook highlights the evolving media landscape in East Africa, where traditional news outlets are adapting to the digital age to maintain relevance and expand their reach. Puntland Post's Facebook presence supports its mission to inform the public and foster informed discourse on regional matters.",
+    "source": "facebook.com",
+    "original_url": "https://www.facebook.com/puntlandpostcom/",
+    "country": "Somalia",
+    "category": "Technology",
+    "published_at": "2026-07-04T11:37:28.860Z",
+    "update_batch": "afternoon",
+    "image_url": "https://scontent.fcok15-1.fna.fbcdn.net/v/t39.30808-1/431102333_122094347510245326_6553741981829553453_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx374x374&amp;ctp=s374x374&amp;_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=kxmYbER7mQ4Q7kNvwEFeN0t&amp;_nc_oc=AdqZF9x24rwYhUc7QEjyoxWg56Jfgh1gcI8sMwMRn-ThUYIAbhs9dsSvffnjqyEXbU0UgIvesgVjp2wGvWzF0zGA&amp;_nc_zt=24&amp;_nc_ht=scontent.fcok15-1.fna&amp;_nc_gid=-Xlw8ACnezAjupblFWhTrQ&amp;_nc_ss=72289&amp;oh=00_AQBvP1P4GVNjv5d7Pq19Ac2voXysmUCp3YGTMHzmeotLPg&amp;oe=6A4ED384",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland Post is a news outlet based in Garowe, covering Puntland and Somalia.",
+      "The organization uses Facebook to reach a wider audience with regional news.",
+      "Puntland is a semi-autonomous region in northeastern Somalia.",
+      "The Facebook page serves as an official platform for news distribution."
+    ]
+  },
+  {
+    "id": "news-1783165056846-3",
+    "title": "Puntland News | Horseed Media",
+    "slug": "puntland-news-horseed-media",
+    "summary": "Puntland leader removes government media director amid rising tensions with federal Somalia over security and elections.",
+    "content": "In a series of escalating political maneuvers, the semi-autonomous region of Puntland has fired its government media director, accused the Somali federal government (DFS) of improperly registering troops for election purposes, and arrested a journalist, signaling heightened tensions ahead of planned elections.\n\nThe Puntland administration, led by President Said Abdullahi Deni, removed the director of the state-run media agency late Tuesday. No official reason was given, but sources suggest disagreements over coverage of political affairs. The move comes as Puntland prepares for local and regional elections, which the federal government has opposed.\n\nEarlier in the day, Puntland officials accused the federal government of registering Puntland security forces for a national voter registry without consultation. \"This is a violation of our autonomy and a political move to influence elections,\" said a Puntland interior ministry spokesperson. The federal government has denied the allegation.\n\nIn a separate incident, journalist Suways Gacayte was arrested in Garoowe, the regional capital, by Puntland security forces. The Puntland Media Union condemned the arrest, calling it an attack on press freedom. Gacayte is known for reporting on corruption and clan politics. His whereabouts remain unknown.",
+    "source": "horseedmedia.net",
+    "original_url": "https://horseedmedia.net/category/somali-news/puntland-news/",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:37:36.846Z",
+    "update_batch": "afternoon",
+    "image_url": "https://horseedmedia.net/wp-content/uploads/2022/06/biglogo_blue_white_yellow-1.png",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland president fires director of government media.",
+      "Puntland accuses Somali federal government (DFS) of registering troops for election purposes.",
+      "Puntland warns that no one threatening its security will be allowed entry.",
+      "Journalist Suways Gacayte arrested in Garoowe, condemned by Puntland media union."
+    ]
+  },
+  {
+    "id": "news-1783165075382-5",
+    "title": "Puntland News - Somali News in English | The Somali Digest",
+    "slug": "puntland-news-somali-news-in-english-the-somali-digest",
+    "summary": "Puntland and Jubaland unite against Mogadishu as federal tensions escalate, with President Deni accusing Hassan Sheikh of supporting piracy and shielding Al-Shabab.",
+    "content": "Tensions between Somalia's federal government and regional states have reached a new peak as Puntland and Jubaland unite against Villa Somalia. The rift deepened following President Hassan Sheikh Mohamud's refusal to engage in dialogue with regional leaders, a move that has been met with strong criticism from Puntland President Said Abdullahi Deni.\n\nIn a series of recent statements, President Deni accused Hassan Sheikh of actively creating pirates to destabilize Puntland's coastal security and economy. Deni claimed that federal authorities have turned a blind eye to maritime lawlessness, undermining efforts to secure Somalia's waters. This accusation comes amid reports of increased pirate activity off the coast of Puntland.\n\nFurther complicating the political landscape, analyses suggest that Al-Shabab militants have been shielded by a Mogadishu-backed faction in the Al-Madow area. This revelation has fueled suspicions that the federal government is using militant groups to weaken regional administrations opposed to its policies. The Somali Digest's investigative reporting highlights the intricate links between local factions and the federal capital.\n\nThe unity between Puntland and Jubaland marks a significant shift in Somalia's federal dynamics. Both regions have historically been at odds with Mogadishu over power-sharing and resource distribution. With former Prime Minister Mohamed Hussein Roble revealing that Hassan Sheikh rejected talks, the prospect of a peaceful resolution appears slim. As the political crisis deepens, the stability of the entire region hangs in the balance.",
+    "source": "thesomalidigest.com",
+    "original_url": "https://thesomalidigest.com/category/somalia-fms-news/puntland-news/",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:37:55.382Z",
+    "update_batch": "afternoon",
+    "image_url": "https://r6k3m4f6.delivery.rocketcdn.me/wp-content/uploads/2025/10/Hassan-Sheikh-Mohamud.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland and Jubaland have formed a united front against the federal government led by Villa Somalia.",
+      "President Deni accuses President Hassan Sheikh of creating pirates and destabilizing Puntland.",
+      "Al-Shabab is reportedly shielded by a Mogadishu-backed faction in the Al-Madow region.",
+      "Somalia's president rejects talks with regional leaders Madobe and Deni, according to former PM Roble."
+    ]
+  },
+  {
+    "id": "news-1783165089103-6",
+    "title": "Puntland - latest news, breaking stories and comment",
+    "slug": "puntland-latest-news-breaking-stories-and-comment",
+    "summary": "Puntland, a semi-autonomous region in Somalia, faces challenges from aid cuts, war, and potential piracy resurgence, while also seeing positive developments like the reopening of its main soccer stadium.",
+    "content": "Puntland, the semi-autonomous region in northeastern Somalia, continues to navigate a complex landscape of security threats, humanitarian crises, and fragile political progress. Recent reports from The Independent highlight a series of challenges and developments that underscore the region's precarious stability. \n\nOne significant concern is the deteriorating state of Somalia's healthcare system, exacerbated by aid cuts and prolonged conflict. A visit to Mogadishu's hospitals reveals crumbling infrastructure and a dire shortage of medical supplies, impacting vulnerable populations including those displaced by war. The situation is particularly acute in areas like Puntland, where resources are stretched thin amid ongoing counterterrorism operations against Al-Shabaab and other militant groups. \n\nOn a more positive note, Somalia's main soccer stadium in Mogadishu, which had been converted into an army camp during the civil war, has been refurbished and is now hosting matches once again. This development is seen as a symbol of resilience and a step toward normalizing civilian life, though the threat of attacks remains. The reopening reflects broader efforts to revive sports and community activities across the region, including in Puntland. \n\nMeanwhile, Somali maritime police have stepped up patrols in the Gulf of Aden amid fears of a resurgence of piracy. The uptick in patrols comes as international navies reduce their presence in the region, raising concerns that pirate groups operating from Puntland's coastline may exploit the security gap. These efforts are crucial for protecting vital shipping lanes and preventing a return to the high-seas hijackings that plagued the area a decade ago. \n\nPolitically, Puntland remains a key player in Somalia's federal system, with its leaders often engaging in negotiations over power-sharing and resource allocation. The region's stability is also tied to broader national issues, including the recent presidential election in Mogadishu and the evacuation of Somali nationals from conflict zones like Sudan. As Somalia continues to grapple with insecurity and humanitarian needs, Puntland's role in regional cooperation and security remains indispensable.",
+    "source": "the-independent.com",
+    "original_url": "https://www.the-independent.com/topic/puntland",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:38:09.103Z",
+    "update_batch": "afternoon",
+    "image_url": "https://www.independent.co.uk/img/shortcut-icons/icon-96x96.png",
+    "featured": false,
+    "ai_summary_points": [
+      "Aid cuts and ongoing conflict have severely impacted Somalia's healthcare system, as highlighted by deteriorating hospitals in Mogadishu.",
+      "Mogadishu's main soccer stadium, once an army camp, has been renovated and now hosts games again, signaling a step toward normalcy.",
+      "Somali maritime police are intensifying patrols in the Gulf of Aden due to fears of a piracy resurgence.",
+      "Puntland's role in regional security and politics remains critical amid Somalia's presidential elections and evacuations from Sudan."
+    ]
+  },
+  {
+    "id": "news-1783165099296-7",
+    "title": "Puntland offensive deals blow to Islamic State in Somalia | REUTERS",
+    "slug": "puntland-offensive-deals-blow-to-islamic-state-in-somalia-reuters",
+    "summary": "Puntland forces capture 96 square miles and 50 bases from Islamic State in weeks-long offensive, killing at least 85 militants.",
+    "content": "Forces from Somalia's semi-autonomous Puntland region have captured swathes of territory from Islamic State during a weeks-long offensive, marking the biggest operation against the group in years. According to Puntland's information minister, 96 square miles and 50 bases were seized. A military spokesperson told Reuters that at least 85 IS militants were killed while 17 soldiers also died.\n\nThe advances targeted a growing Islamic State faction, which was hit last week by the first U.S. air strikes of President Trump's new administration. The U.S. military has carried out periodic air strikes against the group for years and has also helped train Puntland's security forces. Political analyst Matt Brien noted that for the incoming Trump administration, there is recognition that the federal government of Somalia is no longer a credible partner in fighting armed extremist groups, and the U.S. may now work with local governments like Puntland and Jubaland instead of coordinating directly with Somalia's federal government.\n\nSomalia's information minister said the federal government values international support and maintains security cooperation, including with Puntland, to enhance counterterrorism efforts. The Islamic State in Somalia is much smaller than Al-Qaeda-linked al-Shabab, which controls large parts of southern and central Somalia, but in recent years analysts say it has become an increasingly important part of its parent organization's worldwide network, aided by an influx of foreign fighters from the Middle East and other African countries.",
+    "source": "youtube.com",
+    "original_url": "https://www.youtube.com/watch?v=LYDyYOGjRqg",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:38:19.296Z",
+    "update_batch": "afternoon",
+    "image_url": "https://i.ytimg.com/vi/LYDyYOGjRqg/hqdefault.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland forces seize 96 square miles and 50 bases from Islamic State in Somalia.",
+      "At least 85 IS militants and 17 soldiers killed in the offensive.",
+      "US airstrikes under Trump administration target Islamic State faction in Puntland.",
+      "Analysts say Islamic State in Somalia is growing, aided by foreign fighters."
+    ]
+  },
+  {
+    "id": "news-1783165122749-9",
+    "title": "Wararka maanta",
+    "slug": "wararka-maanta",
+    "summary": "Recent reports indicate escalating tensions as Somali federal MPs from Puntland call for unity against an impending attack on Puntland, while Al-Shabaab regains territory and Hassan Sheikh plans an offensive.",
+    "content": "Tensions are escalating in Somalia as multiple developments unfold. On July 4, 2026, former members of the Somali Federal Parliament from Puntland issued a call for the people and government of Puntland to unite against an impending attack and to defend the federal system. This plea comes amid reports that President Hassan Sheikh is mobilizing an offensive against Puntland, according to an official document from the Somali Armed Forces command.\n\nMeanwhile, the International Crisis Group (ICG) released a report stating that Al-Shabaab has recaptured most of the territory it lost during the 2022–2023 offensives. The resurgence of the militant group poses a significant threat to stability in the region.\n\nIn a related development, the African Union held an emergency high-level meeting on July 3, 2026, warning of increased security risks in Somalia following the United States' announcement to halt support for the ongoing military operation. The withdrawal of US backing could undermine counterterrorism efforts and embolden extremist groups.",
+    "source": "puntlandes.com",
+    "original_url": "https://www.puntlandes.com/?cat=1",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:38:42.749Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+    "featured": false,
+    "ai_summary_points": [
+      "Somali federal MPs from Puntland urge unity against an assault on Puntland and defense of federalism.",
+      "International Crisis Group reports Al-Shabaab has regained most territory lost in 2022–2023.",
+      "Hassan Sheikh is preparing a military offensive against Puntland.",
+      "African Union warns of security risks after US halts support for operations in Somalia."
+    ]
+  },
+  {
+    "id": "news-1783165134430-10",
+    "title": "Home - Puntland Mirror Believable Media Website",
+    "slug": "home-puntland-mirror-believable-media-website",
+    "summary": "Puntland President Said Abdullahi Deni opened a parliamentary session but left before facing questions from legislators, raising concerns about executive accountability.",
+    "content": "Puntland President Said Abdullahi Deni opened a parliamentary session on Saturday but left before answering questions from lawmakers, a move that has drawn sharp criticism from political opponents and civil society groups.\n\nThe session was convened to discuss key issues including security, budget allocation, and the ongoing electoral process. President Deni delivered an opening address but departed shortly after, citing prior engagements. However, legislators had prepared a list of questions they expected to pose to the president.\n\nMPs expressed frustration, with some accusing Deni of avoiding accountability. “This is a pattern of executive overreach. The president cannot open parliament and then walk away from his constitutional duty to answer to the people’s representatives,” said a senior MP who spoke on condition of anonymity.\n\nThe opposition has seized on the incident, calling for a vote of no confidence. Meanwhile, analysts suggest the move could further strain relations between the executive and legislative branches, which have been fraught since Deni assumed office in 2019.\n\nThis is not the first time Deni has faced criticism over his engagement with parliament. Earlier this year, he was accused of sidestepping legislative oversight in appointing senior officials. The latest development is likely to embolden calls for constitutional reforms to clarify the president's obligations to parliament.",
+    "source": "puntlandmirror.net",
+    "original_url": "https://puntlandmirror.net/",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:38:54.430Z",
+    "update_batch": "afternoon",
+    "image_url": "http://puntlandmirror.net/wp-content/uploads/2024/11/Sool-jpg-860x484.webp",
+    "featured": false,
+    "ai_summary_points": [
+      "President Deni opened the Puntland parliament session but departed before the Q&A session.",
+      "Legislators were prepared to question Deni on key governance issues.",
+      "Deni's early exit has sparked criticism from opposition figures.",
+      "The incident highlights ongoing tensions between the executive and legislative branches in Puntland."
+    ]
+  },
+  {
+    "id": "news-1783165152002-11",
+    "title": "Puntland Online Latest updates on Puntland, Somalia, and ...",
+    "slug": "puntland-online-latest-updates-on-puntland-somalia-and",
+    "summary": "Puntland Online reports that the US and Iran have reached a preliminary 14-point memorandum of understanding.",
+    "content": "Puntland Online, a news website covering Puntland and Somalia, reported on June 18, 2026, that the United States and the Islamic Republic of Iran have reached a preliminary Memorandum of Understanding (MoU) comprising 14 points. The report, sourced from Washington, indicates a diplomatic step between the two countries. The article is written in Somali and highlights the agreement as a potential shift in bilateral relations. No further details on the content of the MoU were provided in the snippet.\n\nThe website prominently features a cookie consent management notice, indicating it uses technologies to store device information for user experience optimization. The site offers options for users to manage consent preferences regarding functional, statistical, and marketing cookies.\n\nThis news comes amid broader regional dynamics in the Horn of Africa, where Puntland and Somalia navigate complex geopolitical relationships. The report underscores Puntland Online's role in disseminating international news relevant to its audience.",
+    "source": "puntlandonline.com",
+    "original_url": "https://www.puntlandonline.com/",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:39:12.002Z",
+    "update_batch": "afternoon",
+    "image_url": "https://i0.wp.com/www.puntlandonline.com/wp-content/uploads/2024/08/IMG_20240802_114347_502.jpg?fit=1500%2C1500&ssl=1",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland Online is a news source covering Somalia and Puntland issues.",
+      "The site reported on June 18, 2026, that the US and Iran signed a 14-point MoU.",
+      "The agreement is described as a preliminary understanding between the two nations.",
+      "The article is in Somali and cites Washington as the source."
+    ]
+  },
+  {
+    "id": "news-1783165168050-12",
+    "title": "Somalia's Puntland leader puts forces on alert over fears of ...",
+    "slug": "somalia-s-puntland-leader-puts-forces-on-alert-over-fears-of",
+    "summary": "Puntland leader puts forces on high alert amid fears of federal government intervention, escalating tensions in Somalia.",
+    "content": "The leader of Somalia's semi-autonomous Puntland region has put security forces on high alert over fears of intervention by the federal government in Mogadishu, in a move that underscores growing tensions between the two administrations. President Said Abdullahi Deni issued the order during a security meeting, citing concerns that federal troops might attempt to enter Puntland without coordination, potentially undermining regional autonomy. The alert comes amid a long-running dispute over constitutional amendments and resource sharing, with Puntland recently suspending cooperation with the federal government.\n\nThe Puntland administration has accused Mogadishu of overstepping its authority by attempting to centralize power, including control over security forces and natural resources. Deni’s directive places regional forces on standby to 'protect the sovereignty and territorial integrity of Puntland,' according to a statement from his office. This escalates a standoff that has simmered since Puntland announced it would not recognize federal institutions earlier this year.\n\nObservers warn that the military alert could heighten the risk of clashes between regional and federal forces, potentially opening a new front in Somalia's complex security landscape. The federal government has not officially responded, but analysts note that any intervention could destabilize the region, which is already grappling with threats from al-Shabaab and clan conflicts. Diplomatic efforts to de-escalate the situation have so far made little progress.\n\nThe development also reflects broader challenges in Somalia's federal system, where regional states often clash with the central government over power and resources. Puntland's stance may embolden other regions, such as Jubaland and Southwest State, which have also voiced grievances. As tensions mount, the international community, including the African Union and the UN, is being urged to mediate a peaceful resolution.",
+    "source": "somaliguardian.com",
+    "original_url": "https://www.somaliguardian.com/news/somalia-news/somalias-puntland-leader-puts-forces-on-alert-over-fears-of-federal-intervention/",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:39:28.050Z",
+    "update_batch": "afternoon",
+    "image_url": "https://www.somaliguardian.com/wp-content/uploads/2026/02/4.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland's leader ordered security forces to be on high alert.",
+      "The move is in response to fears of federal government intervention.",
+      "Tensions between Puntland and the Somali federal government are escalating.",
+      "The situation raises concerns about potential conflict in the region."
+    ]
+  },
+  {
+    "id": "news-1783165176663-13",
+    "title": "Puntland blocks illegal entry of foreigners in IS crackdown",
+    "slug": "puntland-blocks-illegal-entry-of-foreigners-in-is-crackdown",
+    "summary": "Puntland blocks illegal entry of foreigners and orders telecom deactivation of SIM cards tied to undocumented people and IS terrorists to disrupt Islamic State financial networks.",
+    "content": "Authorities in Somalia’s Puntland region this week banned the illegal entry of foreigners and ordered telecom companies to deactivate SIM cards linked to undocumented people and Islamic State terrorists. The moves are an attempt to disrupt Islamic State financial networks as the military continues an offensive against IS fighters hiding out in the region.\n\nThe crackdown reflects escalating efforts to isolate and dismantle IS cells operating in the semi-autonomous region. Puntland has seen renewed military operations targeting militants who have exploited porous borders and unregulated telecom services for funding and recruitment.\n\nLocal officials have not specified how many foreigners have been affected but emphasized that the measures are necessary to safeguard national security. The telecom deactivation order aims to sever communication channels used by IS for extortion and money transfers.\n\nAnalysts say the coordinated approach targeting both physical entry points and digital financial networks could significantly weaken IS operations in the Horn of Africa. The Puntland government has pledged to maintain the offensive until all militant hideouts are cleared.",
+    "source": "voanews.com",
+    "original_url": "https://www.voanews.com/a/puntland-blocks-illegal-entry-of-foreigners-in-is-crackdown/7953395.html",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:39:36.663Z",
+    "update_batch": "afternoon",
+    "image_url": "https://gdb.voanews.com/330FDB1A-EA1B-4EAD-BAAE-74746045A138.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Puntland bans illegal entry of foreigners to curb Islamic State activity.",
+      "Telecom companies ordered to deactivate SIM cards linked to undocumented individuals and IS fighters.",
+      "Measures aim to disrupt Islamic State financial networks in the region.",
+      "Military offensive continues against IS hideouts in Puntland."
+    ]
+  },
+  {
+    "id": "news-1783165187508-14",
+    "title": "Security Forces Deploy After Reported Gunfire Amid ...",
+    "slug": "security-forces-deploy-after-reported-gunfire-amid",
+    "summary": "Security forces deployed in Mogadishu after reports of gunfire near large crowds, raising security concerns in the Somali capital.",
+    "content": "Security forces were deployed in Somalia's capital, Mogadishu, on Thursday after reports of gunfire emerged in areas where large crowds had gathered. Authorities moved quickly to secure the scene as details of the incident continued to emerge. The deployment came amid heightened security concerns in the city, which has experienced periodic attacks by militant groups.\n\nWitnesses reported hearing gunshots in the vicinity of a popular market, prompting a swift response from police and military personnel. Roads were cordoned off, and residents were advised to stay indoors as security forces conducted searches and established checkpoints. No casualties or damage have been confirmed at this stage, and investigations are ongoing.\n\nThe incident underscores the fragile security situation in Mogadishu, where al-Shabaab militants frequently target government and civilian sites. The latest deployment reflects efforts by Somali authorities to maintain order and prevent further violence. Analysts say the government's ability to respond quickly is crucial for public confidence and stability.\n\nAs the situation develops, Dawn News English will provide verified updates. The broader implications for public safety and security in Somalia remain a key concern for regional and international partners supporting the country's stabilization efforts.",
+    "source": "youtube.com",
+    "original_url": "https://www.youtube.com/watch?v=j-8n1j8CHUk",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:39:47.508Z",
+    "update_batch": "afternoon",
+    "image_url": "https://i.ytimg.com/vi/j-8n1j8CHUk/maxresdefault.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Security forces deployed in Mogadishu after reported gunfire.",
+      "Incident occurred near areas with large crowds.",
+      "Authorities secured the scene as details emerged.",
+      "Broader implications for public safety in Somalia."
+    ]
+  },
+  {
+    "id": "news-1783165200424-15",
+    "title": "Somalia launches sweeping security operation in Mogadishu",
+    "slug": "somalia-launches-sweeping-security-operation-in-mogadishu",
+    "summary": "Somali authorities launch a major security operation in Mogadishu to crack down on militants and improve stability.",
+    "content": "Somali authorities have launched a sweeping security operation in the capital Mogadishu, aiming to dismantle militant networks and restore public order. The operation, which began in the early hours of the morning, involves coordinated efforts by the Somali National Army, police, and intelligence agencies.\n\nSecurity forces have set up checkpoints across key districts and are conducting house-to-house searches in neighborhoods known to harbor Al-Shabaab sympathizers. Officials report that several suspects have been detained, and weapons caches have been seized. The government has urged residents to remain calm and cooperate with the security personnel.\n\nThis crackdown comes amid a series of attacks by Al-Shabaab in recent weeks, including a car bomb that killed at least 10 people. The operation is part of a broader strategy to stabilize the country ahead of planned elections. Analysts say sustained security efforts are crucial to preventing the group from regrouping.\n\nThe international community has expressed support for the operation, with the African Union Mission in Somalia (AMISOM) providing logistical assistance. However, human rights groups have called for due process and caution against civilian casualties. The Somali government has assured that the operation will be conducted in accordance with the law.",
+    "source": "somaliguardian.com",
+    "original_url": "https://www.somaliguardian.com/news/somalia-news/somalia-somali-mogadishu-security-operation-clashes/",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:40:00.424Z",
+    "update_batch": "afternoon",
+    "image_url": "https://www.somaliguardian.com/wp-content/uploads/2026/06/10.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Somali government initiates large-scale security operation in Mogadishu.",
+      "Operation targets Al-Shabaab militants and criminal networks.",
+      "Security forces conduct house-to-house searches and checkpoints.",
+      "Residents urged to cooperate and report suspicious activities."
+    ]
+  },
+  {
+    "id": "news-1783165211448-16",
+    "title": "Somalia Travel Advisory | Travel.State.gov",
+    "slug": "somalia-travel-advisory-travel-state-gov",
+    "summary": "The U.S. Department of State advises against all travel to Somalia due to ongoing risks of crime, terrorism, kidnapping, and other threats.",
+    "content": "The U.S. Department of State has renewed its highest travel advisory for Somalia, urging Americans not to travel to the country under any circumstances. The Level 4 advisory, issued on May 21, 2026, cites a multitude of dangers including widespread crime, terrorism, kidnapping, and armed conflict.\n\nAccording to the advisory, travelers face risks from landmines, piracy, and the systematic mistreatment of women and gay and lesbian individuals. Medical services are extremely limited, and there are reports of abuse in rehabilitation centers as well as confiscation of passports by family members.\n\nThe State Department emphasizes that U.S. citizens in Somalia should depart immediately if it is safe to do so, and those considering travel should enroll in the Smart Traveler Enrollment Program (STEP) for security updates. The advisory follows a longstanding pattern of insecurity in the Horn of Africa nation, where militant groups like Al-Shabaab maintain significant influence.\n\nThis travel warning comes amid broader regional instability, and the U.S. embassy in Mogadishu continues to operate with limited capacity. The advisory also notes that consular services for Americans in Somalia are severely restricted, and the ability to provide emergency assistance is constrained by the security environment.",
+    "source": "travel.state.gov",
+    "original_url": "https://travel.state.gov/en/international-travel/travel-advisories/somalia.html",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:40:11.448Z",
+    "update_batch": "afternoon",
+    "image_url": "https://images.unsplash.com/photo-1517594422361-5e1f09310fa6?auto=format&fit=crop&q=80&w=800",
+    "featured": false,
+    "ai_summary_points": [
+      "The U.S. State Department has issued a Level 4 'Do Not Travel' advisory for Somalia.",
+      "Risks include crime, terrorism, kidnapping, piracy, and limited medical services.",
+      "The advisory also highlights systematic mistreatment of women and LGBTQ+ individuals.",
+      "The advisory was issued on May 21, 2026."
+    ]
+  },
+  {
+    "id": "news-1783165219994-17",
+    "title": "In Somalia's capital, Mogadishu, once-dangerous streets are ...",
+    "slug": "in-somalia-s-capital-mogadishu-once-dangerous-streets-are",
+    "summary": "New security measures have transformed Mogadishu's once-dangerous streets into bustling areas, though persistent checkpoints signal ongoing threats.",
+    "content": "In Somalia's capital, Mogadishu, once-dangerous streets are now bustling under new security measures — though checkpoints still signal the persistent threat from Al-Shabab militants. The transformation has brought a sense of cautious normalcy to residents who once feared daily violence. Markets are reopening, traffic has increased, and civilians are able to move more freely, reflecting a tangible improvement in urban safety.\n\nHowever, the checkpoints — manned by security forces scanning vehicles and pedestrians — serve as grim reminders that the city remains a target. Al-Shabab, which once controlled large parts of Mogadishu, continues to carry out sporadic attacks, including suicide bombings and assassinations. The government, backed by African Union troops, has prioritized stabilizing the capital as a key step toward broader national security.\n\nThe economic impact is evident: small businesses are thriving, construction projects are visible, and international aid workers are returning. Yet challenges remain, with many residents expressing concern about the long-term sustainability of these gains. The checkpoints, while cumbersome, are largely accepted as necessary for preventing militant infiltration.\n\nCommunity leaders and local officials have called for more investment in intelligence-led operations to reduce reliance on physical barriers. Meanwhile, the Somali government aims to gradually hand over security responsibilities from AU forces to national troops, a process that requires sustained funding and training. For now, Mogadishu's streets tell a story of resilience amid unyielding threat.",
+    "source": "facebook.com",
+    "original_url": "https://www.facebook.com/aljazeera/videos/video-securing-somalias-capital-against-al-shabab-threat/1796007544371504/",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:40:19.995Z",
+    "update_batch": "afternoon",
+    "image_url": "https://scontent.fcok15-1.fna.fbcdn.net/v/t15.5256-10/588924895_1506134037343649_3538868330397101727_n.jpg?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=596eb7&amp;_nc_ohc=jZq6iR-oJfAQ7kNvwFP7F4F&amp;_nc_oc=AdqTD_V1gm0FIYZmzri7A7eg-wFs1fzGWrMgcNfVb69eM_5QtTUePxI07GQgjNDabAc7trCWCAa5HfCtpADxX9VN&amp;_nc_zt=23&amp;_nc_ht=scontent.fcok15-1.fna&amp;_nc_gid=NHWzpnZNbb04GLsDh3jnfA&amp;_nc_ss=72289&amp;oh=00_AQBeGF4Al4L8whQcD0slOVlde6wOfUImh5fGXgA8gasqEw&amp;oe=6A4EB96E",
+    "featured": false,
+    "ai_summary_points": [
+      "Mogadishu streets are now safer due to increased security measures.",
+      "Checkpoints remain in place, indicating continued threats from Al-Shabab.",
+      "The capital is experiencing renewed commercial activity and movement.",
+      "The security improvements reflect a shift from past danger to cautious normalcy."
+    ]
+  },
+  {
+    "id": "news-1783165233777-18",
+    "title": "Somalia Security News",
+    "slug": "somalia-security-news",
+    "summary": "Mogadishu's political instability is fueling Al-Shabaab's resurgence and deepening federal-state rifts, as aid failures also bolster militant propaganda.",
+    "content": "Somalia's security landscape is growing increasingly volatile as political infighting in Mogadishu provides openings for Al-Shabaab to regroup and launch offensives. Recent analyses from The Somali Digest highlight how the militant group has effectively capitalized on the federal government's internal chaos, launching attacks that further destabilize regions already struggling with governance failures. The situation is compounded by a deepening rift between the central government and federal member states like Jubaland and Puntland, which have now united against what they perceive as overreach from Villa Somalia.\n\nMeanwhile, the failure of international aid delivery in Somalia has become a potent propaganda tool for Al-Shabaab. The group points to mismanagement and corruption in aid distribution to undermine trust in both the federal government and international partners. This narrative resonates with local populations who have experienced inadequate or delayed assistance, particularly in areas affected by drought and conflict. Experts warn that unless aid delivery is reformed, Al-Shabaab will continue to exploit these grievances to recruit and expand its influence.\n\nAdding to the tensions, Galmudug state has accused the federal election commission chief of rigging its vote, further eroding confidence in the political process. The accusation follows a pattern of disputes over electoral transparency, with opposition leaders and regional administrations questioning the legitimacy of upcoming polls. These disputes threaten to derail Somalia's fragile democratic transition and could spark new violence if left unresolved.\n\nIn response to the federal government's perceived centralization efforts, Jubaland and Puntland have formed an unprecedented alliance, signaling a potential restructuring of Somalia's federal balance. The two states have jointly condemned Mogadishu's moves to destabilize their administrations and have called for a return to genuine power-sharing. This development raises the specter of a broader constitutional crisis, as the federal government struggles to maintain authority over increasingly assertive regional governments. Without meaningful dialogue, the country risks sliding into deeper fragmentation, providing fertile ground for extremism.",
+    "source": "thesomalidigest.com",
+    "original_url": "https://thesomalidigest.com/category/somalia-security-news/",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:40:33.778Z",
+    "update_batch": "afternoon",
+    "image_url": "https://r6k3m4f6.delivery.rocketcdn.me/wp-content/uploads/2024/03/Al-Shabab-GalMudug-HirShabelle-Somalia.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Al-Shabaab is exploiting Mogadishu's political chaos to launch offensives.",
+      "Aid delivery failures in Somalia are being used by Al-Shabaab for propaganda.",
+      "Jubaland and Puntland have united against the federal government as rifts widen.",
+      "Galmudug accuses the federal election chief of vote rigging, escalating tensions."
+    ]
+  },
+  {
+    "id": "news-1783165243618-19",
+    "title": "Mogadishu, News And Latest Headlines",
+    "slug": "mogadishu-news-and-latest-headlines",
+    "summary": "Al-Shabaab militants continue to wage a deadly insurgency in Somalia, with recent attacks killing over 100 people and targeting senior officials, hotels, and AU bases.",
+    "content": "Mogadishu, the capital of Somalia, has been a focal point of a relentless insurgency by the Al-Qaeda-linked Al-Shabaab extremist group. In January 2023, the group claimed responsibility for an 'intense attack' that killed over 100 people, as the Somali government intensified its 'total war' against the militants. This attack is part of a broader pattern of violence aimed at destabilizing the fragile central government.\n\nPrior to this, in October 2022, car bombings in Mogadishu killed nine people, including senior officials, underscoring the reach of Al-Shabaab despite ongoing military operations by Somali forces and international security partners. The group has also targeted civilian infrastructure, such as the siege of a hotel in August 2022, which left at least 13 civilians dead and ended only after Somali forces intervened.\n\nAl-Shabaab's insurgency has not been limited to Mogadishu; in May 2022, the group attacked an African Union (AU) base in Somalia, causing casualties. The AU has been involved in peacekeeping missions, but Al-Shabaab continues to gain ground and launch deadly attacks across the country. In March 2022, shootouts at Mogadishu's international airport highlighted the ongoing security challenges.\n\nDespite the violence, Somalia held a long-delayed presidential election in May 2022, with MPs voting amid the Islamist insurgency and a threat of famine. The election was seen as a crucial step toward stability, but the continued attacks by Al-Shabaab demonstrate the persistent threat to peace and security in the region.",
+    "source": "i24news.tv",
+    "original_url": "https://www.i24news.tv/en/tags/mogadishu",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:40:43.618Z",
+    "update_batch": "afternoon",
+    "image_url": "https://cdn.i24news.tv/upload/image/1352b9caa849f9325c12157cf9dfc47bc0e3c73e.png",
+    "featured": false,
+    "ai_summary_points": [
+      "Al-Shabaab claims over 100 killed in 'intense attack' as Somali government declares 'total war'.",
+      "Car bombings in Mogadishu kill nine, including senior officials, amid all-out war on Al-Shabaab.",
+      "Hotel siege in Mogadishu ends with at least 13 civilians dead; Al-Shabaab claims responsibility.",
+      "Long-delayed presidential election takes place in May 2022 amid insurgency and famine threat."
+    ]
+  },
+  {
+    "id": "news-1783165257758-20",
+    "title": "Somalia Security: News & Analysis",
+    "slug": "somalia-security-news-analysis",
+    "summary": "Internal divisions in Somaliland over potential recognition of Israel threaten political stability and the region's push for international recognition.",
+    "content": "A deepening political crisis is unfolding in Somaliland as internal divisions over the potential recognition of Israel threaten to unravel the region's long-standing quest for international sovereignty. The dispute, which has pitted pro-recognition officials against conservative religious leaders, has stalled critical legislative processes and sparked public demonstrations in the capital, Hargeisa.\n\nAt the heart of the controversy is a proposal backed by some senior members of the ruling Kulmiye party, who argue that recognizing Israel could unlock diplomatic support from Washington, particularly from the incoming Trump administration. Pro-Israel advocates have intensified lobbying efforts in the United States, framing Somaliland as a strategic ally in the Horn of Africa. However, opponents warn that such a move would alienate key Islamic nations and jeopardize Somaliland's fragile relations with its neighbors, including Somalia and Ethiopia.\n\nReligious leaders and civil society groups have condemned the proposal, organizing protests that have drawn thousands into the streets. The opposition has accused the government of prioritizing foreign interests over national unity, further destabilizing a region already grappling with political tensions. Analysts fear the rift could embolden secessionist movements within Somaliland's own borders and derail the region's push for recognition, which has gained traction in recent years through engagement with Taiwan and the United Kingdom.\n\nThe crisis has also raised concerns about broader regional stability. Somalia's federal government, which considers Somaliland part of its territory, has watched the developments with alarm, warning that any formal recognition of Israel by Hargeisa would be viewed as a hostile act. Meanwhile, international observers are urging restraint, calling for dialogue to prevent the dispute from escalating into open conflict. As Somaliland teeters on the brink of political fracture, the outcome of this row will likely shape the region's future trajectory for years to come.",
+    "source": "somaliatoday.com",
+    "original_url": "https://somaliatoday.com/category/security/",
+    "country": "Somalia",
+    "category": "Politics",
+    "published_at": "2026-07-04T11:40:57.758Z",
+    "update_batch": "afternoon",
+    "image_url": "https://somaliatoday.com/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2025/10/SomaliaToday-Fav-scaled.png",
+    "featured": false,
+    "ai_summary_points": [
+      "Somaliland leaders are split over whether to recognize Israel, with some fearing backlash from Islamic allies.",
+      "The dispute has delayed key political decisions and sparked public protests in Hargeisa.",
+      "Pro-Israel advocates are lobbying the Trump administration to recognize Somaliland in exchange for closer ties.",
+      "The row threatens Somaliland's unity and its long-standing bid for international sovereignty."
+    ]
+  },
+  {
+    "id": "news-1783165269672-21",
+    "title": "Mogadishu: news, videos, reports and analysis",
+    "slug": "mogadishu-news-videos-reports-and-analysis",
+    "summary": "Mogadishu remains a focal point of Al-Shabaab attacks, but recent local elections signal a step toward stability and democratic progress in Somalia.",
+    "content": "Mogadishu, the embattled capital of Somalia, continues to endure the brunt of Al-Shabaab’s violent insurgency, yet the city has also become a symbol of resilience and democratic progress. On December 25, 2025, Somalians participated in their first local elections in decades, a landmark event held under tight security. The vote marked a significant step toward decentralization and local governance, amid ongoing efforts to stabilize the country after years of civil war and militant violence.\n\nHowever, the path to peace remains fraught with tragedy. In August 2024, a devastating attack on a Mogadishu beach claimed by Al-Shabaab killed over 30 people, shocking the nation and drawing international condemnation. The attack spurred widespread protests, with hundreds of Somalis taking to the streets to denounce the militant group’s brutality. These demonstrations underscored a growing public demand for security and an end to the bloodshed that has plagued the city for nearly two decades.\n\nEarlier that summer, on July 14, 2024, a car bomb targeted a cafe in Mogadishu where patrons were watching the Euro 2024 final, killing five and injuring 20. The attack highlighted Al-Shabaab’s continued ability to strike civilian targets despite government and African Union forces’ efforts to dismantle the group. In January 2024, a UN helicopter crash-landed in territory controlled by Al-Shabaab, leading to a hostage crisis as Somali forces searched for survivors and captives.\n\nDespite these security challenges, Mogadishu’s recent local elections and public protests signal a shift in popular sentiment against extremism. The Somali government, backed by international allies, is pushing forward with political reforms and military offensives, hoping to break the cycle of violence and build a more stable future for the capital and the nation.",
+    "source": "france24.com",
+    "original_url": "https://www.france24.com/en/tag/mogadishu/",
+    "country": "Somalia",
+    "category": "Security",
+    "published_at": "2026-07-04T11:41:09.673Z",
+    "update_batch": "afternoon",
+    "image_url": "https://s.france24.com/media/display/99f8a93a-e6c1-11ee-9116-005056bf30b7/w:1280/p:16x9/img-default-F24.jpg",
+    "featured": false,
+    "ai_summary_points": [
+      "Somalians voted in their first local elections in decades under tight security on December 25, 2025.",
+      "A car bomb at a Mogadishu cafe during the Euro 2024 final killed five and wounded 20.",
+      "Over 30 people were killed in a beach attack claimed by Al-Shabaab in August 2024.",
+      "Hundreds of Somalis protested against Al-Shabaab in Mogadishu following a deadly attack in August 2024."
+    ]
+  },
+  {
     "id": "news-1782898481721-0",
     "title": "Somali Guardian: Breaking news from Somalia and around the world",
     "slug": "somali-guardian-breaking-news-from-somalia-and-around-the-world",
@@ -30,7 +450,7 @@ export const newsArticles: Article[] = [
     "published_at": "2026-07-03T06:46:15.874Z",
     "update_batch": "afternoon",
     "image_url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=800",
-    "featured": true,
+    "featured": false,
     "ai_summary_points": [
       "Turkish F-16 fighter jets struck Al-Shabaab targets in Somalia.",
       "The airstrikes resulted in the death of multiple militants.",
@@ -49,7 +469,7 @@ export const newsArticles: Article[] = [
     "category": "Security",
     "published_at": "2026-07-03T05:46:15.876Z",
     "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&q=80&w=800",
+    "image_url": "https://pksoi.armywarcollege.edu/wp-content/uploads/2025/04/cropped-SFASID-Crop-Black-2.jpg",
     "featured": false,
     "ai_summary_points": [
       "U.S. President Trump reportedly plans to withdraw nearly all 700 troops from Somalia.",
@@ -109,7 +529,7 @@ export const newsArticles: Article[] = [
     "category": "Politics",
     "published_at": "2026-07-03T02:46:15.876Z",
     "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1526470608118-44a1911edfea?auto=format&fit=crop&q=80&w=800",
+    "image_url": "https://www.youtube.com/img/desktop/yt_1200.png",
     "featured": false,
     "ai_summary_points": [
       "Somalia's government is experiencing a severe internal crisis, leading to fears of implosion.",
@@ -129,7 +549,7 @@ export const newsArticles: Article[] = [
     "category": "Politics",
     "published_at": "2026-07-03T01:46:15.876Z",
     "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1612831455740-a2f6212eeeb2?auto=format&fit=crop&q=80&w=800",
+    "image_url": "https://r6k3m4f6.delivery.rocketcdn.me/wp-content/themes/jnews/assets/img/jeg-empty.png",
     "featured": false,
     "ai_summary_points": [
       "Mogadishu is accused of planning to destabilize Puntland, deepening federal tensions.",
@@ -149,7 +569,7 @@ export const newsArticles: Article[] = [
     "category": "Politics",
     "published_at": "2026-07-03T00:46:15.876Z",
     "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1473163928189-364b2c4e1135?auto=format&fit=crop&q=80&w=800",
+    "image_url": "https://www.youtube.com/img/desktop/yt_1200.png",
     "featured": false,
     "ai_summary_points": [
       "13 people died in clashes in Mogadishu over election reforms.",
@@ -169,7 +589,7 @@ export const newsArticles: Article[] = [
     "category": "Politics",
     "published_at": "2026-07-02T23:46:15.876Z",
     "update_batch": "afternoon",
-    "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+    "image_url": "https://dims.apnews.com/dims4/default/295c329/2147483647/strip/true/crop/675x450+12+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F90%2F29%2F4e3c1cc7446089a9101a7bdff4c8%2Fdefaultshareimage-copy.png",
     "featured": false,
     "ai_summary_points": [
       "Political turmoil escalating in Somalia over electoral reforms and power-sharing disputes.",
