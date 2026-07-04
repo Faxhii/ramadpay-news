@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "Jerusalem Post",
+    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T00:44:12Z",
+    "id": "social-1783169644942-0"
+  },
+  {
+    "source": "News",
+    "author": "Somali Guardian",
+    "content": "AU peacekeeping mission in Somalia at risk of collapse as US ends key UN support",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFRIU2pqWUppb0hqMHExcEZwbHUxZy1LM1E5bVEyZXR4V25RTmdWeGJCWWhCOWVmNEludE5vUnJmVEtOY2M4X1N5eHVSeTNENjhvc2VRR3g1VHV5MkkySVVuSHVQcTQ1QjZYTmVycm9KUnhlVHBpTXNwcUs5Z19HbkY5cVZ3UGdyTElKRmZ4RmJ1RXlZeFJRUDlMa2tXa1hJZ3c?oc=5",
+    "published_at": "2026-07-04T08:22:49Z",
+    "id": "social-1783169644942-1"
+  },
+  {
+    "source": "News",
+    "author": "Arab News",
+    "content": "US to end funding to UN Support Office in Somalia",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4Q3B5Zmw1djFxZExnTEdxb0tncnYxNlhGNG9BckY1aTByem1zUUJBN3YxYlhoMFhlNzJuQUMwaVdfZ0Zsa1E4MjFVR1Ria0Uyd2pVMWVB?oc=5",
+    "published_at": "2026-07-03T19:44:22Z",
+    "id": "social-1783169644942-2"
+  },
+  {
+    "source": "News",
+    "author": "The HALO Trust",
+    "content": "Somalia: demining and risk education efforts continue",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
+    "published_at": "2026-07-04T05:21:48Z",
+    "id": "social-1783169644942-3"
+  },
+  {
+    "source": "X",
+    "author": "IQAir",
+    "content": "Air quality in Afgooye monitored, stay informed",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vVll6ZDFobDBoU1NSQnRiU0FMQTRTTWVyWjl4MVRXUzVOVGFkYWVaUkE3eVo1ZzJUVjVSRVNjb0IxNzZ2ZUEweUxFRzNxUnBFRElVcTQwOHVyTlZ5ZURFb1YzZFRjTXlpa0hhaDBsOVZhLUZNRmdN?oc=5",
+    "published_at": "2026-07-04T02:19:48Z",
+    "id": "social-1783169644942-4"
+  },
+  {
+    "source": "News",
     "author": "The HALO Trust",
     "content": "Demining and risk education efforts ongoing in Somalia to clear explosives and save lives.",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
     "published_at": "2026-07-03T12:56:15Z",
     "id": "social-1783128570118-4"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliaInsider",
-    "content": "US blocks UN support for Somalia peacekeeping mission, putting it at risk. Reuters reports.",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVm5IV2FLN0ctbDlXY2Q5M3JoLWhDY1VnbGhvY19CQmdBVGUxdXJXcVgxajhsT1pzbzlpekdtLTZkbENzOHNYQjlTb3dfdlVkOWc4SWctV2ptWV9WcWFNS01HUEhjLUpVTEFhR2ZvS0ptZlI1eXRpQ1k1N1BFTERKUjVwRkZqeENYOWtsUmdneGQwRk5wbVJPVkI0Vm5mQkRVQzEwS2M1eUJSX2tjVTNNaEpYS3ltQQ?oc=5",
-    "published_at": "2026-07-02T21:37:00.000Z",
-    "id": "social-1783111824850-0"
-  },
-  {
-    "source": "News",
-    "author": "Horn Review",
-    "content": "End of UNSOS support signals impending security crisis for Somalia, warns Horn Review.",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
-    "published_at": "2026-07-03T12:47:02.000Z",
-    "id": "social-1783111824850-1"
-  },
-  {
-    "source": "X",
-    "author": "@CrisisMonitor",
-    "content": "US to cut funding to UN Support Office in Somalia, as reported by Arab News. Security at risk.",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4Q3B5Zmw1djFxZExnTEdxb0tncnYxNlhGNG9BckY1aTByem1zUUJBN3YxYlhoMFhlNzJuQUMwaVdfZ0Zsa1E4MjFVR1Ria0Uyd2pVMWVB?oc=5",
-    "published_at": "2026-07-03T19:44:22.000Z",
-    "id": "social-1783111824850-2"
-  },
-  {
-    "source": "News",
-    "author": "Africanews.com",
-    "content": "AU peacekeeping mission in Somalia at risk as US funding cuts threaten stability.",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzNwbXY0THZpSUVRVnpKODNLVFNZZkpGSFVRUWszdy1kalI4VVk4WldOb3JjdFJCU1hJU250XzR1RzR6MFk1VlNfV1lDcGo4ZFZ4a3gtaTYtcHFXQ0VZZFRoSVhDNUJmb01SRmtUaWVWYlNIMkFuWG11bXNuVnlobmI4QlRwLU1Dbk5EalJ6enphZ09QdVp5c01TY1J2anFDM2pvczJGc256T2NEZXNHWWtEUdIBuAFBVV95cUxPYjJpRnZjWjZKbS1Ia2ktZXZNZ1hkNHhPYUhmVDhsMGxRcm9fbG4yNmRaSWRTMFJWcm9hbzBLSkRVXzRrVGc2QXhxejB1MDFGRFRUaHY0OE1hN3lmaTljVXBCUGk2aUtaZ2N6Z2tLQmlwX2hjeHc0TWQ0R25tU3lxSDFDVWJoYWI5Y3VxZ3hmLVF6c3FaV3lHa0VIQzRXUnJSNGJRdkZXaXdsUTdQTE9hZUZhdTJzaUMz?oc=5",
-    "published_at": "2026-07-03T15:33:57.000Z",
-    "id": "social-1783111824850-3"
-  },
-  {
-    "source": "Facebook",
-    "author": "Africa Daily",
-    "content": "Somalia debuts first ever pavilion at Venice Art Biennale, showcasing cultural resilience.",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
-    "published_at": "2026-07-03T12:56:15.000Z",
-    "id": "social-1783111824850-4"
   }
 ];
