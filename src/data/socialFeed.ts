@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "Genocide Watch",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
+    "published_at": "2026-07-05T18:50:30Z",
+    "id": "social-1783284254430-0"
+  },
+  {
+    "source": "News",
+    "author": "Amani Africa",
+    "content": "US plan to unplug UN Support Office in Somalia may break African Union peace operation.",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
+    "published_at": "2026-07-05T08:09:44Z",
+    "id": "social-1783284254430-1"
+  },
+  {
+    "source": "News",
+    "author": "The HALO Trust",
+    "content": "Demining and risk education ongoing in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
+    "published_at": "2026-07-05T06:26:04Z",
+    "id": "social-1783284254430-2"
+  },
+  {
+    "source": "News",
+    "author": "Dawan Africa",
+    "content": "Somalia seeks to expand US partnership beyond security, President says.",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVkxVekhsTDJqZDBWNk0wU05BS19GUkdfNEZLc0tScDRHdXBLaFdHRlhrcFFZZlpjNmdTRGNBZmVieWh3WW1DOTU5Q3FOLWhPQ081QXk1ZnhMcXExQzR5V3IwWFpCUGlQR1RVaWVvS3ZQZXRXamJfN1RtMWd3RWFIR1cwNUxtMndwMDF1cUlJMVg4Uk8xWXFHMm95Z3NNU3hv?oc=5",
+    "published_at": "2026-07-05T15:48:20Z",
+    "id": "social-1783284254430-3"
+  },
+  {
+    "source": "X",
+    "author": "@SomaliGuardian",
+    "content": "Puntland bans Turkish fishing firm SOMTURK.",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXI2YXlIQVJ0MDluVUhlVzU1RHozX2xDOTY4N0p0WDg1TTZHQ1ZPUkQ4ZEgtdDJEdmdINHZycjRkcUFvbWFxQkE4UFpLTVFjNlg1Mkw5WG5kVlcxaXFyTnoxWTJCTm5VZUdNS1FBQnRUZ3VxNjRkQXNYZGJlWlM5RjF2dl9FeTltb2N3Qk5oRjIyWlg5MElOMVlUc2tWS2N6VWc?oc=5",
+    "published_at": "2026-07-05T14:57:06Z",
+    "id": "social-1783284254430-4"
+  },
+  {
+    "source": "News",
     "author": "Amani Africa",
     "content": "US plan to unplug UN Support Office in Somalia could break AU peace operation.",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVd0b0RxczVvQVdTN3lJUmowMUEzLUZvazNldEhxaHI3bEhDM3hXZ2NsZkNiYlB4THVybzJKa3p5QndiN2RHNzJnQmVzSnlxWng0ZFRmVkZuYk1TZHo1M0xDTGxIQnpwQnN4QVgydFZqRWhPa0k2Qjk2NnZXN0NTNjIxdTFXVjdNblluNlhneFFhSFZWcmxoOU1HTHdjQWxsczNwanFHS2FvOVZxZUJTbXBSWGplQ090TEE?oc=5",
     "published_at": "2026-07-05T08:00:00Z",
     "id": "social-1783245692746-4"
-  },
-  {
-    "source": "News",
-    "author": "The Jerusalem Post",
-    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel.",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T15:16:12Z",
-    "id": "social-1783234698241-0"
-  },
-  {
-    "source": "News",
-    "author": "thecradle.co",
-    "content": "Turkiye builds 'spaceport' in Somalia setting off alarms in Israel.",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3EyT09NUlA0Nk1CUENsNTRsWEtqaWo0U19TOWxtemoyWE5tYUJjQWZmWHpRYTlscUpFNXRGbms3N2RRbEU0c296MGhNc1JydnlWM2Y5Mm9tTVNYcW82ZThhajBDTW5rWXkxbXphLTdhX0VjNmE2Q2twQy1VeXlaZTZwTlEwcGEwYnJNYk4xcmVuMkxTeENPZm5R?oc=5",
-    "published_at": "2026-07-05T03:56:15Z",
-    "id": "social-1783234698241-1"
-  },
-  {
-    "source": "News",
-    "author": "Garowe Online",
-    "content": "Turkey to use Somalia spaceport for hypersonic missile tests.",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTURZTlp0UmVUbWRYLVgwMDloMmpfZFB3Z2R4Y2cyR21PZktqOFNIbmJpeGFaX0l5dFJhT2M1Q2VXSmFzZkF0Q2FpeVZOaEtwTm9HM3F2akYxa0Y5R2hqMzhReFBSajJoc0J4RWdtUUxVOE13alFDb0hfX1VUMHRYRmpzOFpFU0w5NzRXYThrVVB4VFZkU3haV0hSZ3FEMVZaZERYUktGeVM?oc=5",
-    "published_at": "2026-07-04T20:28:47Z",
-    "id": "social-1783234698241-2"
-  },
-  {
-    "source": "News",
-    "author": "Hiiraan Online",
-    "content": "Somalia to issue new modern passport in October 2026.",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVg2aFdMQVBDeU9OYmdMR2x0WTdXaGlmT2hzLWNPalI0R0I2X0lHUm5aNWVLWUtOWVZhbXF2TWtROTh4elhHUEpnVWd1YkxPSEU3M1N6NERNMEdqMkg2SFVvQVZXLThqTHZweHVWOGVTdTRNSWVmdVZFSDBtWXJtNHY3UC0yY3ZuOEZGVXpmcXc1QmZJb3Y1R0hfbzJoU01IWkQ3YWFn?oc=5",
-    "published_at": "2026-07-05T06:49:45Z",
-    "id": "social-1783234698241-3"
-  },
-  {
-    "source": "News",
-    "author": "Dawan Africa",
-    "content": "Kenya Reaffirms Commitment to Stronger Ties with Somalia at Union Day Celebrations.",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOF9wRVBjcVp4UnpYM0dSRDQxNDd6UHN2MTN5MXQ5ckRyeFVPaWNNTHBqblp1QnhBZ1h5ekZmZlRhSHo5N1lHMUFmek05REpNNENCLS0xZFNnVDd1LURxQlYyWTRqa2gzQ3FjVno5ODlVcXNidGN3MFBBS3YyTFdLMzFjRE5PTnVlRWRBVU9lTy1aR2Z5N0NlRFF6dUZZQTBWV0JDajVaT1VTcS1lWHBUM21R?oc=5",
-    "published_at": "2026-07-04T20:46:03Z",
-    "id": "social-1783234698241-4"
   }
 ];
