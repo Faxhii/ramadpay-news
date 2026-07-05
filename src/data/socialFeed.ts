@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "The Jerusalem Post",
+    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T15:16:12Z",
+    "id": "social-1783215897680-0"
+  },
+  {
+    "source": "X",
+    "author": "@SomaliaUpdates",
+    "content": "Somali flag raised in Niagara Square for 4th year on July 1, celebrating Somalia's independence.",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTmlBSjVPZldJYUJvT3VWZE5hWmIyNVhFVkFBSmlJUE5QbV9RQS1KWHM5NjhON1hoTVUwdEZsX1RleXBiR0EzR3RiMzVIM0x3WVpCZU14VG1zTUN6WGt4SEJRMUdRX3VpMHEyZFJqeVk3cEFOMmFlVEF6Q3d6YzRaTzVPSk9zS0NjVnViNXVWRGlicDE2Zmp6THUyN0hXZ1ZWZ3NQV3VCNlpFMG5KYm4yemJtdS0tVlpIN1ZKMEM2TnloekkwUnBpMUFiR3JleWtwc3IxNE0wakpfYVNtR0FNLU9n?oc=5",
+    "published_at": "2026-07-04T23:00:13Z",
+    "id": "social-1783215897680-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "HALO Trust",
+    "content": "HALO Trust continues demining and risk education in Somalia to protect civilians from landmines.",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
+    "published_at": "2026-07-04T05:21:48Z",
+    "id": "social-1783215897680-2"
+  },
+  {
+    "source": "News",
+    "author": "Garowe Online",
+    "content": "Turkey to use Somalia spaceport for hypersonic missile tests, raising regional security concerns.",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTURZTlp0UmVUbWRYLVgwMDloMmpfZFB3Z2R4Y2cyR21PZktqOFNIbmJpeGFaX0l5dFJhT2M1Q2VXSmFzZkF0Q2FpeVZOaEtwTm9HM3F2akYxa0Y5R2hqMzhReFBSajJoc0J4RWdtUUxVOE13alFDb0hfX1VUMHRYRmpzOFpFU0w5NzRXYThrVVB4VFZkU3haV0hSZ3FEMVZaZERYUktGeVM?oc=5",
+    "published_at": "2026-07-04T20:28:47Z",
+    "id": "social-1783215897680-3"
+  },
+  {
+    "source": "Facebook",
+    "author": "Hiiraan Online",
+    "content": "China-funded diaspora center opens in Somalia to support Somali communities abroad.",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
+    "published_at": "2026-07-04T23:31:26Z",
+    "id": "social-1783215897680-4"
+  },
+  {
+    "source": "News",
     "author": "Jerusalem Post",
     "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel.",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vVll6ZDFobDBoU1NSQnRiU0FMQTRTTWVyWjl4MVRXUzVOVGFkYWVaUkE3eVo1ZzJUVjVSRVNjb0IxNzZ2ZUEweUxFRzNxUnBFRElVcTQwOHVyTlZ5ZURFb1YzZFRjTXlpa0hhaDBsOVZhLUZNRmdN?oc=5",
     "published_at": "2026-07-04T02:19:48Z",
     "id": "social-1783169644942-4"
-  },
-  {
-    "source": "News",
-    "author": "The HALO Trust",
-    "content": "Demining and risk education efforts ongoing in Somalia to clear explosives and save lives.",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-04T05:21:48Z",
-    "id": "social-1783159056679-0"
-  },
-  {
-    "source": "News",
-    "author": "The Jerusalem Post",
-    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel, report says.",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T00:44:12Z",
-    "id": "social-1783159056679-1"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliGuardian",
-    "content": "AU peacekeeping mission in Somalia at risk of collapse as US ends key UN support.",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFRIU2pqWUppb0hqMHExcEZwbHUxZy1LM1E5bVEyZXR4V25RTmdWeGJCWWhCOWVmNEludE5vUnJmVEtOY2M4X1N5eHVSeTNENjhvc2VRR3g1VHV5MkkySVVuSHVQcTQ1QjZYTmVycm9KUnhlVHBpTXNwcUs5Z19HbkY5cVZ3UGdyTElKRmZ4RmJ1RXlZeFJRUDlMa2tXa1hJZ3c?oc=5",
-    "published_at": "2026-07-04T08:22:49Z",
-    "id": "social-1783159056679-2"
-  },
-  {
-    "source": "X",
-    "author": "@hornreview",
-    "content": "The End of UNSOS Support and Somalia's Impending Security Crisis.",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09ZUURFNWNyTUVUZWZhSkdJWW14XzZ4by1aemFHYk9ybm1CUWhQVkg1Zmt5MlJfSmtBblRLVmNkaUEyRzFvX3UwWXlkdWYyeHgwYVc2OHhWSnJuUEl0S0lYdWdic1B3MzBKRGVLVDh3b1lTNFZmeHVKSE5BaUtiVDkwM2ZRV1c3cEZqN2VwRzBaa2Vnd3hJUndFOWZGLUk?oc=5",
-    "published_at": "2026-07-03T12:47:02Z",
-    "id": "social-1783159056679-3"
-  },
-  {
-    "source": "News",
-    "author": "DW.com",
-    "content": "Somalia’s first pavilion at the Venice Art Biennale showcased.",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMU04MGFVNFFDMHk5WlZxcTZCdXdaajl1anhqWVlNZ1pILXQwaldLR0xOYkJEQ1ZwVTU1ekpLWmxmOEpTeFJCbmk5TU9SYmxvNWpDMzFPdEJTTmNTRExrRzViZ2lNaE1uQ2RXY3l3V0pkd2lINGZoUWV4ZG04VHVaTGJwT19GbWJoY3AyaGZsaXRKdw?oc=5",
-    "published_at": "2026-07-03T12:56:15Z",
-    "id": "social-1783159056679-4"
   }
 ];
