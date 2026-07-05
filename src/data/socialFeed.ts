@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "The Jerusalem Post",
+    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel.",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T15:16:12Z",
+    "id": "social-1783234698241-0"
+  },
+  {
+    "source": "News",
+    "author": "thecradle.co",
+    "content": "Turkiye builds 'spaceport' in Somalia setting off alarms in Israel.",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3EyT09NUlA0Nk1CUENsNTRsWEtqaWo0U19TOWxtemoyWE5tYUJjQWZmWHpRYTlscUpFNXRGbms3N2RRbEU0c296MGhNc1JydnlWM2Y5Mm9tTVNYcW82ZThhajBDTW5rWXkxbXphLTdhX0VjNmE2Q2twQy1VeXlaZTZwTlEwcGEwYnJNYk4xcmVuMkxTeENPZm5R?oc=5",
+    "published_at": "2026-07-05T03:56:15Z",
+    "id": "social-1783234698241-1"
+  },
+  {
+    "source": "News",
+    "author": "Garowe Online",
+    "content": "Turkey to use Somalia spaceport for hypersonic missile tests.",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTURZTlp0UmVUbWRYLVgwMDloMmpfZFB3Z2R4Y2cyR21PZktqOFNIbmJpeGFaX0l5dFJhT2M1Q2VXSmFzZkF0Q2FpeVZOaEtwTm9HM3F2akYxa0Y5R2hqMzhReFBSajJoc0J4RWdtUUxVOE13alFDb0hfX1VUMHRYRmpzOFpFU0w5NzRXYThrVVB4VFZkU3haV0hSZ3FEMVZaZERYUktGeVM?oc=5",
+    "published_at": "2026-07-04T20:28:47Z",
+    "id": "social-1783234698241-2"
+  },
+  {
+    "source": "News",
+    "author": "Hiiraan Online",
+    "content": "Somalia to issue new modern passport in October 2026.",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVg2aFdMQVBDeU9OYmdMR2x0WTdXaGlmT2hzLWNPalI0R0I2X0lHUm5aNWVLWUtOWVZhbXF2TWtROTh4elhHUEpnVWd1YkxPSEU3M1N6NERNMEdqMkg2SFVvQVZXLThqTHZweHVWOGVTdTRNSWVmdVZFSDBtWXJtNHY3UC0yY3ZuOEZGVXpmcXc1QmZJb3Y1R0hfbzJoU01IWkQ3YWFn?oc=5",
+    "published_at": "2026-07-05T06:49:45Z",
+    "id": "social-1783234698241-3"
+  },
+  {
+    "source": "News",
+    "author": "Dawan Africa",
+    "content": "Kenya Reaffirms Commitment to Stronger Ties with Somalia at Union Day Celebrations.",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOF9wRVBjcVp4UnpYM0dSRDQxNDd6UHN2MTN5MXQ5ckRyeFVPaWNNTHBqblp1QnhBZ1h5ekZmZlRhSHo5N1lHMUFmek05REpNNENCLS0xZFNnVDd1LURxQlYyWTRqa2gzQ3FjVno5ODlVcXNidGN3MFBBS3YyTFdLMzFjRE5PTnVlRWRBVU9lTy1aR2Z5N0NlRFF6dUZZQTBWV0JDajVaT1VTcS1lWHBUM21R?oc=5",
+    "published_at": "2026-07-04T20:46:03Z",
+    "id": "social-1783234698241-4"
+  },
+  {
+    "source": "News",
+    "author": "The Jerusalem Post",
     "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
     "published_at": "2026-07-04T15:16:12Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CYXdmR3lFWUV1aVM2YmZlaWRmZGZLM3R3cE5XVmFSZno0MDRTbFdleEpyOFZoOHdpNEZKZ0xUTHk4UlZwRjF3VW1ZZzR1bDhCXy1jSXg4b3p2d1p5c2tEbkJaWWVqRTJXV1VIVA?oc=5",
     "published_at": "2026-07-04T07:17:09Z",
     "id": "social-1783183743502-4"
-  },
-  {
-    "source": "News",
-    "author": "Jerusalem Post",
-    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T00:44:12Z",
-    "id": "social-1783169644942-0"
-  },
-  {
-    "source": "News",
-    "author": "Somali Guardian",
-    "content": "AU peacekeeping mission in Somalia at risk of collapse as US ends key UN support",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFRIU2pqWUppb0hqMHExcEZwbHUxZy1LM1E5bVEyZXR4V25RTmdWeGJCWWhCOWVmNEludE5vUnJmVEtOY2M4X1N5eHVSeTNENjhvc2VRR3g1VHV5MkkySVVuSHVQcTQ1QjZYTmVycm9KUnhlVHBpTXNwcUs5Z19HbkY5cVZ3UGdyTElKRmZ4RmJ1RXlZeFJRUDlMa2tXa1hJZ3c?oc=5",
-    "published_at": "2026-07-04T08:22:49Z",
-    "id": "social-1783169644942-1"
-  },
-  {
-    "source": "News",
-    "author": "Arab News",
-    "content": "US to end funding to UN Support Office in Somalia",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4Q3B5Zmw1djFxZExnTEdxb0tncnYxNlhGNG9BckY1aTByem1zUUJBN3YxYlhoMFhlNzJuQUMwaVdfZ0Zsa1E4MjFVR1Ria0Uyd2pVMWVB?oc=5",
-    "published_at": "2026-07-03T19:44:22Z",
-    "id": "social-1783169644942-2"
-  },
-  {
-    "source": "News",
-    "author": "The HALO Trust",
-    "content": "Somalia: demining and risk education efforts continue",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-04T05:21:48Z",
-    "id": "social-1783169644942-3"
-  },
-  {
-    "source": "X",
-    "author": "IQAir",
-    "content": "Air quality in Afgooye monitored, stay informed",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vVll6ZDFobDBoU1NSQnRiU0FMQTRTTWVyWjl4MVRXUzVOVGFkYWVaUkE3eVo1ZzJUVjVSRVNjb0IxNzZ2ZUEweUxFRzNxUnBFRElVcTQwOHVyTlZ5ZURFb1YzZFRjTXlpa0hhaDBsOVZhLUZNRmdN?oc=5",
-    "published_at": "2026-07-04T02:19:48Z",
-    "id": "social-1783169644942-4"
   }
 ];
