@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "Amani Africa",
+    "content": "US plan to unplug UN Support Office in Somalia may break African Union peace operation.",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
+    "published_at": "2026-07-05T08:09:44Z",
+    "id": "social-1783256482535-0"
+  },
+  {
+    "source": "News",
+    "author": "The Jerusalem Post",
+    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report.",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T15:16:12Z",
+    "id": "social-1783256482535-1"
+  },
+  {
+    "source": "News",
+    "author": "Garowe Online",
+    "content": "Somalia lawmakers call on president to step down, citing constitutional breach.",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV1lBcnBWYWFKZWdYUEFJODdIV0lnSHV2WVEwc1ZnRm5TM0hOVUVQZmM4R0R6NlNURnlJaC12eWdFbzdhdXlnYWx0Y3UzeXVRZURBcXBLWUVTZjc1b3BaeGh2RnRVMHZVQ1BMcTZ0Xy1MTW1UT3dRa2lvNGJGY3NyNG1sel9kaVVqaHVIX0xvaG1lSnNqZTY5NjllRXBLMDgzX2dpMFlIUWZUbFZ6QS1JQWZyaUdESkpacXRic2Jnbw?oc=5",
+    "published_at": "2026-07-05T09:23:47Z",
+    "id": "social-1783256482535-2"
+  },
+  {
+    "source": "News",
+    "author": "Hiiraan Online",
+    "content": "China-funded diaspora center opens in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
+    "published_at": "2026-07-05T08:50:35Z",
+    "id": "social-1783256482535-3"
+  },
+  {
+    "source": "News",
+    "author": "FTL Somalia",
+    "content": "President Hassan Sheikh welcomes Somali-American Mayor Nadia Mohamed to Villa Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYy1ZeWVQNTdpUkVoTXNWTmlDenhzeXpRMm9fMTBfQUdZT19xZFBua0Q0cTk2akkyNlVRbUw4aFNiNTZCUDRUa3RIRjNzNU9iVmFsOW96T0ZzS0owU21wQ3QxM0FmeFdkQzROeC1sbXdWOGFXbnRQWDM2cTFNVGNMT1ZqZURsMXFEMUFKYzlIeVo5akRITnluYWVROXpPbnp5ZWgyczVFU0ZWSE9ub0V5SWtIVQ?oc=5",
+    "published_at": "2026-07-05T10:51:50Z",
+    "id": "social-1783256482535-4"
+  },
+  {
+    "source": "News",
+    "author": "Amani Africa",
     "content": "US plan to defund UN Support Office in Somalia could cripple AU peace operation, warns think tank.",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
     "published_at": "2026-07-05T08:09:44Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
     "published_at": "2026-07-04T23:31:26Z",
     "id": "social-1783215897680-4"
-  },
-  {
-    "source": "News",
-    "author": "Jerusalem Post",
-    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel.",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T15:16:12Z",
-    "id": "social-1783197671128-0"
-  },
-  {
-    "source": "X",
-    "author": "@GaroweOnline",
-    "content": "Turkey to use Somalia spaceport for hypersonic missile tests.",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTURZTlp0UmVUbWRYLVgwMDloMmpfZFB3Z2R4Y2cyR21PZktqOFNIbmJpeGFaX0l5dFJhT2M1Q2VXSmFzZkF0Q2FpeVZOaEtwTm9HM3F2akYxa0Y5R2hqMzhReFBSajJoc0J4RWdtUUxVOE13alFDb0hfX1VUMHRYRmpzOFpFU0w5NzRXYThrVVB4VFZkU3haV0hSZ3FEMVZaZERYUktGeVM?oc=5",
-    "published_at": "2026-07-04T20:28:47Z",
-    "id": "social-1783197671128-1"
-  },
-  {
-    "source": "News",
-    "author": "Hiiraan Online",
-    "content": "China-funded diaspora center opens in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
-    "published_at": "2026-07-04T20:16:33Z",
-    "id": "social-1783197671128-2"
-  },
-  {
-    "source": "Facebook",
-    "author": "The HALO Trust",
-    "content": "Demining and risk education ongoing in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-04T05:21:48Z",
-    "id": "social-1783197671128-3"
-  },
-  {
-    "source": "News",
-    "author": "Somali Guardian",
-    "content": "AU peacekeeping mission in Somalia at risk of collapse as US ends key UN support.",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFRIU2pqWUppb0hqMHExcEZwbHUxZy1LM1E5bVEyZXR4V25RTmdWeGJCWWhCOWVmNEludE5vUnJmVEtOY2M4X1N5eHVSeTNENjhvc2VRR3g1VHV5MkkySVVuSHVQcTQ1QjZYTmVycm9KUnhlVHBpTXNwcUs5Z19HbkY5cVZ3UGdyTElKRmZ4RmJ1RXlZeFJRUDlMa2tXa1hJZ3c?oc=5",
-    "published_at": "2026-07-04T08:22:49Z",
-    "id": "social-1783197671128-4"
   }
 ];
