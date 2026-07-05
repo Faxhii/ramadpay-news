@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "Amani Africa",
+    "content": "US plan to unplug UN Support Office in Somalia could break AU peace operation.",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
+    "published_at": "2026-07-05T08:09:44Z",
+    "id": "social-1783270298942-0"
+  },
+  {
+    "source": "News",
+    "author": "The HALO Trust",
+    "content": "Somalia: demining and risk education ongoing.",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
+    "published_at": "2026-07-05T06:26:04Z",
+    "id": "social-1783270298942-1"
+  },
+  {
+    "source": "News",
+    "author": "Dawan Africa",
+    "content": "Somalia seeks to expand US partnership beyond security, says President.",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVkxVekhsTDJqZDBWNk0wU05BS19GUkdfNEZLc0tScDRHdXBLaFdHRlhrcFFZZlpjNmdTRGNBZmVieWh3WW1DOTU5Q3FOLWhPQ081QXk1ZnhMcXExQzR5V3IwWFpCUGlQR1RVaWVvS3ZQZXRXamJfN1RtMWd3RWFIR1cwNUxtMndwMDF1cUlJMVg4Uk8xWXFHMm95Z3NNU3hv?oc=5",
+    "published_at": "2026-07-05T15:48:20Z",
+    "id": "social-1783270298942-2"
+  },
+  {
+    "source": "News",
+    "author": "Somali Guardian",
+    "content": "Puntland bans Turkish fishing firm SOMTURK.",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXI2YXlIQVJ0MDluVUhlVzU1RHozX2xDOTY4N0p0WDg1TTZHQ1ZPUkQ4ZEgtdDJEdmdINHZycjRkcUFvbWFxQkE4UFpLTVFjNlg1Mkw5WG5kVlcxaXFyTnoxWTJCTm5VZUdNS1FBQnRUZ3VxNjRkQXNYZGJlWlM5RjF2dl9FeTltb2N3Qk5oRjIyWlg5MElOMVlUc2tWS2N6VWc?oc=5",
+    "published_at": "2026-07-05T14:57:06Z",
+    "id": "social-1783270298942-3"
+  },
+  {
+    "source": "News",
+    "author": "Hiiraan Online",
+    "content": "China-funded diaspora center opens in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
+    "published_at": "2026-07-05T15:05:25Z",
+    "id": "social-1783270298942-4"
+  },
+  {
+    "source": "News",
+    "author": "Amani Africa",
     "content": "US plan to unplug UN Support Office in Somalia may break African Union peace operation.",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
     "published_at": "2026-07-05T08:09:44Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOF9wRVBjcVp4UnpYM0dSRDQxNDd6UHN2MTN5MXQ5ckRyeFVPaWNNTHBqblp1QnhBZ1h5ekZmZlRhSHo5N1lHMUFmek05REpNNENCLS0xZFNnVDd1LURxQlYyWTRqa2gzQ3FjVno5ODlVcXNidGN3MFBBS3YyTFdLMzFjRE5PTnVlRWRBVU9lTy1aR2Z5N0NlRFF6dUZZQTBWV0JDajVaT1VTcS1lWHBUM21R?oc=5",
     "published_at": "2026-07-04T20:46:03Z",
     "id": "social-1783234698241-4"
-  },
-  {
-    "source": "News",
-    "author": "The Jerusalem Post",
-    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T15:16:12Z",
-    "id": "social-1783215897680-0"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliaUpdates",
-    "content": "Somali flag raised in Niagara Square for 4th year on July 1, celebrating Somalia's independence.",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTmlBSjVPZldJYUJvT3VWZE5hWmIyNVhFVkFBSmlJUE5QbV9RQS1KWHM5NjhON1hoTVUwdEZsX1RleXBiR0EzR3RiMzVIM0x3WVpCZU14VG1zTUN6WGt4SEJRMUdRX3VpMHEyZFJqeVk3cEFOMmFlVEF6Q3d6YzRaTzVPSk9zS0NjVnViNXVWRGlicDE2Zmp6THUyN0hXZ1ZWZ3NQV3VCNlpFMG5KYm4yemJtdS0tVlpIN1ZKMEM2TnloekkwUnBpMUFiR3JleWtwc3IxNE0wakpfYVNtR0FNLU9n?oc=5",
-    "published_at": "2026-07-04T23:00:13Z",
-    "id": "social-1783215897680-1"
-  },
-  {
-    "source": "Facebook",
-    "author": "HALO Trust",
-    "content": "HALO Trust continues demining and risk education in Somalia to protect civilians from landmines.",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-04T05:21:48Z",
-    "id": "social-1783215897680-2"
-  },
-  {
-    "source": "News",
-    "author": "Garowe Online",
-    "content": "Turkey to use Somalia spaceport for hypersonic missile tests, raising regional security concerns.",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTURZTlp0UmVUbWRYLVgwMDloMmpfZFB3Z2R4Y2cyR21PZktqOFNIbmJpeGFaX0l5dFJhT2M1Q2VXSmFzZkF0Q2FpeVZOaEtwTm9HM3F2akYxa0Y5R2hqMzhReFBSajJoc0J4RWdtUUxVOE13alFDb0hfX1VUMHRYRmpzOFpFU0w5NzRXYThrVVB4VFZkU3haV0hSZ3FEMVZaZERYUktGeVM?oc=5",
-    "published_at": "2026-07-04T20:28:47Z",
-    "id": "social-1783215897680-3"
-  },
-  {
-    "source": "Facebook",
-    "author": "Hiiraan Online",
-    "content": "China-funded diaspora center opens in Somalia to support Somali communities abroad.",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
-    "published_at": "2026-07-04T23:31:26Z",
-    "id": "social-1783215897680-4"
   }
 ];
