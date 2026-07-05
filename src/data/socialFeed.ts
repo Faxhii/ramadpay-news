@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "Amani Africa",
+    "content": "US plan to defund UN Support Office in Somalia could cripple AU peace operation, warns think tank.",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
+    "published_at": "2026-07-05T08:09:44Z",
+    "id": "social-1783245692746-0"
+  },
+  {
+    "source": "X",
+    "author": "Garowe Online",
+    "content": "Turkey plans to use Somalia spaceport for hypersonic missile tests, escalating regional tensions.",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTURZTlp0UmVUbWRYLVgwMDloMmpfZFB3Z2R4Y2cyR21PZktqOFNIbmJpeGFaX0l5dFJhT2M1Q2VXSmFzZkF0Q2FpeVZOaEtwTm9HM3F2akYxa0Y5R2hqMzhReFBSajJoc0J4RWdtUUxVOE13alFDb0hfX1VUMHRYRmpzOFpFU0w5NzRXYThrVVB4VFZkU3haV0hSZ3FEMVZaZERYUktGeVM?oc=5",
+    "published_at": "2026-07-05T06:13:38Z",
+    "id": "social-1783245692746-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "The Jerusalem Post",
+    "content": "Report: Turkey's Somalia spaceport can double as missile range, threatening Israel's security.",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
+    "published_at": "2026-07-04T15:16:12Z",
+    "id": "social-1783245692746-2"
+  },
+  {
+    "source": "News",
+    "author": "Hiiraan Online",
+    "content": "China-funded diaspora center opens in Mogadishu to strengthen ties with Somalis abroad.",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
+    "published_at": "2026-07-05T08:50:35Z",
+    "id": "social-1783245692746-3"
+  },
+  {
+    "source": "Facebook",
+    "author": "The EastAfrican",
+    "content": "Somalia's allies urge dialogue as election tensions ease; political climate improves.",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVd0b0RxczVvQVdTN3lJUmowMUEzLUZvazNldEhxaHI3bEhDM3hXZ2NsZkNiYlB4THVybzJKa3p5QndiN2RHNzJnQmVzSnlxWng0ZFRmVkZuYk1TZHo1M0xDTGxIQnpwQnN4QVgydFZqRWhPa0k2Qjk2NnZXN0NTNjIxdTFXVjdNblluNlhneFFhSFZWcmxoOU1HTHdjQWxsczNwanFHS2FvOVZxZUJTbXBSWGplQ090TEE?oc=5",
+    "published_at": "2026-07-05T08:00:00Z",
+    "id": "social-1783245692746-4"
+  },
+  {
+    "source": "News",
     "author": "The Jerusalem Post",
     "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel.",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFRIU2pqWUppb0hqMHExcEZwbHUxZy1LM1E5bVEyZXR4V25RTmdWeGJCWWhCOWVmNEludE5vUnJmVEtOY2M4X1N5eHVSeTNENjhvc2VRR3g1VHV5MkkySVVuSHVQcTQ1QjZYTmVycm9KUnhlVHBpTXNwcUs5Z19HbkY5cVZ3UGdyTElKRmZ4RmJ1RXlZeFJRUDlMa2tXa1hJZ3c?oc=5",
     "published_at": "2026-07-04T08:22:49Z",
     "id": "social-1783197671128-4"
-  },
-  {
-    "source": "News",
-    "author": "The Jerusalem Post",
-    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report.",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T15:16:12Z",
-    "id": "social-1783183743502-0"
-  },
-  {
-    "source": "Facebook",
-    "author": "@HALO_Trust",
-    "content": "HALO Trust conducting demining and risk education in Somalia to clear explosive remnants of war.",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-04T05:21:48Z",
-    "id": "social-1783183743502-1"
-  },
-  {
-    "source": "News",
-    "author": "Garowe Online",
-    "content": "Somalia hires U.S. lobbying firm to strengthen ties with Washington, documents show.",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWFBKTXRQWkp0NVNTN2NmX0huRVEzeUpZUXVoQ2xfVk9MV0lxaXNyWkNxMXV6dllSeUNIOVBzMnE4U0Nyd0V2Vmo1eVVmNDB3NlpKejMwRGszc0JETWhNLWFyeVJzTU15Sl93RDM4QnlwX2JHLWhYU3BkVVBIcmM3SEkzMmZsYllKQlRGZHFQU3Zub2FDWlZ3c3JCajdtVHRkUHI3QzJmdW9pNi1VUWdnNy1zNXh4ZzVWT2FqOGZn?oc=5",
-    "published_at": "2026-07-04T14:58:51Z",
-    "id": "social-1783183743502-2"
-  },
-  {
-    "source": "X",
-    "author": "@DawanAfrica",
-    "content": "Eight Al Shabaab militants killed in Basra operation, Somali officials confirm.",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWmJ2bkg0QkxIdi1vZi1hVnZTdm5ObjJzSWNQN3lZNUZhSHZjX0lyRjE5U0xsVk8xbTE1V0xBMXhoX0pReXVDbGZldHRtSjFTdUxvaDJMSTBxS21qYkJBS09zMGhoa3hMMmRDclJuczNoTEw5dXBrMjZISHAwYzRWajhBczNKZ2FRdEdSa0JQNjVIb1JyeEMyTXBwUQ?oc=5",
-    "published_at": "2026-07-04T16:06:31Z",
-    "id": "social-1783183743502-3"
-  },
-  {
-    "source": "News",
-    "author": "IQAir",
-    "content": "Caluula air quality index reported; Somalia's air pollution levels monitored by IQAir.",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CYXdmR3lFWUV1aVM2YmZlaWRmZGZLM3R3cE5XVmFSZno0MDRTbFdleEpyOFZoOHdpNEZKZ0xUTHk4UlZwRjF3VW1ZZzR1bDhCXy1jSXg4b3p2d1p5c2tEbkJaWWVqRTJXV1VIVA?oc=5",
-    "published_at": "2026-07-04T07:17:09Z",
-    "id": "social-1783183743502-4"
   }
 ];
