@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "Genocide Watch",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
+    "published_at": "2026-07-05T18:52:32Z",
+    "id": "social-1783302664702-0"
+  },
+  {
+    "source": "News",
+    "author": "Amani Africa",
+    "content": "US plan to unplug UN Support Office in Somalia may break AU peace operation.",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
+    "published_at": "2026-07-05T08:09:44Z",
+    "id": "social-1783302664702-1"
+  },
+  {
+    "source": "News",
+    "author": "The HALO Trust",
+    "content": "Demining and risk education ongoing in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
+    "published_at": "2026-07-05T06:26:04Z",
+    "id": "social-1783302664702-2"
+  },
+  {
+    "source": "X",
+    "author": "@SomaliGuardian",
+    "content": "Puntland bans Turkish fishing firm SOMTURK.",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXI2YXlIQVJ0MDluVUhlVzU1RHozX2xDOTY4N0p0WDg1TTZHQ1ZPUkQ4ZEgtdDJEdmdINHZycjRkcUFvbWFxQkE4UFpLTVFjNlg1Mkw5WG5kVlcxaXFyTnoxWTJCTm5VZUdNS1FBQnRUZ3VxNjRkQXNYZGJlWlM5RjF2dl9FeTltb2N3Qk5oRjIyWlg5MElOMVlUc2tWS2N6VWc?oc=5",
+    "published_at": "2026-07-05T14:57:06Z",
+    "id": "social-1783302664702-3"
+  },
+  {
+    "source": "Facebook",
+    "author": "Hiiraan Online",
+    "content": "Somali President meets St. Louis Park Mayor Nadia Mohamed in Mogadishu.",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS19RQnBUSEFrVURVZlZUYk0xTERkUkhRYjhmRDlKRXhEclp6M0FrSE05b3NZSl9oTHJ4RVNBd0lUUjVkbjFXRndFejlyRGFXSVpHTjctZXZvMDVhZktVUkY3bTAtZ2pNaC1VbmhlTmJsdi12MGhGZkt5Z1kyMnctcklnLWtGT2ZleUFNM0lEQlhsQmRIUVRiUElTbTc5XzBTeUVwNmNkWWYzOEtVSDlhR0FpVU1zWlI0Um9hWA?oc=5",
+    "published_at": "2026-07-06T00:05:10Z",
+    "id": "social-1783302664702-4"
+  },
+  {
+    "source": "News",
+    "author": "Genocide Watch",
     "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
     "published_at": "2026-07-05T18:50:30Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYy1ZeWVQNTdpUkVoTXNWTmlDenhzeXpRMm9fMTBfQUdZT19xZFBua0Q0cTk2akkyNlVRbUw4aFNiNTZCUDRUa3RIRjNzNU9iVmFsOW96T0ZzS0owU21wQ3QxM0FmeFdkQzROeC1sbXdWOGFXbnRQWDM2cTFNVGNMT1ZqZURsMXFEMUFKYzlIeVo5akRITnluYWVROXpPbnp5ZWgyczVFU0ZWSE9ub0V5SWtIVQ?oc=5",
     "published_at": "2026-07-05T10:51:50Z",
     "id": "social-1783256482535-4"
-  },
-  {
-    "source": "News",
-    "author": "Amani Africa",
-    "content": "US plan to defund UN Support Office in Somalia could cripple AU peace operation, warns think tank.",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
-    "published_at": "2026-07-05T08:09:44Z",
-    "id": "social-1783245692746-0"
-  },
-  {
-    "source": "X",
-    "author": "Garowe Online",
-    "content": "Turkey plans to use Somalia spaceport for hypersonic missile tests, escalating regional tensions.",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTURZTlp0UmVUbWRYLVgwMDloMmpfZFB3Z2R4Y2cyR21PZktqOFNIbmJpeGFaX0l5dFJhT2M1Q2VXSmFzZkF0Q2FpeVZOaEtwTm9HM3F2akYxa0Y5R2hqMzhReFBSajJoc0J4RWdtUUxVOE13alFDb0hfX1VUMHRYRmpzOFpFU0w5NzRXYThrVVB4VFZkU3haV0hSZ3FEMVZaZERYUktGeVM?oc=5",
-    "published_at": "2026-07-05T06:13:38Z",
-    "id": "social-1783245692746-1"
-  },
-  {
-    "source": "Facebook",
-    "author": "The Jerusalem Post",
-    "content": "Report: Turkey's Somalia spaceport can double as missile range, threatening Israel's security.",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T15:16:12Z",
-    "id": "social-1783245692746-2"
-  },
-  {
-    "source": "News",
-    "author": "Hiiraan Online",
-    "content": "China-funded diaspora center opens in Mogadishu to strengthen ties with Somalis abroad.",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
-    "published_at": "2026-07-05T08:50:35Z",
-    "id": "social-1783245692746-3"
-  },
-  {
-    "source": "Facebook",
-    "author": "The EastAfrican",
-    "content": "Somalia's allies urge dialogue as election tensions ease; political climate improves.",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVd0b0RxczVvQVdTN3lJUmowMUEzLUZvazNldEhxaHI3bEhDM3hXZ2NsZkNiYlB4THVybzJKa3p5QndiN2RHNzJnQmVzSnlxWng0ZFRmVkZuYk1TZHo1M0xDTGxIQnpwQnN4QVgydFZqRWhPa0k2Qjk2NnZXN0NTNjIxdTFXVjdNblluNlhneFFhSFZWcmxoOU1HTHdjQWxsczNwanFHS2FvOVZxZUJTbXBSWGplQ090TEE?oc=5",
-    "published_at": "2026-07-05T08:00:00Z",
-    "id": "social-1783245692746-4"
   }
 ];
