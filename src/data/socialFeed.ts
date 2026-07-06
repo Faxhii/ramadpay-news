@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "UNESCO",
+    "content": "UNESCO Youth for Peace grantee uses digital storytelling to strengthen social cohesion in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMzBEOXpUSFhVdzV1bjRqblBWMzg4bV9wMFFoOUNaUk0xSnhLNTJULUlZN29LdHhubVJ4R0VpYVBxMUlUS1FQMTM2Zm0wTFdhZnlScU1vSHJLMzRzNm9SdmdsZWYyN3AxUE5tSU5fanRIeUQ5NVhEbFl6RGxGZkpRLUZ5b1FlLUQ1aWc2UGFZSGlpQ1NwVTgydXgyVnIwc0xodWV6bEo1MnBBWUZkdkFXUkZyck9ITll5WmNMbXFWZw?oc=5",
+    "published_at": "2026-07-06T09:53:38Z",
+    "id": "social-1783349471942-0"
+  },
+  {
+    "source": "X",
+    "author": "@EUNAVFOR",
+    "content": "Operation ATALANTA secures bulk carrier following pirate attack off Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWGp4UnEyNXJtRDZ4cGxOX0hEa2lJSzJmQkV1bFZIckplc2ZoZGlWdEpjWTQ1ei0xUWJkTGRGcEVHNXdyOGlzUU1lUXJzUmJ1YWNHQlNNZDZIaG12eFZoMnFuek51eDg2UlpEZzBHbzM1WUlIbDFBREpUZTR2cEpXX0xWSHBSLUdNbklZVVdUMnlHaUkxdVdqV3FJQmtMQk9n?oc=5",
+    "published_at": "2026-07-06T10:16:25Z",
+    "id": "social-1783349471942-1"
+  },
+  {
+    "source": "News",
+    "author": "Genocide Watch",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
+    "published_at": "2026-07-05T18:52:32Z",
+    "id": "social-1783349471942-2"
+  },
+  {
+    "source": "X",
+    "author": "@SomaliGuardian",
+    "content": "Somalia’s president slams Israel as an ‘evil’, war-mongering state.",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX21NcWdoU0FKd3RYdXJJb3lTb2xWY2VfMTFXRFpTUFl4Z0hGc3VRRGNCOHEzUkR3R1BJeFVQNzBPUVZrV3RBUzBXcEVjNFNvb2ZqXy1vM1hCc0hMUnpGdWRNS1FvSkJBc3dCY0xrOHNhOUYwTGNpQ2JNd3l6NXRYekZmVVRQVXR2WHJnOHhIZThfQkNaU180dzltUF81WUY1VGlQUmF1ZzA?oc=5",
+    "published_at": "2026-07-06T09:52:08Z",
+    "id": "social-1783349471942-3"
+  },
+  {
+    "source": "News",
+    "author": "Garowe Online",
+    "content": "Foreign troop drawdown begins in Somalia amid security and funding concerns.",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMDFZLXBpR3U0ZDdMOUkxLUJUbDRMcXRUcmcwVDJyNW5OSFY3ZWVndGJOOU92dklMSHpscW5tRmg2dEV4aWlIaDNVNkZyVUtRZTZZNUJfYVZfYklXajlIQXV2b1lka0UyaTlseFRoTXhVUENTNFVfZ05jV1pfNmxzbTc2cExwcE1fa1RQSy1iS1R6YTRUQnZDaFZHWkVxc0tGZzgxU3RXS3JYVzZkNkQ4aTVVNzBwNURQMFVNYQ?oc=5",
+    "published_at": "2026-07-06T08:43:38Z",
+    "id": "social-1783349471942-4"
+  },
+  {
+    "source": "News",
     "author": "Genocide Watch",
     "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXI2YXlIQVJ0MDluVUhlVzU1RHozX2xDOTY4N0p0WDg1TTZHQ1ZPUkQ4ZEgtdDJEdmdINHZycjRkcUFvbWFxQkE4UFpLTVFjNlg1Mkw5WG5kVlcxaXFyTnoxWTJCTm5VZUdNS1FBQnRUZ3VxNjRkQXNYZGJlWlM5RjF2dl9FeTltb2N3Qk5oRjIyWlg5MElOMVlUc2tWS2N6VWc?oc=5",
     "published_at": "2026-07-05T14:57:06Z",
     "id": "social-1783284254430-4"
-  },
-  {
-    "source": "News",
-    "author": "Amani Africa",
-    "content": "US plan to unplug UN Support Office in Somalia could break AU peace operation.",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
-    "published_at": "2026-07-05T08:09:44Z",
-    "id": "social-1783270298942-0"
-  },
-  {
-    "source": "News",
-    "author": "The HALO Trust",
-    "content": "Somalia: demining and risk education ongoing.",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-05T06:26:04Z",
-    "id": "social-1783270298942-1"
-  },
-  {
-    "source": "News",
-    "author": "Dawan Africa",
-    "content": "Somalia seeks to expand US partnership beyond security, says President.",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVkxVekhsTDJqZDBWNk0wU05BS19GUkdfNEZLc0tScDRHdXBLaFdHRlhrcFFZZlpjNmdTRGNBZmVieWh3WW1DOTU5Q3FOLWhPQ081QXk1ZnhMcXExQzR5V3IwWFpCUGlQR1RVaWVvS3ZQZXRXamJfN1RtMWd3RWFIR1cwNUxtMndwMDF1cUlJMVg4Uk8xWXFHMm95Z3NNU3hv?oc=5",
-    "published_at": "2026-07-05T15:48:20Z",
-    "id": "social-1783270298942-2"
-  },
-  {
-    "source": "News",
-    "author": "Somali Guardian",
-    "content": "Puntland bans Turkish fishing firm SOMTURK.",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXI2YXlIQVJ0MDluVUhlVzU1RHozX2xDOTY4N0p0WDg1TTZHQ1ZPUkQ4ZEgtdDJEdmdINHZycjRkcUFvbWFxQkE4UFpLTVFjNlg1Mkw5WG5kVlcxaXFyTnoxWTJCTm5VZUdNS1FBQnRUZ3VxNjRkQXNYZGJlWlM5RjF2dl9FeTltb2N3Qk5oRjIyWlg5MElOMVlUc2tWS2N6VWc?oc=5",
-    "published_at": "2026-07-05T14:57:06Z",
-    "id": "social-1783270298942-3"
-  },
-  {
-    "source": "News",
-    "author": "Hiiraan Online",
-    "content": "China-funded diaspora center opens in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
-    "published_at": "2026-07-05T15:05:25Z",
-    "id": "social-1783270298942-4"
   }
 ];
