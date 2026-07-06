@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "Genocide Watch",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
+    "published_at": "2026-07-05T18:52:32Z",
+    "id": "social-1783325278863-0"
+  },
+  {
+    "source": "News",
+    "author": "Amani Africa",
+    "content": "US plan to unplug UN Support Office in Somalia may break African Union peace operation.",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
+    "published_at": "2026-07-05T08:09:44Z",
+    "id": "social-1783325278863-1"
+  },
+  {
+    "source": "X",
+    "author": "@theins_press",
+    "content": "Trump's policies are making Somali piracy great again, says report.",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tV0lNSC1yajM3ZVNpdGlPOWFjSUlTR043ZXo0TzdhbDJJR0J6Zk5YVGFEeFI4dnlMQ2kxb2x6bjBhUU1XcW1BTm8yenFwaHc5?oc=5",
+    "published_at": "2026-07-06T06:14:50Z",
+    "id": "social-1783325278863-2"
+  },
+  {
+    "source": "News",
+    "author": "AOL.com",
+    "content": "Minnesota man captured in Somalia over $250M child nutrition fraud scheme.",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdXRHUVF5MEMySzdSNTBUR1NycFdvcVZ2VEFKekhSZnBrNFRESnR3WTBwZnRJLVNfZ3VSUTVYZnBXUHg3ME9mTGViV1VtcTdlVDZKREMzRTg0V3RlNGdtTjN5S1JJbHRFQzJ6T2JnU3pSQlNDb2ExaklDZmZPcmtDWGFXQmtRd2xHVWxBeA?oc=5",
+    "published_at": "2026-07-06T00:54:34Z",
+    "id": "social-1783325278863-3"
+  },
+  {
+    "source": "Facebook",
+    "author": "Hiiraan Online",
+    "content": "Somalia to issue new modern passport in October 2026.",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVg2aFdMQVBDeU9OYmdMR2x0WTdXaGlmT2hzLWNPalI0R0I2X0lHUm5aNWVLWUtOWVZhbXF2TWtROTh4elhHUEpnVWd1YkxPSEU3M1N6NERNMEdqMkg2SFVvQVZXLThqTHZweHVWOGVTdTRNSWVmdVZFSDBtWXJtNHY3UC0yY3ZuOEZGVXpmcXc1QmZJb3Y1R0hfbzJoU01IWkQ3YWFn?oc=5",
+    "published_at": "2026-07-06T02:49:39Z",
+    "id": "social-1783325278863-4"
+  },
+  {
+    "source": "News",
+    "author": "Genocide Watch",
     "content": "Somalia peacekeeping mission at risk as US blocks UN support.",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
     "published_at": "2026-07-05T18:52:32Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
     "published_at": "2026-07-05T15:05:25Z",
     "id": "social-1783270298942-4"
-  },
-  {
-    "source": "News",
-    "author": "Amani Africa",
-    "content": "US plan to unplug UN Support Office in Somalia may break African Union peace operation.",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
-    "published_at": "2026-07-05T08:09:44Z",
-    "id": "social-1783256482535-0"
-  },
-  {
-    "source": "News",
-    "author": "The Jerusalem Post",
-    "content": "Turkey's new Somalia spaceport doubles as missile range, threatening Israel - report.",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMTM5Q1hYcUpEWnBTWG1UbFpMQUs5eEJ2RGJFM0tPbG9BTGhYMEJMWGlzTTJWODU4ekhHZ2FKMG53czB2UXFjZ1U2OEt3Z1VNMnFSVFZQdnkxdnlH?oc=5",
-    "published_at": "2026-07-04T15:16:12Z",
-    "id": "social-1783256482535-1"
-  },
-  {
-    "source": "News",
-    "author": "Garowe Online",
-    "content": "Somalia lawmakers call on president to step down, citing constitutional breach.",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV1lBcnBWYWFKZWdYUEFJODdIV0lnSHV2WVEwc1ZnRm5TM0hOVUVQZmM4R0R6NlNURnlJaC12eWdFbzdhdXlnYWx0Y3UzeXVRZURBcXBLWUVTZjc1b3BaeGh2RnRVMHZVQ1BMcTZ0Xy1MTW1UT3dRa2lvNGJGY3NyNG1sel9kaVVqaHVIX0xvaG1lSnNqZTY5NjllRXBLMDgzX2dpMFlIUWZUbFZ6QS1JQWZyaUdESkpacXRic2Jnbw?oc=5",
-    "published_at": "2026-07-05T09:23:47Z",
-    "id": "social-1783256482535-2"
-  },
-  {
-    "source": "News",
-    "author": "Hiiraan Online",
-    "content": "China-funded diaspora center opens in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0V6ZWM3WEhsLVAtc2VhbGlhSDlBYjZQcTB2bGw2OF9HdTdzd2VObFI3a01IWVpreWJJMlBoYlJieTl1MUQ4SzlJU3pqcUZTZmVzRXRHWlFBN2ZSZzRnTVVIX0V3SERseXJaTndVYXpBZzRfTFpyY0JRb1d1R096anc3ajg5WnRnemhCT0FGYmo1T0laNkRTVVQ3aw?oc=5",
-    "published_at": "2026-07-05T08:50:35Z",
-    "id": "social-1783256482535-3"
-  },
-  {
-    "source": "News",
-    "author": "FTL Somalia",
-    "content": "President Hassan Sheikh welcomes Somali-American Mayor Nadia Mohamed to Villa Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYy1ZeWVQNTdpUkVoTXNWTmlDenhzeXpRMm9fMTBfQUdZT19xZFBua0Q0cTk2akkyNlVRbUw4aFNiNTZCUDRUa3RIRjNzNU9iVmFsOW96T0ZzS0owU21wQ3QxM0FmeFdkQzROeC1sbXdWOGFXbnRQWDM2cTFNVGNMT1ZqZURsMXFEMUFKYzlIeVo5akRITnluYWVROXpPbnp5ZWgyczVFU0ZWSE9ub0V5SWtIVQ?oc=5",
-    "published_at": "2026-07-05T10:51:50Z",
-    "id": "social-1783256482535-4"
   }
 ];
