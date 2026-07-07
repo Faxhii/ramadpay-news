@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "UNSSC",
+    "content": "How learning supported conflict prevention in Somalia - UNSSC highlights education's role in stability.",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
+    "published_at": "2026-07-07T10:18:50Z",
+    "id": "social-1783435852237-0"
+  },
+  {
+    "source": "X",
+    "author": "@Bloomberg",
+    "content": "India's objection to WhatsApp username switch gets Somalia's backing.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHk0NVRLUDNnY255cHV1cGlIcDBGek5DcmFnSjVMazF3eGdLYXBMclBQZ2l3T2NpWkhDejdWR0UtRXR2Ry1tNWFaWG5lYUdRaDRHUEhnOGU5VG1pcjVqQVB2VVBoUm5BTElhaXRtRkEwSU1iT241MzZpeTFrSi1MUExDbVBiM0RlREZxaFhEV01Sdkx1UlRJNFVfWUZPYzQ5ZkdtLURwVVlhUDZDdDJKOWRocDhJQQ?oc=5",
+    "published_at": "2026-07-07T08:00:36Z",
+    "id": "social-1783435852237-1"
+  },
+  {
+    "source": "News",
+    "author": "Somali Guardian",
+    "content": "Somali Defense Minister says only two parties compete: Al-Shabaab and JSP.",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakN6SXZpWm5NLWtyQzIyWTRMZlBQckZaZkdmM2dheVJJdUtFdjVYamN3LWk5OU9ZQmJfZmVLcTM0bWVlU3QwQ3I1eTJQNVdXYTl6c2JYVzVRSGVNUHBkeW5YOXFWYUhrQmY1N1FobGVVeGtzc0Ywd2NkbVlEcTZiX2VwZkkxamZiWnVNQWZaLThIN0lFcWxWcFRtNlZoZw?oc=5",
+    "published_at": "2026-07-07T11:50:42Z",
+    "id": "social-1783435852237-2"
+  },
+  {
+    "source": "X",
+    "author": "@AmnestyCanada",
+    "content": "Continue to call for release of arbitrarily detained activist in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
+    "published_at": "2026-07-06T22:58:37Z",
+    "id": "social-1783435852237-3"
+  },
+  {
+    "source": "News",
+    "author": "Alpha News MN",
+    "content": "Minnesota mayor spent Fourth of July weekend in Somalia, per report.",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1gyYnpKTm9WOHpUdU55eWM0TFF0ZGc2ZC1COWVwZVEwSHlrUTBjZ2JLTmlnaC1IU2JNTGMtYlRWdU16cGpkQXYzT0w5a21IS2hDNENmS2ZGLXRFeUNkczdGbnMzX1htY1JEWHdPTmlsc0tPeEc2SGRmYWxjQklqazlXb2t0SEVPcU10WElB?oc=5",
+    "published_at": "2026-07-07T12:00:16Z",
+    "id": "social-1783435852237-4"
+  },
+  {
+    "source": "News",
+    "author": "UNSSC",
     "content": "How learning supported conflict prevention in Somalia. Read more.",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
     "published_at": "2026-07-07T10:18:50Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hOEtnZjZyZ1RJM012VGRQeTVaSURlN1dDSGRzaEpSTUNOc2UtWUdYMVpzd0ViaTVIVEVCNC1kTEgzTU5fWjhYU05KaU0waEdXb3B4SXN3UQ?oc=5",
     "published_at": "2026-07-06T16:12:35Z",
     "id": "social-1783388873499-4"
-  },
-  {
-    "source": "News",
-    "author": "UNESCO",
-    "content": "UNESCO Youth for Peace grantee uses digital storytelling to strengthen social cohesion in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMzBEOXpUSFhVdzV1bjRqblBWMzg4bV9wMFFoOUNaUk0xSnhLNTJULUlZN29LdHhubVJ4R0VpYVBxMUlUS1FQMTM2Zm0wTFdhZnlScU1vSHJLMzRzNm9SdmdsZWYyN3AxUE5tSU5fanRIeUQ5NVhEbFl6RGxGZkpRLUZ5b1FlLUQ1aWc2UGFZSGlpQ1NwVTgydXgyVnIwc0xodWV6bEo1MnBBWUZkdkFXUkZyck9ITll5WmNMbXFWZw?oc=5",
-    "published_at": "2026-07-06T09:53:38Z",
-    "id": "social-1783372672934-0"
-  },
-  {
-    "source": "News",
-    "author": "Christian Post",
-    "content": "US withdraws troops from Nigeria ISIS fight, conducts strike on al-Shabaab in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWWM4X2xRdHZ4WTdvZk5sM0tDUW5qcHpCbHNPbi1EM3NZQ0NxbHdQUGlZYlBDa0J1Q2Fya3JWT3Y2TFFxRXpXUW5BMjk0bWFxcl9BOEZ5b1F3S1NycmRZOXg2OXFsSVZqNlBNR3VkTkFXVnZrQ1JUM0p6SjNiSm9VcnRlRm1JSUVuUGNDT20wV19HUFNSTUtTREF4dTBpWFJCdXRiWg?oc=5",
-    "published_at": "2026-07-06T19:49:00Z",
-    "id": "social-1783372672934-1"
-  },
-  {
-    "source": "News",
-    "author": "Arab News",
-    "content": "Saudi, Somali foreign ministers affirm sovereignty of Somalia over entire territory.",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9udlR2R3pZRzl3UWYtSTlFOVUzY2twaXdYOGJzcHl5QmVVeXBqWlQ0RzlhQS1oVjJsNkxPUVRNdkxJT29iU1FrNkJzaDR5di1iNnp3?oc=5",
-    "published_at": "2026-07-06T17:47:57Z",
-    "id": "social-1783372672934-2"
-  },
-  {
-    "source": "News",
-    "author": "Safety4Sea",
-    "content": "Operation ATALANTA secures bulk carrier following pirate attack off Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWGp4UnEyNXJtRDZ4cGxOX0hEa2lJSzJmQkV1bFZIckplc2ZoZGlWdEpjWTQ1ei0xUWJkTGRGcEVHNXdyOGlzUU1lUXJzUmJ1YWNHQlNNZDZIaG12eFZoMnFuek51eDg2UlpEZzBHbzM1WUlIbDFBREpUZTR2cEpXX0xWSHBSLUdNbklZVVdUMnlHaUkxdVdqV3FJQmtMQk9n?oc=5",
-    "published_at": "2026-07-06T10:16:25Z",
-    "id": "social-1783372672934-3"
-  },
-  {
-    "source": "News",
-    "author": "Global Issues.org",
-    "content": "UN maritime agency seeks release of 44 detained seafarers as food runs low.",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uYmtHTk1MeHlqMjdrYm03bUQweFViaW5qcUh4YW1hWG5JZVJPNWdzRS12SElkZkw2NkVlRGRneGItaEhPSXFhd1B6OVZxeDlhOEN3Q2FyZTc2MWtqVXBB0gFkQVVfeXFMUFlBQ3daRHd5ZndodGRocVJqVTJENEJJTlVyMjNYWllCQW5qZ2RQWVBsSlJpZHNTa3lERTVsbzhtVU9LbG0zNVBPODIzOG5TUXloZkdFWkpPUVdTbU5rSHBveGFBcg?oc=5",
-    "published_at": "2026-07-06T18:48:06Z",
-    "id": "social-1783372672934-4"
   }
 ];
