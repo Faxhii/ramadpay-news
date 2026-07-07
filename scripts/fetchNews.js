@@ -50,9 +50,9 @@ async function run() {
     "Somali sports and culture news"
   ];
 
-  // Randomly select 4 queries to run per execution to save API calls while getting diversity
+  // Randomly select 3 queries, and always include a Facebook query to get latest from Facebook
   const shuffledQueries = allQueries.sort(() => 0.5 - Math.random());
-  const queries = shuffledQueries.slice(0, 4);
+  const queries = ["site:facebook.com Somalia news today", ...shuffledQueries.slice(0, 3)];
 
   const searchPromises = queries.map(q => app.search(q, { limit: 15 }).catch(e => {
     console.error(`Search failed for '${q}':`, e.message);
@@ -96,8 +96,16 @@ async function run() {
         
         if (dataObj && dataObj.markdown) {
           fullText = dataObj.markdown.substring(0, 3000);
+          
+          // Try to extract the first actual image from the markdown content (likely the article photo)
+          const mdImageMatch = fullText.match(/!\[.*?\]\((https?:\/\/[^\s\)]+)\)/);
+          if (mdImageMatch && mdImageMatch[1]) {
+            scrapedImageUrl = mdImageMatch[1];
+          }
         }
-        if (dataObj && dataObj.metadata && dataObj.metadata.ogImage) {
+        
+        // If no markdown image, fallback to og:image
+        if (!scrapedImageUrl && dataObj && dataObj.metadata && dataObj.metadata.ogImage) {
           scrapedImageUrl = dataObj.metadata.ogImage;
         }
       } catch (e) {
@@ -117,6 +125,12 @@ async function run() {
         } catch (e) {
           console.log(`[${i+1}] Native fetch for og:image failed:`, e.message);
         }
+      }
+
+      // Filter out generic logos or icons
+      if (scrapedImageUrl && /logo|icon|default|empty|avatar/i.test(scrapedImageUrl)) {
+        console.log(`[${i+1}] Filtered out generic logo image: ${scrapedImageUrl}`);
+        scrapedImageUrl = null;
       }
 
       const rawText = `Title: ${item.title}\nSource: ${item.url}\nContent: ${fullText}`;
