@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "News",
     "author": "UNSSC",
+    "content": "Learning programs in Somalia help prevent conflict, says UNSSC report. Education key to stability.",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
+    "published_at": "2026-07-07T10:18:50Z",
+    "id": "social-1783462550348-0"
+  },
+  {
+    "source": "X",
+    "author": "@TRTAfrika",
+    "content": "Somalia-Türkiye cooperation hailed as a model for 21st-century foreign policy. Strengthening ties in East Africa.",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGemczQml0ZGVHQ05WWDYzc0lrbTdoRkU0RGs5aTJmWHIxbzVrYVIwMlZ2YVRVZjVMOG5xLVdxM2JwdXJwWFFWc1c1MkNFOS15VHFzWjFJLUdzQmhOVXNPV0tIc2M?oc=5",
+    "published_at": "2026-07-07T18:28:32Z",
+    "id": "social-1783462550348-1"
+  },
+  {
+    "source": "News",
+    "author": "Somali Guardian",
+    "content": "Turkey mediates Somalia talks as Puntland and Jubaland boycott. Pre-talks between government and opposition begin.",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWVqZEZjOEVOYzJtSDdPa2dVRGFvc2hKTGVtVEhPbElnTG43LWMwOUlCeEhlS2ttMVhwOG5rOERVcjZDVW9CSW93c0Y4V1ktOWFUTFRNN3FBYjRSdDAxb3J0ZkwzV0J4OU14WTZtMm1Td0gwTlpwaHZwZUV1UlV5Tzd3RjBBV200QmpMMWQ1VVEwNEhOeGItb2JEeXl0UEpTaEhYNzNEbnh0V3M?oc=5",
+    "published_at": "2026-07-07T17:24:23Z",
+    "id": "social-1783462550348-2"
+  },
+  {
+    "source": "News",
+    "author": "Bloomberg",
+    "content": "Somalia backs India's objection to WhatsApp username switch, raising privacy concerns in tech policy.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHk0NVRLUDNnY255cHV1cGlIcDBGek5DcmFnSjVMazF3eGdLYXBMclBQZ2l3T2NpWkhDejdWR0UtRXR2Ry1tNWFaWG5lYUdRaDRHUEhnOGU5VG1pcjVqQVB2VVBoUm5BTElhaXRtRkEwSU1iT241MzZpeTFrSi1MUExDbVBiM0RlREZxaFhEV01Sdkx1UlRJNFVfWUZPYzQ5ZkdtLURwVVlhUDZDdDJKOWRocDhJQQ?oc=5",
+    "published_at": "2026-07-07T08:00:36Z",
+    "id": "social-1783462550348-3"
+  },
+  {
+    "source": "Facebook",
+    "author": "Alpha News MN",
+    "content": "Minnesota mayor visits Somalia over Fourth of July weekend, strengthening diaspora ties with homeland.",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1gyYnpKTm9WOHpUdU55eWM0TFF0ZGc2ZC1COWVwZVEwSHlrUTBjZ2JLTmlnaC1IU2JNTGMtYlRWdU16cGpkQXYzT0w5a21IS2hDNENmS2ZGLXRFeUNkczdGbnMzX1htY1JEWHdPTmlsc0tPeEc2SGRmYWxjQklqazlXb2t0SEVPcU10WElB?oc=5",
+    "published_at": "2026-07-07T12:00:16Z",
+    "id": "social-1783462550348-4"
+  },
+  {
+    "source": "News",
+    "author": "UNSSC",
     "content": "UN report highlights how learning programs supported conflict prevention in Somalia.",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
     "published_at": "2026-07-07T10:18:50Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1gyYnpKTm9WOHpUdU55eWM0TFF0ZGc2ZC1COWVwZVEwSHlrUTBjZ2JLTmlnaC1IU2JNTGMtYlRWdU16cGpkQXYzT0w5a21IS2hDNENmS2ZGLXRFeUNkczdGbnMzX1htY1JEWHdPTmlsc0tPeEc2SGRmYWxjQklqazlXb2t0SEVPcU10WElB?oc=5",
     "published_at": "2026-07-07T12:00:16Z",
     "id": "social-1783435852237-4"
-  },
-  {
-    "source": "News",
-    "author": "UNSSC",
-    "content": "How learning supported conflict prevention in Somalia. Read more.",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
-    "published_at": "2026-07-07T10:18:50Z",
-    "id": "social-1783422891676-0"
-  },
-  {
-    "source": "X",
-    "author": "@Bloomberg",
-    "content": "India's objection to WhatsApp username switch gets Somalia backing.",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHk0NVRLUDNnY255cHV1cGlIcDBGek5DcmFnSjVMazF3eGdLYXBMclBQZ2l3T2NpWkhDejdWR0UtRXR2Ry1tNWFaWG5lYUdRaDRHUEhnOGU5VG1pcjVqQVB2VVBoUm5BTElhaXRtRkEwSU1iT241MzZpeTFrSi1MUExDbVBiM0RlREZxaFhEV01Sdkx1UlRJNFVfWUZPYzQ5ZkdtLURwVVlhUDZDdDJKOWRocDhJQQ?oc=5",
-    "published_at": "2026-07-07T08:00:36Z",
-    "id": "social-1783422891676-1"
-  },
-  {
-    "source": "Facebook",
-    "author": "Amnesty International",
-    "content": "Continue to call for the release of arbitrarily detained activist in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
-    "published_at": "2026-07-06T22:58:37Z",
-    "id": "social-1783422891676-2"
-  },
-  {
-    "source": "News",
-    "author": "ReliefWeb",
-    "content": "Beyond Hunger: How Food Insecurity Threatens SRH, GBV and Youth Services in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTUJ1a1Q3cGQyVEVwUzdBT1JTYktjNFBFVE1OYi1zOXhWTy1jeFM2czdtQlFXMFNjNXVhNTdxTVNydG9mWVI1WkJHQ0plTkZrLWNuUHNyZG9iTDNGVEppV01nbFdsMHBrQlkyNUV6TndnMlBkajUzX3ZITWJEU2N0NEQ5NWRZME5yZFZ5aTRjSXZVVl9GX0RTZ3FTcmdRNngyRjdteVIxT19yT1dIQlVqcGVpNEUwR25CS0VUVkdlaV91dmdaX0E?oc=5",
-    "published_at": "2026-07-07T09:59:05Z",
-    "id": "social-1783422891676-3"
-  },
-  {
-    "source": "X",
-    "author": "@GenocideWatch",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
-    "published_at": "2026-07-06T12:19:52Z",
-    "id": "social-1783422891676-4"
   }
 ];
