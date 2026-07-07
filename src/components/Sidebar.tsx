@@ -75,11 +75,11 @@ export const Sidebar: React.FC<{ className?: string }> = ({ className = '' }) =>
         {/* Social Icons Row */}
         <div style={{ display: 'flex', gap: '8px', marginTop: '4px' }}>
           {[
-            { Icon: TwitterIcon, bg: '#000000', title: 'Search on Twitter', url: 'https://twitter.com/search?q=Somalia+Politics' },
-            { Icon: FacebookIcon, bg: '#1877F2', title: 'Search on Facebook', url: 'https://www.facebook.com/hashtag/SomaliaPolitics' },
-            { Icon: InstagramIcon, bg: 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)', title: 'Search on Instagram', url: 'https://www.instagram.com/explore/tags/SomaliaPolitics/' },
-            { Icon: YoutubeIcon, bg: '#FF0000', title: 'Search on Youtube', url: 'https://www.youtube.com/results?search_query=Somalia+Politics' },
-            { Icon: TikTokIcon, bg: '#000000', title: 'Search on TikTok', url: 'https://www.tiktok.com/search?q=Somalia+Politics' }
+            { Icon: TwitterIcon, bg: '#000000', title: 'Search on Twitter', url: 'https://twitter.com/search?q=somali+politics' },
+            { Icon: FacebookIcon, bg: '#1877F2', title: 'Search on Facebook', url: 'https://www.facebook.com/hashtag/SomaliPolitics' },
+            { Icon: InstagramIcon, bg: 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)', title: 'Search on Instagram', url: 'https://www.instagram.com/explore/tags/SomaliPolitics/' },
+            { Icon: YoutubeIcon, bg: '#FF0000', title: 'Search on Youtube', url: 'https://www.youtube.com/results?search_query=somali+politics' },
+            { Icon: TikTokIcon, bg: '#000000', title: 'Search on TikTok', url: 'https://www.tiktok.com/search?q=somali+politics' }
           ].map((item, i) => (
             <a key={i} href={item.url} target="_blank" rel="noreferrer" title={item.title} style={{
               width: '32px',

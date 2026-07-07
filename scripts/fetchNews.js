@@ -119,7 +119,7 @@ async function run() {
           const html = await res.text();
           const match = html.match(/<meta\s+(?:property|name)=["']og:image["']\s+content=["']([^"']+)["']/i);
           if (match && match[1]) {
-            scrapedImageUrl = match[1];
+            scrapedImageUrl = match[1].replace(/&amp;/g, '&');
             console.log(`[${i+1}] Extracted og:image natively: ${scrapedImageUrl}`);
           }
         } catch (e) {
@@ -138,9 +138,10 @@ async function run() {
       console.log(`[${i+1}] Generating article via DeepSeek...`);
       const { object } = await generateObject({
         model: deepseek('deepseek-chat'),
-        system: 'You are an expert editorial editor for East African news. Given this scraped web text about Somali politics, output structured data according to the schema.',
+        system: 'You are an aggressive, sensational tabloid editor (like TMZ or The Shade Room) for East African and Somali news. Given this scraped web text, output structured data. You MUST write an insanely attention-grabbing, gossip-style clickbait headline that creates extreme curiosity and drama.',
         prompt: rawText,
         schema: z.object({
+          viral_headline: z.string().describe('An insanely attention-grabbing, sensationalized, gossip-style clickbait headline (max 100 chars). It should incite curiosity or drama.'),
           summary: z.string().describe('A 1 sentence editorial dek'),
           ai_summary_points: z.array(z.string()).length(4).describe('Exactly 4 string bullets of key facts'),
           category: z.enum(['Politics', 'Economy', 'Security', 'Society', 'Regional', 'Health', 'Education', 'Technology']),
@@ -148,12 +149,21 @@ async function run() {
         })
       });
       
-      const finalImageUrl = scrapedImageUrl || categoryImages[object.category] || categoryImages['Society'];
+      if (!scrapedImageUrl) {
+        console.log(`[${i+1}] No real image found. Generating a free viral AI image via Pollinations.ai...`);
+        const aiPrompt = encodeURIComponent(`Hyperrealistic dramatic cinematic news photography, shocking gossip style, somali politics, ${object.viral_headline}`);
+        // Pollinations.ai is 100% free and requires no API key. We use a random seed to ensure it caches correctly.
+        const seed = Math.floor(Math.random() * 100000);
+        scrapedImageUrl = `https://image.pollinations.ai/prompt/${aiPrompt}?width=800&height=500&nologo=true&seed=${seed}`;
+      }
+
+      const finalImageUrl = scrapedImageUrl;
 
       newArticles.push({
         id: `news-${Date.now()}-${i}`,
-        title: item.title,
-        slug: item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+        title: object.viral_headline,
+        original_title: item.title,
+        slug: object.viral_headline.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, ''),
         summary: object.summary,
         content: object.full_article,
         source: new URL(item.url).hostname.replace('www.', ''),
