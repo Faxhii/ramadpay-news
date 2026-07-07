@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FileText, Rss } from 'lucide-react';
 
-export const GlobalHeader: React.FC = () => {
+interface GlobalHeaderProps {
+  onReadLatest?: () => void;
+  onFeedClick?: () => void;
+}
+
+export const GlobalHeader: React.FC<GlobalHeaderProps> = ({ onReadLatest, onFeedClick }) => {
   const adverts = [
     { text: "🚀 Send money to East Africa instantly with Ramad Pay!", url: "https://ramadpay.com" },
     { text: "💸 Zero hidden fees on all transfers.", url: "https://ramadpay.com" },
@@ -81,10 +86,10 @@ export const GlobalHeader: React.FC = () => {
 
       {/* Right: Actions */}
       <div className="header-actions" style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-        <button className="header-action-btn">
+        <button className="header-action-btn" onClick={onReadLatest}>
           <FileText size={16} /> <span>Read Latest Briefing</span>
         </button>
-        <button className="header-action-btn">
+        <button className="header-action-btn" onClick={onFeedClick}>
           <Rss size={16} /> <span>Feed</span>
         </button>
       </div>

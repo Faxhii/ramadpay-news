@@ -48,7 +48,14 @@ function App() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <GlobalHeader />
+      <GlobalHeader 
+        onReadLatest={() => {
+          if (sortedArticles.length > 0) {
+            handleArticleClick(sortedArticles[0].slug);
+          }
+        }}
+        onFeedClick={goHome}
+      />
       <div className={`app-container ${currentArticleSlug ? 'is-article-view' : ''}`}>
         {/* Left Sidebar */}
         <Sidebar className="main-sidebar" />
