@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "News",
+    "author": "UNSSC",
+    "content": "UN report highlights how learning programs supported conflict prevention in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
+    "published_at": "2026-07-07T10:18:50Z",
+    "id": "social-1783454705860-0"
+  },
+  {
+    "source": "News",
+    "author": "Bloomberg.com",
+    "content": "India's objection to WhatsApp username switch gets backing from Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHk0NVRLUDNnY255cHV1cGlIcDBGek5DcmFnSjVMazF3eGdLYXBMclBQZ2l3T2NpWkhDejdWR0UtRXR2Ry1tNWFaWG5lYUdRaDRHUEhnOGU5VG1pcjVqQVB2VVBoUm5BTElhaXRtRkEwSU1iT241MzZpeTFrSi1MUExDbVBiM0RlREZxaFhEV01Sdkx1UlRJNFVfWUZPYzQ5ZkdtLURwVVlhUDZDdDJKOWRocDhJQQ?oc=5",
+    "published_at": "2026-07-07T08:00:36Z",
+    "id": "social-1783454705860-1"
+  },
+  {
+    "source": "News",
+    "author": "Somali Guardian",
+    "content": "Turkey mediates Somalia govt-opposition talks, but Puntland and Jubaland boycott.",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWVqZEZjOEVOYzJtSDdPa2dVRGFvc2hKTGVtVEhPbElnTG43LWMwOUlCeEhlS2ttMVhwOG5rOERVcjZDVW9CSW93c0Y4V1ktOWFUTFRNN3FBYjRSdDAxb3J0ZkwzV0J4OU14WTZtMm1Td0gwTlpwaHZwZUV1UlV5Tzd3RjBBV200QmpMMWQ1VVEwNEhOeGItb2JEeXl0UEpTaEhYNzNEbnh0V3M?oc=5",
+    "published_at": "2026-07-07T17:24:23Z",
+    "id": "social-1783454705860-2"
+  },
+  {
+    "source": "News",
+    "author": "Alpha News MN",
+    "content": "Minnesota mayor spent Fourth of July weekend in Somalia, report says.",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1gyYnpKTm9WOHpUdU55eWM0TFF0ZGc2ZC1COWVwZVEwSHlrUTBjZ2JLTmlnaC1IU2JNTGMtYlRWdU16cGpkQXYzT0w5a21IS2hDNENmS2ZGLXRFeUNkczdGbnMzX1htY1JEWHdPTmlsc0tPeEc2SGRmYWxjQklqazlXb2t0SEVPcU10WElB?oc=5",
+    "published_at": "2026-07-07T12:00:16Z",
+    "id": "social-1783454705860-3"
+  },
+  {
+    "source": "News",
+    "author": "Dawan Africa",
+    "content": "Somalia minister defends eVisa system amid criticism.",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORksxSHBKcGlVYjZvbjJfLThKaU5uLWwxeEpNdVJzc09BeVF1d09vSmZvX1R6S2UyVW9CMVdCUEw2LU9aQ1JlM096SWZZWEFPQWxGSF91bTlQeElVSzJ2SXlGZlBZSWVwdVZ4R2ZRakRvaTM2UXJSNlo5cG9zTFRuR2FMNW5haFNpTFE?oc=5",
+    "published_at": "2026-07-07T17:23:25Z",
+    "id": "social-1783454705860-4"
+  },
+  {
     "source": "X",
     "author": "@SomaliaUpdates",
     "content": "Somali Defense Minister says only two parties compete for Somalia: Al-Shabaab and the Jubbaland State Party (JSP).",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
     "published_at": "2026-07-06T12:19:52Z",
     "id": "social-1783422891676-4"
-  },
-  {
-    "source": "X",
-    "author": "@AmnestyIntl",
-    "content": "Call for release of arbitrarily detained activist in Somalia continues. #FreeTheActivist",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
-    "published_at": "2026-07-06T22:58:37Z",
-    "id": "social-1783409174114-0"
-  },
-  {
-    "source": "News",
-    "author": "Genocide Watch",
-    "content": "US blocks UN support, putting Somalia peacekeeping mission at risk.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
-    "published_at": "2026-07-06T12:19:52Z",
-    "id": "social-1783409174114-1"
-  },
-  {
-    "source": "Facebook",
-    "author": "HALO Trust",
-    "content": "Demining and risk education ongoing in Somalia to protect civilians.",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-06T16:32:22Z",
-    "id": "social-1783409174114-2"
-  },
-  {
-    "source": "News",
-    "author": "Christian Post",
-    "content": "US conducts strike on al-Shabaab in Somalia after withdrawing troops from Nigeria ISIS fight.",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWWM4X2xRdHZ4WTdvZk5sM0tDUW5qcHpCbHNPbi1EM3NZQ0NxbHdQUGlZYlBDa0J1Q2Fya3JWT3Y2TFFxRXpXUW5BMjk0bWFxcl9BOEZ5b1F3S1NycmRZOXg2OXFsSVZqNlBNR3VkTkFXVnZrQ1JUM0p6SjNiSm9VcnRlRm1JSUVuUGNDT20wV19HUFNSTUtTREF4dTBpWFJCdXRiWg?oc=5",
-    "published_at": "2026-07-06T19:49:00Z",
-    "id": "social-1783409174114-3"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliaSecurity",
-    "content": "Saudi Arabia rejects any actions that undermine Somalia's security.",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDNXLWJHci1JaUo1cDlLSGNGNHFnMWFoemZ4N19SdUY4NlR1QnRuV04yeFJmNU9yOVNRMjJleVloRm5hOFFkQVZPTVdkWGdWSXQyZ3U5ekE2NjdkZ3pPN0VqaTFpZGoyZ2dqTVFwVE1kdWlLOW5rRVlsMFZwZGNyS19NOEpEVHRvbVlDMmdYajloak1XLVhZTmVCeWROWnIzTURDcTlrMk9QdVk?oc=5",
-    "published_at": "2026-07-07T04:37:36Z",
-    "id": "social-1783409174114-4"
   }
 ];
