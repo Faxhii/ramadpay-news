@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "X",
+    "author": "@AmnestyIntl",
+    "content": "Activist remains arbitrarily detained in Somalia. Call for release continues. #FreeTheActivist",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
+    "published_at": "2026-07-06T22:58:37Z",
+    "id": "social-1783388873499-0"
+  },
+  {
+    "source": "News",
+    "author": "Genocide Watch",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support. Security concerns escalate.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
+    "published_at": "2026-07-06T12:19:52Z",
+    "id": "social-1783388873499-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "UNESCO",
+    "content": "Youth in Somalia using digital storytelling to strengthen social cohesion. Inspiring initiative.",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMzBEOXpUSFhVdzV1bjRqblBWMzg4bV9wMFFoOUNaUk0xSnhLNTJULUlZN29LdHhubVJ4R0VpYVBxMUlUS1FQMTM2Zm0wTFdhZnlScU1vSHJLMzRzNm9SdmdsZWYyN3AxUE5tSU5fanRIeUQ5NVhEbFl6RGxGZkpRLUZ5b1FlLUQ1aWc2UGFZSGlpQ1NwVTgydXgyVnIwc0xodWV6bEo1MnBBWUZkdkFXUkZyck9ITll5WmNMbXFWZw?oc=5",
+    "published_at": "2026-07-06T09:53:38Z",
+    "id": "social-1783388873499-2"
+  },
+  {
+    "source": "News",
+    "author": "Christian Post",
+    "content": "US strikes al-Shabaab in Somalia and withdraws troops from Nigeria fight.",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWWM4X2xRdHZ4WTdvZk5sM0tDUW5qcHpCbHNPbi1EM3NZQ0NxbHdQUGlZYlBDa0J1Q2Fya3JWT3Y2TFFxRXpXUW5BMjk0bWFxcl9BOEZ5b1F3S1NycmRZOXg2OXFsSVZqNlBNR3VkTkFXVnZrQ1JUM0p6SjNiSm9VcnRlRm1JSUVuUGNDT20wV19HUFNSTUtTREF4dTBpWFJCdXRiWg?oc=5",
+    "published_at": "2026-07-06T19:49:00Z",
+    "id": "social-1783388873499-3"
+  },
+  {
+    "source": "X",
+    "author": "@UN_News",
+    "content": "UN maritime agency seeks urgent release of 44 seafarers detained off Somalia, food supplies low.",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hOEtnZjZyZ1RJM012VGRQeTVaSURlN1dDSGRzaEpSTUNOc2UtWUdYMVpzd0ViaTVIVEVCNC1kTEgzTU5fWjhYU05KaU0waEdXb3B4SXN3UQ?oc=5",
+    "published_at": "2026-07-06T16:12:35Z",
+    "id": "social-1783388873499-4"
+  },
+  {
     "source": "News",
     "author": "UNESCO",
     "content": "UNESCO Youth for Peace grantee uses digital storytelling to strengthen social cohesion in Somalia.",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVg2aFdMQVBDeU9OYmdMR2x0WTdXaGlmT2hzLWNPalI0R0I2X0lHUm5aNWVLWUtOWVZhbXF2TWtROTh4elhHUEpnVWd1YkxPSEU3M1N6NERNMEdqMkg2SFVvQVZXLThqTHZweHVWOGVTdTRNSWVmdVZFSDBtWXJtNHY3UC0yY3ZuOEZGVXpmcXc1QmZJb3Y1R0hfbzJoU01IWkQ3YWFn?oc=5",
     "published_at": "2026-07-06T02:49:39Z",
     "id": "social-1783325278863-4"
-  },
-  {
-    "source": "News",
-    "author": "Genocide Watch",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
-    "published_at": "2026-07-05T18:52:32Z",
-    "id": "social-1783302664702-0"
-  },
-  {
-    "source": "News",
-    "author": "Amani Africa",
-    "content": "US plan to unplug UN Support Office in Somalia may break AU peace operation.",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
-    "published_at": "2026-07-05T08:09:44Z",
-    "id": "social-1783302664702-1"
-  },
-  {
-    "source": "News",
-    "author": "The HALO Trust",
-    "content": "Demining and risk education ongoing in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
-    "published_at": "2026-07-05T06:26:04Z",
-    "id": "social-1783302664702-2"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliGuardian",
-    "content": "Puntland bans Turkish fishing firm SOMTURK.",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXI2YXlIQVJ0MDluVUhlVzU1RHozX2xDOTY4N0p0WDg1TTZHQ1ZPUkQ4ZEgtdDJEdmdINHZycjRkcUFvbWFxQkE4UFpLTVFjNlg1Mkw5WG5kVlcxaXFyTnoxWTJCTm5VZUdNS1FBQnRUZ3VxNjRkQXNYZGJlWlM5RjF2dl9FeTltb2N3Qk5oRjIyWlg5MElOMVlUc2tWS2N6VWc?oc=5",
-    "published_at": "2026-07-05T14:57:06Z",
-    "id": "social-1783302664702-3"
-  },
-  {
-    "source": "Facebook",
-    "author": "Hiiraan Online",
-    "content": "Somali President meets St. Louis Park Mayor Nadia Mohamed in Mogadishu.",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS19RQnBUSEFrVURVZlZUYk0xTERkUkhRYjhmRDlKRXhEclp6M0FrSE05b3NZSl9oTHJ4RVNBd0lUUjVkbjFXRndFejlyRGFXSVpHTjctZXZvMDVhZktVUkY3bTAtZ2pNaC1VbmhlTmJsdi12MGhGZkt5Z1kyMnctcklnLWtGT2ZleUFNM0lEQlhsQmRIUVRiUElTbTc5XzBTeUVwNmNkWWYzOEtVSDlhR0FpVU1zWlI0Um9hWA?oc=5",
-    "published_at": "2026-07-06T00:05:10Z",
-    "id": "social-1783302664702-4"
   }
 ];
