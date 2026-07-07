@@ -13,6 +13,46 @@ export const socialFeed: SocialPost[] = [
   {
     "source": "X",
     "author": "@AmnestyIntl",
+    "content": "Call for release of arbitrarily detained activist in Somalia continues. #FreeTheActivist",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
+    "published_at": "2026-07-06T22:58:37Z",
+    "id": "social-1783409174114-0"
+  },
+  {
+    "source": "News",
+    "author": "Genocide Watch",
+    "content": "US blocks UN support, putting Somalia peacekeeping mission at risk.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
+    "published_at": "2026-07-06T12:19:52Z",
+    "id": "social-1783409174114-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "HALO Trust",
+    "content": "Demining and risk education ongoing in Somalia to protect civilians.",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeUZwWWlwUm5ZdjZnTTJZYzRNMVNURHEzVzFmWlNkQ3d4MnB3ZlpISHE2cUs4T2pZcE1fSEdKUjl6eS1ndXNxVVRJemFBQjZvcTZYWTVtOUg1ZUVNYS1xeXNCUkVPblpFdkE?oc=5",
+    "published_at": "2026-07-06T16:32:22Z",
+    "id": "social-1783409174114-2"
+  },
+  {
+    "source": "News",
+    "author": "Christian Post",
+    "content": "US conducts strike on al-Shabaab in Somalia after withdrawing troops from Nigeria ISIS fight.",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWWM4X2xRdHZ4WTdvZk5sM0tDUW5qcHpCbHNPbi1EM3NZQ0NxbHdQUGlZYlBDa0J1Q2Fya3JWT3Y2TFFxRXpXUW5BMjk0bWFxcl9BOEZ5b1F3S1NycmRZOXg2OXFsSVZqNlBNR3VkTkFXVnZrQ1JUM0p6SjNiSm9VcnRlRm1JSUVuUGNDT20wV19HUFNSTUtTREF4dTBpWFJCdXRiWg?oc=5",
+    "published_at": "2026-07-06T19:49:00Z",
+    "id": "social-1783409174114-3"
+  },
+  {
+    "source": "X",
+    "author": "@SomaliaSecurity",
+    "content": "Saudi Arabia rejects any actions that undermine Somalia's security.",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDNXLWJHci1JaUo1cDlLSGNGNHFnMWFoemZ4N19SdUY4NlR1QnRuV04yeFJmNU9yOVNRMjJleVloRm5hOFFkQVZPTVdkWGdWSXQyZ3U5ekE2NjdkZ3pPN0VqaTFpZGoyZ2dqTVFwVE1kdWlLOW5rRVlsMFZwZGNyS19NOEpEVHRvbVlDMmdYajloak1XLVhZTmVCeWROWnIzTURDcTlrMk9QdVk?oc=5",
+    "published_at": "2026-07-07T04:37:36Z",
+    "id": "social-1783409174114-4"
+  },
+  {
+    "source": "X",
+    "author": "@AmnestyIntl",
     "content": "Activist remains arbitrarily detained in Somalia. Call for release continues. #FreeTheActivist",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
     "published_at": "2026-07-06T22:58:37Z",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMDFZLXBpR3U0ZDdMOUkxLUJUbDRMcXRUcmcwVDJyNW5OSFY3ZWVndGJOOU92dklMSHpscW5tRmg2dEV4aWlIaDNVNkZyVUtRZTZZNUJfYVZfYklXajlIQXV2b1lka0UyaTlseFRoTXhVUENTNFVfZ05jV1pfNmxzbTc2cExwcE1fa1RQSy1iS1R6YTRUQnZDaFZHWkVxc0tGZzgxU3RXS3JYVzZkNkQ4aTVVNzBwNURQMFVNYQ?oc=5",
     "published_at": "2026-07-06T08:43:38Z",
     "id": "social-1783349471942-4"
-  },
-  {
-    "source": "News",
-    "author": "Genocide Watch",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
-    "published_at": "2026-07-05T18:52:32Z",
-    "id": "social-1783325278863-0"
-  },
-  {
-    "source": "News",
-    "author": "Amani Africa",
-    "content": "US plan to unplug UN Support Office in Somalia may break African Union peace operation.",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYmw1d1JmNFNTSmlFZF92akxFQW55VXJwNHhpU1JXTHRlRmVGdXFjaXpCTGJXeGJtYnZCSGJZWDdLaUhFQ1BMdzNBUGRMMWZRamwyQnFoY1BNTXJxXzU5TFN6eHVOS2ozSGcwVG44Q1JUaHhWdUFRRXU0QWxUa2Y2dkVsMmFJeFdZNmRHM1dQSUVKejdnSVVoRUNfTkw1Z21JWmFBVm52Vjk5SFp5X1ZJNXJEYVNiWHA2eWxxdVljU1JrbFBDallrUTh5NFlFWEE4Z1UyaENGWTRkaS1qS1E3ZA?oc=5",
-    "published_at": "2026-07-05T08:09:44Z",
-    "id": "social-1783325278863-1"
-  },
-  {
-    "source": "X",
-    "author": "@theins_press",
-    "content": "Trump's policies are making Somali piracy great again, says report.",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tV0lNSC1yajM3ZVNpdGlPOWFjSUlTR043ZXo0TzdhbDJJR0J6Zk5YVGFEeFI4dnlMQ2kxb2x6bjBhUU1XcW1BTm8yenFwaHc5?oc=5",
-    "published_at": "2026-07-06T06:14:50Z",
-    "id": "social-1783325278863-2"
-  },
-  {
-    "source": "News",
-    "author": "AOL.com",
-    "content": "Minnesota man captured in Somalia over $250M child nutrition fraud scheme.",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdXRHUVF5MEMySzdSNTBUR1NycFdvcVZ2VEFKekhSZnBrNFRESnR3WTBwZnRJLVNfZ3VSUTVYZnBXUHg3ME9mTGViV1VtcTdlVDZKREMzRTg0V3RlNGdtTjN5S1JJbHRFQzJ6T2JnU3pSQlNDb2ExaklDZmZPcmtDWGFXQmtRd2xHVWxBeA?oc=5",
-    "published_at": "2026-07-06T00:54:34Z",
-    "id": "social-1783325278863-3"
-  },
-  {
-    "source": "Facebook",
-    "author": "Hiiraan Online",
-    "content": "Somalia to issue new modern passport in October 2026.",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVg2aFdMQVBDeU9OYmdMR2x0WTdXaGlmT2hzLWNPalI0R0I2X0lHUm5aNWVLWUtOWVZhbXF2TWtROTh4elhHUEpnVWd1YkxPSEU3M1N6NERNMEdqMkg2SFVvQVZXLThqTHZweHVWOGVTdTRNSWVmdVZFSDBtWXJtNHY3UC0yY3ZuOEZGVXpmcXc1QmZJb3Y1R0hfbzJoU01IWkQ3YWFn?oc=5",
-    "published_at": "2026-07-06T02:49:39Z",
-    "id": "social-1783325278863-4"
   }
 ];
