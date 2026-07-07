@@ -149,7 +149,7 @@ export const Sidebar: React.FC<{ className?: string }> = ({ className = '' }) =>
           padding: '4px 8px',
           borderRadius: '4px'
         }}>
-          <Clock size={12} /> Auto-updated every 4 hours
+          <Clock size={12} /> Auto-updated every 1 hour
         </div>
       </div>
       
