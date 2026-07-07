@@ -44,6 +44,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, index, onClic
         <img 
           src={imgSrc} 
           alt={article.title}
+          referrerPolicy="no-referrer"
           onError={() => {
             if (imgSrc !== FALLBACK_IMAGE) setImgSrc(FALLBACK_IMAGE);
           }}

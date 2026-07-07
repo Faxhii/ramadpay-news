@@ -127,8 +127,17 @@ async function run() {
         }
       }
 
-      // Filter out generic logos or icons
-      if (scrapedImageUrl && /logo|icon|default|empty|avatar/i.test(scrapedImageUrl)) {
+      // If YouTube, explicitly get the thumbnail
+      if (item.url.includes('youtube.com') || item.url.includes('youtu.be')) {
+        const ytMatch = item.url.match(/(?:v=|youtu\.be\/)([^&?]+)/);
+        if (ytMatch && ytMatch[1]) {
+          scrapedImageUrl = `https://i.ytimg.com/vi/${ytMatch[1]}/hqdefault.jpg`;
+          console.log(`[${i+1}] Extracted YouTube thumbnail: ${scrapedImageUrl}`);
+        }
+      }
+
+      // Filter out generic logos or icons (but whitelist ytimg)
+      if (scrapedImageUrl && !scrapedImageUrl.includes('ytimg.com') && /logo|icon|default|empty|avatar/i.test(scrapedImageUrl)) {
         console.log(`[${i+1}] Filtered out generic logo image: ${scrapedImageUrl}`);
         scrapedImageUrl = null;
       }
@@ -145,13 +154,14 @@ async function run() {
           summary: z.string().describe('A 1 sentence editorial dek'),
           ai_summary_points: z.array(z.string()).length(4).describe('Exactly 4 string bullets of key facts'),
           category: z.enum(['Politics', 'Economy', 'Security', 'Society', 'Regional', 'Health', 'Education', 'Technology']),
-          full_article: z.string().describe('A detailed, multi-paragraph editorial news story expanding on the facts with professional journalism style, at least 3-4 paragraphs long, separated by two newlines.')
+          full_article: z.string().describe('A detailed, multi-paragraph editorial news story expanding on the facts with professional journalism style, at least 3-4 paragraphs long, separated by two newlines.'),
+          ai_image_prompt: z.string().describe('A highly detailed, 30-word prompt for an AI image generator. Describe a hyperrealistic, dramatic, cinematic photography scene that perfectly reflects the exact contents of this article.')
         })
       });
       
       if (!scrapedImageUrl) {
         console.log(`[${i+1}] No real image found. Generating a free viral AI image via Pollinations.ai...`);
-        const aiPrompt = encodeURIComponent(`Hyperrealistic dramatic cinematic news photography, shocking gossip style, somali politics, ${object.viral_headline}`);
+        const aiPrompt = encodeURIComponent(`${object.ai_image_prompt}, hyperrealistic dramatic cinematic photography, ultra high quality`);
         // Pollinations.ai is 100% free and requires no API key. We use a random seed to ensure it caches correctly.
         const seed = Math.floor(Math.random() * 100000);
         scrapedImageUrl = `https://image.pollinations.ai/prompt/${aiPrompt}?width=800&height=500&nologo=true&seed=${seed}`;
