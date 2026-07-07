@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "News",
+    "author": "UNSSC",
+    "content": "How learning supported conflict prevention in Somalia. Read more.",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
+    "published_at": "2026-07-07T10:18:50Z",
+    "id": "social-1783422891676-0"
+  },
+  {
+    "source": "X",
+    "author": "@Bloomberg",
+    "content": "India's objection to WhatsApp username switch gets Somalia backing.",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHk0NVRLUDNnY255cHV1cGlIcDBGek5DcmFnSjVMazF3eGdLYXBMclBQZ2l3T2NpWkhDejdWR0UtRXR2Ry1tNWFaWG5lYUdRaDRHUEhnOGU5VG1pcjVqQVB2VVBoUm5BTElhaXRtRkEwSU1iT241MzZpeTFrSi1MUExDbVBiM0RlREZxaFhEV01Sdkx1UlRJNFVfWUZPYzQ5ZkdtLURwVVlhUDZDdDJKOWRocDhJQQ?oc=5",
+    "published_at": "2026-07-07T08:00:36Z",
+    "id": "social-1783422891676-1"
+  },
+  {
+    "source": "Facebook",
+    "author": "Amnesty International",
+    "content": "Continue to call for the release of arbitrarily detained activist in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
+    "published_at": "2026-07-06T22:58:37Z",
+    "id": "social-1783422891676-2"
+  },
+  {
+    "source": "News",
+    "author": "ReliefWeb",
+    "content": "Beyond Hunger: How Food Insecurity Threatens SRH, GBV and Youth Services in Somalia.",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTUJ1a1Q3cGQyVEVwUzdBT1JTYktjNFBFVE1OYi1zOXhWTy1jeFM2czdtQlFXMFNjNXVhNTdxTVNydG9mWVI1WkJHQ0plTkZrLWNuUHNyZG9iTDNGVEppV01nbFdsMHBrQlkyNUV6TndnMlBkajUzX3ZITWJEU2N0NEQ5NWRZME5yZFZ5aTRjSXZVVl9GX0RTZ3FTcmdRNngyRjdteVIxT19yT1dIQlVqcGVpNEUwR25CS0VUVkdlaV91dmdaX0E?oc=5",
+    "published_at": "2026-07-07T09:59:05Z",
+    "id": "social-1783422891676-3"
+  },
+  {
+    "source": "X",
+    "author": "@GenocideWatch",
+    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
+    "published_at": "2026-07-06T12:19:52Z",
+    "id": "social-1783422891676-4"
+  },
+  {
     "source": "X",
     "author": "@AmnestyIntl",
     "content": "Call for release of arbitrarily detained activist in Somalia continues. #FreeTheActivist",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uYmtHTk1MeHlqMjdrYm03bUQweFViaW5qcUh4YW1hWG5JZVJPNWdzRS12SElkZkw2NkVlRGRneGItaEhPSXFhd1B6OVZxeDlhOEN3Q2FyZTc2MWtqVXBB0gFkQVVfeXFMUFlBQ3daRHd5ZndodGRocVJqVTJENEJJTlVyMjNYWllCQW5qZ2RQWVBsSlJpZHNTa3lERTVsbzhtVU9LbG0zNVBPODIzOG5TUXloZkdFWkpPUVdTbU5rSHBveGFBcg?oc=5",
     "published_at": "2026-07-06T18:48:06Z",
     "id": "social-1783372672934-4"
-  },
-  {
-    "source": "News",
-    "author": "UNESCO",
-    "content": "UNESCO Youth for Peace grantee uses digital storytelling to strengthen social cohesion in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMzBEOXpUSFhVdzV1bjRqblBWMzg4bV9wMFFoOUNaUk0xSnhLNTJULUlZN29LdHhubVJ4R0VpYVBxMUlUS1FQMTM2Zm0wTFdhZnlScU1vSHJLMzRzNm9SdmdsZWYyN3AxUE5tSU5fanRIeUQ5NVhEbFl6RGxGZkpRLUZ5b1FlLUQ1aWc2UGFZSGlpQ1NwVTgydXgyVnIwc0xodWV6bEo1MnBBWUZkdkFXUkZyck9ITll5WmNMbXFWZw?oc=5",
-    "published_at": "2026-07-06T09:53:38Z",
-    "id": "social-1783349471942-0"
-  },
-  {
-    "source": "X",
-    "author": "@EUNAVFOR",
-    "content": "Operation ATALANTA secures bulk carrier following pirate attack off Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWGp4UnEyNXJtRDZ4cGxOX0hEa2lJSzJmQkV1bFZIckplc2ZoZGlWdEpjWTQ1ei0xUWJkTGRGcEVHNXdyOGlzUU1lUXJzUmJ1YWNHQlNNZDZIaG12eFZoMnFuek51eDg2UlpEZzBHbzM1WUlIbDFBREpUZTR2cEpXX0xWSHBSLUdNbklZVVdUMnlHaUkxdVdqV3FJQmtMQk9n?oc=5",
-    "published_at": "2026-07-06T10:16:25Z",
-    "id": "social-1783349471942-1"
-  },
-  {
-    "source": "News",
-    "author": "Genocide Watch",
-    "content": "Somalia peacekeeping mission at risk as US blocks UN support, sources say.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ3RiOVRiTGxBM181UEx0clVvaEplWnRuSjhRM1dsV3JCNDQtcGxKMW40c2FBVzhpV2xUbGtUMVlhMlZNMkxNVmp0QWpmT2QxUnliNHpqaFZ1S2tDQmZhWklWeHUyRjZpWkg4SVdrbUt1TW5aYllDbFRKNUIxdDlsMlBQcS1zREhzc1dBdEFyMXI2c1RoemI5Qzlfd19GVWUtLUdNYTE2ZkgtMUlPQnplVUpPY3E?oc=5",
-    "published_at": "2026-07-05T18:52:32Z",
-    "id": "social-1783349471942-2"
-  },
-  {
-    "source": "X",
-    "author": "@SomaliGuardian",
-    "content": "Somalia’s president slams Israel as an ‘evil’, war-mongering state.",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX21NcWdoU0FKd3RYdXJJb3lTb2xWY2VfMTFXRFpTUFl4Z0hGc3VRRGNCOHEzUkR3R1BJeFVQNzBPUVZrV3RBUzBXcEVjNFNvb2ZqXy1vM1hCc0hMUnpGdWRNS1FvSkJBc3dCY0xrOHNhOUYwTGNpQ2JNd3l6NXRYekZmVVRQVXR2WHJnOHhIZThfQkNaU180dzltUF81WUY1VGlQUmF1ZzA?oc=5",
-    "published_at": "2026-07-06T09:52:08Z",
-    "id": "social-1783349471942-3"
-  },
-  {
-    "source": "News",
-    "author": "Garowe Online",
-    "content": "Foreign troop drawdown begins in Somalia amid security and funding concerns.",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMDFZLXBpR3U0ZDdMOUkxLUJUbDRMcXRUcmcwVDJyNW5OSFY3ZWVndGJOOU92dklMSHpscW5tRmg2dEV4aWlIaDNVNkZyVUtRZTZZNUJfYVZfYklXajlIQXV2b1lka0UyaTlseFRoTXhVUENTNFVfZ05jV1pfNmxzbTc2cExwcE1fa1RQSy1iS1R6YTRUQnZDaFZHWkVxc0tGZzgxU3RXS3JYVzZkNkQ4aTVVNzBwNURQMFVNYQ?oc=5",
-    "published_at": "2026-07-06T08:43:38Z",
-    "id": "social-1783349471942-4"
   }
 ];
