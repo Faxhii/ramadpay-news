@@ -11,6 +11,46 @@ export interface SocialPost {
 
 export const socialFeed: SocialPost[] = [
   {
+    "source": "News",
+    "author": "UNSSC",
+    "content": "How learning supported conflict prevention in Somalia – UNSSC report highlights education's role in peacebuilding.",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
+    "published_at": "2026-07-07T10:18:50Z",
+    "id": "social-1783496022693-0"
+  },
+  {
+    "source": "News",
+    "author": "TRT Afrika",
+    "content": "Why Somalia–Türkiye cooperation is a model for 21st-century foreign policy – A new partnership paradigm.",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGemczQml0ZGVHQ05WWDYzc0lrbTdoRkU0RGs5aTJmWHIxbzVrYVIwMlZ2YVRVZjVMOG5xLVdxM2JwdXJwWFFWc1c1MkNFOS15VHFzWjFJLUdzQmhOVXNPV0tIc2M?oc=5",
+    "published_at": "2026-07-07T18:28:32Z",
+    "id": "social-1783496022693-1"
+  },
+  {
+    "source": "News",
+    "author": "Hiiraan Online",
+    "content": "Israeli military shipment arrives in Somalia under U.N. designation – Exclusive report on controversial cargo.",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXRXTi1Tc2lKZDRTeURPOFFka2l1YTA0X1pkMEFGdWF4X18wRVJPbGxGaHlOWUhMUTZhS0xOcHoxb3FjajFua1FXcjQ2MnE3d245ektDYnlRVVQ2S2Y3WjMydmd1a1RILUkwRFhlRkVTVmY1elhPaV9ZRFF0NUpuOUxHZnloZjJ3N3pNZmpDaWk1aFBjZG9yQmxvQVY3d012LWYzR0xhM2Z0OVgxR0huY29qUGJ4VnkzT3dGMEJHUFlxZw?oc=5",
+    "published_at": "2026-07-08T05:51:25Z",
+    "id": "social-1783496022693-2"
+  },
+  {
+    "source": "News",
+    "author": "Eurasia Review",
+    "content": "Deadly Jihadist Groups Gain Momentum Across African Continent – Alarm over rising extremist activity.",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONUd3QlcwTFlZZTlROERmT2F4WUg4R0NaakNvOGd1T2V2ck5rZGxvdWU0RGR6clo3bUZuZ3JLQmJkN1lISV9MN2gybWN4aUNvYllkLUZXQjMzcXA4OFlGYnBlY3Y5LXRFTXM2LVJYTFRVSE03dXh5SV9EOHRLYUIwZTdRU2E1a3YwOGdoN3FuSUhaSm5YWUc1Y2M1Uy1IcEJma08w?oc=5",
+    "published_at": "2026-07-07T23:52:40Z",
+    "id": "social-1783496022693-3"
+  },
+  {
+    "source": "News",
+    "author": "Shipping Telegraph",
+    "content": "Bulk carrier freed after piracy threat off Somalia; three ships remain in captivity – Maritime security update.",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOTFJZkQyN0hibS0yMDhHMU9FT0ZFWkNoaGVCWm9sdHUwYVBwb0NzbWJGMV9DcDhWcGd1SGFYemI0cFYzTmVrUUp1MjRudXk1RkVBd0VyNVlEZkxCaGxaUTVZOGJSV0hiRUpNakUwR2I0U255OTVZNUQtRXhYYnRwcTEtQ2trZWdqTGdrSUNRNEhCSG10bEtfSzh2YnpLd184SHpPeGdvcUc4RzNiaXZ4LW5VbEU4X0haOUNhWGxYM19hYzVaZGtiY3RaVzVpSXFkMlE?oc=5",
+    "published_at": "2026-07-08T01:01:40Z",
+    "id": "social-1783496022693-4"
+  },
+  {
     "source": "X",
     "author": "@SomaliaSecurity",
     "content": "Political fragmentation in Somalia is fueling Al-Shabaab resurgence, warns Robert Lansing Institute. Urgent need for unified governance.",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1gyYnpKTm9WOHpUdU55eWM0TFF0ZGc2ZC1COWVwZVEwSHlrUTBjZ2JLTmlnaC1IU2JNTGMtYlRWdU16cGpkQXYzT0w5a21IS2hDNENmS2ZGLXRFeUNkczdGbnMzX1htY1JEWHdPTmlsc0tPeEc2SGRmYWxjQklqazlXb2t0SEVPcU10WElB?oc=5",
     "published_at": "2026-07-07T12:00:16Z",
     "id": "social-1783462550348-4"
-  },
-  {
-    "source": "News",
-    "author": "UNSSC",
-    "content": "UN report highlights how learning programs supported conflict prevention in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
-    "published_at": "2026-07-07T10:18:50Z",
-    "id": "social-1783454705860-0"
-  },
-  {
-    "source": "News",
-    "author": "Bloomberg.com",
-    "content": "India's objection to WhatsApp username switch gets backing from Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHk0NVRLUDNnY255cHV1cGlIcDBGek5DcmFnSjVMazF3eGdLYXBMclBQZ2l3T2NpWkhDejdWR0UtRXR2Ry1tNWFaWG5lYUdRaDRHUEhnOGU5VG1pcjVqQVB2VVBoUm5BTElhaXRtRkEwSU1iT241MzZpeTFrSi1MUExDbVBiM0RlREZxaFhEV01Sdkx1UlRJNFVfWUZPYzQ5ZkdtLURwVVlhUDZDdDJKOWRocDhJQQ?oc=5",
-    "published_at": "2026-07-07T08:00:36Z",
-    "id": "social-1783454705860-1"
-  },
-  {
-    "source": "News",
-    "author": "Somali Guardian",
-    "content": "Turkey mediates Somalia govt-opposition talks, but Puntland and Jubaland boycott.",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWVqZEZjOEVOYzJtSDdPa2dVRGFvc2hKTGVtVEhPbElnTG43LWMwOUlCeEhlS2ttMVhwOG5rOERVcjZDVW9CSW93c0Y4V1ktOWFUTFRNN3FBYjRSdDAxb3J0ZkwzV0J4OU14WTZtMm1Td0gwTlpwaHZwZUV1UlV5Tzd3RjBBV200QmpMMWQ1VVEwNEhOeGItb2JEeXl0UEpTaEhYNzNEbnh0V3M?oc=5",
-    "published_at": "2026-07-07T17:24:23Z",
-    "id": "social-1783454705860-2"
-  },
-  {
-    "source": "News",
-    "author": "Alpha News MN",
-    "content": "Minnesota mayor spent Fourth of July weekend in Somalia, report says.",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1gyYnpKTm9WOHpUdU55eWM0TFF0ZGc2ZC1COWVwZVEwSHlrUTBjZ2JLTmlnaC1IU2JNTGMtYlRWdU16cGpkQXYzT0w5a21IS2hDNENmS2ZGLXRFeUNkczdGbnMzX1htY1JEWHdPTmlsc0tPeEc2SGRmYWxjQklqazlXb2t0SEVPcU10WElB?oc=5",
-    "published_at": "2026-07-07T12:00:16Z",
-    "id": "social-1783454705860-3"
-  },
-  {
-    "source": "News",
-    "author": "Dawan Africa",
-    "content": "Somalia minister defends eVisa system amid criticism.",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORksxSHBKcGlVYjZvbjJfLThKaU5uLWwxeEpNdVJzc09BeVF1d09vSmZvX1R6S2UyVW9CMVdCUEw2LU9aQ1JlM096SWZZWEFPQWxGSF91bTlQeElVSzJ2SXlGZlBZSWVwdVZ4R2ZRakRvaTM2UXJSNlo5cG9zTFRuR2FMNW5haFNpTFE?oc=5",
-    "published_at": "2026-07-07T17:23:25Z",
-    "id": "social-1783454705860-4"
   }
 ];
