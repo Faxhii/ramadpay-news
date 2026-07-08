@@ -12,6 +12,46 @@ export interface SocialPost {
 export const socialFeed: SocialPost[] = [
   {
     "source": "News",
+    "author": "Eurasia Review",
+    "content": "Deadly Jihadist Groups Gain Momentum Across African Continent",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONUd3QlcwTFlZZTlROERmT2F4WUg4R0NaakNvOGd1T2V2ck5rZGxvdWU0RGR6clo3bUZuZ3JLQmJkN1lISV9MN2gybWN4aUNvYllkLUZXQjMzcXA4OFlGYnBlY3Y5LXRFTXM2LVJYTFRVSE03dXh5SV9EOHRLYUIwZTdRU2E1a3YwOGdoN3FuSUhaSm5YWUc1Y2M1Uy1IcEJma08w?oc=5",
+    "published_at": "2026-07-07T23:52:40Z",
+    "id": "social-1783469007827-0"
+  },
+  {
+    "source": "News",
+    "author": "Robert Lansing Institute",
+    "content": "Somalia's Political Fragmentation Fuels Al-Shabaab's Resurgence",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU1B6clhIYlFBUk41RDJuVXBFUTlwWVI4dDg2Zjl0TWotNlMwbFNWX2QtdU1sb2xVNk9ienpkd0N5ZTZGQm5EOGY5QTRqZWZmZFllTUwtalhxTWtyVlhkZFp4RTVBbU4xRC13NF9FRW9rUTdMT2FLYk81al9YVkc5dTlISmFtMHdBT1kzclFDdy01T3pXb2w5VDA2WS1mNXpoem9UOQ?oc=5",
+    "published_at": "2026-07-07T15:27:44Z",
+    "id": "social-1783469007827-1"
+  },
+  {
+    "source": "News",
+    "author": "Somali Guardian",
+    "content": "Turkey holds Somalia government-opposition pre-talks as Puntland, Jubaland boycott ahead of key negotiations",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWVqZEZjOEVOYzJtSDdPa2dVRGFvc2hKTGVtVEhPbElnTG43LWMwOUlCeEhlS2ttMVhwOG5rOERVcjZDVW9CSW93c0Y4V1ktOWFUTFRNN3FBYjRSdDAxb3J0ZkwzV0J4OU14WTZtMm1Td0gwTlpwaHZwZUV1UlV5Tzd3RjBBV200QmpMMWQ1VVEwNEhOeGItb2JEeXl0UEpTaEhYNzNEbnh0V3M?oc=5",
+    "published_at": "2026-07-07T17:24:23Z",
+    "id": "social-1783469007827-2"
+  },
+  {
+    "source": "News",
+    "author": "TRT Afrika",
+    "content": "Why Somalia–Türkiye cooperation is a model for 21st-century foreign policy",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGemczQml0ZGVHQ05WWDYzc0lrbTdoRkU0RGs5aTJmWHIxbzVrYVIwMlZ2YVRVZjVMOG5xLVdxM2JwdXJwWFFWc1c1MkNFOS15VHFzWjFJLUdzQmhOVXNPV0tIc2M?oc=5",
+    "published_at": "2026-07-07T18:28:32Z",
+    "id": "social-1783469007827-3"
+  },
+  {
+    "source": "News",
+    "author": "UNSSC",
+    "content": "How learning supported conflict prevention in Somalia",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
+    "published_at": "2026-07-07T10:18:50Z",
+    "id": "social-1783469007827-4"
+  },
+  {
+    "source": "News",
     "author": "UNSSC",
     "content": "Learning programs in Somalia help prevent conflict, says UNSSC report. Education key to stability.",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
@@ -129,45 +169,5 @@ export const socialFeed: SocialPost[] = [
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
     "published_at": "2026-07-07T10:18:50Z",
     "id": "social-1783444967088-4"
-  },
-  {
-    "source": "News",
-    "author": "UNSSC",
-    "content": "How learning supported conflict prevention in Somalia - UNSSC highlights education's role in stability.",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQjFsNF8tM1M1VlE0YkNvU1JSWi1Sa29pVjNTdWxqVFpmU3R0Qk0yVFpLWC1QS24tejhTRmxmWDFSLTE0ak5LazBFOERtWHlkay1Za1d3VGZCa1pWYllFMDQxTmFFRzlYei1WcmliOHN6dWw0RVo5RUp0LVdqakhQRjNzaXg1STFmek9pcUJLNVQ?oc=5",
-    "published_at": "2026-07-07T10:18:50Z",
-    "id": "social-1783435852237-0"
-  },
-  {
-    "source": "X",
-    "author": "@Bloomberg",
-    "content": "India's objection to WhatsApp username switch gets Somalia's backing.",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHk0NVRLUDNnY255cHV1cGlIcDBGek5DcmFnSjVMazF3eGdLYXBMclBQZ2l3T2NpWkhDejdWR0UtRXR2Ry1tNWFaWG5lYUdRaDRHUEhnOGU5VG1pcjVqQVB2VVBoUm5BTElhaXRtRkEwSU1iT241MzZpeTFrSi1MUExDbVBiM0RlREZxaFhEV01Sdkx1UlRJNFVfWUZPYzQ5ZkdtLURwVVlhUDZDdDJKOWRocDhJQQ?oc=5",
-    "published_at": "2026-07-07T08:00:36Z",
-    "id": "social-1783435852237-1"
-  },
-  {
-    "source": "News",
-    "author": "Somali Guardian",
-    "content": "Somali Defense Minister says only two parties compete: Al-Shabaab and JSP.",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakN6SXZpWm5NLWtyQzIyWTRMZlBQckZaZkdmM2dheVJJdUtFdjVYamN3LWk5OU9ZQmJfZmVLcTM0bWVlU3QwQ3I1eTJQNVdXYTl6c2JYVzVRSGVNUHBkeW5YOXFWYUhrQmY1N1FobGVVeGtzc0Ywd2NkbVlEcTZiX2VwZkkxamZiWnVNQWZaLThIN0lFcWxWcFRtNlZoZw?oc=5",
-    "published_at": "2026-07-07T11:50:42Z",
-    "id": "social-1783435852237-2"
-  },
-  {
-    "source": "X",
-    "author": "@AmnestyCanada",
-    "content": "Continue to call for release of arbitrarily detained activist in Somalia.",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWYySGNFRC1yNEFwTThXVG5iZzd2NWltQVd3TWtCVzdJZWZrYlctT01FMkFzMVZ2VGFUTjhaNHZqYWdkUFVmRWtOOFJmNzZlTkZlNkl4bGZqSXZvRlhxZmVGeFJMaC1OVGk5SmNlVV8yTXJUcVVkZnRtOHN2ZlZ3OHlzbFo0VWM?oc=5",
-    "published_at": "2026-07-06T22:58:37Z",
-    "id": "social-1783435852237-3"
-  },
-  {
-    "source": "News",
-    "author": "Alpha News MN",
-    "content": "Minnesota mayor spent Fourth of July weekend in Somalia, per report.",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1gyYnpKTm9WOHpUdU55eWM0TFF0ZGc2ZC1COWVwZVEwSHlrUTBjZ2JLTmlnaC1IU2JNTGMtYlRWdU16cGpkQXYzT0w5a21IS2hDNENmS2ZGLXRFeUNkczdGbnMzX1htY1JEWHdPTmlsc0tPeEc2SGRmYWxjQklqazlXb2t0SEVPcU10WElB?oc=5",
-    "published_at": "2026-07-07T12:00:16Z",
-    "id": "social-1783435852237-4"
   }
 ];
