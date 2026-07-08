@@ -2,8 +2,8 @@ name: Automated News Update
 
 on:
   schedule:
-    # Runs every 4 hours
-    - cron: '0 * * * *'
+    # Runs every 4 hours as per spec
+    - cron: '0 */4 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
@@ -26,21 +26,15 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run News Fetcher
+      - name: Run RSS News Fetcher
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: node scripts/fetchNews.js
-
-      - name: Fetch Social Feed
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: node scripts/fetchSocial.js
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add src/data/newsData.ts src/data/socialFeed.ts
-          git commit -m "Auto-update: Latest news and social feeds" || echo "No changes to commit"
+          git add src/data/newsData.ts
+          git commit -m "Auto-update: RSS news pipeline run at $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
           git push

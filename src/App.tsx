@@ -19,13 +19,21 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const sortedArticles = [...mockArticles].sort(
+  // Only show articles from the last 48 hours on the homepage — no stale news
+  const cutoff48h = new Date(Date.now() - 48 * 60 * 60 * 1000);
+  const sortedArticles = [...mockArticles]
+    .filter(a => new Date(a.published_at) >= cutoff48h)
+    .sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime());
+
+  // All articles (for article detail related stories — can reference older ones)
+  const allArticlesSorted = [...mockArticles].sort(
     (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
   );
 
   const renderPage = () => {
     if (currentArticleSlug) {
-      const selectedArticle = sortedArticles.find(a => a.slug === currentArticleSlug);
+      // For article detail, search all articles (not just 48h) so direct links still work
+      const selectedArticle = allArticlesSorted.find(a => a.slug === currentArticleSlug);
       if (selectedArticle) {
         return (
           <ArticleDetail

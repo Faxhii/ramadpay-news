@@ -122,6 +122,13 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, index, onClic
         }}>
           {article.summary}
         </p>
+
+        {/* Source attribution */}
+        {(article.source_name || article.source) && (
+          <div style={{ fontSize: '0.72rem', color: 'var(--text-tertiary)', fontWeight: 500, marginTop: '4px' }}>
+            Source: {article.source_name || article.source}
+          </div>
+        )}
       </div>
     </article>
   );
