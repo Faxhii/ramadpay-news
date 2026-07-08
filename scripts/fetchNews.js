@@ -164,10 +164,10 @@ async function fetchOgImage(url) {
     });
     if (!res.ok) return null;
 
-    // Read up to 64KB — enough to find <head> og:image even with large inline CSS
+    // Read up to 128KB — enough to find <head> og:image and first body <img> even with large inline CSS
     const reader = res.body.getReader();
     let html = '';
-    while (html.length < 65536) {
+    while (html.length < 131072) {
       const { done, value } = await reader.read();
       if (done) break;
       html += new TextDecoder().decode(value);
@@ -181,9 +181,12 @@ async function fetchOgImage(url) {
     }
 
     // Fallback: If no og:image, look for the first standard <img src> in the HTML body
-    const bodyImgMatch = html.match(/<img[^>]+src=["'](https?:\/\/[^"']+)["']/i);
-    if (bodyImgMatch && bodyImgMatch[1] && !isGenericImage(bodyImgMatch[1])) {
-      return bodyImgMatch[1];
+    const imgRegex = /<img[^>]+src=["'](https?:\/\/[^"']+)["']/gi;
+    let imgMatch;
+    while ((imgMatch = imgRegex.exec(html)) !== null) {
+      if (imgMatch[1] && !isGenericImage(imgMatch[1])) {
+        return imgMatch[1]; // Return the first non-generic image
+      }
     }
 
     return null;
