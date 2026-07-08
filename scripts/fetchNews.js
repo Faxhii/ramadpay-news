@@ -164,10 +164,10 @@ async function fetchOgImage(url) {
     });
     if (!res.ok) return null;
 
-    // Read only first 8KB — enough to find <head> og:image
+    // Read up to 64KB — enough to find <head> og:image even with large inline CSS
     const reader = res.body.getReader();
     let html = '';
-    while (html.length < 8192) {
+    while (html.length < 65536) {
       const { done, value } = await reader.read();
       if (done) break;
       html += new TextDecoder().decode(value);
