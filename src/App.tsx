@@ -19,10 +19,10 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Only show articles from the last 48 hours on the homepage — no stale news
-  const cutoff48h = new Date(Date.now() - 48 * 60 * 60 * 1000);
+  // Only show articles from the last 24 hours on the homepage — no stale news
+  const cutoff24h = new Date(Date.now() - 24 * 60 * 60 * 1000);
   const sortedArticles = [...mockArticles]
-    .filter(a => new Date(a.published_at) >= cutoff48h)
+    .filter(a => new Date(a.published_at) >= cutoff24h)
     .sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime());
 
   // All articles (for article detail related stories — can reference older ones)

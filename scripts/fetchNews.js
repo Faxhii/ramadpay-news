@@ -36,7 +36,7 @@ if (!API_KEY) {
 const deepseek = createDeepSeek({ apiKey: API_KEY });
 
 // Max article age before dropping from pipeline
-const MAX_ARTICLE_AGE_HOURS = 48;
+const MAX_ARTICLE_AGE_HOURS = 24;
 // Max articles to keep in archive (full file)
 const MAX_ARCHIVE_ARTICLES = 500;
 // Max new articles to summarize per run (keeps DeepSeek costs bounded)
@@ -179,6 +179,13 @@ async function fetchOgImage(url) {
     if (match && match[1]) {
       return match[1].replace(/&amp;/g, '&');
     }
+
+    // Fallback: If no og:image, look for the first standard <img src> in the HTML body
+    const bodyImgMatch = html.match(/<img[^>]+src=["'](https?:\/\/[^"']+)["']/i);
+    if (bodyImgMatch && bodyImgMatch[1] && !isGenericImage(bodyImgMatch[1])) {
+      return bodyImgMatch[1];
+    }
+
     return null;
   } catch {
     return null;

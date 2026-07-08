@@ -2,8 +2,8 @@ name: Automated News Update
 
 on:
   schedule:
-    # Runs every 4 hours as per spec
-    - cron: '0 */4 * * *'
+    # Runs every 3 hours as per spec
+    - cron: '0 */3 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
